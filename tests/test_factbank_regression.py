@@ -3,8 +3,8 @@ import json, pathlib, sys, unittest
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
-from python_factbank import classify
-from python_binary_factbank import classify_source
+from playground.memory.python_factbank import classify
+from playground.memory.python_binary_factbank import classify_source
 
 class FactbankRegression(unittest.TestCase):
     def test_pinned_pre_refactor_results_for_every_rule_category(self):
@@ -19,8 +19,8 @@ class FactbankRegression(unittest.TestCase):
         self.assertIn(result['fact_category'],('reality','memory'))
         self.assertIn('classification_reason',result)
     def test_only_one_canonical_classifier(self):
-        self.assertTrue((ROOT/'python_factbank.py').is_file())
-        self.assertFalse(list(ROOT.glob('python_factbank_v*.py')))
-        self.assertFalse((ROOT/'legacy_question_first_v013.py').exists())
+        self.assertTrue((ROOT/'playground/memory/python_factbank.py').is_file())
+        self.assertFalse(list((ROOT/'playground/memory').glob('python_factbank_v*.py')))
+        self.assertFalse((ROOT/'playground/memory/legacy_question_first_v013.py').exists())
 
 if __name__=='__main__': unittest.main()

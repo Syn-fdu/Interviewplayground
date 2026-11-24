@@ -21,13 +21,14 @@ from interview_reportcard_judge import (_reportcard_turns, outline_reference, _g
 # application's import resolution. Without this, importing Fast for tests
 # can silently shadow the Playground's own respondent_llm.py module.
 sys.path.remove(str(ROOT/'core'))
-# Memory-ID utilization is a pure, shared implementation. Import it from the
-# project root rather than keeping a second byte-identical core copy.
-_shared_root=str(ROOT.parents[1])
-sys.path.insert(0,_shared_root)
-from memory_utilization import evaluate as memory_utilization
-sys.path.remove(_shared_root)
-del _shared_root
+# The pure Memory-ID utility is shared through its canonical project package.
+# Extend sys.path only while resolving the shared module; the standalone judge
+# still imports its private "core" dependency set in its own context.
+_project_root=str(ROOT.parents[1])
+sys.path.insert(0,_project_root)
+from playground.memory.memory_utilization import evaluate as memory_utilization
+sys.path.remove(_project_root)
+del _project_root
 # The embedded judge imports its own respondent_llm helper. Keep that
 # imported function bound inside the judge but do not leave its generic module
 # name cached for the host server, which has a different respondent_llm API.

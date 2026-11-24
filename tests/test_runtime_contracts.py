@@ -2,19 +2,21 @@
 import json,os,pathlib,socket,subprocess,sys,time,unittest,urllib.request
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
-from strict_benchmark_integration import _fast_report_complete,_stop_process_tree
+from playground.evaluation.strict_benchmark_integration import _fast_report_complete,_stop_process_tree
 from standalone_evaluation.fast import fast_benchmark as fast
 
 class TestRuntimeContract(unittest.TestCase):
     def test_frontend_backend_version_and_skills(self):
         import server
-        self.assertEqual(server.verify_frontend_backend_version(),'1.9.2')
+        self.assertEqual(server.verify_frontend_backend_version(),'1.9.3')
         self.assertTrue(server.verify_interviewer_skills())
 
     def test_runtime_modules_import_without_versioned_files(self):
-        import server,integrated_memory,interviewer_preparation
-        import spoken_truth_core,semantic_memory_compat,semantic_selector
-        import legacy_memory_access,python_binary_factbank
+        import server
+        from playground.memory import integrated_memory, semantic_memory_compat, semantic_selector
+        from playground.research import interviewer_preparation
+        from playground.evaluation import spoken_truth_core
+        from playground.memory import legacy_memory_access,python_binary_factbank
         self.assertTrue(callable(python_binary_factbank.classify_source))
 
     def test_new_fast_protocol_preserves_seven_independent_metrics(self):
@@ -72,7 +74,7 @@ class TestRuntimeContract(unittest.TestCase):
                     with urllib.request.urlopen(
                          f'http://127.0.0.1:{port}/',timeout=1.5) as resp:
                         html=resp.read().decode('utf8')
-                        ok=resp.status==200 and 'content="1.9.2"' in html
+                        ok=resp.status==200 and 'content="1.9.3"' in html
                     break
                 except Exception:
                     if proc.poll() is not None:break

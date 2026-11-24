@@ -15,28 +15,28 @@ import re
 from pathlib import Path
 import threading
 import time
-from performance_metrics import record as perf_record, snapshot as perf_snapshot
+from playground.common.performance_metrics import record as perf_record, snapshot as perf_snapshot
 import zipfile
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs, quote
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
-from data_intake import (build_catalog, catalog_summary, selection_manifest,
+from playground.research.data_intake import (build_catalog, catalog_summary, selection_manifest,
                          auto_pick, IntakeError, MAX_ZIP_BYTES, pack_data_directory)
-from scenario_builder import build_from_v2, choose_for_scenario1
-from respondent_llm import (run_local_respondent, validate_model, LocalModelError,
+from playground.research.scenario_builder import build_from_v2, choose_for_scenario1
+from playground.interview.respondent_llm import (run_local_respondent, validate_model, LocalModelError,
                             FIXED_TAGS_ENDPOINT)
-from guide_enhancer import refine_public_guide
-from guide_schema import standardize_guide, validate_guide, with_validation_snapshot, GUIDE_SCHEMA_VERSION
-from benchmark_llm_judge import evaluate_llm as judge_evaluate, JudgeError
-from interview_reportcard_judge import evaluate_reportcard
-from benchmark_foundation import evaluate as benchmark_evaluate, make_annotation_template, BenchmarkError, BENCHMARK_VERSION, digest as benchmark_digest
-from benchmark_config import validate_config as benchmark_validate_config, config_summary as benchmark_config_summary, BenchmarkConfigError, SCHEMA as BENCHMARK_CONFIG_SCHEMA
-from respondent_core import (StudioError, default_state, validate_bundle, prepare_evidence_index,
+from playground.research.guide_enhancer import refine_public_guide
+from playground.research.guide_schema import standardize_guide, validate_guide, with_validation_snapshot, GUIDE_SCHEMA_VERSION
+from playground.evaluation.benchmark_llm_judge import evaluate_llm as judge_evaluate, JudgeError
+from playground.evaluation.interview_reportcard_judge import evaluate_reportcard
+from playground.evaluation.benchmark_foundation import evaluate as benchmark_evaluate, make_annotation_template, BenchmarkError, BENCHMARK_VERSION, digest as benchmark_digest
+from playground.evaluation.benchmark_config import validate_config as benchmark_validate_config, config_summary as benchmark_config_summary, BenchmarkConfigError, SCHEMA as BENCHMARK_CONFIG_SCHEMA
+from playground.interview.respondent_core import (StudioError, default_state, validate_bundle, prepare_evidence_index,
                              SCHEMA as RESEARCH_SCHEMA, now_iso)
-from agent_memory_export import export_prepared_memory as make_agent_memory_export
-from integrated_memory import fast_hybrid_prepare as integrated_fast_hybrid_prepare, answer as integrated_answer, lookup as integrated_lookup
-from research_integration import (make_bundle as make_research_bundle, plan as research_plan,
+from playground.memory.agent_memory_export import export_prepared_memory as make_agent_memory_export
+from playground.memory.integrated_memory import fast_hybrid_prepare as integrated_fast_hybrid_prepare, answer as integrated_answer, lookup as integrated_lookup
+from playground.research.research_integration import (make_bundle as make_research_bundle, plan as research_plan,
     respond as research_respond, apply_update as research_apply_update,
     apply_import as research_apply_import, export_bundle as research_export,
     MAX_EDIT_BYTES)
@@ -44,16 +44,22 @@ from research_integration import (make_bundle as make_research_bundle, plan as r
 ROOT = Path(__file__).resolve().parent
 
 # Explicitly shipped research archives. No client-supplied file paths are accepted.
+def _bundled_source_base():
+    # v1.9.3 keeps public source clean and groups optional research data under
+    # resources. Older local installs can still load their historical folder.
+    preferred = ROOT / 'resources' / 'bundled_data'
+    return preferred if preferred.is_dir() else ROOT / 'bundled_data'
+
 def _bundled_archive_available(filename):
     """Support single-layer Windows distribution without nested ZIP files."""
-    base = ROOT / 'bundled_data'
+    base = _bundled_source_base()
     legacy=filename.replace('MEMORYBANK_CONTEXT_v1','REPAIRED_DirectImport_v3_4')
     return any((base / n).is_file() or (base / n[:-4]).is_dir() for n in (filename,legacy))
 
 
 def _bundled_archive_path(filename):
     """Materialize an optional sample ZIP locally on first explicit user load."""
-    base = ROOT / 'bundled_data'
+    base = _bundled_source_base()
     original = base / filename
     legacy=filename.replace('MEMORYBANK_CONTEXT_v1','REPAIRED_DirectImport_v3_4')
     if not original.is_file() and not (base / filename[:-4]).is_dir() and legacy!=filename:
@@ -114,7 +120,7 @@ SESSION_ID_RE = re.compile(r"^[A-Za-z0-9_-]{8,100}$")
 class LocalStore:
     def __init__(self):
         self.lock = threading.RLock()
-        from memory_system import default_pool
+        from playground.memory.memory_system import default_pool
         self.public_pool = default_pool()
         self.public_pool_source = "default"
         self.catalog = None
@@ -145,7 +151,7 @@ class LocalStore:
             self.catalog = cat
             self.selected = []
             self.source_zip = frozen  # exact already-verified ZIP bytes, retained only in RAM
-            from interviewer_preparation import clear as clear_interviewer_preparation
+            from playground.research.interviewer_preparation import clear as clear_interviewer_preparation
             clear_interviewer_preparation()
             with PREPARED_RESEARCH_CACHES_LOCK:
                 PREPARED_RESEARCH_CACHES.clear()
@@ -164,7 +170,7 @@ class LocalStore:
 STORE = LocalStore()
 
 # Single release identifier for HTTP health, headers, CLI and startup logs.
-APP_VERSION = "1.9.2"
+APP_VERSION = "1.9.3"
 
 
 # Preparation tasks run independently of a long-lived browser HTTP connection.
@@ -173,7 +179,7 @@ OUTLINE_JOBS = {}
 OUTLINE_JOBS_LOCK = threading.RLock()
 
 def _outline_worker(job_id, request):
-    from interviewer_preparation import prepare_public_outline
+    from playground.research.interviewer_preparation import prepare_public_outline
     try:
         with STORE.lock:
             scene=copy.deepcopy(STORE.scenarios.get(request['scenario_id']))
@@ -187,12 +193,12 @@ def _outline_worker(job_id, request):
     except Exception as exc:
         import traceback
         traceback.print_exc()
-        from interview_agent.llm.openai_compat import RemoteAPIError
+        from playground.interview_agent.llm.openai_compat import RemoteAPIError
         provider=request.get("provider")
         if isinstance(exc,RemoteAPIError):
-            from model_services import get
+            from playground.common.model_services import get
             cfg=get(provider,"interviewer",False)
-            from model_services import status as model_status
+            from playground.common.model_services import status as model_status
             route=model_status()["interviewer"][provider]
             label=("身份验证/权限拒绝" if exc.status in (401,403) else
                    "模型或请求配置错误" if exc.status in (400,404,422) else
@@ -243,7 +249,7 @@ PREPARATION_JOBS = {}
 PREPARATION_JOBS_LOCK = threading.RLock()
 
 def _v18_source_signature(bundle):
-    from agent_memory_export import eligible_source_facts
+    from playground.memory.agent_memory_export import eligible_source_facts
     import hashlib
     facts=[{'id':x['id'],'text':x['text'],'question':x.get('source_question','')}
            for x in eligible_source_facts(bundle)]
@@ -257,8 +263,8 @@ def _v18_benchmark_prepared_snapshot(bundle, sid):
     A benchmark export must not re-prepare facts or silently switch a completed
     session to the current UI's model or sorting choice.
     """
-    from agent_memory_export import eligible_source_facts
-    from integrated_memory import PREPARATION_METHODS
+    from playground.memory.agent_memory_export import eligible_source_facts
+    from playground.memory.integrated_memory import PREPARATION_METHODS
     revision=bundle['audit']['revision']
     with PREPARED_RESEARCH_CACHES_LOCK:
         saved=copy.deepcopy(PREPARED_RESEARCH_CACHES.get((sid,revision)))
@@ -285,7 +291,7 @@ def _v18_benchmark_prepared_snapshot(bundle, sid):
 
 def _v18_import_prepared_cache(body):
     """Restore a strict same-scene/same-source snapshot, never a forged success marker."""
-    from respondent_core import StudioError
+    from playground.interview.respondent_core import StudioError
     sid=body.get('scenario_id')
     kind=body.get('kind')
     payload=body.get('payload')
@@ -301,8 +307,8 @@ def _v18_import_prepared_cache(body):
     if payload.get('ready') is not True or payload.get('scenario_id',sid)!=sid or payload.get('revision',rev)!=rev:
         raise StudioError('缓存状态、场景 ID 或修订版本不匹配','cache_identity_mismatch',409)
     if kind=='outline':
-        from interviewer_preparation import _OUTLINES,_DETAILS,_LOCK
-        from interview_agent.outline.models import Outline
+        from playground.research.interviewer_preparation import _OUTLINES,_DETAILS,_LOCK
+        from playground.interview_agent.outline.models import Outline
         meta=payload.get('metadata')
         data=payload.get('agent_outline')
         if not isinstance(meta,dict) or not isinstance(data,dict):
@@ -338,9 +344,9 @@ def _v18_import_prepared_cache(body):
         raise StudioError('记忆缓存内容不完整','invalid_memory_cache',422)
     if payload.get('source_signature')!=_v18_source_signature(bundle):
         raise StudioError('原始来源事实或问题已变更，拒绝复用旧缓存','cache_source_changed',409)
-    from integrated_memory import _fact_preparation_key,_CACHE,_save_agent,PREPARATION_METHODS,respondent_api
+    from playground.memory.integrated_memory import _fact_preparation_key,_CACHE,_save_agent,PREPARATION_METHODS,respondent_api
     # Validate exact source ID set instead of trusting incoming counts/labels.
-    from agent_memory_export import eligible_source_facts
+    from playground.memory.agent_memory_export import eligible_source_facts
     ids={x['id'] for x in eligible_source_facts(bundle)}
     index=result.get('factbank_llm_index')
     if not isinstance(index,list) or len(index)!=len(ids) or not ids:
@@ -383,11 +389,11 @@ def _run_preparation_request(data):
     provider = data.get("respondent_provider", "local")
     if provider not in ("local","maas","shubi"):
         raise StudioError("API 来源无效","invalid_preparation_provider",400)
-    from integrated_memory import respondent_api
+    from playground.memory.integrated_memory import respondent_api
     with respondent_api(provider):
         _,card=integrated_fast_hybrid_prepare(bundle,model,mode)
-    from source_recall import build_cache
-    from factbank import preparation_view
+    from playground.memory.source_recall import build_cache
+    from playground.memory.factbank import preparation_view
     recall_cache = build_cache(bundle, card)
     # Private Research Studio only. Not added to any public/interviewer payload.
     with PREPARED_RESEARCH_CACHES_LOCK:
@@ -400,7 +406,7 @@ def _run_preparation_request(data):
             PREPARED_RESEARCH_CACHES.pop(next(iter(PREPARED_RESEARCH_CACHES)))
     # V1.8: an exportable snapshot of the actual respondent preparation cache.
     # The source-only replay contract is checked again during import.
-    from integrated_memory import lookup as _factbank_lookup
+    from playground.memory.integrated_memory import lookup as _factbank_lookup
     with respondent_api(provider):
         prepared_result = copy.deepcopy(_factbank_lookup(bundle,model,mode))
     with PREPARED_RESEARCH_CACHES_LOCK:
@@ -490,7 +496,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
         # Centralized, privacy-safe diagnostics for API failures. Do not log
         # request bodies, model prompts, tokens, raw responses or URLs.
         if status >= 400 and isinstance(obj, dict) and obj.get("error"):
-            from benchmark_diagnostics import diagnose, record as record_failure
+            from playground.evaluation.benchmark_diagnostics import diagnose, record as record_failure
             cause=diagnose(obj.get("error"),"api_response")
             obj={**obj,"diagnostic":cause}
             try:
@@ -591,10 +597,10 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
         if p == "/api/benchmark/api-defaults":
             if self.headers.get("X-Playground-Research") != RESEARCH_HEADER:
                 return self.send_json(403,{"error":"仅限本机研究者"})
-            from benchmark_api_judge import public_defaults
+            from playground.evaluation.benchmark_api_judge import public_defaults
             return self.send_json(200,public_defaults())
         if p in ("/api/models/status","/api/interviewer/status"):
-            from model_services import status
+            from playground.common.model_services import status
             data=status()
             return self.send_json(200,{
                 "interface":"native_interviewer_v1",
@@ -612,7 +618,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
         if p == "/api/knowledge-banks":
             # Public, source-independent metadata only. No personal transcript,
             # per-candidate selection or cached fact is returned here.
-            from knowledge_bank import BASE as KNOWLEDGE_DIR
+            from playground.memory.knowledge_bank import BASE as KNOWLEDGE_DIR
             available=[]
             for filename in sorted(KNOWLEDGE_DIR.glob('*.json')):
                 if filename.name=='candidate_domains.json':continue
@@ -755,7 +761,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
         if p == "/api/strict-benchmark/dual-status":
             if not self.research_authorized():return
             try:
-                from strict_benchmark_integration import dual_status
+                from playground.evaluation.strict_benchmark_integration import dual_status
                 job=parse_qs(parsed.query).get('job_id',[''])[0]
                 return self.send_json(200,dual_status(job,include_report=True))
             except (ValueError,TypeError) as exc:
@@ -763,7 +769,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
         if p == "/api/strict-benchmark/partial-fast":
             if not self.research_authorized():return
             try:
-                from strict_benchmark_integration import dual_partial_fast_report
+                from playground.evaluation.strict_benchmark_integration import dual_partial_fast_report
                 job=parse_qs(parsed.query).get('job_id',[''])[0]
                 return self.send_json(200,dual_partial_fast_report(job))
             except (ValueError,TypeError) as exc:
@@ -771,7 +777,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
         if p == "/api/strict-benchmark/errors":
             if not self.research_authorized():return
             try:
-                from strict_benchmark_integration import dual_error_records
+                from playground.evaluation.strict_benchmark_integration import dual_error_records
                 job=parse_qs(parsed.query).get('job_id',[''])[0]
                 if not re.fullmatch(r'[0-9a-f]{32}',job):
                     return self.send_json(400,{'error':'诊断任务 ID 无效'})
@@ -782,7 +788,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
             if not self.research_authorized():return
             try:
                 import base64
-                from strict_benchmark_integration import rejected_responses_archive
+                from playground.evaluation.strict_benchmark_integration import rejected_responses_archive
                 job=parse_qs(parsed.query).get('job_id',[''])[0]
                 payload=rejected_responses_archive(job)
                 return self.send_json(200,{'ok':True,'archive_base64':base64.b64encode(payload).decode('ascii')})
@@ -792,7 +798,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
             if not self.research_authorized():return
             try:
                 import base64
-                from strict_benchmark_integration import dual_audit_archive
+                from playground.evaluation.strict_benchmark_integration import dual_audit_archive
                 job=parse_qs(parsed.query).get('job_id',[''])[0]
                 payload=dual_audit_archive(job)
                 return self.send_json(200,{'ok':True,'archive_base64':base64.b64encode(payload).decode('ascii')})
@@ -849,21 +855,21 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
             if not self.research_authorized():
                 return
             try:
-                from strict_benchmark_integration import (make_bundle as make_strict_bundle,
+                from playground.evaluation.strict_benchmark_integration import (make_bundle as make_strict_bundle,
                     _inputs,_execute_check,StrictContractError)
                 import base64, tempfile
                 request=self.json_body(max_bytes=18*1024*1024)
                 if request.get('local_consent') is not True:
                     return self.send_json(403,{'error':'必须明确同意本机处理私密访谈正文和来源记忆'})
                 if path == "/api/strict-benchmark/convert-jsonl":
-                    from strict_benchmark_integration import convert_playground_jsonl
+                    from playground.evaluation.strict_benchmark_integration import convert_playground_jsonl
                     converted,details=convert_playground_jsonl(request.get('jsonl_text'))
                     return self.send_json(200,{
                         'ok':True,'transcript':converted,'details':details,
                         'requires':['outline.json','memory.json'],
                         'strict_evaluation_ready':False})
                 if path == "/api/strict-benchmark/import-zip":
-                    from strict_benchmark_integration import import_external_archive
+                    from playground.evaluation.strict_benchmark_integration import import_external_archive
                     imported,stats=import_external_archive(request.get('archive_base64'))
                     return self.send_json(200,{
                         'ok':True,'inputs':imported,'stats':stats,
@@ -887,7 +893,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                                       ('source_fingerprint_sha256','source_fingerprint_sha256')]:
                         if run.get(field)!=provenance.get(key):
                             raise StrictContractError('来源字段 '+field+' 不匹配')
-                    from interviewer_preparation import read_prepared
+                    from playground.research.interviewer_preparation import read_prepared
                     outline=read_prepared(scene,revision)
                     if not outline.get('ready'):
                         raise StrictContractError('原生 Interviewer Outline 未准备成功；不能伪造 Slot')
@@ -924,16 +930,16 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                                   'spoken':{'ok':None,'executed':False}},
                         'message':'仅完成输入解析；未运行两项评分器预检'})
                 if path == "/api/strict-benchmark/start-both":
-                    from strict_benchmark_integration import begin_dual
+                    from playground.evaluation.strict_benchmark_integration import begin_dual
                     return self.send_json(200,begin_dual(request))
                 if path == "/api/strict-benchmark/pause-both":
-                    from strict_benchmark_integration import pause_dual
+                    from playground.evaluation.strict_benchmark_integration import pause_dual
                     job_id=request.get('job_id')
                     if not isinstance(job_id,str) or len(job_id)!=32:
                         raise StrictContractError('中断 job_id 无效')
                     return self.send_json(200,pause_dual(job_id))
                 if path == "/api/strict-benchmark/resume-both":
-                    from strict_benchmark_integration import resume_dual
+                    from playground.evaluation.strict_benchmark_integration import resume_dual
                     job_id=request.get('job_id')
                     if not isinstance(job_id,str) or len(job_id)!=32:
                         raise StrictContractError('续评 job_id 无效')
@@ -969,7 +975,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                     return self.send_json(403,{"error":"必须先确认本机研究者授权"})
                 raw_config=data.get("config")
                 if raw_config is None:
-                    with (ROOT / "benchmark" / "benchmark.json").open(encoding="utf-8") as f:
+                    with (ROOT / "resources" / "benchmark" / "benchmark.json").open(encoding="utf-8") as f:
                         raw_config=json.load(f)
                 normalized=benchmark_validate_config(raw_config)
                 return self.send_json(200,{"ok":True,"config":normalized,
@@ -986,7 +992,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                 run=data.get("run")
                 if not isinstance(run,dict) or run.get("report_type")!="live_local_interview_session":
                     raise JudgeError("缺少当前访谈快照")
-                from interview_reportcard_judge import _reportcard_turns
+                from playground.evaluation.interview_reportcard_judge import _reportcard_turns
                 _reportcard_turns(run)
                 sid=run.get("scenario_id")
                 with STORE.lock:
@@ -1005,7 +1011,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                     memory_ready=bool((bundle.get("respondent") or {}).get("memory_bank"))
                 with PREPARED_RESEARCH_CACHES_LOCK:
                     prepared=(sid,revision) in PREPARED_RESEARCH_CACHES
-                from interviewer_preparation import read_prepared
+                from playground.research.interviewer_preparation import read_prepared
                 outline=read_prepared(scene,revision).get("agent_outline")
                 return self.send_json(200,{"ok":True,"guide":guide,"outline":outline,"context":{
                     "scenario_id":sid,"revision":revision,"memory_ready":memory_ready or prepared,
@@ -1033,7 +1039,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                 if config["id"]!="interviewreportcard_v120" or enabled not in (
                     mandatory, mandatory | {"spoken_truth"}):
                     raise JudgeError("请上传含 8 项 InterviewReportCard 指标及可选 Spoken Truth 的 Benchmark JSON")
-                from interview_reportcard_judge import outline_reference
+                from playground.evaluation.interview_reportcard_judge import outline_reference
                 sid=data.get("scenario_id")
                 if sid:
                     if not isinstance(sid,str):raise JudgeError("场景编号无效")
@@ -1051,7 +1057,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                 model=data.get("model","gemma3:4b")
                 outline=data.get("outline")
                 if sid:
-                    from interviewer_preparation import read_prepared
+                    from playground.research.interviewer_preparation import read_prepared
                     outline=read_prepared(scene,public["audit"]["revision"]).get("agent_outline")
                 guide=outline_reference(outline)
                 api_config=data.get("judge_api") if data.get("judge_provider")=="api" else None
@@ -1060,8 +1066,8 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                 if "spoken_truth" in enabled:
                     if api_config and data.get("remote_source_memory_consent") is not True:
                         raise JudgeError("Spoken Truth 语义评审会向远程模型发送获准来源记忆文本，请单独勾选来源记忆传输许可；否则请使用本地 Ollama。")
-                    from spoken_truth_core import facts_from_memory
-                    from spoken_truth_memory import evaluate as evaluate_spoken_information
+                    from playground.evaluation.spoken_truth_core import facts_from_memory
+                    from playground.evaluation.spoken_truth_memory import evaluate as evaluate_spoken_information
                     supplied=data.get("memory")
                     if sid:
                         facts=facts_from_memory(public)
@@ -1084,14 +1090,14 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                     spoken_model=model
                     spoken_opener=None
                     if api_config:
-                        from benchmark_api_judge import make_opener
+                        from playground.evaluation.benchmark_api_judge import make_opener
                         spoken_model, spoken_opener, _ = make_opener(api_config)
                     spoken=evaluate_spoken_information(run,facts,spoken_model,
                         checkpoint_store=STORE.reportcard_checkpoints,opener=spoken_opener)
                 result=evaluate_reportcard(run,guide,model,config=config,checkpoint_store=STORE.reportcard_checkpoints,outline=outline,api_config=api_config)
                 if "spoken_truth" in enabled:
                     result.setdefault("metrics",{})["spoken_truth"]=spoken
-                    from memory_utilization import evaluate as evaluate_memory_utilization
+                    from playground.memory.memory_utilization import evaluate as evaluate_memory_utilization
                     result["metrics"]["memory_utilization"]=evaluate_memory_utilization(run,facts)
                 return self.send_json(200,{"ok":True,"suggestion":result})
             except (IntakeError,JudgeError,BenchmarkConfigError,LocalModelError,ValueError,TypeError) as exc:
@@ -1294,7 +1300,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                     # No model inference and no private source upload.
                     prepare_evidence_index(bundle, timeout_seconds=300)
                     if same_source:
-                        from participant_profile import sanitize_public_briefing
+                        from playground.research.participant_profile import sanitize_public_briefing
                         scene_persona = bundle["respondent"].get("persona") or {}
                         scenario["public"]["participant_briefing"] = sanitize_public_briefing(
                             scene_persona.get("interviewer_briefing"))
@@ -1460,14 +1466,14 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                 mode=data.get("preparation_mode","fast_hybrid")
                 if mode not in ("fast_hybrid","no_fact_sort","python_binary"):
                     raise StudioError("仅支持 Python 二分类 / LLM 分拣 / 不分拣","invalid_preparation_mode",400)
-                from integrated_memory import respondent_api
+                from playground.memory.integrated_memory import respondent_api
                 prep_provider=data.get("respondent_provider","local")
                 if prep_provider not in ("local","maas","shubi"):
                     raise StudioError("受访者准备 API 来源无效","invalid_preparation_provider",400)
                 with respondent_api(prep_provider):
                     _,card=integrated_fast_hybrid_prepare(bundle,model,mode)
-                from source_recall import build_cache
-                from factbank import preparation_view
+                from playground.memory.source_recall import build_cache
+                from playground.memory.factbank import preparation_view
                 recall_cache=build_cache(bundle,card)
                 classification=card.get("factbank_llm_summary") or preparation_view(bundle)
                 return self.send_json(200,{"ok":True,"prepared":True,
@@ -1519,7 +1525,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                 return self.send_json(415,{"error":"Expected application/json."})
             try:
                 body=self.json_body(max_bytes=4000)
-                from model_services import set_selection
+                from playground.common.model_services import set_selection
                 info=set_selection(body.get("role"),body.get("provider"),
                                    body.get("model"),body.get("api_key"),
                                    body.get("base_url"))
@@ -1547,7 +1553,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                         "pool":copy.deepcopy(STORE.public_pool),
                         "source":STORE.public_pool_source})
             if p == "/api/research/memory-pool/status":
-                from memory_system import pool_summary
+                from playground.memory.memory_system import pool_summary
                 with STORE.lock:
                     return self.send_json(200,{"ok":True,
                         "pool":pool_summary(STORE.public_pool,STORE.public_pool_source),
@@ -1576,7 +1582,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                 snapshot=copy.deepcopy(b)
                 state=copy.deepcopy(STORE.research_sessions.get((sid,session_id),default_state()))
             if p == "/api/research/prepared-outline":
-                from interviewer_preparation import read_prepared
+                from playground.research.interviewer_preparation import read_prepared
                 with STORE.lock:
                     scene=copy.deepcopy(STORE.scenarios.get(sid))
                 if not scene:raise StudioError('场景不存在','scenario_not_found',404)
@@ -1614,7 +1620,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
             if path == "/api/research/cache/import":
                 return self.send_json(200,_v18_import_prepared_cache(body))
             if path in ("/api/research/memory-pool/import", "/api/research/memory-pool/reset", "/api/research/memory-pool/sample-count"):
-                from memory_system import default_pool, validate_pool, pool_summary, PoolError
+                from playground.memory.memory_system import default_pool, validate_pool, pool_summary, PoolError
                 if path.endswith("/reset"):
                     incoming=default_pool()
                     source="default"
@@ -1768,7 +1774,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                     raise StudioError("未知研究修改接口","unknown_operation",404)
                 # Pool changes are only accepted by the separate validated pool API;
                 # full research configuration import must not silently swap it.
-                from memory_system import pool_summary
+                from playground.memory.memory_system import pool_summary
                 updated["respondent"]["public_memory_pool"]=copy.deepcopy(STORE.public_pool)
                 updated["respondent"]["public_pool_summary"]=pool_summary(STORE.public_pool,STORE.public_pool_source)
                 validate_bundle(updated)
@@ -1780,7 +1786,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                 if scene:
                     guide=copy.deepcopy(updated["interview_guide"])
                     scene["public"]["interview_guide"]=guide
-                    from participant_profile import sanitize_public_briefing
+                    from playground.research.participant_profile import sanitize_public_briefing
                     scene["public"]["participant_briefing"] = sanitize_public_briefing(
                         (updated["respondent"].get("persona") or {}).get("interviewer_briefing"))
                     scene["public"]["goal"]=guide.get("goal",scene["public"].get("goal",""))
@@ -1825,7 +1831,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
         if respondent_provider not in ("local","maas","shubi"):
             raise StudioError("无效的受访者模型来源","respondent_provider_invalid",400)
         if respondent_provider!="local":
-            from model_services import get
+            from playground.common.model_services import get
             try:cfg=get(respondent_provider,"respondent")
             except ValueError as exc:
                 raise StudioError(str(exc),"respondent_api_configuration",409) from exc
@@ -1890,7 +1896,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                 # Match the exact preparation-time traits.
                 apply_preparation_traits(local,override)
             try:
-                from integrated_memory import respondent_api
+                from playground.memory.integrated_memory import respondent_api
                 with respondent_api(data.get("respondent_provider","local")):
                     text,card=integrated_answer(local,question,model,history,override,
                         data.get("language","zh"),data.get("preparation_mode","fast_hybrid"),
@@ -2066,8 +2072,8 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
     def group_interviewer_server_test(self):
         """Explicit synthetic-only chat probe. No real interview guide or hidden answers."""
         import time as _clock
-        from interview_agent.llm.openai_compat import OpenAICompatClient
-        from group_interviewer_bridge import remote_configuration, GroupBridgeError
+        from playground.interview_agent.llm.openai_compat import OpenAICompatClient
+        from playground.research.group_interviewer_bridge import remote_configuration, GroupBridgeError
         try:
             body=self.json_body(max_bytes=2048)
             if body.get("synthetic_only") is not True:
@@ -2090,7 +2096,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
             return self.send_json(409,{"error":str(exc),"error_code":"remote_configuration"})
         except Exception as exc:
             # Do not expose raw provider response, headers or API keys.
-            from interview_agent.llm.openai_compat import RemoteAPIError
+            from playground.interview_agent.llm.openai_compat import RemoteAPIError
             if isinstance(exc,RemoteAPIError):
                 return self.send_json(409 if exc.status in (400,401,403,404,422) else 503,{
                     "error":"采访员连接测试失败：上游 HTTP %s（%s）。"
@@ -2106,7 +2112,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
 
     def native_interviewer_next(self):
         """One canonical endpoint for both group-member native Interviewer providers."""
-        from group_interviewer_bridge import run_next, GroupBridgeError
+        from playground.research.group_interviewer_bridge import run_next, GroupBridgeError
         try:
             req=self.json_body(max_bytes=8*1024*1024)
             provider=req.get("provider")
@@ -2136,12 +2142,12 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                     "error_code":"interviewer_skill_asset_missing","retryable":False})
             raise
         except Exception as exc:
-            from interview_agent.llm.openai_compat import RemoteAPIError
+            from playground.interview_agent.llm.openai_compat import RemoteAPIError
             if isinstance(exc, RemoteAPIError):
                 # Keep upstream credentials and error bodies out of the browser response.
                 retryable=bool(exc.retryable)
                 status=503 if retryable else 409 if exc.status in (400, 401, 403, 404, 422) else 502
-                from model_services import get
+                from playground.common.model_services import get
                 current_provider=provider if isinstance(provider,str) else "shubi"
                 current=get(current_provider,"interviewer",False)
                 return self.send_json(status,{
@@ -2189,7 +2195,7 @@ def verify_interviewer_skills():
     These four SKILL.md files are executable interview policy dependencies,
     not optional documentation. Packaging must never delete them.
     """
-    from interview_agent.skills_loader import SkillLoader
+    from playground.interview_agent.skills_loader import SkillLoader
     loader = SkillLoader()
     missing = []
     for behavior in ("questioning", "followup", "response", "disruptive"):

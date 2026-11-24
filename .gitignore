@@ -19,6 +19,7 @@ Thumbs.db
 *.writing
 
 # Operational data, task checkpoints, model caches and diagnostics
+.runtime_cache/
 prepared_memory/strict_benchmark_jobs/
 prepared_memory/benchmark_error_logs/
 prepared_memory/bundled_archive_cache/
@@ -32,6 +33,7 @@ diagnostics/
 # Kept in the FULL local ZIP for exact behavior parity, but intentionally
 # not staged by `git add .` for a public repository. Review source rights,
 # then explicitly decide whether to commit an authorized/sanitized dataset.
+resources/bundled_data/
 bundled_data/InterviewData_Cumulative_Refined_14/
 
 # Private research archives

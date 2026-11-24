@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.9.3 — Interview-first integrated source layout
+- Consolidated 53 root Python business modules into research, interview, memory, evaluation and common directories; updated import bootstrap and resource filesystem paths.
+- Relocated active interviewer agent and static configs into owned `playground/` and `resources/` directories.
+- Rewrote README to present interview as the primary workflow and evaluation as a post-interview feature.
+- Added a source-evidence provenance assessment using the provided InterviewData source archive and publicly verified dataset publication pages; unresolved provenance remains expressly unresolved.
+
+
 ## 1.9.2 — Single-page repository cleanup
 - Removed redundant standalone `research_studio.html` and `strict_benchmark.html` pages; legacy URLs redirect into the unified `index.html`.
 - Removed unreachable historical interview benchmark fixture package, obsolete third launch script, diagnostic-only standalone utility, unused scenario template, and expired test documentation.
