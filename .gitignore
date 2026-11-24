@@ -1,0 +1,41 @@
+# Python / editors / builds
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.writing
+
+# Operational data, task checkpoints, model caches and diagnostics
+prepared_memory/strict_benchmark_jobs/
+prepared_memory/benchmark_error_logs/
+prepared_memory/bundled_archive_cache/
+prepared_memory/semantic_selection/
+standalone_evaluation/fast/core/diagnostics/
+diagnostics/
+*_raw_model_response*.json
+*_raw_model_response*.txt
+
+# Interview source records can contain personal information.
+# Kept in the FULL local ZIP for exact behavior parity, but intentionally
+# not staged by `git add .` for a public repository. Review source rights,
+# then explicitly decide whether to commit an authorized/sanitized dataset.
+bundled_data/InterviewData_Cumulative_Refined_14/
+
+# Private research archives
+*.pem
+*.key
+*.p12
+*.pfx

@@ -1,0 +1,255 @@
+{
+  "schema": "interview_benchmark_config.v1",
+  "version": "1.0",
+  "id": "interviewreportcard_v120",
+  "name": "InterviewPlayground InterviewReportCard · 8项机评 + Spoken Truth",
+  "description": "InterviewReportCard (8 metrics) + source-question Spoken Truth proxy; Memory Utilization is separately reported and is self-reported.",
+  "metrics": [
+    {
+      "id": "turns_recorded",
+      "enabled": false,
+      "method": "turns_recorded",
+      "label": "完成轮数",
+      "evaluator": "auto",
+      "group": "objective",
+      "parameters": {}
+    },
+    {
+      "id": "interview_completion_ratio",
+      "enabled": false,
+      "method": "interview_completion_ratio",
+      "label": "访谈完成比例",
+      "evaluator": "auto",
+      "group": "objective",
+      "parameters": {}
+    },
+    {
+      "id": "interviewer_question_characters",
+      "enabled": false,
+      "method": "interviewer_question_characters",
+      "label": "采访问题字符数",
+      "evaluator": "auto",
+      "group": "objective",
+      "parameters": {}
+    },
+    {
+      "id": "participant_response_characters",
+      "enabled": false,
+      "method": "participant_response_characters",
+      "label": "受访者回答字符数",
+      "evaluator": "auto",
+      "group": "objective",
+      "parameters": {}
+    },
+    {
+      "id": "exact_duplicate_question_count",
+      "enabled": false,
+      "method": "exact_duplicate_question_count",
+      "label": "精确重复提问次数",
+      "evaluator": "auto",
+      "group": "objective",
+      "parameters": {
+        "normalization": "nfkc_strip_punctuation"
+      }
+    },
+    {
+      "id": "exact_duplicate_question_rate",
+      "enabled": false,
+      "method": "exact_duplicate_question_rate",
+      "label": "精确重复提问比例",
+      "evaluator": "auto",
+      "group": "objective",
+      "parameters": {
+        "normalization": "nfkc_strip_punctuation"
+      }
+    },
+    {
+      "id": "distinct_model_reference_ids",
+      "enabled": false,
+      "method": "distinct_model_reference_ids",
+      "label": "不同引用编号数（模型自报）",
+      "evaluator": "auto",
+      "group": "objective",
+      "parameters": {}
+    },
+    {
+      "id": "model_reference_mentions",
+      "enabled": false,
+      "method": "model_reference_mentions",
+      "label": "引用编号出现次数（模型自报）",
+      "evaluator": "auto",
+      "group": "objective",
+      "parameters": {}
+    },
+    {
+      "id": "interruptions",
+      "enabled": false,
+      "method": "interruptions",
+      "label": "中断事件数",
+      "evaluator": "auto",
+      "group": "objective",
+      "parameters": {}
+    },
+    {
+      "id": "transient_retries",
+      "enabled": false,
+      "method": "transient_retries",
+      "label": "临时重试次数",
+      "evaluator": "auto",
+      "group": "objective",
+      "parameters": {}
+    },
+    {
+      "id": "spoken_truth",
+      "enabled": true,
+      "method": "spoken_truth",
+      "label": "Spoken Truth · 来源问题信息引出率",
+      "evaluator": "auto",
+      "group": "objective",
+      "parameters": {}
+    },
+    {
+      "id": "guide_coverage",
+      "enabled": true,
+      "method": "guide_coverage",
+      "label": "Outline Required Slot Coverage",
+      "evaluator": "manual",
+      "group": "rubric",
+      "parameters": {}
+    },
+    {
+      "id": "relevant_response_volume_characters",
+      "enabled": true,
+      "method": "relevant_response_volume_characters",
+      "label": "相关回答加权字符量",
+      "evaluator": "manual",
+      "group": "rubric",
+      "parameters": {
+        "relevance_weights": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "novel_response_count",
+      "enabled": true,
+      "method": "novel_response_count",
+      "label": "大纲外相关回答次数",
+      "evaluator": "manual",
+      "group": "rubric",
+      "parameters": {
+        "minimum_relevance": 2
+      }
+    },
+    {
+      "id": "leading_question_count",
+      "enabled": true,
+      "method": "leading_question_count",
+      "label": "诱导性提问次数",
+      "evaluator": "manual",
+      "group": "rubric",
+      "parameters": {}
+    },
+    {
+      "id": "unclear_question_count",
+      "enabled": true,
+      "method": "unclear_question_count",
+      "label": "不清晰提问次数",
+      "evaluator": "manual",
+      "group": "rubric",
+      "parameters": {}
+    },
+    {
+      "id": "support_rapport_count",
+      "enabled": true,
+      "method": "support_rapport_count",
+      "label": "支持/共情表达次数",
+      "evaluator": "manual",
+      "group": "rubric",
+      "parameters": {}
+    },
+    {
+      "id": "redundant_question_count_manual",
+      "enabled": false,
+      "method": "redundant_question_count_manual",
+      "label": "无效语义重复提问次数（人工）",
+      "evaluator": "manual",
+      "group": "rubric",
+      "parameters": {}
+    },
+    {
+      "id": "redundant_question_rate_manual",
+      "enabled": false,
+      "method": "redundant_question_rate_manual",
+      "label": "无效语义重复提问比例（人工）",
+      "evaluator": "manual",
+      "group": "rubric",
+      "parameters": {}
+    },
+    {
+      "id": "coherence_manual",
+      "enabled": true,
+      "method": "coherence_manual",
+      "label": "整体连贯性（人工）",
+      "evaluator": "manual",
+      "group": "rubric",
+      "parameters": {}
+    },
+    {
+      "id": "adaptiveness_manual",
+      "enabled": true,
+      "method": "adaptiveness_manual",
+      "label": "整体适应性（人工）",
+      "evaluator": "manual",
+      "group": "rubric",
+      "parameters": {}
+    },
+    {
+      "id": "overall_experience_self_report",
+      "enabled": false,
+      "method": "overall_experience_self_report",
+      "label": "真人报告的整体体验",
+      "evaluator": "human_self_report",
+      "group": "rubric",
+      "parameters": {}
+    },
+    {
+      "id": "comfort_self_report",
+      "enabled": false,
+      "method": "comfort_self_report",
+      "label": "真人报告的舒适度",
+      "evaluator": "human_self_report",
+      "group": "rubric",
+      "parameters": {}
+    }
+  ],
+  "scoring": {
+    "composite_score": null
+  },
+  "manual_rubrics": {
+    "research_relevance": {
+      "0": "无关",
+      "1": "部分相关",
+      "2": "直接相关"
+    },
+    "coherence": {
+      "1": "明显不连贯",
+      "2": "承接较弱",
+      "3": "基本连贯",
+      "4": "逻辑与过渡良好"
+    },
+    "adaptiveness": {
+      "1": "无视回答",
+      "2": "较少基于回答追问",
+      "3": "有有效追问",
+      "4": "多次有效调整策略"
+    },
+    "binary": {
+      "leading": "诱导性",
+      "unclear": "模糊不清",
+      "support_rapport": "支持与关系建立"
+    }
+  }
+}

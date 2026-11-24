@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "food_travel",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_food_travel_D01",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D01",
+      "topic": "食谱",
+      "keywords_en": [
+        "recipe"
+      ],
+      "facet": "definition",
+      "text": "食谱（recipe）：列出食材用量与制作步骤的烹饪指引。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D02",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D02",
+      "topic": "食材",
+      "keywords_en": [
+        "ingredients"
+      ],
+      "facet": "definition",
+      "text": "食材（ingredients）：食品制作中使用的原料。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D03",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D03",
+      "topic": "烹饪方法",
+      "keywords_en": [
+        "cooking methods"
+      ],
+      "facet": "definition",
+      "text": "烹饪方法（cooking methods）：通过加热腌制发酵等处理食材的技术。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D04",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D04",
+      "topic": "发酵",
+      "keywords_en": [
+        "fermentation"
+      ],
+      "facet": "definition",
+      "text": "发酵（fermentation）：微生物代谢改变食品特性的一类过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D05",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D05",
+      "topic": "食品安全",
+      "keywords_en": [
+        "food safety"
+      ],
+      "facet": "definition",
+      "text": "食品安全（food safety）：防止食品引发健康危害的控制体系。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D06",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D06",
+      "topic": "交叉污染",
+      "keywords_en": [
+        "cross contamination"
+      ],
+      "facet": "definition",
+      "text": "交叉污染（cross contamination）：有害微生物或污染物在食品与物品间转移。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D07",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D07",
+      "topic": "冷链",
+      "keywords_en": [
+        "cold chain"
+      ],
+      "facet": "definition",
+      "text": "冷链（cold chain）：在运输储存等环节维持规定低温的供应链。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D08",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D08",
+      "topic": "过敏原",
+      "keywords_en": [
+        "food allergens"
+      ],
+      "facet": "definition",
+      "text": "过敏原（food allergens）：能够诱发敏感者过敏反应的食物成分。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D09",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D09",
+      "topic": "营养标签",
+      "keywords_en": [
+        "nutrition labels"
+      ],
+      "facet": "definition",
+      "text": "营养标签（nutrition labels）：呈现食品能量及特定营养成分的标识。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D10",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D10",
+      "topic": "饮食文化",
+      "keywords_en": [
+        "food culture"
+      ],
+      "facet": "definition",
+      "text": "饮食文化（food culture）：围绕食物形成的历史习俗与社会意义。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D11",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D11",
+      "topic": "地方菜系",
+      "keywords_en": [
+        "regional cuisine"
+      ],
+      "facet": "definition",
+      "text": "地方菜系（regional cuisine）：由地区食材技术和文化形成的烹饪传统。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D12",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D12",
+      "topic": "餐饮服务",
+      "keywords_en": [
+        "food service"
+      ],
+      "facet": "definition",
+      "text": "餐饮服务（food service）：以制备提供餐食和就餐体验为核心的商业服务。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D13",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D13",
+      "topic": "可持续饮食",
+      "keywords_en": [
+        "sustainable diet"
+      ],
+      "facet": "definition",
+      "text": "可持续饮食（sustainable diet）：考虑健康与环境社会影响的膳食选择。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D14",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D14",
+      "topic": "旅游目的地",
+      "keywords_en": [
+        "tourist destination"
+      ],
+      "facet": "definition",
+      "text": "旅游目的地（tourist destination）：游客计划访问的地点或区域。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D15",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D15",
+      "topic": "旅游承载力",
+      "keywords_en": [
+        "tourism carrying capacity"
+      ],
+      "facet": "definition",
+      "text": "旅游承载力（tourism carrying capacity）：在一定管理条件下旅游活动对环境和社区的可承受程度。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D16",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D16",
+      "topic": "文化旅游",
+      "keywords_en": [
+        "cultural tourism"
+      ],
+      "facet": "definition",
+      "text": "文化旅游（cultural tourism）：以了解当地文化遗产及生活方式为重要动机的旅行。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D17",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D17",
+      "topic": "生态旅游",
+      "keywords_en": [
+        "ecotourism"
+      ],
+      "facet": "definition",
+      "text": "生态旅游（ecotourism）：强调环境保护和社区福祉的自然体验旅行。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D18",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D18",
+      "topic": "旅客体验",
+      "keywords_en": [
+        "traveler experience"
+      ],
+      "facet": "definition",
+      "text": "旅客体验（traveler experience）：旅游者对出行服务和活动的综合感受。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D19",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D19",
+      "topic": "行程规划",
+      "keywords_en": [
+        "itinerary planning"
+      ],
+      "facet": "definition",
+      "text": "行程规划（itinerary planning）：综合交通住宿时间和偏好安排出行的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_D20",
+      "domain": "food_travel",
+      "concept_id": "food_travel_D20",
+      "topic": "无障碍旅游",
+      "keywords_en": [
+        "accessible tourism"
+      ],
+      "facet": "definition",
+      "text": "无障碍旅游（accessible tourism）：减少出行障碍使不同能力旅客可以参与的服务设计。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C01_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C01_1",
+      "topic": "食谱与食材",
+      "keywords_en": [
+        "recipe",
+        "ingredients"
+      ],
+      "facet": "concept_distinction",
+      "text": "食谱与食材应作概念区分：食谱是列出食材用量与制作步骤的烹饪指引；食材是食品制作中使用的原料。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C01_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C01_2",
+      "topic": "食谱与烹饪方法",
+      "keywords_en": [
+        "recipe",
+        "cooking methods"
+      ],
+      "facet": "concept_distinction",
+      "text": "食谱与烹饪方法应作概念区分：食谱是列出食材用量与制作步骤的烹饪指引；烹饪方法是通过加热腌制发酵等处理食材的技术。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C01_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C01_3",
+      "topic": "食谱与发酵",
+      "keywords_en": [
+        "recipe",
+        "fermentation"
+      ],
+      "facet": "concept_distinction",
+      "text": "食谱与发酵应作概念区分：食谱是列出食材用量与制作步骤的烹饪指引；发酵是微生物代谢改变食品特性的一类过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C01_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C01_4",
+      "topic": "食谱与食品安全",
+      "keywords_en": [
+        "recipe",
+        "food safety"
+      ],
+      "facet": "concept_distinction",
+      "text": "食谱与食品安全应作概念区分：食谱是列出食材用量与制作步骤的烹饪指引；食品安全是防止食品引发健康危害的控制体系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C02_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C02_1",
+      "topic": "食材与烹饪方法",
+      "keywords_en": [
+        "ingredients",
+        "cooking methods"
+      ],
+      "facet": "concept_distinction",
+      "text": "食材与烹饪方法应作概念区分：食材是食品制作中使用的原料；烹饪方法是通过加热腌制发酵等处理食材的技术。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C02_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C02_2",
+      "topic": "食材与发酵",
+      "keywords_en": [
+        "ingredients",
+        "fermentation"
+      ],
+      "facet": "concept_distinction",
+      "text": "食材与发酵应作概念区分：食材是食品制作中使用的原料；发酵是微生物代谢改变食品特性的一类过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C02_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C02_3",
+      "topic": "食材与食品安全",
+      "keywords_en": [
+        "ingredients",
+        "food safety"
+      ],
+      "facet": "concept_distinction",
+      "text": "食材与食品安全应作概念区分：食材是食品制作中使用的原料；食品安全是防止食品引发健康危害的控制体系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C02_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C02_4",
+      "topic": "食材与交叉污染",
+      "keywords_en": [
+        "ingredients",
+        "cross contamination"
+      ],
+      "facet": "concept_distinction",
+      "text": "食材与交叉污染应作概念区分：食材是食品制作中使用的原料；交叉污染是有害微生物或污染物在食品与物品间转移。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C03_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C03_1",
+      "topic": "烹饪方法与发酵",
+      "keywords_en": [
+        "cooking methods",
+        "fermentation"
+      ],
+      "facet": "concept_distinction",
+      "text": "烹饪方法与发酵应作概念区分：烹饪方法是通过加热腌制发酵等处理食材的技术；发酵是微生物代谢改变食品特性的一类过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C03_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C03_2",
+      "topic": "烹饪方法与食品安全",
+      "keywords_en": [
+        "cooking methods",
+        "food safety"
+      ],
+      "facet": "concept_distinction",
+      "text": "烹饪方法与食品安全应作概念区分：烹饪方法是通过加热腌制发酵等处理食材的技术；食品安全是防止食品引发健康危害的控制体系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C03_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C03_3",
+      "topic": "烹饪方法与交叉污染",
+      "keywords_en": [
+        "cooking methods",
+        "cross contamination"
+      ],
+      "facet": "concept_distinction",
+      "text": "烹饪方法与交叉污染应作概念区分：烹饪方法是通过加热腌制发酵等处理食材的技术；交叉污染是有害微生物或污染物在食品与物品间转移。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C03_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C03_4",
+      "topic": "烹饪方法与冷链",
+      "keywords_en": [
+        "cooking methods",
+        "cold chain"
+      ],
+      "facet": "concept_distinction",
+      "text": "烹饪方法与冷链应作概念区分：烹饪方法是通过加热腌制发酵等处理食材的技术；冷链是在运输储存等环节维持规定低温的供应链。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C04_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C04_1",
+      "topic": "发酵与食品安全",
+      "keywords_en": [
+        "fermentation",
+        "food safety"
+      ],
+      "facet": "concept_distinction",
+      "text": "发酵与食品安全应作概念区分：发酵是微生物代谢改变食品特性的一类过程；食品安全是防止食品引发健康危害的控制体系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C04_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C04_2",
+      "topic": "发酵与交叉污染",
+      "keywords_en": [
+        "fermentation",
+        "cross contamination"
+      ],
+      "facet": "concept_distinction",
+      "text": "发酵与交叉污染应作概念区分：发酵是微生物代谢改变食品特性的一类过程；交叉污染是有害微生物或污染物在食品与物品间转移。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C04_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C04_3",
+      "topic": "发酵与冷链",
+      "keywords_en": [
+        "fermentation",
+        "cold chain"
+      ],
+      "facet": "concept_distinction",
+      "text": "发酵与冷链应作概念区分：发酵是微生物代谢改变食品特性的一类过程；冷链是在运输储存等环节维持规定低温的供应链。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C04_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C04_4",
+      "topic": "发酵与过敏原",
+      "keywords_en": [
+        "fermentation",
+        "food allergens"
+      ],
+      "facet": "concept_distinction",
+      "text": "发酵与过敏原应作概念区分：发酵是微生物代谢改变食品特性的一类过程；过敏原是能够诱发敏感者过敏反应的食物成分。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C05_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C05_1",
+      "topic": "食品安全与交叉污染",
+      "keywords_en": [
+        "food safety",
+        "cross contamination"
+      ],
+      "facet": "concept_distinction",
+      "text": "食品安全与交叉污染应作概念区分：食品安全是防止食品引发健康危害的控制体系；交叉污染是有害微生物或污染物在食品与物品间转移。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C05_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C05_2",
+      "topic": "食品安全与冷链",
+      "keywords_en": [
+        "food safety",
+        "cold chain"
+      ],
+      "facet": "concept_distinction",
+      "text": "食品安全与冷链应作概念区分：食品安全是防止食品引发健康危害的控制体系；冷链是在运输储存等环节维持规定低温的供应链。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C05_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C05_3",
+      "topic": "食品安全与过敏原",
+      "keywords_en": [
+        "food safety",
+        "food allergens"
+      ],
+      "facet": "concept_distinction",
+      "text": "食品安全与过敏原应作概念区分：食品安全是防止食品引发健康危害的控制体系；过敏原是能够诱发敏感者过敏反应的食物成分。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C05_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C05_4",
+      "topic": "食品安全与营养标签",
+      "keywords_en": [
+        "food safety",
+        "nutrition labels"
+      ],
+      "facet": "concept_distinction",
+      "text": "食品安全与营养标签应作概念区分：食品安全是防止食品引发健康危害的控制体系；营养标签是呈现食品能量及特定营养成分的标识。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C06_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C06_1",
+      "topic": "交叉污染与冷链",
+      "keywords_en": [
+        "cross contamination",
+        "cold chain"
+      ],
+      "facet": "concept_distinction",
+      "text": "交叉污染与冷链应作概念区分：交叉污染是有害微生物或污染物在食品与物品间转移；冷链是在运输储存等环节维持规定低温的供应链。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C06_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C06_2",
+      "topic": "交叉污染与过敏原",
+      "keywords_en": [
+        "cross contamination",
+        "food allergens"
+      ],
+      "facet": "concept_distinction",
+      "text": "交叉污染与过敏原应作概念区分：交叉污染是有害微生物或污染物在食品与物品间转移；过敏原是能够诱发敏感者过敏反应的食物成分。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C06_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C06_3",
+      "topic": "交叉污染与营养标签",
+      "keywords_en": [
+        "cross contamination",
+        "nutrition labels"
+      ],
+      "facet": "concept_distinction",
+      "text": "交叉污染与营养标签应作概念区分：交叉污染是有害微生物或污染物在食品与物品间转移；营养标签是呈现食品能量及特定营养成分的标识。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C06_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C06_4",
+      "topic": "交叉污染与饮食文化",
+      "keywords_en": [
+        "cross contamination",
+        "food culture"
+      ],
+      "facet": "concept_distinction",
+      "text": "交叉污染与饮食文化应作概念区分：交叉污染是有害微生物或污染物在食品与物品间转移；饮食文化是围绕食物形成的历史习俗与社会意义。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C07_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C07_1",
+      "topic": "冷链与过敏原",
+      "keywords_en": [
+        "cold chain",
+        "food allergens"
+      ],
+      "facet": "concept_distinction",
+      "text": "冷链与过敏原应作概念区分：冷链是在运输储存等环节维持规定低温的供应链；过敏原是能够诱发敏感者过敏反应的食物成分。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C07_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C07_2",
+      "topic": "冷链与营养标签",
+      "keywords_en": [
+        "cold chain",
+        "nutrition labels"
+      ],
+      "facet": "concept_distinction",
+      "text": "冷链与营养标签应作概念区分：冷链是在运输储存等环节维持规定低温的供应链；营养标签是呈现食品能量及特定营养成分的标识。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C07_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C07_3",
+      "topic": "冷链与饮食文化",
+      "keywords_en": [
+        "cold chain",
+        "food culture"
+      ],
+      "facet": "concept_distinction",
+      "text": "冷链与饮食文化应作概念区分：冷链是在运输储存等环节维持规定低温的供应链；饮食文化是围绕食物形成的历史习俗与社会意义。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C07_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C07_4",
+      "topic": "冷链与地方菜系",
+      "keywords_en": [
+        "cold chain",
+        "regional cuisine"
+      ],
+      "facet": "concept_distinction",
+      "text": "冷链与地方菜系应作概念区分：冷链是在运输储存等环节维持规定低温的供应链；地方菜系是由地区食材技术和文化形成的烹饪传统。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C08_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C08_1",
+      "topic": "过敏原与营养标签",
+      "keywords_en": [
+        "food allergens",
+        "nutrition labels"
+      ],
+      "facet": "concept_distinction",
+      "text": "过敏原与营养标签应作概念区分：过敏原是能够诱发敏感者过敏反应的食物成分；营养标签是呈现食品能量及特定营养成分的标识。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C08_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C08_2",
+      "topic": "过敏原与饮食文化",
+      "keywords_en": [
+        "food allergens",
+        "food culture"
+      ],
+      "facet": "concept_distinction",
+      "text": "过敏原与饮食文化应作概念区分：过敏原是能够诱发敏感者过敏反应的食物成分；饮食文化是围绕食物形成的历史习俗与社会意义。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C08_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C08_3",
+      "topic": "过敏原与地方菜系",
+      "keywords_en": [
+        "food allergens",
+        "regional cuisine"
+      ],
+      "facet": "concept_distinction",
+      "text": "过敏原与地方菜系应作概念区分：过敏原是能够诱发敏感者过敏反应的食物成分；地方菜系是由地区食材技术和文化形成的烹饪传统。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C08_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C08_4",
+      "topic": "过敏原与餐饮服务",
+      "keywords_en": [
+        "food allergens",
+        "food service"
+      ],
+      "facet": "concept_distinction",
+      "text": "过敏原与餐饮服务应作概念区分：过敏原是能够诱发敏感者过敏反应的食物成分；餐饮服务是以制备提供餐食和就餐体验为核心的商业服务。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C09_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C09_1",
+      "topic": "营养标签与饮食文化",
+      "keywords_en": [
+        "nutrition labels",
+        "food culture"
+      ],
+      "facet": "concept_distinction",
+      "text": "营养标签与饮食文化应作概念区分：营养标签是呈现食品能量及特定营养成分的标识；饮食文化是围绕食物形成的历史习俗与社会意义。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C09_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C09_2",
+      "topic": "营养标签与地方菜系",
+      "keywords_en": [
+        "nutrition labels",
+        "regional cuisine"
+      ],
+      "facet": "concept_distinction",
+      "text": "营养标签与地方菜系应作概念区分：营养标签是呈现食品能量及特定营养成分的标识；地方菜系是由地区食材技术和文化形成的烹饪传统。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C09_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C09_3",
+      "topic": "营养标签与餐饮服务",
+      "keywords_en": [
+        "nutrition labels",
+        "food service"
+      ],
+      "facet": "concept_distinction",
+      "text": "营养标签与餐饮服务应作概念区分：营养标签是呈现食品能量及特定营养成分的标识；餐饮服务是以制备提供餐食和就餐体验为核心的商业服务。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C09_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C09_4",
+      "topic": "营养标签与可持续饮食",
+      "keywords_en": [
+        "nutrition labels",
+        "sustainable diet"
+      ],
+      "facet": "concept_distinction",
+      "text": "营养标签与可持续饮食应作概念区分：营养标签是呈现食品能量及特定营养成分的标识；可持续饮食是考虑健康与环境社会影响的膳食选择。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C10_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C10_1",
+      "topic": "饮食文化与地方菜系",
+      "keywords_en": [
+        "food culture",
+        "regional cuisine"
+      ],
+      "facet": "concept_distinction",
+      "text": "饮食文化与地方菜系应作概念区分：饮食文化是围绕食物形成的历史习俗与社会意义；地方菜系是由地区食材技术和文化形成的烹饪传统。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C10_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C10_2",
+      "topic": "饮食文化与餐饮服务",
+      "keywords_en": [
+        "food culture",
+        "food service"
+      ],
+      "facet": "concept_distinction",
+      "text": "饮食文化与餐饮服务应作概念区分：饮食文化是围绕食物形成的历史习俗与社会意义；餐饮服务是以制备提供餐食和就餐体验为核心的商业服务。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C10_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C10_3",
+      "topic": "饮食文化与可持续饮食",
+      "keywords_en": [
+        "food culture",
+        "sustainable diet"
+      ],
+      "facet": "concept_distinction",
+      "text": "饮食文化与可持续饮食应作概念区分：饮食文化是围绕食物形成的历史习俗与社会意义；可持续饮食是考虑健康与环境社会影响的膳食选择。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C10_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C10_4",
+      "topic": "饮食文化与旅游目的地",
+      "keywords_en": [
+        "food culture",
+        "tourist destination"
+      ],
+      "facet": "concept_distinction",
+      "text": "饮食文化与旅游目的地应作概念区分：饮食文化是围绕食物形成的历史习俗与社会意义；旅游目的地是游客计划访问的地点或区域。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C11_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C11_1",
+      "topic": "地方菜系与餐饮服务",
+      "keywords_en": [
+        "regional cuisine",
+        "food service"
+      ],
+      "facet": "concept_distinction",
+      "text": "地方菜系与餐饮服务应作概念区分：地方菜系是由地区食材技术和文化形成的烹饪传统；餐饮服务是以制备提供餐食和就餐体验为核心的商业服务。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C11_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C11_2",
+      "topic": "地方菜系与可持续饮食",
+      "keywords_en": [
+        "regional cuisine",
+        "sustainable diet"
+      ],
+      "facet": "concept_distinction",
+      "text": "地方菜系与可持续饮食应作概念区分：地方菜系是由地区食材技术和文化形成的烹饪传统；可持续饮食是考虑健康与环境社会影响的膳食选择。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C11_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C11_3",
+      "topic": "地方菜系与旅游目的地",
+      "keywords_en": [
+        "regional cuisine",
+        "tourist destination"
+      ],
+      "facet": "concept_distinction",
+      "text": "地方菜系与旅游目的地应作概念区分：地方菜系是由地区食材技术和文化形成的烹饪传统；旅游目的地是游客计划访问的地点或区域。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C11_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C11_4",
+      "topic": "地方菜系与旅游承载力",
+      "keywords_en": [
+        "regional cuisine",
+        "tourism carrying capacity"
+      ],
+      "facet": "concept_distinction",
+      "text": "地方菜系与旅游承载力应作概念区分：地方菜系是由地区食材技术和文化形成的烹饪传统；旅游承载力是在一定管理条件下旅游活动对环境和社区的可承受程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C12_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C12_1",
+      "topic": "餐饮服务与可持续饮食",
+      "keywords_en": [
+        "food service",
+        "sustainable diet"
+      ],
+      "facet": "concept_distinction",
+      "text": "餐饮服务与可持续饮食应作概念区分：餐饮服务是以制备提供餐食和就餐体验为核心的商业服务；可持续饮食是考虑健康与环境社会影响的膳食选择。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C12_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C12_2",
+      "topic": "餐饮服务与旅游目的地",
+      "keywords_en": [
+        "food service",
+        "tourist destination"
+      ],
+      "facet": "concept_distinction",
+      "text": "餐饮服务与旅游目的地应作概念区分：餐饮服务是以制备提供餐食和就餐体验为核心的商业服务；旅游目的地是游客计划访问的地点或区域。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C12_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C12_3",
+      "topic": "餐饮服务与旅游承载力",
+      "keywords_en": [
+        "food service",
+        "tourism carrying capacity"
+      ],
+      "facet": "concept_distinction",
+      "text": "餐饮服务与旅游承载力应作概念区分：餐饮服务是以制备提供餐食和就餐体验为核心的商业服务；旅游承载力是在一定管理条件下旅游活动对环境和社区的可承受程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C12_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C12_4",
+      "topic": "餐饮服务与文化旅游",
+      "keywords_en": [
+        "food service",
+        "cultural tourism"
+      ],
+      "facet": "concept_distinction",
+      "text": "餐饮服务与文化旅游应作概念区分：餐饮服务是以制备提供餐食和就餐体验为核心的商业服务；文化旅游是以了解当地文化遗产及生活方式为重要动机的旅行。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C13_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C13_1",
+      "topic": "可持续饮食与旅游目的地",
+      "keywords_en": [
+        "sustainable diet",
+        "tourist destination"
+      ],
+      "facet": "concept_distinction",
+      "text": "可持续饮食与旅游目的地应作概念区分：可持续饮食是考虑健康与环境社会影响的膳食选择；旅游目的地是游客计划访问的地点或区域。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C13_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C13_2",
+      "topic": "可持续饮食与旅游承载力",
+      "keywords_en": [
+        "sustainable diet",
+        "tourism carrying capacity"
+      ],
+      "facet": "concept_distinction",
+      "text": "可持续饮食与旅游承载力应作概念区分：可持续饮食是考虑健康与环境社会影响的膳食选择；旅游承载力是在一定管理条件下旅游活动对环境和社区的可承受程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C13_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C13_3",
+      "topic": "可持续饮食与文化旅游",
+      "keywords_en": [
+        "sustainable diet",
+        "cultural tourism"
+      ],
+      "facet": "concept_distinction",
+      "text": "可持续饮食与文化旅游应作概念区分：可持续饮食是考虑健康与环境社会影响的膳食选择；文化旅游是以了解当地文化遗产及生活方式为重要动机的旅行。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C13_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C13_4",
+      "topic": "可持续饮食与生态旅游",
+      "keywords_en": [
+        "sustainable diet",
+        "ecotourism"
+      ],
+      "facet": "concept_distinction",
+      "text": "可持续饮食与生态旅游应作概念区分：可持续饮食是考虑健康与环境社会影响的膳食选择；生态旅游是强调环境保护和社区福祉的自然体验旅行。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C14_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C14_1",
+      "topic": "旅游目的地与旅游承载力",
+      "keywords_en": [
+        "tourist destination",
+        "tourism carrying capacity"
+      ],
+      "facet": "concept_distinction",
+      "text": "旅游目的地与旅游承载力应作概念区分：旅游目的地是游客计划访问的地点或区域；旅游承载力是在一定管理条件下旅游活动对环境和社区的可承受程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C14_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C14_2",
+      "topic": "旅游目的地与文化旅游",
+      "keywords_en": [
+        "tourist destination",
+        "cultural tourism"
+      ],
+      "facet": "concept_distinction",
+      "text": "旅游目的地与文化旅游应作概念区分：旅游目的地是游客计划访问的地点或区域；文化旅游是以了解当地文化遗产及生活方式为重要动机的旅行。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C14_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C14_3",
+      "topic": "旅游目的地与生态旅游",
+      "keywords_en": [
+        "tourist destination",
+        "ecotourism"
+      ],
+      "facet": "concept_distinction",
+      "text": "旅游目的地与生态旅游应作概念区分：旅游目的地是游客计划访问的地点或区域；生态旅游是强调环境保护和社区福祉的自然体验旅行。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C14_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C14_4",
+      "topic": "旅游目的地与旅客体验",
+      "keywords_en": [
+        "tourist destination",
+        "traveler experience"
+      ],
+      "facet": "concept_distinction",
+      "text": "旅游目的地与旅客体验应作概念区分：旅游目的地是游客计划访问的地点或区域；旅客体验是旅游者对出行服务和活动的综合感受。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C15_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C15_1",
+      "topic": "旅游承载力与文化旅游",
+      "keywords_en": [
+        "tourism carrying capacity",
+        "cultural tourism"
+      ],
+      "facet": "concept_distinction",
+      "text": "旅游承载力与文化旅游应作概念区分：旅游承载力是在一定管理条件下旅游活动对环境和社区的可承受程度；文化旅游是以了解当地文化遗产及生活方式为重要动机的旅行。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C15_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C15_2",
+      "topic": "旅游承载力与生态旅游",
+      "keywords_en": [
+        "tourism carrying capacity",
+        "ecotourism"
+      ],
+      "facet": "concept_distinction",
+      "text": "旅游承载力与生态旅游应作概念区分：旅游承载力是在一定管理条件下旅游活动对环境和社区的可承受程度；生态旅游是强调环境保护和社区福祉的自然体验旅行。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C15_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C15_3",
+      "topic": "旅游承载力与旅客体验",
+      "keywords_en": [
+        "tourism carrying capacity",
+        "traveler experience"
+      ],
+      "facet": "concept_distinction",
+      "text": "旅游承载力与旅客体验应作概念区分：旅游承载力是在一定管理条件下旅游活动对环境和社区的可承受程度；旅客体验是旅游者对出行服务和活动的综合感受。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C15_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C15_4",
+      "topic": "旅游承载力与行程规划",
+      "keywords_en": [
+        "tourism carrying capacity",
+        "itinerary planning"
+      ],
+      "facet": "concept_distinction",
+      "text": "旅游承载力与行程规划应作概念区分：旅游承载力是在一定管理条件下旅游活动对环境和社区的可承受程度；行程规划是综合交通住宿时间和偏好安排出行的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C16_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C16_1",
+      "topic": "文化旅游与生态旅游",
+      "keywords_en": [
+        "cultural tourism",
+        "ecotourism"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化旅游与生态旅游应作概念区分：文化旅游是以了解当地文化遗产及生活方式为重要动机的旅行；生态旅游是强调环境保护和社区福祉的自然体验旅行。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C16_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C16_2",
+      "topic": "文化旅游与旅客体验",
+      "keywords_en": [
+        "cultural tourism",
+        "traveler experience"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化旅游与旅客体验应作概念区分：文化旅游是以了解当地文化遗产及生活方式为重要动机的旅行；旅客体验是旅游者对出行服务和活动的综合感受。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C16_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C16_3",
+      "topic": "文化旅游与行程规划",
+      "keywords_en": [
+        "cultural tourism",
+        "itinerary planning"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化旅游与行程规划应作概念区分：文化旅游是以了解当地文化遗产及生活方式为重要动机的旅行；行程规划是综合交通住宿时间和偏好安排出行的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C16_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C16_4",
+      "topic": "文化旅游与无障碍旅游",
+      "keywords_en": [
+        "cultural tourism",
+        "accessible tourism"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化旅游与无障碍旅游应作概念区分：文化旅游是以了解当地文化遗产及生活方式为重要动机的旅行；无障碍旅游是减少出行障碍使不同能力旅客可以参与的服务设计。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C17_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C17_1",
+      "topic": "生态旅游与旅客体验",
+      "keywords_en": [
+        "ecotourism",
+        "traveler experience"
+      ],
+      "facet": "concept_distinction",
+      "text": "生态旅游与旅客体验应作概念区分：生态旅游是强调环境保护和社区福祉的自然体验旅行；旅客体验是旅游者对出行服务和活动的综合感受。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C17_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C17_2",
+      "topic": "生态旅游与行程规划",
+      "keywords_en": [
+        "ecotourism",
+        "itinerary planning"
+      ],
+      "facet": "concept_distinction",
+      "text": "生态旅游与行程规划应作概念区分：生态旅游是强调环境保护和社区福祉的自然体验旅行；行程规划是综合交通住宿时间和偏好安排出行的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C17_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C17_3",
+      "topic": "生态旅游与无障碍旅游",
+      "keywords_en": [
+        "ecotourism",
+        "accessible tourism"
+      ],
+      "facet": "concept_distinction",
+      "text": "生态旅游与无障碍旅游应作概念区分：生态旅游是强调环境保护和社区福祉的自然体验旅行；无障碍旅游是减少出行障碍使不同能力旅客可以参与的服务设计。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C17_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C17_4",
+      "topic": "生态旅游与食谱",
+      "keywords_en": [
+        "ecotourism",
+        "recipe"
+      ],
+      "facet": "concept_distinction",
+      "text": "生态旅游与食谱应作概念区分：生态旅游是强调环境保护和社区福祉的自然体验旅行；食谱是列出食材用量与制作步骤的烹饪指引。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C18_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C18_1",
+      "topic": "旅客体验与行程规划",
+      "keywords_en": [
+        "traveler experience",
+        "itinerary planning"
+      ],
+      "facet": "concept_distinction",
+      "text": "旅客体验与行程规划应作概念区分：旅客体验是旅游者对出行服务和活动的综合感受；行程规划是综合交通住宿时间和偏好安排出行的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C18_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C18_2",
+      "topic": "旅客体验与无障碍旅游",
+      "keywords_en": [
+        "traveler experience",
+        "accessible tourism"
+      ],
+      "facet": "concept_distinction",
+      "text": "旅客体验与无障碍旅游应作概念区分：旅客体验是旅游者对出行服务和活动的综合感受；无障碍旅游是减少出行障碍使不同能力旅客可以参与的服务设计。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C18_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C18_3",
+      "topic": "旅客体验与食谱",
+      "keywords_en": [
+        "traveler experience",
+        "recipe"
+      ],
+      "facet": "concept_distinction",
+      "text": "旅客体验与食谱应作概念区分：旅客体验是旅游者对出行服务和活动的综合感受；食谱是列出食材用量与制作步骤的烹饪指引。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C18_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C18_4",
+      "topic": "旅客体验与食材",
+      "keywords_en": [
+        "traveler experience",
+        "ingredients"
+      ],
+      "facet": "concept_distinction",
+      "text": "旅客体验与食材应作概念区分：旅客体验是旅游者对出行服务和活动的综合感受；食材是食品制作中使用的原料。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C19_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C19_1",
+      "topic": "行程规划与无障碍旅游",
+      "keywords_en": [
+        "itinerary planning",
+        "accessible tourism"
+      ],
+      "facet": "concept_distinction",
+      "text": "行程规划与无障碍旅游应作概念区分：行程规划是综合交通住宿时间和偏好安排出行的过程；无障碍旅游是减少出行障碍使不同能力旅客可以参与的服务设计。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C19_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C19_2",
+      "topic": "行程规划与食谱",
+      "keywords_en": [
+        "itinerary planning",
+        "recipe"
+      ],
+      "facet": "concept_distinction",
+      "text": "行程规划与食谱应作概念区分：行程规划是综合交通住宿时间和偏好安排出行的过程；食谱是列出食材用量与制作步骤的烹饪指引。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C19_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C19_3",
+      "topic": "行程规划与食材",
+      "keywords_en": [
+        "itinerary planning",
+        "ingredients"
+      ],
+      "facet": "concept_distinction",
+      "text": "行程规划与食材应作概念区分：行程规划是综合交通住宿时间和偏好安排出行的过程；食材是食品制作中使用的原料。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C19_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C19_4",
+      "topic": "行程规划与烹饪方法",
+      "keywords_en": [
+        "itinerary planning",
+        "cooking methods"
+      ],
+      "facet": "concept_distinction",
+      "text": "行程规划与烹饪方法应作概念区分：行程规划是综合交通住宿时间和偏好安排出行的过程；烹饪方法是通过加热腌制发酵等处理食材的技术。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C20_1",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C20_1",
+      "topic": "无障碍旅游与食谱",
+      "keywords_en": [
+        "accessible tourism",
+        "recipe"
+      ],
+      "facet": "concept_distinction",
+      "text": "无障碍旅游与食谱应作概念区分：无障碍旅游是减少出行障碍使不同能力旅客可以参与的服务设计；食谱是列出食材用量与制作步骤的烹饪指引。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C20_2",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C20_2",
+      "topic": "无障碍旅游与食材",
+      "keywords_en": [
+        "accessible tourism",
+        "ingredients"
+      ],
+      "facet": "concept_distinction",
+      "text": "无障碍旅游与食材应作概念区分：无障碍旅游是减少出行障碍使不同能力旅客可以参与的服务设计；食材是食品制作中使用的原料。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C20_3",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C20_3",
+      "topic": "无障碍旅游与烹饪方法",
+      "keywords_en": [
+        "accessible tourism",
+        "cooking methods"
+      ],
+      "facet": "concept_distinction",
+      "text": "无障碍旅游与烹饪方法应作概念区分：无障碍旅游是减少出行障碍使不同能力旅客可以参与的服务设计；烹饪方法是通过加热腌制发酵等处理食材的技术。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_food_travel_C20_4",
+      "domain": "food_travel",
+      "concept_id": "food_travel_C20_4",
+      "topic": "无障碍旅游与发酵",
+      "keywords_en": [
+        "accessible tourism",
+        "fermentation"
+      ],
+      "facet": "concept_distinction",
+      "text": "无障碍旅游与发酵应作概念区分：无障碍旅游是减少出行障碍使不同能力旅客可以参与的服务设计；发酵是微生物代谢改变食品特性的一类过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

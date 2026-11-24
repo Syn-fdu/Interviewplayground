@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "health_medicine",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_health_medicine_D01",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D01",
+      "topic": "症状",
+      "keywords_en": [
+        "symptom"
+      ],
+      "facet": "definition",
+      "text": "症状（symptom）：患者主观感受到的身体或心理异常。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D02",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D02",
+      "topic": "体征",
+      "keywords_en": [
+        "clinical sign"
+      ],
+      "facet": "definition",
+      "text": "体征（clinical sign）：可由检查观察或测量到的异常表现。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D03",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D03",
+      "topic": "诊断",
+      "keywords_en": [
+        "diagnosis"
+      ],
+      "facet": "definition",
+      "text": "诊断（diagnosis）：结合病史检查和证据判断健康问题的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D04",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D04",
+      "topic": "鉴别诊断",
+      "keywords_en": [
+        "differential diagnosis"
+      ],
+      "facet": "definition",
+      "text": "鉴别诊断（differential diagnosis）：比较多个可解释症状的候选疾病。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D05",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D05",
+      "topic": "慢性病",
+      "keywords_en": [
+        "chronic disease"
+      ],
+      "facet": "definition",
+      "text": "慢性病（chronic disease）：通常持续较长时间并需要长期管理的健康状况。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D06",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D06",
+      "topic": "急性病",
+      "keywords_en": [
+        "acute illness"
+      ],
+      "facet": "definition",
+      "text": "急性病（acute illness）：起病较急或病程相对短的健康状况。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D07",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D07",
+      "topic": "共病",
+      "keywords_en": [
+        "comorbidity"
+      ],
+      "facet": "definition",
+      "text": "共病（comorbidity）：同一个体同时存在两种或更多健康问题。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D08",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D08",
+      "topic": "生活质量",
+      "keywords_en": [
+        "quality of life"
+      ],
+      "facet": "definition",
+      "text": "生活质量（quality of life）：个体对自身身体心理和社会生活状态的评价。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D09",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D09",
+      "topic": "患者报告结局",
+      "keywords_en": [
+        "patient reported outcome"
+      ],
+      "facet": "definition",
+      "text": "患者报告结局（patient reported outcome）：由患者直接报告的健康状态或治疗体验。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D10",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D10",
+      "topic": "共同决策",
+      "keywords_en": [
+        "shared decision making"
+      ],
+      "facet": "definition",
+      "text": "共同决策（shared decision making）：患者和医护人员综合证据与偏好选择方案。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D11",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D11",
+      "topic": "健康素养",
+      "keywords_en": [
+        "health literacy"
+      ],
+      "facet": "definition",
+      "text": "健康素养（health literacy）：获取理解判断和使用健康信息的能力。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D12",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D12",
+      "topic": "依从性",
+      "keywords_en": [
+        "treatment adherence"
+      ],
+      "facet": "definition",
+      "text": "依从性（treatment adherence）：患者实际行为与共同确定治疗方案相符合的程度。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D13",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D13",
+      "topic": "疾病预防",
+      "keywords_en": [
+        "disease prevention"
+      ],
+      "facet": "definition",
+      "text": "疾病预防（disease prevention）：通过干预降低疾病发生或后果的活动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D14",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D14",
+      "topic": "筛查",
+      "keywords_en": [
+        "screening"
+      ],
+      "facet": "definition",
+      "text": "筛查（screening）：对无明显症状人群识别可能疾病风险的检查。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D15",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D15",
+      "topic": "敏感度",
+      "keywords_en": [
+        "sensitivity"
+      ],
+      "facet": "definition",
+      "text": "敏感度（sensitivity）：实际患病者中被检测为阳性的比例。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D16",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D16",
+      "topic": "特异度",
+      "keywords_en": [
+        "specificity"
+      ],
+      "facet": "definition",
+      "text": "特异度（specificity）：实际未患病者中被检测为阴性的比例。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D17",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D17",
+      "topic": "随机对照试验",
+      "keywords_en": [
+        "randomized controlled trial"
+      ],
+      "facet": "definition",
+      "text": "随机对照试验（randomized controlled trial）：利用随机分配比较干预效果的研究设计。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D18",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D18",
+      "topic": "队列研究",
+      "keywords_en": [
+        "cohort study"
+      ],
+      "facet": "definition",
+      "text": "队列研究（cohort study）：按照暴露等条件对人群进行追踪观察的研究。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D19",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D19",
+      "topic": "卫生服务可及性",
+      "keywords_en": [
+        "healthcare access"
+      ],
+      "facet": "definition",
+      "text": "卫生服务可及性（healthcare access）：人群在需要时获得适当卫生服务的能力。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_D20",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_D20",
+      "topic": "患者隐私",
+      "keywords_en": [
+        "patient privacy"
+      ],
+      "facet": "definition",
+      "text": "患者隐私（patient privacy）：对个人健康信息收集访问和分享实施的保护。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C01_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C01_1",
+      "topic": "症状与体征",
+      "keywords_en": [
+        "symptom",
+        "clinical sign"
+      ],
+      "facet": "concept_distinction",
+      "text": "症状与体征应作概念区分：症状是患者主观感受到的身体或心理异常；体征是可由检查观察或测量到的异常表现。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C01_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C01_2",
+      "topic": "症状与诊断",
+      "keywords_en": [
+        "symptom",
+        "diagnosis"
+      ],
+      "facet": "concept_distinction",
+      "text": "症状与诊断应作概念区分：症状是患者主观感受到的身体或心理异常；诊断是结合病史检查和证据判断健康问题的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C01_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C01_3",
+      "topic": "症状与鉴别诊断",
+      "keywords_en": [
+        "symptom",
+        "differential diagnosis"
+      ],
+      "facet": "concept_distinction",
+      "text": "症状与鉴别诊断应作概念区分：症状是患者主观感受到的身体或心理异常；鉴别诊断是比较多个可解释症状的候选疾病。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C01_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C01_4",
+      "topic": "症状与慢性病",
+      "keywords_en": [
+        "symptom",
+        "chronic disease"
+      ],
+      "facet": "concept_distinction",
+      "text": "症状与慢性病应作概念区分：症状是患者主观感受到的身体或心理异常；慢性病是通常持续较长时间并需要长期管理的健康状况。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C02_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C02_1",
+      "topic": "体征与诊断",
+      "keywords_en": [
+        "clinical sign",
+        "diagnosis"
+      ],
+      "facet": "concept_distinction",
+      "text": "体征与诊断应作概念区分：体征是可由检查观察或测量到的异常表现；诊断是结合病史检查和证据判断健康问题的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C02_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C02_2",
+      "topic": "体征与鉴别诊断",
+      "keywords_en": [
+        "clinical sign",
+        "differential diagnosis"
+      ],
+      "facet": "concept_distinction",
+      "text": "体征与鉴别诊断应作概念区分：体征是可由检查观察或测量到的异常表现；鉴别诊断是比较多个可解释症状的候选疾病。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C02_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C02_3",
+      "topic": "体征与慢性病",
+      "keywords_en": [
+        "clinical sign",
+        "chronic disease"
+      ],
+      "facet": "concept_distinction",
+      "text": "体征与慢性病应作概念区分：体征是可由检查观察或测量到的异常表现；慢性病是通常持续较长时间并需要长期管理的健康状况。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C02_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C02_4",
+      "topic": "体征与急性病",
+      "keywords_en": [
+        "clinical sign",
+        "acute illness"
+      ],
+      "facet": "concept_distinction",
+      "text": "体征与急性病应作概念区分：体征是可由检查观察或测量到的异常表现；急性病是起病较急或病程相对短的健康状况。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C03_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C03_1",
+      "topic": "诊断与鉴别诊断",
+      "keywords_en": [
+        "diagnosis",
+        "differential diagnosis"
+      ],
+      "facet": "concept_distinction",
+      "text": "诊断与鉴别诊断应作概念区分：诊断是结合病史检查和证据判断健康问题的过程；鉴别诊断是比较多个可解释症状的候选疾病。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C03_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C03_2",
+      "topic": "诊断与慢性病",
+      "keywords_en": [
+        "diagnosis",
+        "chronic disease"
+      ],
+      "facet": "concept_distinction",
+      "text": "诊断与慢性病应作概念区分：诊断是结合病史检查和证据判断健康问题的过程；慢性病是通常持续较长时间并需要长期管理的健康状况。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C03_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C03_3",
+      "topic": "诊断与急性病",
+      "keywords_en": [
+        "diagnosis",
+        "acute illness"
+      ],
+      "facet": "concept_distinction",
+      "text": "诊断与急性病应作概念区分：诊断是结合病史检查和证据判断健康问题的过程；急性病是起病较急或病程相对短的健康状况。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C03_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C03_4",
+      "topic": "诊断与共病",
+      "keywords_en": [
+        "diagnosis",
+        "comorbidity"
+      ],
+      "facet": "concept_distinction",
+      "text": "诊断与共病应作概念区分：诊断是结合病史检查和证据判断健康问题的过程；共病是同一个体同时存在两种或更多健康问题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C04_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C04_1",
+      "topic": "鉴别诊断与慢性病",
+      "keywords_en": [
+        "differential diagnosis",
+        "chronic disease"
+      ],
+      "facet": "concept_distinction",
+      "text": "鉴别诊断与慢性病应作概念区分：鉴别诊断是比较多个可解释症状的候选疾病；慢性病是通常持续较长时间并需要长期管理的健康状况。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C04_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C04_2",
+      "topic": "鉴别诊断与急性病",
+      "keywords_en": [
+        "differential diagnosis",
+        "acute illness"
+      ],
+      "facet": "concept_distinction",
+      "text": "鉴别诊断与急性病应作概念区分：鉴别诊断是比较多个可解释症状的候选疾病；急性病是起病较急或病程相对短的健康状况。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C04_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C04_3",
+      "topic": "鉴别诊断与共病",
+      "keywords_en": [
+        "differential diagnosis",
+        "comorbidity"
+      ],
+      "facet": "concept_distinction",
+      "text": "鉴别诊断与共病应作概念区分：鉴别诊断是比较多个可解释症状的候选疾病；共病是同一个体同时存在两种或更多健康问题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C04_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C04_4",
+      "topic": "鉴别诊断与生活质量",
+      "keywords_en": [
+        "differential diagnosis",
+        "quality of life"
+      ],
+      "facet": "concept_distinction",
+      "text": "鉴别诊断与生活质量应作概念区分：鉴别诊断是比较多个可解释症状的候选疾病；生活质量是个体对自身身体心理和社会生活状态的评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C05_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C05_1",
+      "topic": "慢性病与急性病",
+      "keywords_en": [
+        "chronic disease",
+        "acute illness"
+      ],
+      "facet": "concept_distinction",
+      "text": "慢性病与急性病应作概念区分：慢性病是通常持续较长时间并需要长期管理的健康状况；急性病是起病较急或病程相对短的健康状况。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C05_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C05_2",
+      "topic": "慢性病与共病",
+      "keywords_en": [
+        "chronic disease",
+        "comorbidity"
+      ],
+      "facet": "concept_distinction",
+      "text": "慢性病与共病应作概念区分：慢性病是通常持续较长时间并需要长期管理的健康状况；共病是同一个体同时存在两种或更多健康问题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C05_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C05_3",
+      "topic": "慢性病与生活质量",
+      "keywords_en": [
+        "chronic disease",
+        "quality of life"
+      ],
+      "facet": "concept_distinction",
+      "text": "慢性病与生活质量应作概念区分：慢性病是通常持续较长时间并需要长期管理的健康状况；生活质量是个体对自身身体心理和社会生活状态的评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C05_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C05_4",
+      "topic": "慢性病与患者报告结局",
+      "keywords_en": [
+        "chronic disease",
+        "patient reported outcome"
+      ],
+      "facet": "concept_distinction",
+      "text": "慢性病与患者报告结局应作概念区分：慢性病是通常持续较长时间并需要长期管理的健康状况；患者报告结局是由患者直接报告的健康状态或治疗体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C06_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C06_1",
+      "topic": "急性病与共病",
+      "keywords_en": [
+        "acute illness",
+        "comorbidity"
+      ],
+      "facet": "concept_distinction",
+      "text": "急性病与共病应作概念区分：急性病是起病较急或病程相对短的健康状况；共病是同一个体同时存在两种或更多健康问题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C06_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C06_2",
+      "topic": "急性病与生活质量",
+      "keywords_en": [
+        "acute illness",
+        "quality of life"
+      ],
+      "facet": "concept_distinction",
+      "text": "急性病与生活质量应作概念区分：急性病是起病较急或病程相对短的健康状况；生活质量是个体对自身身体心理和社会生活状态的评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C06_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C06_3",
+      "topic": "急性病与患者报告结局",
+      "keywords_en": [
+        "acute illness",
+        "patient reported outcome"
+      ],
+      "facet": "concept_distinction",
+      "text": "急性病与患者报告结局应作概念区分：急性病是起病较急或病程相对短的健康状况；患者报告结局是由患者直接报告的健康状态或治疗体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C06_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C06_4",
+      "topic": "急性病与共同决策",
+      "keywords_en": [
+        "acute illness",
+        "shared decision making"
+      ],
+      "facet": "concept_distinction",
+      "text": "急性病与共同决策应作概念区分：急性病是起病较急或病程相对短的健康状况；共同决策是患者和医护人员综合证据与偏好选择方案。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C07_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C07_1",
+      "topic": "共病与生活质量",
+      "keywords_en": [
+        "comorbidity",
+        "quality of life"
+      ],
+      "facet": "concept_distinction",
+      "text": "共病与生活质量应作概念区分：共病是同一个体同时存在两种或更多健康问题；生活质量是个体对自身身体心理和社会生活状态的评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C07_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C07_2",
+      "topic": "共病与患者报告结局",
+      "keywords_en": [
+        "comorbidity",
+        "patient reported outcome"
+      ],
+      "facet": "concept_distinction",
+      "text": "共病与患者报告结局应作概念区分：共病是同一个体同时存在两种或更多健康问题；患者报告结局是由患者直接报告的健康状态或治疗体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C07_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C07_3",
+      "topic": "共病与共同决策",
+      "keywords_en": [
+        "comorbidity",
+        "shared decision making"
+      ],
+      "facet": "concept_distinction",
+      "text": "共病与共同决策应作概念区分：共病是同一个体同时存在两种或更多健康问题；共同决策是患者和医护人员综合证据与偏好选择方案。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C07_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C07_4",
+      "topic": "共病与健康素养",
+      "keywords_en": [
+        "comorbidity",
+        "health literacy"
+      ],
+      "facet": "concept_distinction",
+      "text": "共病与健康素养应作概念区分：共病是同一个体同时存在两种或更多健康问题；健康素养是获取理解判断和使用健康信息的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C08_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C08_1",
+      "topic": "生活质量与患者报告结局",
+      "keywords_en": [
+        "quality of life",
+        "patient reported outcome"
+      ],
+      "facet": "concept_distinction",
+      "text": "生活质量与患者报告结局应作概念区分：生活质量是个体对自身身体心理和社会生活状态的评价；患者报告结局是由患者直接报告的健康状态或治疗体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C08_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C08_2",
+      "topic": "生活质量与共同决策",
+      "keywords_en": [
+        "quality of life",
+        "shared decision making"
+      ],
+      "facet": "concept_distinction",
+      "text": "生活质量与共同决策应作概念区分：生活质量是个体对自身身体心理和社会生活状态的评价；共同决策是患者和医护人员综合证据与偏好选择方案。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C08_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C08_3",
+      "topic": "生活质量与健康素养",
+      "keywords_en": [
+        "quality of life",
+        "health literacy"
+      ],
+      "facet": "concept_distinction",
+      "text": "生活质量与健康素养应作概念区分：生活质量是个体对自身身体心理和社会生活状态的评价；健康素养是获取理解判断和使用健康信息的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C08_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C08_4",
+      "topic": "生活质量与依从性",
+      "keywords_en": [
+        "quality of life",
+        "treatment adherence"
+      ],
+      "facet": "concept_distinction",
+      "text": "生活质量与依从性应作概念区分：生活质量是个体对自身身体心理和社会生活状态的评价；依从性是患者实际行为与共同确定治疗方案相符合的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C09_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C09_1",
+      "topic": "患者报告结局与共同决策",
+      "keywords_en": [
+        "patient reported outcome",
+        "shared decision making"
+      ],
+      "facet": "concept_distinction",
+      "text": "患者报告结局与共同决策应作概念区分：患者报告结局是由患者直接报告的健康状态或治疗体验；共同决策是患者和医护人员综合证据与偏好选择方案。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C09_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C09_2",
+      "topic": "患者报告结局与健康素养",
+      "keywords_en": [
+        "patient reported outcome",
+        "health literacy"
+      ],
+      "facet": "concept_distinction",
+      "text": "患者报告结局与健康素养应作概念区分：患者报告结局是由患者直接报告的健康状态或治疗体验；健康素养是获取理解判断和使用健康信息的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C09_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C09_3",
+      "topic": "患者报告结局与依从性",
+      "keywords_en": [
+        "patient reported outcome",
+        "treatment adherence"
+      ],
+      "facet": "concept_distinction",
+      "text": "患者报告结局与依从性应作概念区分：患者报告结局是由患者直接报告的健康状态或治疗体验；依从性是患者实际行为与共同确定治疗方案相符合的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C09_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C09_4",
+      "topic": "患者报告结局与疾病预防",
+      "keywords_en": [
+        "patient reported outcome",
+        "disease prevention"
+      ],
+      "facet": "concept_distinction",
+      "text": "患者报告结局与疾病预防应作概念区分：患者报告结局是由患者直接报告的健康状态或治疗体验；疾病预防是通过干预降低疾病发生或后果的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C10_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C10_1",
+      "topic": "共同决策与健康素养",
+      "keywords_en": [
+        "shared decision making",
+        "health literacy"
+      ],
+      "facet": "concept_distinction",
+      "text": "共同决策与健康素养应作概念区分：共同决策是患者和医护人员综合证据与偏好选择方案；健康素养是获取理解判断和使用健康信息的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C10_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C10_2",
+      "topic": "共同决策与依从性",
+      "keywords_en": [
+        "shared decision making",
+        "treatment adherence"
+      ],
+      "facet": "concept_distinction",
+      "text": "共同决策与依从性应作概念区分：共同决策是患者和医护人员综合证据与偏好选择方案；依从性是患者实际行为与共同确定治疗方案相符合的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C10_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C10_3",
+      "topic": "共同决策与疾病预防",
+      "keywords_en": [
+        "shared decision making",
+        "disease prevention"
+      ],
+      "facet": "concept_distinction",
+      "text": "共同决策与疾病预防应作概念区分：共同决策是患者和医护人员综合证据与偏好选择方案；疾病预防是通过干预降低疾病发生或后果的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C10_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C10_4",
+      "topic": "共同决策与筛查",
+      "keywords_en": [
+        "shared decision making",
+        "screening"
+      ],
+      "facet": "concept_distinction",
+      "text": "共同决策与筛查应作概念区分：共同决策是患者和医护人员综合证据与偏好选择方案；筛查是对无明显症状人群识别可能疾病风险的检查。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C11_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C11_1",
+      "topic": "健康素养与依从性",
+      "keywords_en": [
+        "health literacy",
+        "treatment adherence"
+      ],
+      "facet": "concept_distinction",
+      "text": "健康素养与依从性应作概念区分：健康素养是获取理解判断和使用健康信息的能力；依从性是患者实际行为与共同确定治疗方案相符合的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C11_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C11_2",
+      "topic": "健康素养与疾病预防",
+      "keywords_en": [
+        "health literacy",
+        "disease prevention"
+      ],
+      "facet": "concept_distinction",
+      "text": "健康素养与疾病预防应作概念区分：健康素养是获取理解判断和使用健康信息的能力；疾病预防是通过干预降低疾病发生或后果的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C11_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C11_3",
+      "topic": "健康素养与筛查",
+      "keywords_en": [
+        "health literacy",
+        "screening"
+      ],
+      "facet": "concept_distinction",
+      "text": "健康素养与筛查应作概念区分：健康素养是获取理解判断和使用健康信息的能力；筛查是对无明显症状人群识别可能疾病风险的检查。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C11_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C11_4",
+      "topic": "健康素养与敏感度",
+      "keywords_en": [
+        "health literacy",
+        "sensitivity"
+      ],
+      "facet": "concept_distinction",
+      "text": "健康素养与敏感度应作概念区分：健康素养是获取理解判断和使用健康信息的能力；敏感度是实际患病者中被检测为阳性的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C12_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C12_1",
+      "topic": "依从性与疾病预防",
+      "keywords_en": [
+        "treatment adherence",
+        "disease prevention"
+      ],
+      "facet": "concept_distinction",
+      "text": "依从性与疾病预防应作概念区分：依从性是患者实际行为与共同确定治疗方案相符合的程度；疾病预防是通过干预降低疾病发生或后果的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C12_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C12_2",
+      "topic": "依从性与筛查",
+      "keywords_en": [
+        "treatment adherence",
+        "screening"
+      ],
+      "facet": "concept_distinction",
+      "text": "依从性与筛查应作概念区分：依从性是患者实际行为与共同确定治疗方案相符合的程度；筛查是对无明显症状人群识别可能疾病风险的检查。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C12_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C12_3",
+      "topic": "依从性与敏感度",
+      "keywords_en": [
+        "treatment adherence",
+        "sensitivity"
+      ],
+      "facet": "concept_distinction",
+      "text": "依从性与敏感度应作概念区分：依从性是患者实际行为与共同确定治疗方案相符合的程度；敏感度是实际患病者中被检测为阳性的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C12_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C12_4",
+      "topic": "依从性与特异度",
+      "keywords_en": [
+        "treatment adherence",
+        "specificity"
+      ],
+      "facet": "concept_distinction",
+      "text": "依从性与特异度应作概念区分：依从性是患者实际行为与共同确定治疗方案相符合的程度；特异度是实际未患病者中被检测为阴性的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C13_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C13_1",
+      "topic": "疾病预防与筛查",
+      "keywords_en": [
+        "disease prevention",
+        "screening"
+      ],
+      "facet": "concept_distinction",
+      "text": "疾病预防与筛查应作概念区分：疾病预防是通过干预降低疾病发生或后果的活动；筛查是对无明显症状人群识别可能疾病风险的检查。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C13_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C13_2",
+      "topic": "疾病预防与敏感度",
+      "keywords_en": [
+        "disease prevention",
+        "sensitivity"
+      ],
+      "facet": "concept_distinction",
+      "text": "疾病预防与敏感度应作概念区分：疾病预防是通过干预降低疾病发生或后果的活动；敏感度是实际患病者中被检测为阳性的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C13_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C13_3",
+      "topic": "疾病预防与特异度",
+      "keywords_en": [
+        "disease prevention",
+        "specificity"
+      ],
+      "facet": "concept_distinction",
+      "text": "疾病预防与特异度应作概念区分：疾病预防是通过干预降低疾病发生或后果的活动；特异度是实际未患病者中被检测为阴性的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C13_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C13_4",
+      "topic": "疾病预防与随机对照试验",
+      "keywords_en": [
+        "disease prevention",
+        "randomized controlled trial"
+      ],
+      "facet": "concept_distinction",
+      "text": "疾病预防与随机对照试验应作概念区分：疾病预防是通过干预降低疾病发生或后果的活动；随机对照试验是利用随机分配比较干预效果的研究设计。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C14_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C14_1",
+      "topic": "筛查与敏感度",
+      "keywords_en": [
+        "screening",
+        "sensitivity"
+      ],
+      "facet": "concept_distinction",
+      "text": "筛查与敏感度应作概念区分：筛查是对无明显症状人群识别可能疾病风险的检查；敏感度是实际患病者中被检测为阳性的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C14_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C14_2",
+      "topic": "筛查与特异度",
+      "keywords_en": [
+        "screening",
+        "specificity"
+      ],
+      "facet": "concept_distinction",
+      "text": "筛查与特异度应作概念区分：筛查是对无明显症状人群识别可能疾病风险的检查；特异度是实际未患病者中被检测为阴性的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C14_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C14_3",
+      "topic": "筛查与随机对照试验",
+      "keywords_en": [
+        "screening",
+        "randomized controlled trial"
+      ],
+      "facet": "concept_distinction",
+      "text": "筛查与随机对照试验应作概念区分：筛查是对无明显症状人群识别可能疾病风险的检查；随机对照试验是利用随机分配比较干预效果的研究设计。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C14_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C14_4",
+      "topic": "筛查与队列研究",
+      "keywords_en": [
+        "screening",
+        "cohort study"
+      ],
+      "facet": "concept_distinction",
+      "text": "筛查与队列研究应作概念区分：筛查是对无明显症状人群识别可能疾病风险的检查；队列研究是按照暴露等条件对人群进行追踪观察的研究。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C15_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C15_1",
+      "topic": "敏感度与特异度",
+      "keywords_en": [
+        "sensitivity",
+        "specificity"
+      ],
+      "facet": "concept_distinction",
+      "text": "敏感度与特异度应作概念区分：敏感度是实际患病者中被检测为阳性的比例；特异度是实际未患病者中被检测为阴性的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C15_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C15_2",
+      "topic": "敏感度与随机对照试验",
+      "keywords_en": [
+        "sensitivity",
+        "randomized controlled trial"
+      ],
+      "facet": "concept_distinction",
+      "text": "敏感度与随机对照试验应作概念区分：敏感度是实际患病者中被检测为阳性的比例；随机对照试验是利用随机分配比较干预效果的研究设计。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C15_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C15_3",
+      "topic": "敏感度与队列研究",
+      "keywords_en": [
+        "sensitivity",
+        "cohort study"
+      ],
+      "facet": "concept_distinction",
+      "text": "敏感度与队列研究应作概念区分：敏感度是实际患病者中被检测为阳性的比例；队列研究是按照暴露等条件对人群进行追踪观察的研究。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C15_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C15_4",
+      "topic": "敏感度与卫生服务可及性",
+      "keywords_en": [
+        "sensitivity",
+        "healthcare access"
+      ],
+      "facet": "concept_distinction",
+      "text": "敏感度与卫生服务可及性应作概念区分：敏感度是实际患病者中被检测为阳性的比例；卫生服务可及性是人群在需要时获得适当卫生服务的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C16_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C16_1",
+      "topic": "特异度与随机对照试验",
+      "keywords_en": [
+        "specificity",
+        "randomized controlled trial"
+      ],
+      "facet": "concept_distinction",
+      "text": "特异度与随机对照试验应作概念区分：特异度是实际未患病者中被检测为阴性的比例；随机对照试验是利用随机分配比较干预效果的研究设计。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C16_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C16_2",
+      "topic": "特异度与队列研究",
+      "keywords_en": [
+        "specificity",
+        "cohort study"
+      ],
+      "facet": "concept_distinction",
+      "text": "特异度与队列研究应作概念区分：特异度是实际未患病者中被检测为阴性的比例；队列研究是按照暴露等条件对人群进行追踪观察的研究。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C16_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C16_3",
+      "topic": "特异度与卫生服务可及性",
+      "keywords_en": [
+        "specificity",
+        "healthcare access"
+      ],
+      "facet": "concept_distinction",
+      "text": "特异度与卫生服务可及性应作概念区分：特异度是实际未患病者中被检测为阴性的比例；卫生服务可及性是人群在需要时获得适当卫生服务的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C16_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C16_4",
+      "topic": "特异度与患者隐私",
+      "keywords_en": [
+        "specificity",
+        "patient privacy"
+      ],
+      "facet": "concept_distinction",
+      "text": "特异度与患者隐私应作概念区分：特异度是实际未患病者中被检测为阴性的比例；患者隐私是对个人健康信息收集访问和分享实施的保护。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C17_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C17_1",
+      "topic": "随机对照试验与队列研究",
+      "keywords_en": [
+        "randomized controlled trial",
+        "cohort study"
+      ],
+      "facet": "concept_distinction",
+      "text": "随机对照试验与队列研究应作概念区分：随机对照试验是利用随机分配比较干预效果的研究设计；队列研究是按照暴露等条件对人群进行追踪观察的研究。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C17_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C17_2",
+      "topic": "随机对照试验与卫生服务可及性",
+      "keywords_en": [
+        "randomized controlled trial",
+        "healthcare access"
+      ],
+      "facet": "concept_distinction",
+      "text": "随机对照试验与卫生服务可及性应作概念区分：随机对照试验是利用随机分配比较干预效果的研究设计；卫生服务可及性是人群在需要时获得适当卫生服务的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C17_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C17_3",
+      "topic": "随机对照试验与患者隐私",
+      "keywords_en": [
+        "randomized controlled trial",
+        "patient privacy"
+      ],
+      "facet": "concept_distinction",
+      "text": "随机对照试验与患者隐私应作概念区分：随机对照试验是利用随机分配比较干预效果的研究设计；患者隐私是对个人健康信息收集访问和分享实施的保护。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C17_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C17_4",
+      "topic": "随机对照试验与症状",
+      "keywords_en": [
+        "randomized controlled trial",
+        "symptom"
+      ],
+      "facet": "concept_distinction",
+      "text": "随机对照试验与症状应作概念区分：随机对照试验是利用随机分配比较干预效果的研究设计；症状是患者主观感受到的身体或心理异常。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C18_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C18_1",
+      "topic": "队列研究与卫生服务可及性",
+      "keywords_en": [
+        "cohort study",
+        "healthcare access"
+      ],
+      "facet": "concept_distinction",
+      "text": "队列研究与卫生服务可及性应作概念区分：队列研究是按照暴露等条件对人群进行追踪观察的研究；卫生服务可及性是人群在需要时获得适当卫生服务的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C18_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C18_2",
+      "topic": "队列研究与患者隐私",
+      "keywords_en": [
+        "cohort study",
+        "patient privacy"
+      ],
+      "facet": "concept_distinction",
+      "text": "队列研究与患者隐私应作概念区分：队列研究是按照暴露等条件对人群进行追踪观察的研究；患者隐私是对个人健康信息收集访问和分享实施的保护。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C18_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C18_3",
+      "topic": "队列研究与症状",
+      "keywords_en": [
+        "cohort study",
+        "symptom"
+      ],
+      "facet": "concept_distinction",
+      "text": "队列研究与症状应作概念区分：队列研究是按照暴露等条件对人群进行追踪观察的研究；症状是患者主观感受到的身体或心理异常。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C18_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C18_4",
+      "topic": "队列研究与体征",
+      "keywords_en": [
+        "cohort study",
+        "clinical sign"
+      ],
+      "facet": "concept_distinction",
+      "text": "队列研究与体征应作概念区分：队列研究是按照暴露等条件对人群进行追踪观察的研究；体征是可由检查观察或测量到的异常表现。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C19_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C19_1",
+      "topic": "卫生服务可及性与患者隐私",
+      "keywords_en": [
+        "healthcare access",
+        "patient privacy"
+      ],
+      "facet": "concept_distinction",
+      "text": "卫生服务可及性与患者隐私应作概念区分：卫生服务可及性是人群在需要时获得适当卫生服务的能力；患者隐私是对个人健康信息收集访问和分享实施的保护。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C19_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C19_2",
+      "topic": "卫生服务可及性与症状",
+      "keywords_en": [
+        "healthcare access",
+        "symptom"
+      ],
+      "facet": "concept_distinction",
+      "text": "卫生服务可及性与症状应作概念区分：卫生服务可及性是人群在需要时获得适当卫生服务的能力；症状是患者主观感受到的身体或心理异常。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C19_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C19_3",
+      "topic": "卫生服务可及性与体征",
+      "keywords_en": [
+        "healthcare access",
+        "clinical sign"
+      ],
+      "facet": "concept_distinction",
+      "text": "卫生服务可及性与体征应作概念区分：卫生服务可及性是人群在需要时获得适当卫生服务的能力；体征是可由检查观察或测量到的异常表现。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C19_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C19_4",
+      "topic": "卫生服务可及性与诊断",
+      "keywords_en": [
+        "healthcare access",
+        "diagnosis"
+      ],
+      "facet": "concept_distinction",
+      "text": "卫生服务可及性与诊断应作概念区分：卫生服务可及性是人群在需要时获得适当卫生服务的能力；诊断是结合病史检查和证据判断健康问题的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C20_1",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C20_1",
+      "topic": "患者隐私与症状",
+      "keywords_en": [
+        "patient privacy",
+        "symptom"
+      ],
+      "facet": "concept_distinction",
+      "text": "患者隐私与症状应作概念区分：患者隐私是对个人健康信息收集访问和分享实施的保护；症状是患者主观感受到的身体或心理异常。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C20_2",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C20_2",
+      "topic": "患者隐私与体征",
+      "keywords_en": [
+        "patient privacy",
+        "clinical sign"
+      ],
+      "facet": "concept_distinction",
+      "text": "患者隐私与体征应作概念区分：患者隐私是对个人健康信息收集访问和分享实施的保护；体征是可由检查观察或测量到的异常表现。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C20_3",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C20_3",
+      "topic": "患者隐私与诊断",
+      "keywords_en": [
+        "patient privacy",
+        "diagnosis"
+      ],
+      "facet": "concept_distinction",
+      "text": "患者隐私与诊断应作概念区分：患者隐私是对个人健康信息收集访问和分享实施的保护；诊断是结合病史检查和证据判断健康问题的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_health_medicine_C20_4",
+      "domain": "health_medicine",
+      "concept_id": "health_medicine_C20_4",
+      "topic": "患者隐私与鉴别诊断",
+      "keywords_en": [
+        "patient privacy",
+        "differential diagnosis"
+      ],
+      "facet": "concept_distinction",
+      "text": "患者隐私与鉴别诊断应作概念区分：患者隐私是对个人健康信息收集访问和分享实施的保护；鉴别诊断是比较多个可解释症状的候选疾病。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "science_research",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_science_research_D01",
+      "domain": "science_research",
+      "concept_id": "science_research_D01",
+      "topic": "研究问题",
+      "keywords_en": [
+        "research question"
+      ],
+      "facet": "definition",
+      "text": "研究问题（research question）：研究希望通过证据回答的具体问题。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D02",
+      "domain": "science_research",
+      "concept_id": "science_research_D02",
+      "topic": "假设",
+      "keywords_en": [
+        "hypothesis"
+      ],
+      "facet": "definition",
+      "text": "假设（hypothesis）：可借助观测或实验进行检验的命题。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D03",
+      "domain": "science_research",
+      "concept_id": "science_research_D03",
+      "topic": "操作化",
+      "keywords_en": [
+        "operationalization"
+      ],
+      "facet": "definition",
+      "text": "操作化（operationalization）：将抽象概念转变为可观察或可测量指标。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D04",
+      "domain": "science_research",
+      "concept_id": "science_research_D04",
+      "topic": "抽样框",
+      "keywords_en": [
+        "sampling frame"
+      ],
+      "facet": "definition",
+      "text": "抽样框（sampling frame）：用于抽取研究对象的总体单位列表或规则。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D05",
+      "domain": "science_research",
+      "concept_id": "science_research_D05",
+      "topic": "随机抽样",
+      "keywords_en": [
+        "random sampling"
+      ],
+      "facet": "definition",
+      "text": "随机抽样（random sampling）：利用随机机制选择样本以控制选择偏差。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D06",
+      "domain": "science_research",
+      "concept_id": "science_research_D06",
+      "topic": "便利抽样",
+      "keywords_en": [
+        "convenience sampling"
+      ],
+      "facet": "definition",
+      "text": "便利抽样（convenience sampling）：按可获得性选择样本的非概率抽样。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D07",
+      "domain": "science_research",
+      "concept_id": "science_research_D07",
+      "topic": "内部效度",
+      "keywords_en": [
+        "internal validity"
+      ],
+      "facet": "definition",
+      "text": "内部效度（internal validity）：观察到的效应能否合理归因于研究变量。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D08",
+      "domain": "science_research",
+      "concept_id": "science_research_D08",
+      "topic": "外部效度",
+      "keywords_en": [
+        "external validity"
+      ],
+      "facet": "definition",
+      "text": "外部效度（external validity）：研究结论向其他人群或情境推广的程度。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D09",
+      "domain": "science_research",
+      "concept_id": "science_research_D09",
+      "topic": "可重复性",
+      "keywords_en": [
+        "repeatability"
+      ],
+      "facet": "definition",
+      "text": "可重复性（repeatability）：使用同一数据和流程能否得到相同结果。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D10",
+      "domain": "science_research",
+      "concept_id": "science_research_D10",
+      "topic": "可复现性",
+      "keywords_en": [
+        "replicability"
+      ],
+      "facet": "definition",
+      "text": "可复现性（replicability）：独立数据或研究条件下能否获得一致研究发现。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D11",
+      "domain": "science_research",
+      "concept_id": "science_research_D11",
+      "topic": "预注册",
+      "keywords_en": [
+        "preregistration"
+      ],
+      "facet": "definition",
+      "text": "预注册（preregistration）：在分析前公开研究问题和计划的做法。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D12",
+      "domain": "science_research",
+      "concept_id": "science_research_D12",
+      "topic": "开放获取",
+      "keywords_en": [
+        "open access"
+      ],
+      "facet": "definition",
+      "text": "开放获取（open access）：让研究成果可在许可条件下不受订阅壁垒访问。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D13",
+      "domain": "science_research",
+      "concept_id": "science_research_D13",
+      "topic": "开放数据",
+      "keywords_en": [
+        "open data"
+      ],
+      "facet": "definition",
+      "text": "开放数据（open data）：在适当治理条件下共享可再利用研究数据。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D14",
+      "domain": "science_research",
+      "concept_id": "science_research_D14",
+      "topic": "同行评审",
+      "keywords_en": [
+        "peer review"
+      ],
+      "facet": "definition",
+      "text": "同行评审（peer review）：领域专家对研究质量和论证进行评价的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D15",
+      "domain": "science_research",
+      "concept_id": "science_research_D15",
+      "topic": "定性访谈",
+      "keywords_en": [
+        "qualitative interview"
+      ],
+      "facet": "definition",
+      "text": "定性访谈（qualitative interview）：通过开放问题收集经历观点和情境信息的方法。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D16",
+      "domain": "science_research",
+      "concept_id": "science_research_D16",
+      "topic": "主题分析",
+      "keywords_en": [
+        "thematic analysis"
+      ],
+      "facet": "definition",
+      "text": "主题分析（thematic analysis）：识别并组织质性材料中反复出现的意义模式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D17",
+      "domain": "science_research",
+      "concept_id": "science_research_D17",
+      "topic": "编码本",
+      "keywords_en": [
+        "codebook"
+      ],
+      "facet": "definition",
+      "text": "编码本（codebook）：记录质性分析标签及适用规则的文件。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D18",
+      "domain": "science_research",
+      "concept_id": "science_research_D18",
+      "topic": "研究伦理审查",
+      "keywords_en": [
+        "research ethics review"
+      ],
+      "facet": "definition",
+      "text": "研究伦理审查（research ethics review）：评估研究对参与者的风险和保护措施。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D19",
+      "domain": "science_research",
+      "concept_id": "science_research_D19",
+      "topic": "知情同意",
+      "keywords_en": [
+        "informed consent"
+      ],
+      "facet": "definition",
+      "text": "知情同意（informed consent）：参与者在理解研究信息后自主决定是否参与。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_D20",
+      "domain": "science_research",
+      "concept_id": "science_research_D20",
+      "topic": "研究数据溯源",
+      "keywords_en": [
+        "data provenance"
+      ],
+      "facet": "definition",
+      "text": "研究数据溯源（data provenance）：记录数据产生、转换和使用历史的做法。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C01_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C01_1",
+      "topic": "研究问题与假设",
+      "keywords_en": [
+        "research question",
+        "hypothesis"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究问题与假设应作概念区分：研究问题是研究希望通过证据回答的具体问题；假设是可借助观测或实验进行检验的命题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C01_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C01_2",
+      "topic": "研究问题与操作化",
+      "keywords_en": [
+        "research question",
+        "operationalization"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究问题与操作化应作概念区分：研究问题是研究希望通过证据回答的具体问题；操作化是将抽象概念转变为可观察或可测量指标。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C01_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C01_3",
+      "topic": "研究问题与抽样框",
+      "keywords_en": [
+        "research question",
+        "sampling frame"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究问题与抽样框应作概念区分：研究问题是研究希望通过证据回答的具体问题；抽样框是用于抽取研究对象的总体单位列表或规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C01_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C01_4",
+      "topic": "研究问题与随机抽样",
+      "keywords_en": [
+        "research question",
+        "random sampling"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究问题与随机抽样应作概念区分：研究问题是研究希望通过证据回答的具体问题；随机抽样是利用随机机制选择样本以控制选择偏差。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C02_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C02_1",
+      "topic": "假设与操作化",
+      "keywords_en": [
+        "hypothesis",
+        "operationalization"
+      ],
+      "facet": "concept_distinction",
+      "text": "假设与操作化应作概念区分：假设是可借助观测或实验进行检验的命题；操作化是将抽象概念转变为可观察或可测量指标。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C02_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C02_2",
+      "topic": "假设与抽样框",
+      "keywords_en": [
+        "hypothesis",
+        "sampling frame"
+      ],
+      "facet": "concept_distinction",
+      "text": "假设与抽样框应作概念区分：假设是可借助观测或实验进行检验的命题；抽样框是用于抽取研究对象的总体单位列表或规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C02_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C02_3",
+      "topic": "假设与随机抽样",
+      "keywords_en": [
+        "hypothesis",
+        "random sampling"
+      ],
+      "facet": "concept_distinction",
+      "text": "假设与随机抽样应作概念区分：假设是可借助观测或实验进行检验的命题；随机抽样是利用随机机制选择样本以控制选择偏差。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C02_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C02_4",
+      "topic": "假设与便利抽样",
+      "keywords_en": [
+        "hypothesis",
+        "convenience sampling"
+      ],
+      "facet": "concept_distinction",
+      "text": "假设与便利抽样应作概念区分：假设是可借助观测或实验进行检验的命题；便利抽样是按可获得性选择样本的非概率抽样。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C03_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C03_1",
+      "topic": "操作化与抽样框",
+      "keywords_en": [
+        "operationalization",
+        "sampling frame"
+      ],
+      "facet": "concept_distinction",
+      "text": "操作化与抽样框应作概念区分：操作化是将抽象概念转变为可观察或可测量指标；抽样框是用于抽取研究对象的总体单位列表或规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C03_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C03_2",
+      "topic": "操作化与随机抽样",
+      "keywords_en": [
+        "operationalization",
+        "random sampling"
+      ],
+      "facet": "concept_distinction",
+      "text": "操作化与随机抽样应作概念区分：操作化是将抽象概念转变为可观察或可测量指标；随机抽样是利用随机机制选择样本以控制选择偏差。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C03_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C03_3",
+      "topic": "操作化与便利抽样",
+      "keywords_en": [
+        "operationalization",
+        "convenience sampling"
+      ],
+      "facet": "concept_distinction",
+      "text": "操作化与便利抽样应作概念区分：操作化是将抽象概念转变为可观察或可测量指标；便利抽样是按可获得性选择样本的非概率抽样。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C03_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C03_4",
+      "topic": "操作化与内部效度",
+      "keywords_en": [
+        "operationalization",
+        "internal validity"
+      ],
+      "facet": "concept_distinction",
+      "text": "操作化与内部效度应作概念区分：操作化是将抽象概念转变为可观察或可测量指标；内部效度是观察到的效应能否合理归因于研究变量。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C04_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C04_1",
+      "topic": "抽样框与随机抽样",
+      "keywords_en": [
+        "sampling frame",
+        "random sampling"
+      ],
+      "facet": "concept_distinction",
+      "text": "抽样框与随机抽样应作概念区分：抽样框是用于抽取研究对象的总体单位列表或规则；随机抽样是利用随机机制选择样本以控制选择偏差。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C04_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C04_2",
+      "topic": "抽样框与便利抽样",
+      "keywords_en": [
+        "sampling frame",
+        "convenience sampling"
+      ],
+      "facet": "concept_distinction",
+      "text": "抽样框与便利抽样应作概念区分：抽样框是用于抽取研究对象的总体单位列表或规则；便利抽样是按可获得性选择样本的非概率抽样。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C04_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C04_3",
+      "topic": "抽样框与内部效度",
+      "keywords_en": [
+        "sampling frame",
+        "internal validity"
+      ],
+      "facet": "concept_distinction",
+      "text": "抽样框与内部效度应作概念区分：抽样框是用于抽取研究对象的总体单位列表或规则；内部效度是观察到的效应能否合理归因于研究变量。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C04_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C04_4",
+      "topic": "抽样框与外部效度",
+      "keywords_en": [
+        "sampling frame",
+        "external validity"
+      ],
+      "facet": "concept_distinction",
+      "text": "抽样框与外部效度应作概念区分：抽样框是用于抽取研究对象的总体单位列表或规则；外部效度是研究结论向其他人群或情境推广的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C05_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C05_1",
+      "topic": "随机抽样与便利抽样",
+      "keywords_en": [
+        "random sampling",
+        "convenience sampling"
+      ],
+      "facet": "concept_distinction",
+      "text": "随机抽样与便利抽样应作概念区分：随机抽样是利用随机机制选择样本以控制选择偏差；便利抽样是按可获得性选择样本的非概率抽样。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C05_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C05_2",
+      "topic": "随机抽样与内部效度",
+      "keywords_en": [
+        "random sampling",
+        "internal validity"
+      ],
+      "facet": "concept_distinction",
+      "text": "随机抽样与内部效度应作概念区分：随机抽样是利用随机机制选择样本以控制选择偏差；内部效度是观察到的效应能否合理归因于研究变量。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C05_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C05_3",
+      "topic": "随机抽样与外部效度",
+      "keywords_en": [
+        "random sampling",
+        "external validity"
+      ],
+      "facet": "concept_distinction",
+      "text": "随机抽样与外部效度应作概念区分：随机抽样是利用随机机制选择样本以控制选择偏差；外部效度是研究结论向其他人群或情境推广的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C05_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C05_4",
+      "topic": "随机抽样与可重复性",
+      "keywords_en": [
+        "random sampling",
+        "repeatability"
+      ],
+      "facet": "concept_distinction",
+      "text": "随机抽样与可重复性应作概念区分：随机抽样是利用随机机制选择样本以控制选择偏差；可重复性是使用同一数据和流程能否得到相同结果。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C06_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C06_1",
+      "topic": "便利抽样与内部效度",
+      "keywords_en": [
+        "convenience sampling",
+        "internal validity"
+      ],
+      "facet": "concept_distinction",
+      "text": "便利抽样与内部效度应作概念区分：便利抽样是按可获得性选择样本的非概率抽样；内部效度是观察到的效应能否合理归因于研究变量。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C06_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C06_2",
+      "topic": "便利抽样与外部效度",
+      "keywords_en": [
+        "convenience sampling",
+        "external validity"
+      ],
+      "facet": "concept_distinction",
+      "text": "便利抽样与外部效度应作概念区分：便利抽样是按可获得性选择样本的非概率抽样；外部效度是研究结论向其他人群或情境推广的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C06_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C06_3",
+      "topic": "便利抽样与可重复性",
+      "keywords_en": [
+        "convenience sampling",
+        "repeatability"
+      ],
+      "facet": "concept_distinction",
+      "text": "便利抽样与可重复性应作概念区分：便利抽样是按可获得性选择样本的非概率抽样；可重复性是使用同一数据和流程能否得到相同结果。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C06_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C06_4",
+      "topic": "便利抽样与可复现性",
+      "keywords_en": [
+        "convenience sampling",
+        "replicability"
+      ],
+      "facet": "concept_distinction",
+      "text": "便利抽样与可复现性应作概念区分：便利抽样是按可获得性选择样本的非概率抽样；可复现性是独立数据或研究条件下能否获得一致研究发现。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C07_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C07_1",
+      "topic": "内部效度与外部效度",
+      "keywords_en": [
+        "internal validity",
+        "external validity"
+      ],
+      "facet": "concept_distinction",
+      "text": "内部效度与外部效度应作概念区分：内部效度是观察到的效应能否合理归因于研究变量；外部效度是研究结论向其他人群或情境推广的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C07_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C07_2",
+      "topic": "内部效度与可重复性",
+      "keywords_en": [
+        "internal validity",
+        "repeatability"
+      ],
+      "facet": "concept_distinction",
+      "text": "内部效度与可重复性应作概念区分：内部效度是观察到的效应能否合理归因于研究变量；可重复性是使用同一数据和流程能否得到相同结果。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C07_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C07_3",
+      "topic": "内部效度与可复现性",
+      "keywords_en": [
+        "internal validity",
+        "replicability"
+      ],
+      "facet": "concept_distinction",
+      "text": "内部效度与可复现性应作概念区分：内部效度是观察到的效应能否合理归因于研究变量；可复现性是独立数据或研究条件下能否获得一致研究发现。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C07_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C07_4",
+      "topic": "内部效度与预注册",
+      "keywords_en": [
+        "internal validity",
+        "preregistration"
+      ],
+      "facet": "concept_distinction",
+      "text": "内部效度与预注册应作概念区分：内部效度是观察到的效应能否合理归因于研究变量；预注册是在分析前公开研究问题和计划的做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C08_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C08_1",
+      "topic": "外部效度与可重复性",
+      "keywords_en": [
+        "external validity",
+        "repeatability"
+      ],
+      "facet": "concept_distinction",
+      "text": "外部效度与可重复性应作概念区分：外部效度是研究结论向其他人群或情境推广的程度；可重复性是使用同一数据和流程能否得到相同结果。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C08_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C08_2",
+      "topic": "外部效度与可复现性",
+      "keywords_en": [
+        "external validity",
+        "replicability"
+      ],
+      "facet": "concept_distinction",
+      "text": "外部效度与可复现性应作概念区分：外部效度是研究结论向其他人群或情境推广的程度；可复现性是独立数据或研究条件下能否获得一致研究发现。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C08_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C08_3",
+      "topic": "外部效度与预注册",
+      "keywords_en": [
+        "external validity",
+        "preregistration"
+      ],
+      "facet": "concept_distinction",
+      "text": "外部效度与预注册应作概念区分：外部效度是研究结论向其他人群或情境推广的程度；预注册是在分析前公开研究问题和计划的做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C08_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C08_4",
+      "topic": "外部效度与开放获取",
+      "keywords_en": [
+        "external validity",
+        "open access"
+      ],
+      "facet": "concept_distinction",
+      "text": "外部效度与开放获取应作概念区分：外部效度是研究结论向其他人群或情境推广的程度；开放获取是让研究成果可在许可条件下不受订阅壁垒访问。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C09_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C09_1",
+      "topic": "可重复性与可复现性",
+      "keywords_en": [
+        "repeatability",
+        "replicability"
+      ],
+      "facet": "concept_distinction",
+      "text": "可重复性与可复现性应作概念区分：可重复性是使用同一数据和流程能否得到相同结果；可复现性是独立数据或研究条件下能否获得一致研究发现。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C09_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C09_2",
+      "topic": "可重复性与预注册",
+      "keywords_en": [
+        "repeatability",
+        "preregistration"
+      ],
+      "facet": "concept_distinction",
+      "text": "可重复性与预注册应作概念区分：可重复性是使用同一数据和流程能否得到相同结果；预注册是在分析前公开研究问题和计划的做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C09_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C09_3",
+      "topic": "可重复性与开放获取",
+      "keywords_en": [
+        "repeatability",
+        "open access"
+      ],
+      "facet": "concept_distinction",
+      "text": "可重复性与开放获取应作概念区分：可重复性是使用同一数据和流程能否得到相同结果；开放获取是让研究成果可在许可条件下不受订阅壁垒访问。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C09_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C09_4",
+      "topic": "可重复性与开放数据",
+      "keywords_en": [
+        "repeatability",
+        "open data"
+      ],
+      "facet": "concept_distinction",
+      "text": "可重复性与开放数据应作概念区分：可重复性是使用同一数据和流程能否得到相同结果；开放数据是在适当治理条件下共享可再利用研究数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C10_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C10_1",
+      "topic": "可复现性与预注册",
+      "keywords_en": [
+        "replicability",
+        "preregistration"
+      ],
+      "facet": "concept_distinction",
+      "text": "可复现性与预注册应作概念区分：可复现性是独立数据或研究条件下能否获得一致研究发现；预注册是在分析前公开研究问题和计划的做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C10_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C10_2",
+      "topic": "可复现性与开放获取",
+      "keywords_en": [
+        "replicability",
+        "open access"
+      ],
+      "facet": "concept_distinction",
+      "text": "可复现性与开放获取应作概念区分：可复现性是独立数据或研究条件下能否获得一致研究发现；开放获取是让研究成果可在许可条件下不受订阅壁垒访问。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C10_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C10_3",
+      "topic": "可复现性与开放数据",
+      "keywords_en": [
+        "replicability",
+        "open data"
+      ],
+      "facet": "concept_distinction",
+      "text": "可复现性与开放数据应作概念区分：可复现性是独立数据或研究条件下能否获得一致研究发现；开放数据是在适当治理条件下共享可再利用研究数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C10_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C10_4",
+      "topic": "可复现性与同行评审",
+      "keywords_en": [
+        "replicability",
+        "peer review"
+      ],
+      "facet": "concept_distinction",
+      "text": "可复现性与同行评审应作概念区分：可复现性是独立数据或研究条件下能否获得一致研究发现；同行评审是领域专家对研究质量和论证进行评价的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C11_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C11_1",
+      "topic": "预注册与开放获取",
+      "keywords_en": [
+        "preregistration",
+        "open access"
+      ],
+      "facet": "concept_distinction",
+      "text": "预注册与开放获取应作概念区分：预注册是在分析前公开研究问题和计划的做法；开放获取是让研究成果可在许可条件下不受订阅壁垒访问。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C11_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C11_2",
+      "topic": "预注册与开放数据",
+      "keywords_en": [
+        "preregistration",
+        "open data"
+      ],
+      "facet": "concept_distinction",
+      "text": "预注册与开放数据应作概念区分：预注册是在分析前公开研究问题和计划的做法；开放数据是在适当治理条件下共享可再利用研究数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C11_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C11_3",
+      "topic": "预注册与同行评审",
+      "keywords_en": [
+        "preregistration",
+        "peer review"
+      ],
+      "facet": "concept_distinction",
+      "text": "预注册与同行评审应作概念区分：预注册是在分析前公开研究问题和计划的做法；同行评审是领域专家对研究质量和论证进行评价的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C11_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C11_4",
+      "topic": "预注册与定性访谈",
+      "keywords_en": [
+        "preregistration",
+        "qualitative interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "预注册与定性访谈应作概念区分：预注册是在分析前公开研究问题和计划的做法；定性访谈是通过开放问题收集经历观点和情境信息的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C12_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C12_1",
+      "topic": "开放获取与开放数据",
+      "keywords_en": [
+        "open access",
+        "open data"
+      ],
+      "facet": "concept_distinction",
+      "text": "开放获取与开放数据应作概念区分：开放获取是让研究成果可在许可条件下不受订阅壁垒访问；开放数据是在适当治理条件下共享可再利用研究数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C12_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C12_2",
+      "topic": "开放获取与同行评审",
+      "keywords_en": [
+        "open access",
+        "peer review"
+      ],
+      "facet": "concept_distinction",
+      "text": "开放获取与同行评审应作概念区分：开放获取是让研究成果可在许可条件下不受订阅壁垒访问；同行评审是领域专家对研究质量和论证进行评价的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C12_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C12_3",
+      "topic": "开放获取与定性访谈",
+      "keywords_en": [
+        "open access",
+        "qualitative interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "开放获取与定性访谈应作概念区分：开放获取是让研究成果可在许可条件下不受订阅壁垒访问；定性访谈是通过开放问题收集经历观点和情境信息的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C12_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C12_4",
+      "topic": "开放获取与主题分析",
+      "keywords_en": [
+        "open access",
+        "thematic analysis"
+      ],
+      "facet": "concept_distinction",
+      "text": "开放获取与主题分析应作概念区分：开放获取是让研究成果可在许可条件下不受订阅壁垒访问；主题分析是识别并组织质性材料中反复出现的意义模式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C13_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C13_1",
+      "topic": "开放数据与同行评审",
+      "keywords_en": [
+        "open data",
+        "peer review"
+      ],
+      "facet": "concept_distinction",
+      "text": "开放数据与同行评审应作概念区分：开放数据是在适当治理条件下共享可再利用研究数据；同行评审是领域专家对研究质量和论证进行评价的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C13_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C13_2",
+      "topic": "开放数据与定性访谈",
+      "keywords_en": [
+        "open data",
+        "qualitative interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "开放数据与定性访谈应作概念区分：开放数据是在适当治理条件下共享可再利用研究数据；定性访谈是通过开放问题收集经历观点和情境信息的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C13_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C13_3",
+      "topic": "开放数据与主题分析",
+      "keywords_en": [
+        "open data",
+        "thematic analysis"
+      ],
+      "facet": "concept_distinction",
+      "text": "开放数据与主题分析应作概念区分：开放数据是在适当治理条件下共享可再利用研究数据；主题分析是识别并组织质性材料中反复出现的意义模式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C13_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C13_4",
+      "topic": "开放数据与编码本",
+      "keywords_en": [
+        "open data",
+        "codebook"
+      ],
+      "facet": "concept_distinction",
+      "text": "开放数据与编码本应作概念区分：开放数据是在适当治理条件下共享可再利用研究数据；编码本是记录质性分析标签及适用规则的文件。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C14_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C14_1",
+      "topic": "同行评审与定性访谈",
+      "keywords_en": [
+        "peer review",
+        "qualitative interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "同行评审与定性访谈应作概念区分：同行评审是领域专家对研究质量和论证进行评价的过程；定性访谈是通过开放问题收集经历观点和情境信息的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C14_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C14_2",
+      "topic": "同行评审与主题分析",
+      "keywords_en": [
+        "peer review",
+        "thematic analysis"
+      ],
+      "facet": "concept_distinction",
+      "text": "同行评审与主题分析应作概念区分：同行评审是领域专家对研究质量和论证进行评价的过程；主题分析是识别并组织质性材料中反复出现的意义模式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C14_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C14_3",
+      "topic": "同行评审与编码本",
+      "keywords_en": [
+        "peer review",
+        "codebook"
+      ],
+      "facet": "concept_distinction",
+      "text": "同行评审与编码本应作概念区分：同行评审是领域专家对研究质量和论证进行评价的过程；编码本是记录质性分析标签及适用规则的文件。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C14_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C14_4",
+      "topic": "同行评审与研究伦理审查",
+      "keywords_en": [
+        "peer review",
+        "research ethics review"
+      ],
+      "facet": "concept_distinction",
+      "text": "同行评审与研究伦理审查应作概念区分：同行评审是领域专家对研究质量和论证进行评价的过程；研究伦理审查是评估研究对参与者的风险和保护措施。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C15_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C15_1",
+      "topic": "定性访谈与主题分析",
+      "keywords_en": [
+        "qualitative interview",
+        "thematic analysis"
+      ],
+      "facet": "concept_distinction",
+      "text": "定性访谈与主题分析应作概念区分：定性访谈是通过开放问题收集经历观点和情境信息的方法；主题分析是识别并组织质性材料中反复出现的意义模式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C15_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C15_2",
+      "topic": "定性访谈与编码本",
+      "keywords_en": [
+        "qualitative interview",
+        "codebook"
+      ],
+      "facet": "concept_distinction",
+      "text": "定性访谈与编码本应作概念区分：定性访谈是通过开放问题收集经历观点和情境信息的方法；编码本是记录质性分析标签及适用规则的文件。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C15_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C15_3",
+      "topic": "定性访谈与研究伦理审查",
+      "keywords_en": [
+        "qualitative interview",
+        "research ethics review"
+      ],
+      "facet": "concept_distinction",
+      "text": "定性访谈与研究伦理审查应作概念区分：定性访谈是通过开放问题收集经历观点和情境信息的方法；研究伦理审查是评估研究对参与者的风险和保护措施。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C15_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C15_4",
+      "topic": "定性访谈与知情同意",
+      "keywords_en": [
+        "qualitative interview",
+        "informed consent"
+      ],
+      "facet": "concept_distinction",
+      "text": "定性访谈与知情同意应作概念区分：定性访谈是通过开放问题收集经历观点和情境信息的方法；知情同意是参与者在理解研究信息后自主决定是否参与。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C16_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C16_1",
+      "topic": "主题分析与编码本",
+      "keywords_en": [
+        "thematic analysis",
+        "codebook"
+      ],
+      "facet": "concept_distinction",
+      "text": "主题分析与编码本应作概念区分：主题分析是识别并组织质性材料中反复出现的意义模式；编码本是记录质性分析标签及适用规则的文件。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C16_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C16_2",
+      "topic": "主题分析与研究伦理审查",
+      "keywords_en": [
+        "thematic analysis",
+        "research ethics review"
+      ],
+      "facet": "concept_distinction",
+      "text": "主题分析与研究伦理审查应作概念区分：主题分析是识别并组织质性材料中反复出现的意义模式；研究伦理审查是评估研究对参与者的风险和保护措施。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C16_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C16_3",
+      "topic": "主题分析与知情同意",
+      "keywords_en": [
+        "thematic analysis",
+        "informed consent"
+      ],
+      "facet": "concept_distinction",
+      "text": "主题分析与知情同意应作概念区分：主题分析是识别并组织质性材料中反复出现的意义模式；知情同意是参与者在理解研究信息后自主决定是否参与。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C16_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C16_4",
+      "topic": "主题分析与研究数据溯源",
+      "keywords_en": [
+        "thematic analysis",
+        "data provenance"
+      ],
+      "facet": "concept_distinction",
+      "text": "主题分析与研究数据溯源应作概念区分：主题分析是识别并组织质性材料中反复出现的意义模式；研究数据溯源是记录数据产生、转换和使用历史的做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C17_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C17_1",
+      "topic": "编码本与研究伦理审查",
+      "keywords_en": [
+        "codebook",
+        "research ethics review"
+      ],
+      "facet": "concept_distinction",
+      "text": "编码本与研究伦理审查应作概念区分：编码本是记录质性分析标签及适用规则的文件；研究伦理审查是评估研究对参与者的风险和保护措施。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C17_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C17_2",
+      "topic": "编码本与知情同意",
+      "keywords_en": [
+        "codebook",
+        "informed consent"
+      ],
+      "facet": "concept_distinction",
+      "text": "编码本与知情同意应作概念区分：编码本是记录质性分析标签及适用规则的文件；知情同意是参与者在理解研究信息后自主决定是否参与。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C17_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C17_3",
+      "topic": "编码本与研究数据溯源",
+      "keywords_en": [
+        "codebook",
+        "data provenance"
+      ],
+      "facet": "concept_distinction",
+      "text": "编码本与研究数据溯源应作概念区分：编码本是记录质性分析标签及适用规则的文件；研究数据溯源是记录数据产生、转换和使用历史的做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C17_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C17_4",
+      "topic": "编码本与研究问题",
+      "keywords_en": [
+        "codebook",
+        "research question"
+      ],
+      "facet": "concept_distinction",
+      "text": "编码本与研究问题应作概念区分：编码本是记录质性分析标签及适用规则的文件；研究问题是研究希望通过证据回答的具体问题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C18_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C18_1",
+      "topic": "研究伦理审查与知情同意",
+      "keywords_en": [
+        "research ethics review",
+        "informed consent"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究伦理审查与知情同意应作概念区分：研究伦理审查是评估研究对参与者的风险和保护措施；知情同意是参与者在理解研究信息后自主决定是否参与。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C18_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C18_2",
+      "topic": "研究伦理审查与研究数据溯源",
+      "keywords_en": [
+        "research ethics review",
+        "data provenance"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究伦理审查与研究数据溯源应作概念区分：研究伦理审查是评估研究对参与者的风险和保护措施；研究数据溯源是记录数据产生、转换和使用历史的做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C18_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C18_3",
+      "topic": "研究伦理审查与研究问题",
+      "keywords_en": [
+        "research ethics review",
+        "research question"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究伦理审查与研究问题应作概念区分：研究伦理审查是评估研究对参与者的风险和保护措施；研究问题是研究希望通过证据回答的具体问题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C18_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C18_4",
+      "topic": "研究伦理审查与假设",
+      "keywords_en": [
+        "research ethics review",
+        "hypothesis"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究伦理审查与假设应作概念区分：研究伦理审查是评估研究对参与者的风险和保护措施；假设是可借助观测或实验进行检验的命题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C19_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C19_1",
+      "topic": "知情同意与研究数据溯源",
+      "keywords_en": [
+        "informed consent",
+        "data provenance"
+      ],
+      "facet": "concept_distinction",
+      "text": "知情同意与研究数据溯源应作概念区分：知情同意是参与者在理解研究信息后自主决定是否参与；研究数据溯源是记录数据产生、转换和使用历史的做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C19_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C19_2",
+      "topic": "知情同意与研究问题",
+      "keywords_en": [
+        "informed consent",
+        "research question"
+      ],
+      "facet": "concept_distinction",
+      "text": "知情同意与研究问题应作概念区分：知情同意是参与者在理解研究信息后自主决定是否参与；研究问题是研究希望通过证据回答的具体问题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C19_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C19_3",
+      "topic": "知情同意与假设",
+      "keywords_en": [
+        "informed consent",
+        "hypothesis"
+      ],
+      "facet": "concept_distinction",
+      "text": "知情同意与假设应作概念区分：知情同意是参与者在理解研究信息后自主决定是否参与；假设是可借助观测或实验进行检验的命题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C19_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C19_4",
+      "topic": "知情同意与操作化",
+      "keywords_en": [
+        "informed consent",
+        "operationalization"
+      ],
+      "facet": "concept_distinction",
+      "text": "知情同意与操作化应作概念区分：知情同意是参与者在理解研究信息后自主决定是否参与；操作化是将抽象概念转变为可观察或可测量指标。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C20_1",
+      "domain": "science_research",
+      "concept_id": "science_research_C20_1",
+      "topic": "研究数据溯源与研究问题",
+      "keywords_en": [
+        "data provenance",
+        "research question"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究数据溯源与研究问题应作概念区分：研究数据溯源是记录数据产生、转换和使用历史的做法；研究问题是研究希望通过证据回答的具体问题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C20_2",
+      "domain": "science_research",
+      "concept_id": "science_research_C20_2",
+      "topic": "研究数据溯源与假设",
+      "keywords_en": [
+        "data provenance",
+        "hypothesis"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究数据溯源与假设应作概念区分：研究数据溯源是记录数据产生、转换和使用历史的做法；假设是可借助观测或实验进行检验的命题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C20_3",
+      "domain": "science_research",
+      "concept_id": "science_research_C20_3",
+      "topic": "研究数据溯源与操作化",
+      "keywords_en": [
+        "data provenance",
+        "operationalization"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究数据溯源与操作化应作概念区分：研究数据溯源是记录数据产生、转换和使用历史的做法；操作化是将抽象概念转变为可观察或可测量指标。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_science_research_C20_4",
+      "domain": "science_research",
+      "concept_id": "science_research_C20_4",
+      "topic": "研究数据溯源与抽样框",
+      "keywords_en": [
+        "data provenance",
+        "sampling frame"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究数据溯源与抽样框应作概念区分：研究数据溯源是记录数据产生、转换和使用历史的做法；抽样框是用于抽取研究对象的总体单位列表或规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

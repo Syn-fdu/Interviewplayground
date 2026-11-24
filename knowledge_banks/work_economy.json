@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "work_economy",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_work_economy_D01",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D01",
+      "topic": "劳动合同",
+      "keywords_en": [
+        "employment contract"
+      ],
+      "facet": "definition",
+      "text": "劳动合同（employment contract）：明确雇佣双方权利义务的协议。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D02",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D02",
+      "topic": "正式就业",
+      "keywords_en": [
+        "formal employment"
+      ],
+      "facet": "definition",
+      "text": "正式就业（formal employment）：在相应制度下具有正式劳动关系的就业形式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D03",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D03",
+      "topic": "非正式就业",
+      "keywords_en": [
+        "informal employment"
+      ],
+      "facet": "definition",
+      "text": "非正式就业（informal employment）：缺少部分正式保护或登记安排的工作形式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D04",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D04",
+      "topic": "平台劳动",
+      "keywords_en": [
+        "platform work"
+      ],
+      "facet": "definition",
+      "text": "平台劳动（platform work）：通过数字平台匹配、管理或评价劳动任务的工作。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D05",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D05",
+      "topic": "零工经济",
+      "keywords_en": [
+        "gig economy"
+      ],
+      "facet": "definition",
+      "text": "零工经济（gig economy）：以短期任务和项目交易为特征的一类劳动安排。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D06",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D06",
+      "topic": "劳动生产率",
+      "keywords_en": [
+        "labor productivity"
+      ],
+      "facet": "definition",
+      "text": "劳动生产率（labor productivity）：单位劳动投入所创造的产出。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D07",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D07",
+      "topic": "机会成本",
+      "keywords_en": [
+        "opportunity cost"
+      ],
+      "facet": "definition",
+      "text": "机会成本（opportunity cost）：选择某方案而放弃的最佳替代用途价值。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D08",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D08",
+      "topic": "供给",
+      "keywords_en": [
+        "supply"
+      ],
+      "facet": "definition",
+      "text": "供给（supply）：其他条件相同时生产者在各价格愿意提供的数量关系。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D09",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D09",
+      "topic": "需求",
+      "keywords_en": [
+        "demand"
+      ],
+      "facet": "definition",
+      "text": "需求（demand）：其他条件相同时消费者在各价格愿意购买的数量关系。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D10",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D10",
+      "topic": "均衡价格",
+      "keywords_en": [
+        "equilibrium price"
+      ],
+      "facet": "definition",
+      "text": "均衡价格（equilibrium price）：供给和需求意愿相协调时形成的市场价格。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D11",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D11",
+      "topic": "通货膨胀",
+      "keywords_en": [
+        "inflation"
+      ],
+      "facet": "definition",
+      "text": "通货膨胀（inflation）：一般价格水平持续上升的现象。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D12",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D12",
+      "topic": "失业率",
+      "keywords_en": [
+        "unemployment rate"
+      ],
+      "facet": "definition",
+      "text": "失业率（unemployment rate）：劳动力中没有工作且满足求职等标准者的比例。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D13",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D13",
+      "topic": "最低工资",
+      "keywords_en": [
+        "minimum wage"
+      ],
+      "facet": "definition",
+      "text": "最低工资（minimum wage）：法规规定的工资支付下限。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D14",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D14",
+      "topic": "职业流动",
+      "keywords_en": [
+        "career mobility"
+      ],
+      "facet": "definition",
+      "text": "职业流动（career mobility）：劳动者跨岗位、职业或部门的变化。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D15",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D15",
+      "topic": "技能匹配",
+      "keywords_en": [
+        "skill matching"
+      ],
+      "facet": "definition",
+      "text": "技能匹配（skill matching）：劳动者能力与岗位任务要求之间的一致程度。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D16",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D16",
+      "topic": "算法管理",
+      "keywords_en": [
+        "algorithmic management"
+      ],
+      "facet": "definition",
+      "text": "算法管理（algorithmic management）：利用数据和自动化规则分配监督或评价劳动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D17",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D17",
+      "topic": "工作满意度",
+      "keywords_en": [
+        "job satisfaction"
+      ],
+      "facet": "definition",
+      "text": "工作满意度（job satisfaction）：个体对工作体验的总体评价。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D18",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D18",
+      "topic": "工作倦怠",
+      "keywords_en": [
+        "burnout"
+      ],
+      "facet": "definition",
+      "text": "工作倦怠（burnout）：长期工作压力相关的耗竭、疏离和效能下降体验。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D19",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D19",
+      "topic": "组织文化",
+      "keywords_en": [
+        "organizational culture"
+      ],
+      "facet": "definition",
+      "text": "组织文化（organizational culture）：组织成员共享的规范价值和行为预期。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_D20",
+      "domain": "work_economy",
+      "concept_id": "work_economy_D20",
+      "topic": "职业培训",
+      "keywords_en": [
+        "vocational training"
+      ],
+      "facet": "definition",
+      "text": "职业培训（vocational training）：围绕工作能力发展而开展的系统学习活动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C01_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C01_1",
+      "topic": "劳动合同与正式就业",
+      "keywords_en": [
+        "employment contract",
+        "formal employment"
+      ],
+      "facet": "concept_distinction",
+      "text": "劳动合同与正式就业应作概念区分：劳动合同是明确雇佣双方权利义务的协议；正式就业是在相应制度下具有正式劳动关系的就业形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C01_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C01_2",
+      "topic": "劳动合同与非正式就业",
+      "keywords_en": [
+        "employment contract",
+        "informal employment"
+      ],
+      "facet": "concept_distinction",
+      "text": "劳动合同与非正式就业应作概念区分：劳动合同是明确雇佣双方权利义务的协议；非正式就业是缺少部分正式保护或登记安排的工作形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C01_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C01_3",
+      "topic": "劳动合同与平台劳动",
+      "keywords_en": [
+        "employment contract",
+        "platform work"
+      ],
+      "facet": "concept_distinction",
+      "text": "劳动合同与平台劳动应作概念区分：劳动合同是明确雇佣双方权利义务的协议；平台劳动是通过数字平台匹配、管理或评价劳动任务的工作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C01_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C01_4",
+      "topic": "劳动合同与零工经济",
+      "keywords_en": [
+        "employment contract",
+        "gig economy"
+      ],
+      "facet": "concept_distinction",
+      "text": "劳动合同与零工经济应作概念区分：劳动合同是明确雇佣双方权利义务的协议；零工经济是以短期任务和项目交易为特征的一类劳动安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C02_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C02_1",
+      "topic": "正式就业与非正式就业",
+      "keywords_en": [
+        "formal employment",
+        "informal employment"
+      ],
+      "facet": "concept_distinction",
+      "text": "正式就业与非正式就业应作概念区分：正式就业是在相应制度下具有正式劳动关系的就业形式；非正式就业是缺少部分正式保护或登记安排的工作形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C02_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C02_2",
+      "topic": "正式就业与平台劳动",
+      "keywords_en": [
+        "formal employment",
+        "platform work"
+      ],
+      "facet": "concept_distinction",
+      "text": "正式就业与平台劳动应作概念区分：正式就业是在相应制度下具有正式劳动关系的就业形式；平台劳动是通过数字平台匹配、管理或评价劳动任务的工作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C02_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C02_3",
+      "topic": "正式就业与零工经济",
+      "keywords_en": [
+        "formal employment",
+        "gig economy"
+      ],
+      "facet": "concept_distinction",
+      "text": "正式就业与零工经济应作概念区分：正式就业是在相应制度下具有正式劳动关系的就业形式；零工经济是以短期任务和项目交易为特征的一类劳动安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C02_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C02_4",
+      "topic": "正式就业与劳动生产率",
+      "keywords_en": [
+        "formal employment",
+        "labor productivity"
+      ],
+      "facet": "concept_distinction",
+      "text": "正式就业与劳动生产率应作概念区分：正式就业是在相应制度下具有正式劳动关系的就业形式；劳动生产率是单位劳动投入所创造的产出。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C03_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C03_1",
+      "topic": "非正式就业与平台劳动",
+      "keywords_en": [
+        "informal employment",
+        "platform work"
+      ],
+      "facet": "concept_distinction",
+      "text": "非正式就业与平台劳动应作概念区分：非正式就业是缺少部分正式保护或登记安排的工作形式；平台劳动是通过数字平台匹配、管理或评价劳动任务的工作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C03_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C03_2",
+      "topic": "非正式就业与零工经济",
+      "keywords_en": [
+        "informal employment",
+        "gig economy"
+      ],
+      "facet": "concept_distinction",
+      "text": "非正式就业与零工经济应作概念区分：非正式就业是缺少部分正式保护或登记安排的工作形式；零工经济是以短期任务和项目交易为特征的一类劳动安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C03_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C03_3",
+      "topic": "非正式就业与劳动生产率",
+      "keywords_en": [
+        "informal employment",
+        "labor productivity"
+      ],
+      "facet": "concept_distinction",
+      "text": "非正式就业与劳动生产率应作概念区分：非正式就业是缺少部分正式保护或登记安排的工作形式；劳动生产率是单位劳动投入所创造的产出。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C03_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C03_4",
+      "topic": "非正式就业与机会成本",
+      "keywords_en": [
+        "informal employment",
+        "opportunity cost"
+      ],
+      "facet": "concept_distinction",
+      "text": "非正式就业与机会成本应作概念区分：非正式就业是缺少部分正式保护或登记安排的工作形式；机会成本是选择某方案而放弃的最佳替代用途价值。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C04_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C04_1",
+      "topic": "平台劳动与零工经济",
+      "keywords_en": [
+        "platform work",
+        "gig economy"
+      ],
+      "facet": "concept_distinction",
+      "text": "平台劳动与零工经济应作概念区分：平台劳动是通过数字平台匹配、管理或评价劳动任务的工作；零工经济是以短期任务和项目交易为特征的一类劳动安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C04_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C04_2",
+      "topic": "平台劳动与劳动生产率",
+      "keywords_en": [
+        "platform work",
+        "labor productivity"
+      ],
+      "facet": "concept_distinction",
+      "text": "平台劳动与劳动生产率应作概念区分：平台劳动是通过数字平台匹配、管理或评价劳动任务的工作；劳动生产率是单位劳动投入所创造的产出。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C04_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C04_3",
+      "topic": "平台劳动与机会成本",
+      "keywords_en": [
+        "platform work",
+        "opportunity cost"
+      ],
+      "facet": "concept_distinction",
+      "text": "平台劳动与机会成本应作概念区分：平台劳动是通过数字平台匹配、管理或评价劳动任务的工作；机会成本是选择某方案而放弃的最佳替代用途价值。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C04_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C04_4",
+      "topic": "平台劳动与供给",
+      "keywords_en": [
+        "platform work",
+        "supply"
+      ],
+      "facet": "concept_distinction",
+      "text": "平台劳动与供给应作概念区分：平台劳动是通过数字平台匹配、管理或评价劳动任务的工作；供给是其他条件相同时生产者在各价格愿意提供的数量关系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C05_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C05_1",
+      "topic": "零工经济与劳动生产率",
+      "keywords_en": [
+        "gig economy",
+        "labor productivity"
+      ],
+      "facet": "concept_distinction",
+      "text": "零工经济与劳动生产率应作概念区分：零工经济是以短期任务和项目交易为特征的一类劳动安排；劳动生产率是单位劳动投入所创造的产出。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C05_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C05_2",
+      "topic": "零工经济与机会成本",
+      "keywords_en": [
+        "gig economy",
+        "opportunity cost"
+      ],
+      "facet": "concept_distinction",
+      "text": "零工经济与机会成本应作概念区分：零工经济是以短期任务和项目交易为特征的一类劳动安排；机会成本是选择某方案而放弃的最佳替代用途价值。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C05_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C05_3",
+      "topic": "零工经济与供给",
+      "keywords_en": [
+        "gig economy",
+        "supply"
+      ],
+      "facet": "concept_distinction",
+      "text": "零工经济与供给应作概念区分：零工经济是以短期任务和项目交易为特征的一类劳动安排；供给是其他条件相同时生产者在各价格愿意提供的数量关系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C05_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C05_4",
+      "topic": "零工经济与需求",
+      "keywords_en": [
+        "gig economy",
+        "demand"
+      ],
+      "facet": "concept_distinction",
+      "text": "零工经济与需求应作概念区分：零工经济是以短期任务和项目交易为特征的一类劳动安排；需求是其他条件相同时消费者在各价格愿意购买的数量关系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C06_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C06_1",
+      "topic": "劳动生产率与机会成本",
+      "keywords_en": [
+        "labor productivity",
+        "opportunity cost"
+      ],
+      "facet": "concept_distinction",
+      "text": "劳动生产率与机会成本应作概念区分：劳动生产率是单位劳动投入所创造的产出；机会成本是选择某方案而放弃的最佳替代用途价值。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C06_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C06_2",
+      "topic": "劳动生产率与供给",
+      "keywords_en": [
+        "labor productivity",
+        "supply"
+      ],
+      "facet": "concept_distinction",
+      "text": "劳动生产率与供给应作概念区分：劳动生产率是单位劳动投入所创造的产出；供给是其他条件相同时生产者在各价格愿意提供的数量关系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C06_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C06_3",
+      "topic": "劳动生产率与需求",
+      "keywords_en": [
+        "labor productivity",
+        "demand"
+      ],
+      "facet": "concept_distinction",
+      "text": "劳动生产率与需求应作概念区分：劳动生产率是单位劳动投入所创造的产出；需求是其他条件相同时消费者在各价格愿意购买的数量关系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C06_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C06_4",
+      "topic": "劳动生产率与均衡价格",
+      "keywords_en": [
+        "labor productivity",
+        "equilibrium price"
+      ],
+      "facet": "concept_distinction",
+      "text": "劳动生产率与均衡价格应作概念区分：劳动生产率是单位劳动投入所创造的产出；均衡价格是供给和需求意愿相协调时形成的市场价格。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C07_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C07_1",
+      "topic": "机会成本与供给",
+      "keywords_en": [
+        "opportunity cost",
+        "supply"
+      ],
+      "facet": "concept_distinction",
+      "text": "机会成本与供给应作概念区分：机会成本是选择某方案而放弃的最佳替代用途价值；供给是其他条件相同时生产者在各价格愿意提供的数量关系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C07_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C07_2",
+      "topic": "机会成本与需求",
+      "keywords_en": [
+        "opportunity cost",
+        "demand"
+      ],
+      "facet": "concept_distinction",
+      "text": "机会成本与需求应作概念区分：机会成本是选择某方案而放弃的最佳替代用途价值；需求是其他条件相同时消费者在各价格愿意购买的数量关系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C07_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C07_3",
+      "topic": "机会成本与均衡价格",
+      "keywords_en": [
+        "opportunity cost",
+        "equilibrium price"
+      ],
+      "facet": "concept_distinction",
+      "text": "机会成本与均衡价格应作概念区分：机会成本是选择某方案而放弃的最佳替代用途价值；均衡价格是供给和需求意愿相协调时形成的市场价格。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C07_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C07_4",
+      "topic": "机会成本与通货膨胀",
+      "keywords_en": [
+        "opportunity cost",
+        "inflation"
+      ],
+      "facet": "concept_distinction",
+      "text": "机会成本与通货膨胀应作概念区分：机会成本是选择某方案而放弃的最佳替代用途价值；通货膨胀是一般价格水平持续上升的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C08_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C08_1",
+      "topic": "供给与需求",
+      "keywords_en": [
+        "supply",
+        "demand"
+      ],
+      "facet": "concept_distinction",
+      "text": "供给与需求应作概念区分：供给是其他条件相同时生产者在各价格愿意提供的数量关系；需求是其他条件相同时消费者在各价格愿意购买的数量关系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C08_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C08_2",
+      "topic": "供给与均衡价格",
+      "keywords_en": [
+        "supply",
+        "equilibrium price"
+      ],
+      "facet": "concept_distinction",
+      "text": "供给与均衡价格应作概念区分：供给是其他条件相同时生产者在各价格愿意提供的数量关系；均衡价格是供给和需求意愿相协调时形成的市场价格。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C08_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C08_3",
+      "topic": "供给与通货膨胀",
+      "keywords_en": [
+        "supply",
+        "inflation"
+      ],
+      "facet": "concept_distinction",
+      "text": "供给与通货膨胀应作概念区分：供给是其他条件相同时生产者在各价格愿意提供的数量关系；通货膨胀是一般价格水平持续上升的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C08_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C08_4",
+      "topic": "供给与失业率",
+      "keywords_en": [
+        "supply",
+        "unemployment rate"
+      ],
+      "facet": "concept_distinction",
+      "text": "供给与失业率应作概念区分：供给是其他条件相同时生产者在各价格愿意提供的数量关系；失业率是劳动力中没有工作且满足求职等标准者的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C09_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C09_1",
+      "topic": "需求与均衡价格",
+      "keywords_en": [
+        "demand",
+        "equilibrium price"
+      ],
+      "facet": "concept_distinction",
+      "text": "需求与均衡价格应作概念区分：需求是其他条件相同时消费者在各价格愿意购买的数量关系；均衡价格是供给和需求意愿相协调时形成的市场价格。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C09_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C09_2",
+      "topic": "需求与通货膨胀",
+      "keywords_en": [
+        "demand",
+        "inflation"
+      ],
+      "facet": "concept_distinction",
+      "text": "需求与通货膨胀应作概念区分：需求是其他条件相同时消费者在各价格愿意购买的数量关系；通货膨胀是一般价格水平持续上升的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C09_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C09_3",
+      "topic": "需求与失业率",
+      "keywords_en": [
+        "demand",
+        "unemployment rate"
+      ],
+      "facet": "concept_distinction",
+      "text": "需求与失业率应作概念区分：需求是其他条件相同时消费者在各价格愿意购买的数量关系；失业率是劳动力中没有工作且满足求职等标准者的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C09_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C09_4",
+      "topic": "需求与最低工资",
+      "keywords_en": [
+        "demand",
+        "minimum wage"
+      ],
+      "facet": "concept_distinction",
+      "text": "需求与最低工资应作概念区分：需求是其他条件相同时消费者在各价格愿意购买的数量关系；最低工资是法规规定的工资支付下限。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C10_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C10_1",
+      "topic": "均衡价格与通货膨胀",
+      "keywords_en": [
+        "equilibrium price",
+        "inflation"
+      ],
+      "facet": "concept_distinction",
+      "text": "均衡价格与通货膨胀应作概念区分：均衡价格是供给和需求意愿相协调时形成的市场价格；通货膨胀是一般价格水平持续上升的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C10_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C10_2",
+      "topic": "均衡价格与失业率",
+      "keywords_en": [
+        "equilibrium price",
+        "unemployment rate"
+      ],
+      "facet": "concept_distinction",
+      "text": "均衡价格与失业率应作概念区分：均衡价格是供给和需求意愿相协调时形成的市场价格；失业率是劳动力中没有工作且满足求职等标准者的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C10_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C10_3",
+      "topic": "均衡价格与最低工资",
+      "keywords_en": [
+        "equilibrium price",
+        "minimum wage"
+      ],
+      "facet": "concept_distinction",
+      "text": "均衡价格与最低工资应作概念区分：均衡价格是供给和需求意愿相协调时形成的市场价格；最低工资是法规规定的工资支付下限。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C10_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C10_4",
+      "topic": "均衡价格与职业流动",
+      "keywords_en": [
+        "equilibrium price",
+        "career mobility"
+      ],
+      "facet": "concept_distinction",
+      "text": "均衡价格与职业流动应作概念区分：均衡价格是供给和需求意愿相协调时形成的市场价格；职业流动是劳动者跨岗位、职业或部门的变化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C11_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C11_1",
+      "topic": "通货膨胀与失业率",
+      "keywords_en": [
+        "inflation",
+        "unemployment rate"
+      ],
+      "facet": "concept_distinction",
+      "text": "通货膨胀与失业率应作概念区分：通货膨胀是一般价格水平持续上升的现象；失业率是劳动力中没有工作且满足求职等标准者的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C11_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C11_2",
+      "topic": "通货膨胀与最低工资",
+      "keywords_en": [
+        "inflation",
+        "minimum wage"
+      ],
+      "facet": "concept_distinction",
+      "text": "通货膨胀与最低工资应作概念区分：通货膨胀是一般价格水平持续上升的现象；最低工资是法规规定的工资支付下限。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C11_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C11_3",
+      "topic": "通货膨胀与职业流动",
+      "keywords_en": [
+        "inflation",
+        "career mobility"
+      ],
+      "facet": "concept_distinction",
+      "text": "通货膨胀与职业流动应作概念区分：通货膨胀是一般价格水平持续上升的现象；职业流动是劳动者跨岗位、职业或部门的变化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C11_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C11_4",
+      "topic": "通货膨胀与技能匹配",
+      "keywords_en": [
+        "inflation",
+        "skill matching"
+      ],
+      "facet": "concept_distinction",
+      "text": "通货膨胀与技能匹配应作概念区分：通货膨胀是一般价格水平持续上升的现象；技能匹配是劳动者能力与岗位任务要求之间的一致程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C12_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C12_1",
+      "topic": "失业率与最低工资",
+      "keywords_en": [
+        "unemployment rate",
+        "minimum wage"
+      ],
+      "facet": "concept_distinction",
+      "text": "失业率与最低工资应作概念区分：失业率是劳动力中没有工作且满足求职等标准者的比例；最低工资是法规规定的工资支付下限。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C12_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C12_2",
+      "topic": "失业率与职业流动",
+      "keywords_en": [
+        "unemployment rate",
+        "career mobility"
+      ],
+      "facet": "concept_distinction",
+      "text": "失业率与职业流动应作概念区分：失业率是劳动力中没有工作且满足求职等标准者的比例；职业流动是劳动者跨岗位、职业或部门的变化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C12_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C12_3",
+      "topic": "失业率与技能匹配",
+      "keywords_en": [
+        "unemployment rate",
+        "skill matching"
+      ],
+      "facet": "concept_distinction",
+      "text": "失业率与技能匹配应作概念区分：失业率是劳动力中没有工作且满足求职等标准者的比例；技能匹配是劳动者能力与岗位任务要求之间的一致程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C12_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C12_4",
+      "topic": "失业率与算法管理",
+      "keywords_en": [
+        "unemployment rate",
+        "algorithmic management"
+      ],
+      "facet": "concept_distinction",
+      "text": "失业率与算法管理应作概念区分：失业率是劳动力中没有工作且满足求职等标准者的比例；算法管理是利用数据和自动化规则分配监督或评价劳动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C13_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C13_1",
+      "topic": "最低工资与职业流动",
+      "keywords_en": [
+        "minimum wage",
+        "career mobility"
+      ],
+      "facet": "concept_distinction",
+      "text": "最低工资与职业流动应作概念区分：最低工资是法规规定的工资支付下限；职业流动是劳动者跨岗位、职业或部门的变化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C13_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C13_2",
+      "topic": "最低工资与技能匹配",
+      "keywords_en": [
+        "minimum wage",
+        "skill matching"
+      ],
+      "facet": "concept_distinction",
+      "text": "最低工资与技能匹配应作概念区分：最低工资是法规规定的工资支付下限；技能匹配是劳动者能力与岗位任务要求之间的一致程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C13_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C13_3",
+      "topic": "最低工资与算法管理",
+      "keywords_en": [
+        "minimum wage",
+        "algorithmic management"
+      ],
+      "facet": "concept_distinction",
+      "text": "最低工资与算法管理应作概念区分：最低工资是法规规定的工资支付下限；算法管理是利用数据和自动化规则分配监督或评价劳动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C13_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C13_4",
+      "topic": "最低工资与工作满意度",
+      "keywords_en": [
+        "minimum wage",
+        "job satisfaction"
+      ],
+      "facet": "concept_distinction",
+      "text": "最低工资与工作满意度应作概念区分：最低工资是法规规定的工资支付下限；工作满意度是个体对工作体验的总体评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C14_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C14_1",
+      "topic": "职业流动与技能匹配",
+      "keywords_en": [
+        "career mobility",
+        "skill matching"
+      ],
+      "facet": "concept_distinction",
+      "text": "职业流动与技能匹配应作概念区分：职业流动是劳动者跨岗位、职业或部门的变化；技能匹配是劳动者能力与岗位任务要求之间的一致程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C14_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C14_2",
+      "topic": "职业流动与算法管理",
+      "keywords_en": [
+        "career mobility",
+        "algorithmic management"
+      ],
+      "facet": "concept_distinction",
+      "text": "职业流动与算法管理应作概念区分：职业流动是劳动者跨岗位、职业或部门的变化；算法管理是利用数据和自动化规则分配监督或评价劳动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C14_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C14_3",
+      "topic": "职业流动与工作满意度",
+      "keywords_en": [
+        "career mobility",
+        "job satisfaction"
+      ],
+      "facet": "concept_distinction",
+      "text": "职业流动与工作满意度应作概念区分：职业流动是劳动者跨岗位、职业或部门的变化；工作满意度是个体对工作体验的总体评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C14_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C14_4",
+      "topic": "职业流动与工作倦怠",
+      "keywords_en": [
+        "career mobility",
+        "burnout"
+      ],
+      "facet": "concept_distinction",
+      "text": "职业流动与工作倦怠应作概念区分：职业流动是劳动者跨岗位、职业或部门的变化；工作倦怠是长期工作压力相关的耗竭、疏离和效能下降体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C15_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C15_1",
+      "topic": "技能匹配与算法管理",
+      "keywords_en": [
+        "skill matching",
+        "algorithmic management"
+      ],
+      "facet": "concept_distinction",
+      "text": "技能匹配与算法管理应作概念区分：技能匹配是劳动者能力与岗位任务要求之间的一致程度；算法管理是利用数据和自动化规则分配监督或评价劳动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C15_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C15_2",
+      "topic": "技能匹配与工作满意度",
+      "keywords_en": [
+        "skill matching",
+        "job satisfaction"
+      ],
+      "facet": "concept_distinction",
+      "text": "技能匹配与工作满意度应作概念区分：技能匹配是劳动者能力与岗位任务要求之间的一致程度；工作满意度是个体对工作体验的总体评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C15_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C15_3",
+      "topic": "技能匹配与工作倦怠",
+      "keywords_en": [
+        "skill matching",
+        "burnout"
+      ],
+      "facet": "concept_distinction",
+      "text": "技能匹配与工作倦怠应作概念区分：技能匹配是劳动者能力与岗位任务要求之间的一致程度；工作倦怠是长期工作压力相关的耗竭、疏离和效能下降体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C15_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C15_4",
+      "topic": "技能匹配与组织文化",
+      "keywords_en": [
+        "skill matching",
+        "organizational culture"
+      ],
+      "facet": "concept_distinction",
+      "text": "技能匹配与组织文化应作概念区分：技能匹配是劳动者能力与岗位任务要求之间的一致程度；组织文化是组织成员共享的规范价值和行为预期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C16_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C16_1",
+      "topic": "算法管理与工作满意度",
+      "keywords_en": [
+        "algorithmic management",
+        "job satisfaction"
+      ],
+      "facet": "concept_distinction",
+      "text": "算法管理与工作满意度应作概念区分：算法管理是利用数据和自动化规则分配监督或评价劳动；工作满意度是个体对工作体验的总体评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C16_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C16_2",
+      "topic": "算法管理与工作倦怠",
+      "keywords_en": [
+        "algorithmic management",
+        "burnout"
+      ],
+      "facet": "concept_distinction",
+      "text": "算法管理与工作倦怠应作概念区分：算法管理是利用数据和自动化规则分配监督或评价劳动；工作倦怠是长期工作压力相关的耗竭、疏离和效能下降体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C16_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C16_3",
+      "topic": "算法管理与组织文化",
+      "keywords_en": [
+        "algorithmic management",
+        "organizational culture"
+      ],
+      "facet": "concept_distinction",
+      "text": "算法管理与组织文化应作概念区分：算法管理是利用数据和自动化规则分配监督或评价劳动；组织文化是组织成员共享的规范价值和行为预期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C16_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C16_4",
+      "topic": "算法管理与职业培训",
+      "keywords_en": [
+        "algorithmic management",
+        "vocational training"
+      ],
+      "facet": "concept_distinction",
+      "text": "算法管理与职业培训应作概念区分：算法管理是利用数据和自动化规则分配监督或评价劳动；职业培训是围绕工作能力发展而开展的系统学习活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C17_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C17_1",
+      "topic": "工作满意度与工作倦怠",
+      "keywords_en": [
+        "job satisfaction",
+        "burnout"
+      ],
+      "facet": "concept_distinction",
+      "text": "工作满意度与工作倦怠应作概念区分：工作满意度是个体对工作体验的总体评价；工作倦怠是长期工作压力相关的耗竭、疏离和效能下降体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C17_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C17_2",
+      "topic": "工作满意度与组织文化",
+      "keywords_en": [
+        "job satisfaction",
+        "organizational culture"
+      ],
+      "facet": "concept_distinction",
+      "text": "工作满意度与组织文化应作概念区分：工作满意度是个体对工作体验的总体评价；组织文化是组织成员共享的规范价值和行为预期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C17_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C17_3",
+      "topic": "工作满意度与职业培训",
+      "keywords_en": [
+        "job satisfaction",
+        "vocational training"
+      ],
+      "facet": "concept_distinction",
+      "text": "工作满意度与职业培训应作概念区分：工作满意度是个体对工作体验的总体评价；职业培训是围绕工作能力发展而开展的系统学习活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C17_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C17_4",
+      "topic": "工作满意度与劳动合同",
+      "keywords_en": [
+        "job satisfaction",
+        "employment contract"
+      ],
+      "facet": "concept_distinction",
+      "text": "工作满意度与劳动合同应作概念区分：工作满意度是个体对工作体验的总体评价；劳动合同是明确雇佣双方权利义务的协议。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C18_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C18_1",
+      "topic": "工作倦怠与组织文化",
+      "keywords_en": [
+        "burnout",
+        "organizational culture"
+      ],
+      "facet": "concept_distinction",
+      "text": "工作倦怠与组织文化应作概念区分：工作倦怠是长期工作压力相关的耗竭、疏离和效能下降体验；组织文化是组织成员共享的规范价值和行为预期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C18_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C18_2",
+      "topic": "工作倦怠与职业培训",
+      "keywords_en": [
+        "burnout",
+        "vocational training"
+      ],
+      "facet": "concept_distinction",
+      "text": "工作倦怠与职业培训应作概念区分：工作倦怠是长期工作压力相关的耗竭、疏离和效能下降体验；职业培训是围绕工作能力发展而开展的系统学习活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C18_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C18_3",
+      "topic": "工作倦怠与劳动合同",
+      "keywords_en": [
+        "burnout",
+        "employment contract"
+      ],
+      "facet": "concept_distinction",
+      "text": "工作倦怠与劳动合同应作概念区分：工作倦怠是长期工作压力相关的耗竭、疏离和效能下降体验；劳动合同是明确雇佣双方权利义务的协议。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C18_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C18_4",
+      "topic": "工作倦怠与正式就业",
+      "keywords_en": [
+        "burnout",
+        "formal employment"
+      ],
+      "facet": "concept_distinction",
+      "text": "工作倦怠与正式就业应作概念区分：工作倦怠是长期工作压力相关的耗竭、疏离和效能下降体验；正式就业是在相应制度下具有正式劳动关系的就业形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C19_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C19_1",
+      "topic": "组织文化与职业培训",
+      "keywords_en": [
+        "organizational culture",
+        "vocational training"
+      ],
+      "facet": "concept_distinction",
+      "text": "组织文化与职业培训应作概念区分：组织文化是组织成员共享的规范价值和行为预期；职业培训是围绕工作能力发展而开展的系统学习活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C19_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C19_2",
+      "topic": "组织文化与劳动合同",
+      "keywords_en": [
+        "organizational culture",
+        "employment contract"
+      ],
+      "facet": "concept_distinction",
+      "text": "组织文化与劳动合同应作概念区分：组织文化是组织成员共享的规范价值和行为预期；劳动合同是明确雇佣双方权利义务的协议。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C19_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C19_3",
+      "topic": "组织文化与正式就业",
+      "keywords_en": [
+        "organizational culture",
+        "formal employment"
+      ],
+      "facet": "concept_distinction",
+      "text": "组织文化与正式就业应作概念区分：组织文化是组织成员共享的规范价值和行为预期；正式就业是在相应制度下具有正式劳动关系的就业形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C19_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C19_4",
+      "topic": "组织文化与非正式就业",
+      "keywords_en": [
+        "organizational culture",
+        "informal employment"
+      ],
+      "facet": "concept_distinction",
+      "text": "组织文化与非正式就业应作概念区分：组织文化是组织成员共享的规范价值和行为预期；非正式就业是缺少部分正式保护或登记安排的工作形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C20_1",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C20_1",
+      "topic": "职业培训与劳动合同",
+      "keywords_en": [
+        "vocational training",
+        "employment contract"
+      ],
+      "facet": "concept_distinction",
+      "text": "职业培训与劳动合同应作概念区分：职业培训是围绕工作能力发展而开展的系统学习活动；劳动合同是明确雇佣双方权利义务的协议。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C20_2",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C20_2",
+      "topic": "职业培训与正式就业",
+      "keywords_en": [
+        "vocational training",
+        "formal employment"
+      ],
+      "facet": "concept_distinction",
+      "text": "职业培训与正式就业应作概念区分：职业培训是围绕工作能力发展而开展的系统学习活动；正式就业是在相应制度下具有正式劳动关系的就业形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C20_3",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C20_3",
+      "topic": "职业培训与非正式就业",
+      "keywords_en": [
+        "vocational training",
+        "informal employment"
+      ],
+      "facet": "concept_distinction",
+      "text": "职业培训与非正式就业应作概念区分：职业培训是围绕工作能力发展而开展的系统学习活动；非正式就业是缺少部分正式保护或登记安排的工作形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_work_economy_C20_4",
+      "domain": "work_economy",
+      "concept_id": "work_economy_C20_4",
+      "topic": "职业培训与平台劳动",
+      "keywords_en": [
+        "vocational training",
+        "platform work"
+      ],
+      "facet": "concept_distinction",
+      "text": "职业培训与平台劳动应作概念区分：职业培训是围绕工作能力发展而开展的系统学习活动；平台劳动是通过数字平台匹配、管理或评价劳动任务的工作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

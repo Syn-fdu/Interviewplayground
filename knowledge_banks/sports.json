@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "sports",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_sports_D01",
+      "domain": "sports",
+      "concept_id": "sports_D01",
+      "topic": "体育竞赛",
+      "keywords_en": [
+        "sport competition"
+      ],
+      "facet": "definition",
+      "text": "体育竞赛（sport competition）：依据规则在指定项目中比较表现的活动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D02",
+      "domain": "sports",
+      "concept_id": "sports_D02",
+      "topic": "赛制",
+      "keywords_en": [
+        "competition format"
+      ],
+      "facet": "definition",
+      "text": "赛制（competition format）：决定比赛阶段晋级和排名的规则。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D03",
+      "domain": "sports",
+      "concept_id": "sports_D03",
+      "topic": "常规赛",
+      "keywords_en": [
+        "regular season"
+      ],
+      "facet": "definition",
+      "text": "常规赛（regular season）：联赛中按安排进行的基础赛程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D04",
+      "domain": "sports",
+      "concept_id": "sports_D04",
+      "topic": "季后赛",
+      "keywords_en": [
+        "playoffs"
+      ],
+      "facet": "definition",
+      "text": "季后赛（playoffs）：在常规赛后决定晋级或冠军的比赛阶段。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D05",
+      "domain": "sports",
+      "concept_id": "sports_D05",
+      "topic": "团队战术",
+      "keywords_en": [
+        "team strategy"
+      ],
+      "facet": "definition",
+      "text": "团队战术（team strategy）：运动队在比赛中协调位置和行动的方法。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D06",
+      "domain": "sports",
+      "concept_id": "sports_D06",
+      "topic": "个人技术",
+      "keywords_en": [
+        "individual technique"
+      ],
+      "facet": "definition",
+      "text": "个人技术（individual technique）：运动员完成项目动作所需的技能。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D07",
+      "domain": "sports",
+      "concept_id": "sports_D07",
+      "topic": "体能训练",
+      "keywords_en": [
+        "physical training"
+      ],
+      "facet": "definition",
+      "text": "体能训练（physical training）：针对力量耐力速度或柔韧性开展的训练。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D08",
+      "domain": "sports",
+      "concept_id": "sports_D08",
+      "topic": "恢复管理",
+      "keywords_en": [
+        "recovery management"
+      ],
+      "facet": "definition",
+      "text": "恢复管理（recovery management）：通过睡眠营养和负荷调节促进训练适应的实践。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D09",
+      "domain": "sports",
+      "concept_id": "sports_D09",
+      "topic": "运动损伤",
+      "keywords_en": [
+        "sports injury"
+      ],
+      "facet": "definition",
+      "text": "运动损伤（sports injury）：运动或训练过程中发生的身体组织损伤。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D10",
+      "domain": "sports",
+      "concept_id": "sports_D10",
+      "topic": "伤病管理",
+      "keywords_en": [
+        "injury management"
+      ],
+      "facet": "definition",
+      "text": "伤病管理（injury management）：评估治疗康复并决定重返运动的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D11",
+      "domain": "sports",
+      "concept_id": "sports_D11",
+      "topic": "反兴奋剂",
+      "keywords_en": [
+        "anti doping"
+      ],
+      "facet": "definition",
+      "text": "反兴奋剂（anti doping）：禁止和监测不公平使用特定物质或方法的制度。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D12",
+      "domain": "sports",
+      "concept_id": "sports_D12",
+      "topic": "裁判判罚",
+      "keywords_en": [
+        "referee decisions"
+      ],
+      "facet": "definition",
+      "text": "裁判判罚（referee decisions）：依据竞赛规则对场上行为做出的判定。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D13",
+      "domain": "sports",
+      "concept_id": "sports_D13",
+      "topic": "主客场",
+      "keywords_en": [
+        "home away"
+      ],
+      "facet": "definition",
+      "text": "主客场（home away）：比赛场地归属与相关赛程安排。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D14",
+      "domain": "sports",
+      "concept_id": "sports_D14",
+      "topic": "联赛积分",
+      "keywords_en": [
+        "league points"
+      ],
+      "facet": "definition",
+      "text": "联赛积分（league points）：按比赛结果累积并用于排名的分数机制。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D15",
+      "domain": "sports",
+      "concept_id": "sports_D15",
+      "topic": "转会",
+      "keywords_en": [
+        "player transfer"
+      ],
+      "facet": "definition",
+      "text": "转会（player transfer）：运动员在俱乐部或队伍之间转换注册关系。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D16",
+      "domain": "sports",
+      "concept_id": "sports_D16",
+      "topic": "青年培养",
+      "keywords_en": [
+        "youth development"
+      ],
+      "facet": "definition",
+      "text": "青年培养（youth development）：面向年轻运动员的长期技能和发展安排。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D17",
+      "domain": "sports",
+      "concept_id": "sports_D17",
+      "topic": "体育商业化",
+      "keywords_en": [
+        "sport commercialization"
+      ],
+      "facet": "definition",
+      "text": "体育商业化（sport commercialization）：赛事版权赞助票务和相关收入的产业活动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D18",
+      "domain": "sports",
+      "concept_id": "sports_D18",
+      "topic": "体育传媒权",
+      "keywords_en": [
+        "sports media rights"
+      ],
+      "facet": "definition",
+      "text": "体育传媒权（sports media rights）：赛事影像传播和分发相关的商业权利。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D19",
+      "domain": "sports",
+      "concept_id": "sports_D19",
+      "topic": "赛事安全",
+      "keywords_en": [
+        "event safety"
+      ],
+      "facet": "definition",
+      "text": "赛事安全（event safety）：保护参与者观众与工作人员的风险管理。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_D20",
+      "domain": "sports",
+      "concept_id": "sports_D20",
+      "topic": "竞技公平",
+      "keywords_en": [
+        "fair play"
+      ],
+      "facet": "definition",
+      "text": "竞技公平（fair play）：在规则执行和竞争条件方面维护公正的原则。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C01_1",
+      "domain": "sports",
+      "concept_id": "sports_C01_1",
+      "topic": "体育竞赛与赛制",
+      "keywords_en": [
+        "sport competition",
+        "competition format"
+      ],
+      "facet": "concept_distinction",
+      "text": "体育竞赛与赛制应作概念区分：体育竞赛是依据规则在指定项目中比较表现的活动；赛制是决定比赛阶段晋级和排名的规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C01_2",
+      "domain": "sports",
+      "concept_id": "sports_C01_2",
+      "topic": "体育竞赛与常规赛",
+      "keywords_en": [
+        "sport competition",
+        "regular season"
+      ],
+      "facet": "concept_distinction",
+      "text": "体育竞赛与常规赛应作概念区分：体育竞赛是依据规则在指定项目中比较表现的活动；常规赛是联赛中按安排进行的基础赛程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C01_3",
+      "domain": "sports",
+      "concept_id": "sports_C01_3",
+      "topic": "体育竞赛与季后赛",
+      "keywords_en": [
+        "sport competition",
+        "playoffs"
+      ],
+      "facet": "concept_distinction",
+      "text": "体育竞赛与季后赛应作概念区分：体育竞赛是依据规则在指定项目中比较表现的活动；季后赛是在常规赛后决定晋级或冠军的比赛阶段。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C01_4",
+      "domain": "sports",
+      "concept_id": "sports_C01_4",
+      "topic": "体育竞赛与团队战术",
+      "keywords_en": [
+        "sport competition",
+        "team strategy"
+      ],
+      "facet": "concept_distinction",
+      "text": "体育竞赛与团队战术应作概念区分：体育竞赛是依据规则在指定项目中比较表现的活动；团队战术是运动队在比赛中协调位置和行动的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C02_1",
+      "domain": "sports",
+      "concept_id": "sports_C02_1",
+      "topic": "赛制与常规赛",
+      "keywords_en": [
+        "competition format",
+        "regular season"
+      ],
+      "facet": "concept_distinction",
+      "text": "赛制与常规赛应作概念区分：赛制是决定比赛阶段晋级和排名的规则；常规赛是联赛中按安排进行的基础赛程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C02_2",
+      "domain": "sports",
+      "concept_id": "sports_C02_2",
+      "topic": "赛制与季后赛",
+      "keywords_en": [
+        "competition format",
+        "playoffs"
+      ],
+      "facet": "concept_distinction",
+      "text": "赛制与季后赛应作概念区分：赛制是决定比赛阶段晋级和排名的规则；季后赛是在常规赛后决定晋级或冠军的比赛阶段。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C02_3",
+      "domain": "sports",
+      "concept_id": "sports_C02_3",
+      "topic": "赛制与团队战术",
+      "keywords_en": [
+        "competition format",
+        "team strategy"
+      ],
+      "facet": "concept_distinction",
+      "text": "赛制与团队战术应作概念区分：赛制是决定比赛阶段晋级和排名的规则；团队战术是运动队在比赛中协调位置和行动的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C02_4",
+      "domain": "sports",
+      "concept_id": "sports_C02_4",
+      "topic": "赛制与个人技术",
+      "keywords_en": [
+        "competition format",
+        "individual technique"
+      ],
+      "facet": "concept_distinction",
+      "text": "赛制与个人技术应作概念区分：赛制是决定比赛阶段晋级和排名的规则；个人技术是运动员完成项目动作所需的技能。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C03_1",
+      "domain": "sports",
+      "concept_id": "sports_C03_1",
+      "topic": "常规赛与季后赛",
+      "keywords_en": [
+        "regular season",
+        "playoffs"
+      ],
+      "facet": "concept_distinction",
+      "text": "常规赛与季后赛应作概念区分：常规赛是联赛中按安排进行的基础赛程；季后赛是在常规赛后决定晋级或冠军的比赛阶段。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C03_2",
+      "domain": "sports",
+      "concept_id": "sports_C03_2",
+      "topic": "常规赛与团队战术",
+      "keywords_en": [
+        "regular season",
+        "team strategy"
+      ],
+      "facet": "concept_distinction",
+      "text": "常规赛与团队战术应作概念区分：常规赛是联赛中按安排进行的基础赛程；团队战术是运动队在比赛中协调位置和行动的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C03_3",
+      "domain": "sports",
+      "concept_id": "sports_C03_3",
+      "topic": "常规赛与个人技术",
+      "keywords_en": [
+        "regular season",
+        "individual technique"
+      ],
+      "facet": "concept_distinction",
+      "text": "常规赛与个人技术应作概念区分：常规赛是联赛中按安排进行的基础赛程；个人技术是运动员完成项目动作所需的技能。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C03_4",
+      "domain": "sports",
+      "concept_id": "sports_C03_4",
+      "topic": "常规赛与体能训练",
+      "keywords_en": [
+        "regular season",
+        "physical training"
+      ],
+      "facet": "concept_distinction",
+      "text": "常规赛与体能训练应作概念区分：常规赛是联赛中按安排进行的基础赛程；体能训练是针对力量耐力速度或柔韧性开展的训练。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C04_1",
+      "domain": "sports",
+      "concept_id": "sports_C04_1",
+      "topic": "季后赛与团队战术",
+      "keywords_en": [
+        "playoffs",
+        "team strategy"
+      ],
+      "facet": "concept_distinction",
+      "text": "季后赛与团队战术应作概念区分：季后赛是在常规赛后决定晋级或冠军的比赛阶段；团队战术是运动队在比赛中协调位置和行动的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C04_2",
+      "domain": "sports",
+      "concept_id": "sports_C04_2",
+      "topic": "季后赛与个人技术",
+      "keywords_en": [
+        "playoffs",
+        "individual technique"
+      ],
+      "facet": "concept_distinction",
+      "text": "季后赛与个人技术应作概念区分：季后赛是在常规赛后决定晋级或冠军的比赛阶段；个人技术是运动员完成项目动作所需的技能。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C04_3",
+      "domain": "sports",
+      "concept_id": "sports_C04_3",
+      "topic": "季后赛与体能训练",
+      "keywords_en": [
+        "playoffs",
+        "physical training"
+      ],
+      "facet": "concept_distinction",
+      "text": "季后赛与体能训练应作概念区分：季后赛是在常规赛后决定晋级或冠军的比赛阶段；体能训练是针对力量耐力速度或柔韧性开展的训练。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C04_4",
+      "domain": "sports",
+      "concept_id": "sports_C04_4",
+      "topic": "季后赛与恢复管理",
+      "keywords_en": [
+        "playoffs",
+        "recovery management"
+      ],
+      "facet": "concept_distinction",
+      "text": "季后赛与恢复管理应作概念区分：季后赛是在常规赛后决定晋级或冠军的比赛阶段；恢复管理是通过睡眠营养和负荷调节促进训练适应的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C05_1",
+      "domain": "sports",
+      "concept_id": "sports_C05_1",
+      "topic": "团队战术与个人技术",
+      "keywords_en": [
+        "team strategy",
+        "individual technique"
+      ],
+      "facet": "concept_distinction",
+      "text": "团队战术与个人技术应作概念区分：团队战术是运动队在比赛中协调位置和行动的方法；个人技术是运动员完成项目动作所需的技能。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C05_2",
+      "domain": "sports",
+      "concept_id": "sports_C05_2",
+      "topic": "团队战术与体能训练",
+      "keywords_en": [
+        "team strategy",
+        "physical training"
+      ],
+      "facet": "concept_distinction",
+      "text": "团队战术与体能训练应作概念区分：团队战术是运动队在比赛中协调位置和行动的方法；体能训练是针对力量耐力速度或柔韧性开展的训练。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C05_3",
+      "domain": "sports",
+      "concept_id": "sports_C05_3",
+      "topic": "团队战术与恢复管理",
+      "keywords_en": [
+        "team strategy",
+        "recovery management"
+      ],
+      "facet": "concept_distinction",
+      "text": "团队战术与恢复管理应作概念区分：团队战术是运动队在比赛中协调位置和行动的方法；恢复管理是通过睡眠营养和负荷调节促进训练适应的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C05_4",
+      "domain": "sports",
+      "concept_id": "sports_C05_4",
+      "topic": "团队战术与运动损伤",
+      "keywords_en": [
+        "team strategy",
+        "sports injury"
+      ],
+      "facet": "concept_distinction",
+      "text": "团队战术与运动损伤应作概念区分：团队战术是运动队在比赛中协调位置和行动的方法；运动损伤是运动或训练过程中发生的身体组织损伤。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C06_1",
+      "domain": "sports",
+      "concept_id": "sports_C06_1",
+      "topic": "个人技术与体能训练",
+      "keywords_en": [
+        "individual technique",
+        "physical training"
+      ],
+      "facet": "concept_distinction",
+      "text": "个人技术与体能训练应作概念区分：个人技术是运动员完成项目动作所需的技能；体能训练是针对力量耐力速度或柔韧性开展的训练。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C06_2",
+      "domain": "sports",
+      "concept_id": "sports_C06_2",
+      "topic": "个人技术与恢复管理",
+      "keywords_en": [
+        "individual technique",
+        "recovery management"
+      ],
+      "facet": "concept_distinction",
+      "text": "个人技术与恢复管理应作概念区分：个人技术是运动员完成项目动作所需的技能；恢复管理是通过睡眠营养和负荷调节促进训练适应的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C06_3",
+      "domain": "sports",
+      "concept_id": "sports_C06_3",
+      "topic": "个人技术与运动损伤",
+      "keywords_en": [
+        "individual technique",
+        "sports injury"
+      ],
+      "facet": "concept_distinction",
+      "text": "个人技术与运动损伤应作概念区分：个人技术是运动员完成项目动作所需的技能；运动损伤是运动或训练过程中发生的身体组织损伤。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C06_4",
+      "domain": "sports",
+      "concept_id": "sports_C06_4",
+      "topic": "个人技术与伤病管理",
+      "keywords_en": [
+        "individual technique",
+        "injury management"
+      ],
+      "facet": "concept_distinction",
+      "text": "个人技术与伤病管理应作概念区分：个人技术是运动员完成项目动作所需的技能；伤病管理是评估治疗康复并决定重返运动的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C07_1",
+      "domain": "sports",
+      "concept_id": "sports_C07_1",
+      "topic": "体能训练与恢复管理",
+      "keywords_en": [
+        "physical training",
+        "recovery management"
+      ],
+      "facet": "concept_distinction",
+      "text": "体能训练与恢复管理应作概念区分：体能训练是针对力量耐力速度或柔韧性开展的训练；恢复管理是通过睡眠营养和负荷调节促进训练适应的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C07_2",
+      "domain": "sports",
+      "concept_id": "sports_C07_2",
+      "topic": "体能训练与运动损伤",
+      "keywords_en": [
+        "physical training",
+        "sports injury"
+      ],
+      "facet": "concept_distinction",
+      "text": "体能训练与运动损伤应作概念区分：体能训练是针对力量耐力速度或柔韧性开展的训练；运动损伤是运动或训练过程中发生的身体组织损伤。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C07_3",
+      "domain": "sports",
+      "concept_id": "sports_C07_3",
+      "topic": "体能训练与伤病管理",
+      "keywords_en": [
+        "physical training",
+        "injury management"
+      ],
+      "facet": "concept_distinction",
+      "text": "体能训练与伤病管理应作概念区分：体能训练是针对力量耐力速度或柔韧性开展的训练；伤病管理是评估治疗康复并决定重返运动的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C07_4",
+      "domain": "sports",
+      "concept_id": "sports_C07_4",
+      "topic": "体能训练与反兴奋剂",
+      "keywords_en": [
+        "physical training",
+        "anti doping"
+      ],
+      "facet": "concept_distinction",
+      "text": "体能训练与反兴奋剂应作概念区分：体能训练是针对力量耐力速度或柔韧性开展的训练；反兴奋剂是禁止和监测不公平使用特定物质或方法的制度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C08_1",
+      "domain": "sports",
+      "concept_id": "sports_C08_1",
+      "topic": "恢复管理与运动损伤",
+      "keywords_en": [
+        "recovery management",
+        "sports injury"
+      ],
+      "facet": "concept_distinction",
+      "text": "恢复管理与运动损伤应作概念区分：恢复管理是通过睡眠营养和负荷调节促进训练适应的实践；运动损伤是运动或训练过程中发生的身体组织损伤。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C08_2",
+      "domain": "sports",
+      "concept_id": "sports_C08_2",
+      "topic": "恢复管理与伤病管理",
+      "keywords_en": [
+        "recovery management",
+        "injury management"
+      ],
+      "facet": "concept_distinction",
+      "text": "恢复管理与伤病管理应作概念区分：恢复管理是通过睡眠营养和负荷调节促进训练适应的实践；伤病管理是评估治疗康复并决定重返运动的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C08_3",
+      "domain": "sports",
+      "concept_id": "sports_C08_3",
+      "topic": "恢复管理与反兴奋剂",
+      "keywords_en": [
+        "recovery management",
+        "anti doping"
+      ],
+      "facet": "concept_distinction",
+      "text": "恢复管理与反兴奋剂应作概念区分：恢复管理是通过睡眠营养和负荷调节促进训练适应的实践；反兴奋剂是禁止和监测不公平使用特定物质或方法的制度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C08_4",
+      "domain": "sports",
+      "concept_id": "sports_C08_4",
+      "topic": "恢复管理与裁判判罚",
+      "keywords_en": [
+        "recovery management",
+        "referee decisions"
+      ],
+      "facet": "concept_distinction",
+      "text": "恢复管理与裁判判罚应作概念区分：恢复管理是通过睡眠营养和负荷调节促进训练适应的实践；裁判判罚是依据竞赛规则对场上行为做出的判定。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C09_1",
+      "domain": "sports",
+      "concept_id": "sports_C09_1",
+      "topic": "运动损伤与伤病管理",
+      "keywords_en": [
+        "sports injury",
+        "injury management"
+      ],
+      "facet": "concept_distinction",
+      "text": "运动损伤与伤病管理应作概念区分：运动损伤是运动或训练过程中发生的身体组织损伤；伤病管理是评估治疗康复并决定重返运动的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C09_2",
+      "domain": "sports",
+      "concept_id": "sports_C09_2",
+      "topic": "运动损伤与反兴奋剂",
+      "keywords_en": [
+        "sports injury",
+        "anti doping"
+      ],
+      "facet": "concept_distinction",
+      "text": "运动损伤与反兴奋剂应作概念区分：运动损伤是运动或训练过程中发生的身体组织损伤；反兴奋剂是禁止和监测不公平使用特定物质或方法的制度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C09_3",
+      "domain": "sports",
+      "concept_id": "sports_C09_3",
+      "topic": "运动损伤与裁判判罚",
+      "keywords_en": [
+        "sports injury",
+        "referee decisions"
+      ],
+      "facet": "concept_distinction",
+      "text": "运动损伤与裁判判罚应作概念区分：运动损伤是运动或训练过程中发生的身体组织损伤；裁判判罚是依据竞赛规则对场上行为做出的判定。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C09_4",
+      "domain": "sports",
+      "concept_id": "sports_C09_4",
+      "topic": "运动损伤与主客场",
+      "keywords_en": [
+        "sports injury",
+        "home away"
+      ],
+      "facet": "concept_distinction",
+      "text": "运动损伤与主客场应作概念区分：运动损伤是运动或训练过程中发生的身体组织损伤；主客场是比赛场地归属与相关赛程安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C10_1",
+      "domain": "sports",
+      "concept_id": "sports_C10_1",
+      "topic": "伤病管理与反兴奋剂",
+      "keywords_en": [
+        "injury management",
+        "anti doping"
+      ],
+      "facet": "concept_distinction",
+      "text": "伤病管理与反兴奋剂应作概念区分：伤病管理是评估治疗康复并决定重返运动的过程；反兴奋剂是禁止和监测不公平使用特定物质或方法的制度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C10_2",
+      "domain": "sports",
+      "concept_id": "sports_C10_2",
+      "topic": "伤病管理与裁判判罚",
+      "keywords_en": [
+        "injury management",
+        "referee decisions"
+      ],
+      "facet": "concept_distinction",
+      "text": "伤病管理与裁判判罚应作概念区分：伤病管理是评估治疗康复并决定重返运动的过程；裁判判罚是依据竞赛规则对场上行为做出的判定。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C10_3",
+      "domain": "sports",
+      "concept_id": "sports_C10_3",
+      "topic": "伤病管理与主客场",
+      "keywords_en": [
+        "injury management",
+        "home away"
+      ],
+      "facet": "concept_distinction",
+      "text": "伤病管理与主客场应作概念区分：伤病管理是评估治疗康复并决定重返运动的过程；主客场是比赛场地归属与相关赛程安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C10_4",
+      "domain": "sports",
+      "concept_id": "sports_C10_4",
+      "topic": "伤病管理与联赛积分",
+      "keywords_en": [
+        "injury management",
+        "league points"
+      ],
+      "facet": "concept_distinction",
+      "text": "伤病管理与联赛积分应作概念区分：伤病管理是评估治疗康复并决定重返运动的过程；联赛积分是按比赛结果累积并用于排名的分数机制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C11_1",
+      "domain": "sports",
+      "concept_id": "sports_C11_1",
+      "topic": "反兴奋剂与裁判判罚",
+      "keywords_en": [
+        "anti doping",
+        "referee decisions"
+      ],
+      "facet": "concept_distinction",
+      "text": "反兴奋剂与裁判判罚应作概念区分：反兴奋剂是禁止和监测不公平使用特定物质或方法的制度；裁判判罚是依据竞赛规则对场上行为做出的判定。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C11_2",
+      "domain": "sports",
+      "concept_id": "sports_C11_2",
+      "topic": "反兴奋剂与主客场",
+      "keywords_en": [
+        "anti doping",
+        "home away"
+      ],
+      "facet": "concept_distinction",
+      "text": "反兴奋剂与主客场应作概念区分：反兴奋剂是禁止和监测不公平使用特定物质或方法的制度；主客场是比赛场地归属与相关赛程安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C11_3",
+      "domain": "sports",
+      "concept_id": "sports_C11_3",
+      "topic": "反兴奋剂与联赛积分",
+      "keywords_en": [
+        "anti doping",
+        "league points"
+      ],
+      "facet": "concept_distinction",
+      "text": "反兴奋剂与联赛积分应作概念区分：反兴奋剂是禁止和监测不公平使用特定物质或方法的制度；联赛积分是按比赛结果累积并用于排名的分数机制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C11_4",
+      "domain": "sports",
+      "concept_id": "sports_C11_4",
+      "topic": "反兴奋剂与转会",
+      "keywords_en": [
+        "anti doping",
+        "player transfer"
+      ],
+      "facet": "concept_distinction",
+      "text": "反兴奋剂与转会应作概念区分：反兴奋剂是禁止和监测不公平使用特定物质或方法的制度；转会是运动员在俱乐部或队伍之间转换注册关系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C12_1",
+      "domain": "sports",
+      "concept_id": "sports_C12_1",
+      "topic": "裁判判罚与主客场",
+      "keywords_en": [
+        "referee decisions",
+        "home away"
+      ],
+      "facet": "concept_distinction",
+      "text": "裁判判罚与主客场应作概念区分：裁判判罚是依据竞赛规则对场上行为做出的判定；主客场是比赛场地归属与相关赛程安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C12_2",
+      "domain": "sports",
+      "concept_id": "sports_C12_2",
+      "topic": "裁判判罚与联赛积分",
+      "keywords_en": [
+        "referee decisions",
+        "league points"
+      ],
+      "facet": "concept_distinction",
+      "text": "裁判判罚与联赛积分应作概念区分：裁判判罚是依据竞赛规则对场上行为做出的判定；联赛积分是按比赛结果累积并用于排名的分数机制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C12_3",
+      "domain": "sports",
+      "concept_id": "sports_C12_3",
+      "topic": "裁判判罚与转会",
+      "keywords_en": [
+        "referee decisions",
+        "player transfer"
+      ],
+      "facet": "concept_distinction",
+      "text": "裁判判罚与转会应作概念区分：裁判判罚是依据竞赛规则对场上行为做出的判定；转会是运动员在俱乐部或队伍之间转换注册关系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C12_4",
+      "domain": "sports",
+      "concept_id": "sports_C12_4",
+      "topic": "裁判判罚与青年培养",
+      "keywords_en": [
+        "referee decisions",
+        "youth development"
+      ],
+      "facet": "concept_distinction",
+      "text": "裁判判罚与青年培养应作概念区分：裁判判罚是依据竞赛规则对场上行为做出的判定；青年培养是面向年轻运动员的长期技能和发展安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C13_1",
+      "domain": "sports",
+      "concept_id": "sports_C13_1",
+      "topic": "主客场与联赛积分",
+      "keywords_en": [
+        "home away",
+        "league points"
+      ],
+      "facet": "concept_distinction",
+      "text": "主客场与联赛积分应作概念区分：主客场是比赛场地归属与相关赛程安排；联赛积分是按比赛结果累积并用于排名的分数机制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C13_2",
+      "domain": "sports",
+      "concept_id": "sports_C13_2",
+      "topic": "主客场与转会",
+      "keywords_en": [
+        "home away",
+        "player transfer"
+      ],
+      "facet": "concept_distinction",
+      "text": "主客场与转会应作概念区分：主客场是比赛场地归属与相关赛程安排；转会是运动员在俱乐部或队伍之间转换注册关系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C13_3",
+      "domain": "sports",
+      "concept_id": "sports_C13_3",
+      "topic": "主客场与青年培养",
+      "keywords_en": [
+        "home away",
+        "youth development"
+      ],
+      "facet": "concept_distinction",
+      "text": "主客场与青年培养应作概念区分：主客场是比赛场地归属与相关赛程安排；青年培养是面向年轻运动员的长期技能和发展安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C13_4",
+      "domain": "sports",
+      "concept_id": "sports_C13_4",
+      "topic": "主客场与体育商业化",
+      "keywords_en": [
+        "home away",
+        "sport commercialization"
+      ],
+      "facet": "concept_distinction",
+      "text": "主客场与体育商业化应作概念区分：主客场是比赛场地归属与相关赛程安排；体育商业化是赛事版权赞助票务和相关收入的产业活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C14_1",
+      "domain": "sports",
+      "concept_id": "sports_C14_1",
+      "topic": "联赛积分与转会",
+      "keywords_en": [
+        "league points",
+        "player transfer"
+      ],
+      "facet": "concept_distinction",
+      "text": "联赛积分与转会应作概念区分：联赛积分是按比赛结果累积并用于排名的分数机制；转会是运动员在俱乐部或队伍之间转换注册关系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C14_2",
+      "domain": "sports",
+      "concept_id": "sports_C14_2",
+      "topic": "联赛积分与青年培养",
+      "keywords_en": [
+        "league points",
+        "youth development"
+      ],
+      "facet": "concept_distinction",
+      "text": "联赛积分与青年培养应作概念区分：联赛积分是按比赛结果累积并用于排名的分数机制；青年培养是面向年轻运动员的长期技能和发展安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C14_3",
+      "domain": "sports",
+      "concept_id": "sports_C14_3",
+      "topic": "联赛积分与体育商业化",
+      "keywords_en": [
+        "league points",
+        "sport commercialization"
+      ],
+      "facet": "concept_distinction",
+      "text": "联赛积分与体育商业化应作概念区分：联赛积分是按比赛结果累积并用于排名的分数机制；体育商业化是赛事版权赞助票务和相关收入的产业活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C14_4",
+      "domain": "sports",
+      "concept_id": "sports_C14_4",
+      "topic": "联赛积分与体育传媒权",
+      "keywords_en": [
+        "league points",
+        "sports media rights"
+      ],
+      "facet": "concept_distinction",
+      "text": "联赛积分与体育传媒权应作概念区分：联赛积分是按比赛结果累积并用于排名的分数机制；体育传媒权是赛事影像传播和分发相关的商业权利。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C15_1",
+      "domain": "sports",
+      "concept_id": "sports_C15_1",
+      "topic": "转会与青年培养",
+      "keywords_en": [
+        "player transfer",
+        "youth development"
+      ],
+      "facet": "concept_distinction",
+      "text": "转会与青年培养应作概念区分：转会是运动员在俱乐部或队伍之间转换注册关系；青年培养是面向年轻运动员的长期技能和发展安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C15_2",
+      "domain": "sports",
+      "concept_id": "sports_C15_2",
+      "topic": "转会与体育商业化",
+      "keywords_en": [
+        "player transfer",
+        "sport commercialization"
+      ],
+      "facet": "concept_distinction",
+      "text": "转会与体育商业化应作概念区分：转会是运动员在俱乐部或队伍之间转换注册关系；体育商业化是赛事版权赞助票务和相关收入的产业活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C15_3",
+      "domain": "sports",
+      "concept_id": "sports_C15_3",
+      "topic": "转会与体育传媒权",
+      "keywords_en": [
+        "player transfer",
+        "sports media rights"
+      ],
+      "facet": "concept_distinction",
+      "text": "转会与体育传媒权应作概念区分：转会是运动员在俱乐部或队伍之间转换注册关系；体育传媒权是赛事影像传播和分发相关的商业权利。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C15_4",
+      "domain": "sports",
+      "concept_id": "sports_C15_4",
+      "topic": "转会与赛事安全",
+      "keywords_en": [
+        "player transfer",
+        "event safety"
+      ],
+      "facet": "concept_distinction",
+      "text": "转会与赛事安全应作概念区分：转会是运动员在俱乐部或队伍之间转换注册关系；赛事安全是保护参与者观众与工作人员的风险管理。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C16_1",
+      "domain": "sports",
+      "concept_id": "sports_C16_1",
+      "topic": "青年培养与体育商业化",
+      "keywords_en": [
+        "youth development",
+        "sport commercialization"
+      ],
+      "facet": "concept_distinction",
+      "text": "青年培养与体育商业化应作概念区分：青年培养是面向年轻运动员的长期技能和发展安排；体育商业化是赛事版权赞助票务和相关收入的产业活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C16_2",
+      "domain": "sports",
+      "concept_id": "sports_C16_2",
+      "topic": "青年培养与体育传媒权",
+      "keywords_en": [
+        "youth development",
+        "sports media rights"
+      ],
+      "facet": "concept_distinction",
+      "text": "青年培养与体育传媒权应作概念区分：青年培养是面向年轻运动员的长期技能和发展安排；体育传媒权是赛事影像传播和分发相关的商业权利。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C16_3",
+      "domain": "sports",
+      "concept_id": "sports_C16_3",
+      "topic": "青年培养与赛事安全",
+      "keywords_en": [
+        "youth development",
+        "event safety"
+      ],
+      "facet": "concept_distinction",
+      "text": "青年培养与赛事安全应作概念区分：青年培养是面向年轻运动员的长期技能和发展安排；赛事安全是保护参与者观众与工作人员的风险管理。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C16_4",
+      "domain": "sports",
+      "concept_id": "sports_C16_4",
+      "topic": "青年培养与竞技公平",
+      "keywords_en": [
+        "youth development",
+        "fair play"
+      ],
+      "facet": "concept_distinction",
+      "text": "青年培养与竞技公平应作概念区分：青年培养是面向年轻运动员的长期技能和发展安排；竞技公平是在规则执行和竞争条件方面维护公正的原则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C17_1",
+      "domain": "sports",
+      "concept_id": "sports_C17_1",
+      "topic": "体育商业化与体育传媒权",
+      "keywords_en": [
+        "sport commercialization",
+        "sports media rights"
+      ],
+      "facet": "concept_distinction",
+      "text": "体育商业化与体育传媒权应作概念区分：体育商业化是赛事版权赞助票务和相关收入的产业活动；体育传媒权是赛事影像传播和分发相关的商业权利。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C17_2",
+      "domain": "sports",
+      "concept_id": "sports_C17_2",
+      "topic": "体育商业化与赛事安全",
+      "keywords_en": [
+        "sport commercialization",
+        "event safety"
+      ],
+      "facet": "concept_distinction",
+      "text": "体育商业化与赛事安全应作概念区分：体育商业化是赛事版权赞助票务和相关收入的产业活动；赛事安全是保护参与者观众与工作人员的风险管理。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C17_3",
+      "domain": "sports",
+      "concept_id": "sports_C17_3",
+      "topic": "体育商业化与竞技公平",
+      "keywords_en": [
+        "sport commercialization",
+        "fair play"
+      ],
+      "facet": "concept_distinction",
+      "text": "体育商业化与竞技公平应作概念区分：体育商业化是赛事版权赞助票务和相关收入的产业活动；竞技公平是在规则执行和竞争条件方面维护公正的原则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C17_4",
+      "domain": "sports",
+      "concept_id": "sports_C17_4",
+      "topic": "体育商业化与体育竞赛",
+      "keywords_en": [
+        "sport commercialization",
+        "sport competition"
+      ],
+      "facet": "concept_distinction",
+      "text": "体育商业化与体育竞赛应作概念区分：体育商业化是赛事版权赞助票务和相关收入的产业活动；体育竞赛是依据规则在指定项目中比较表现的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C18_1",
+      "domain": "sports",
+      "concept_id": "sports_C18_1",
+      "topic": "体育传媒权与赛事安全",
+      "keywords_en": [
+        "sports media rights",
+        "event safety"
+      ],
+      "facet": "concept_distinction",
+      "text": "体育传媒权与赛事安全应作概念区分：体育传媒权是赛事影像传播和分发相关的商业权利；赛事安全是保护参与者观众与工作人员的风险管理。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C18_2",
+      "domain": "sports",
+      "concept_id": "sports_C18_2",
+      "topic": "体育传媒权与竞技公平",
+      "keywords_en": [
+        "sports media rights",
+        "fair play"
+      ],
+      "facet": "concept_distinction",
+      "text": "体育传媒权与竞技公平应作概念区分：体育传媒权是赛事影像传播和分发相关的商业权利；竞技公平是在规则执行和竞争条件方面维护公正的原则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C18_3",
+      "domain": "sports",
+      "concept_id": "sports_C18_3",
+      "topic": "体育传媒权与体育竞赛",
+      "keywords_en": [
+        "sports media rights",
+        "sport competition"
+      ],
+      "facet": "concept_distinction",
+      "text": "体育传媒权与体育竞赛应作概念区分：体育传媒权是赛事影像传播和分发相关的商业权利；体育竞赛是依据规则在指定项目中比较表现的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C18_4",
+      "domain": "sports",
+      "concept_id": "sports_C18_4",
+      "topic": "体育传媒权与赛制",
+      "keywords_en": [
+        "sports media rights",
+        "competition format"
+      ],
+      "facet": "concept_distinction",
+      "text": "体育传媒权与赛制应作概念区分：体育传媒权是赛事影像传播和分发相关的商业权利；赛制是决定比赛阶段晋级和排名的规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C19_1",
+      "domain": "sports",
+      "concept_id": "sports_C19_1",
+      "topic": "赛事安全与竞技公平",
+      "keywords_en": [
+        "event safety",
+        "fair play"
+      ],
+      "facet": "concept_distinction",
+      "text": "赛事安全与竞技公平应作概念区分：赛事安全是保护参与者观众与工作人员的风险管理；竞技公平是在规则执行和竞争条件方面维护公正的原则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C19_2",
+      "domain": "sports",
+      "concept_id": "sports_C19_2",
+      "topic": "赛事安全与体育竞赛",
+      "keywords_en": [
+        "event safety",
+        "sport competition"
+      ],
+      "facet": "concept_distinction",
+      "text": "赛事安全与体育竞赛应作概念区分：赛事安全是保护参与者观众与工作人员的风险管理；体育竞赛是依据规则在指定项目中比较表现的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C19_3",
+      "domain": "sports",
+      "concept_id": "sports_C19_3",
+      "topic": "赛事安全与赛制",
+      "keywords_en": [
+        "event safety",
+        "competition format"
+      ],
+      "facet": "concept_distinction",
+      "text": "赛事安全与赛制应作概念区分：赛事安全是保护参与者观众与工作人员的风险管理；赛制是决定比赛阶段晋级和排名的规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C19_4",
+      "domain": "sports",
+      "concept_id": "sports_C19_4",
+      "topic": "赛事安全与常规赛",
+      "keywords_en": [
+        "event safety",
+        "regular season"
+      ],
+      "facet": "concept_distinction",
+      "text": "赛事安全与常规赛应作概念区分：赛事安全是保护参与者观众与工作人员的风险管理；常规赛是联赛中按安排进行的基础赛程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C20_1",
+      "domain": "sports",
+      "concept_id": "sports_C20_1",
+      "topic": "竞技公平与体育竞赛",
+      "keywords_en": [
+        "fair play",
+        "sport competition"
+      ],
+      "facet": "concept_distinction",
+      "text": "竞技公平与体育竞赛应作概念区分：竞技公平是在规则执行和竞争条件方面维护公正的原则；体育竞赛是依据规则在指定项目中比较表现的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C20_2",
+      "domain": "sports",
+      "concept_id": "sports_C20_2",
+      "topic": "竞技公平与赛制",
+      "keywords_en": [
+        "fair play",
+        "competition format"
+      ],
+      "facet": "concept_distinction",
+      "text": "竞技公平与赛制应作概念区分：竞技公平是在规则执行和竞争条件方面维护公正的原则；赛制是决定比赛阶段晋级和排名的规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C20_3",
+      "domain": "sports",
+      "concept_id": "sports_C20_3",
+      "topic": "竞技公平与常规赛",
+      "keywords_en": [
+        "fair play",
+        "regular season"
+      ],
+      "facet": "concept_distinction",
+      "text": "竞技公平与常规赛应作概念区分：竞技公平是在规则执行和竞争条件方面维护公正的原则；常规赛是联赛中按安排进行的基础赛程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_sports_C20_4",
+      "domain": "sports",
+      "concept_id": "sports_C20_4",
+      "topic": "竞技公平与季后赛",
+      "keywords_en": [
+        "fair play",
+        "playoffs"
+      ],
+      "facet": "concept_distinction",
+      "text": "竞技公平与季后赛应作概念区分：竞技公平是在规则执行和竞争条件方面维护公正的原则；季后赛是在常规赛后决定晋级或冠军的比赛阶段。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

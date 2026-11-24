@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "family_life",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_family_life_D01",
+      "domain": "family_life",
+      "concept_id": "family_life_D01",
+      "topic": "家庭结构",
+      "keywords_en": [
+        "family structure"
+      ],
+      "facet": "definition",
+      "text": "家庭结构（family structure）：家庭成员及其关系的组织形式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D02",
+      "domain": "family_life",
+      "concept_id": "family_life_D02",
+      "topic": "家庭生命周期",
+      "keywords_en": [
+        "family life course"
+      ],
+      "facet": "definition",
+      "text": "家庭生命周期（family life course）：家庭随成员关系和生活事件出现的阶段变化。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D03",
+      "domain": "family_life",
+      "concept_id": "family_life_D03",
+      "topic": "家庭分工",
+      "keywords_en": [
+        "household division of labor"
+      ],
+      "facet": "definition",
+      "text": "家庭分工（household division of labor）：家庭成员对照护家务和收入责任的分配。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D04",
+      "domain": "family_life",
+      "concept_id": "family_life_D04",
+      "topic": "无偿照护",
+      "keywords_en": [
+        "unpaid care"
+      ],
+      "facet": "definition",
+      "text": "无偿照护（unpaid care）：未直接获得报酬的育儿养老和照护劳动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D05",
+      "domain": "family_life",
+      "concept_id": "family_life_D05",
+      "topic": "代际支持",
+      "keywords_en": [
+        "intergenerational support"
+      ],
+      "facet": "definition",
+      "text": "代际支持（intergenerational support）：不同年龄代家庭成员间的资源与情感帮助。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D06",
+      "domain": "family_life",
+      "concept_id": "family_life_D06",
+      "topic": "亲子沟通",
+      "keywords_en": [
+        "parent child communication"
+      ],
+      "facet": "definition",
+      "text": "亲子沟通（parent child communication）：父母或照护者与子女交换信息情感的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D07",
+      "domain": "family_life",
+      "concept_id": "family_life_D07",
+      "topic": "依恋关系",
+      "keywords_en": [
+        "attachment relationship"
+      ],
+      "facet": "definition",
+      "text": "依恋关系（attachment relationship）：个体与重要照护者之间形成的情感连接。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D08",
+      "domain": "family_life",
+      "concept_id": "family_life_D08",
+      "topic": "家庭压力",
+      "keywords_en": [
+        "family stress"
+      ],
+      "facet": "definition",
+      "text": "家庭压力（family stress）：家庭面对需求和资源不匹配时的负担。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D09",
+      "domain": "family_life",
+      "concept_id": "family_life_D09",
+      "topic": "家庭韧性",
+      "keywords_en": [
+        "family resilience"
+      ],
+      "facet": "definition",
+      "text": "家庭韧性（family resilience）：家庭在逆境中调整资源和互动以维持功能的能力。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D10",
+      "domain": "family_life",
+      "concept_id": "family_life_D10",
+      "topic": "工作家庭冲突",
+      "keywords_en": [
+        "work family conflict"
+      ],
+      "facet": "definition",
+      "text": "工作家庭冲突（work family conflict）：工作要求与家庭角色要求相互干扰的现象。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D11",
+      "domain": "family_life",
+      "concept_id": "family_life_D11",
+      "topic": "家庭预算",
+      "keywords_en": [
+        "household budget"
+      ],
+      "facet": "definition",
+      "text": "家庭预算（household budget）：对家庭收入支出和储蓄作出的安排。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D12",
+      "domain": "family_life",
+      "concept_id": "family_life_D12",
+      "topic": "家庭社会资本",
+      "keywords_en": [
+        "family social capital"
+      ],
+      "facet": "definition",
+      "text": "家庭社会资本（family social capital）：家庭通过社会关系获取帮助和资源的能力。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D13",
+      "domain": "family_life",
+      "concept_id": "family_life_D13",
+      "topic": "生活满意度",
+      "keywords_en": [
+        "life satisfaction"
+      ],
+      "facet": "definition",
+      "text": "生活满意度（life satisfaction）：个体对总体生活状态的认知评价。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D14",
+      "domain": "family_life",
+      "concept_id": "family_life_D14",
+      "topic": "居住稳定性",
+      "keywords_en": [
+        "housing stability"
+      ],
+      "facet": "definition",
+      "text": "居住稳定性（housing stability）：家庭在一段时期内持续获得合适住房的程度。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D15",
+      "domain": "family_life",
+      "concept_id": "family_life_D15",
+      "topic": "数字家庭生活",
+      "keywords_en": [
+        "digital family life"
+      ],
+      "facet": "definition",
+      "text": "数字家庭生活（digital family life）：家庭成员利用数字媒介进行沟通和活动的实践。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D16",
+      "domain": "family_life",
+      "concept_id": "family_life_D16",
+      "topic": "家庭仪式",
+      "keywords_en": [
+        "family rituals"
+      ],
+      "facet": "definition",
+      "text": "家庭仪式（family rituals）：家庭反复开展且具有共同意义的活动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D17",
+      "domain": "family_life",
+      "concept_id": "family_life_D17",
+      "topic": "代际差异",
+      "keywords_en": [
+        "generational differences"
+      ],
+      "facet": "definition",
+      "text": "代际差异（generational differences）：不同出生代在经历和价值取向上的差异。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D18",
+      "domain": "family_life",
+      "concept_id": "family_life_D18",
+      "topic": "社区支持网络",
+      "keywords_en": [
+        "community support network"
+      ],
+      "facet": "definition",
+      "text": "社区支持网络（community support network）：邻里和社区组织提供的日常资源和帮助。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D19",
+      "domain": "family_life",
+      "concept_id": "family_life_D19",
+      "topic": "家庭协商",
+      "keywords_en": [
+        "family negotiation"
+      ],
+      "facet": "definition",
+      "text": "家庭协商（family negotiation）：家庭成员围绕决策与责任达成安排的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_D20",
+      "domain": "family_life",
+      "concept_id": "family_life_D20",
+      "topic": "隐私边界",
+      "keywords_en": [
+        "privacy boundaries"
+      ],
+      "facet": "definition",
+      "text": "隐私边界（privacy boundaries）：家庭成员对个人信息空间与自主权的界定。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C01_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C01_1",
+      "topic": "家庭结构与家庭生命周期",
+      "keywords_en": [
+        "family structure",
+        "family life course"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭结构与家庭生命周期应作概念区分：家庭结构是家庭成员及其关系的组织形式；家庭生命周期是家庭随成员关系和生活事件出现的阶段变化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C01_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C01_2",
+      "topic": "家庭结构与家庭分工",
+      "keywords_en": [
+        "family structure",
+        "household division of labor"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭结构与家庭分工应作概念区分：家庭结构是家庭成员及其关系的组织形式；家庭分工是家庭成员对照护家务和收入责任的分配。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C01_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C01_3",
+      "topic": "家庭结构与无偿照护",
+      "keywords_en": [
+        "family structure",
+        "unpaid care"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭结构与无偿照护应作概念区分：家庭结构是家庭成员及其关系的组织形式；无偿照护是未直接获得报酬的育儿养老和照护劳动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C01_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C01_4",
+      "topic": "家庭结构与代际支持",
+      "keywords_en": [
+        "family structure",
+        "intergenerational support"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭结构与代际支持应作概念区分：家庭结构是家庭成员及其关系的组织形式；代际支持是不同年龄代家庭成员间的资源与情感帮助。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C02_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C02_1",
+      "topic": "家庭生命周期与家庭分工",
+      "keywords_en": [
+        "family life course",
+        "household division of labor"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭生命周期与家庭分工应作概念区分：家庭生命周期是家庭随成员关系和生活事件出现的阶段变化；家庭分工是家庭成员对照护家务和收入责任的分配。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C02_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C02_2",
+      "topic": "家庭生命周期与无偿照护",
+      "keywords_en": [
+        "family life course",
+        "unpaid care"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭生命周期与无偿照护应作概念区分：家庭生命周期是家庭随成员关系和生活事件出现的阶段变化；无偿照护是未直接获得报酬的育儿养老和照护劳动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C02_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C02_3",
+      "topic": "家庭生命周期与代际支持",
+      "keywords_en": [
+        "family life course",
+        "intergenerational support"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭生命周期与代际支持应作概念区分：家庭生命周期是家庭随成员关系和生活事件出现的阶段变化；代际支持是不同年龄代家庭成员间的资源与情感帮助。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C02_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C02_4",
+      "topic": "家庭生命周期与亲子沟通",
+      "keywords_en": [
+        "family life course",
+        "parent child communication"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭生命周期与亲子沟通应作概念区分：家庭生命周期是家庭随成员关系和生活事件出现的阶段变化；亲子沟通是父母或照护者与子女交换信息情感的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C03_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C03_1",
+      "topic": "家庭分工与无偿照护",
+      "keywords_en": [
+        "household division of labor",
+        "unpaid care"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭分工与无偿照护应作概念区分：家庭分工是家庭成员对照护家务和收入责任的分配；无偿照护是未直接获得报酬的育儿养老和照护劳动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C03_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C03_2",
+      "topic": "家庭分工与代际支持",
+      "keywords_en": [
+        "household division of labor",
+        "intergenerational support"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭分工与代际支持应作概念区分：家庭分工是家庭成员对照护家务和收入责任的分配；代际支持是不同年龄代家庭成员间的资源与情感帮助。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C03_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C03_3",
+      "topic": "家庭分工与亲子沟通",
+      "keywords_en": [
+        "household division of labor",
+        "parent child communication"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭分工与亲子沟通应作概念区分：家庭分工是家庭成员对照护家务和收入责任的分配；亲子沟通是父母或照护者与子女交换信息情感的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C03_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C03_4",
+      "topic": "家庭分工与依恋关系",
+      "keywords_en": [
+        "household division of labor",
+        "attachment relationship"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭分工与依恋关系应作概念区分：家庭分工是家庭成员对照护家务和收入责任的分配；依恋关系是个体与重要照护者之间形成的情感连接。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C04_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C04_1",
+      "topic": "无偿照护与代际支持",
+      "keywords_en": [
+        "unpaid care",
+        "intergenerational support"
+      ],
+      "facet": "concept_distinction",
+      "text": "无偿照护与代际支持应作概念区分：无偿照护是未直接获得报酬的育儿养老和照护劳动；代际支持是不同年龄代家庭成员间的资源与情感帮助。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C04_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C04_2",
+      "topic": "无偿照护与亲子沟通",
+      "keywords_en": [
+        "unpaid care",
+        "parent child communication"
+      ],
+      "facet": "concept_distinction",
+      "text": "无偿照护与亲子沟通应作概念区分：无偿照护是未直接获得报酬的育儿养老和照护劳动；亲子沟通是父母或照护者与子女交换信息情感的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C04_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C04_3",
+      "topic": "无偿照护与依恋关系",
+      "keywords_en": [
+        "unpaid care",
+        "attachment relationship"
+      ],
+      "facet": "concept_distinction",
+      "text": "无偿照护与依恋关系应作概念区分：无偿照护是未直接获得报酬的育儿养老和照护劳动；依恋关系是个体与重要照护者之间形成的情感连接。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C04_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C04_4",
+      "topic": "无偿照护与家庭压力",
+      "keywords_en": [
+        "unpaid care",
+        "family stress"
+      ],
+      "facet": "concept_distinction",
+      "text": "无偿照护与家庭压力应作概念区分：无偿照护是未直接获得报酬的育儿养老和照护劳动；家庭压力是家庭面对需求和资源不匹配时的负担。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C05_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C05_1",
+      "topic": "代际支持与亲子沟通",
+      "keywords_en": [
+        "intergenerational support",
+        "parent child communication"
+      ],
+      "facet": "concept_distinction",
+      "text": "代际支持与亲子沟通应作概念区分：代际支持是不同年龄代家庭成员间的资源与情感帮助；亲子沟通是父母或照护者与子女交换信息情感的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C05_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C05_2",
+      "topic": "代际支持与依恋关系",
+      "keywords_en": [
+        "intergenerational support",
+        "attachment relationship"
+      ],
+      "facet": "concept_distinction",
+      "text": "代际支持与依恋关系应作概念区分：代际支持是不同年龄代家庭成员间的资源与情感帮助；依恋关系是个体与重要照护者之间形成的情感连接。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C05_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C05_3",
+      "topic": "代际支持与家庭压力",
+      "keywords_en": [
+        "intergenerational support",
+        "family stress"
+      ],
+      "facet": "concept_distinction",
+      "text": "代际支持与家庭压力应作概念区分：代际支持是不同年龄代家庭成员间的资源与情感帮助；家庭压力是家庭面对需求和资源不匹配时的负担。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C05_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C05_4",
+      "topic": "代际支持与家庭韧性",
+      "keywords_en": [
+        "intergenerational support",
+        "family resilience"
+      ],
+      "facet": "concept_distinction",
+      "text": "代际支持与家庭韧性应作概念区分：代际支持是不同年龄代家庭成员间的资源与情感帮助；家庭韧性是家庭在逆境中调整资源和互动以维持功能的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C06_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C06_1",
+      "topic": "亲子沟通与依恋关系",
+      "keywords_en": [
+        "parent child communication",
+        "attachment relationship"
+      ],
+      "facet": "concept_distinction",
+      "text": "亲子沟通与依恋关系应作概念区分：亲子沟通是父母或照护者与子女交换信息情感的过程；依恋关系是个体与重要照护者之间形成的情感连接。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C06_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C06_2",
+      "topic": "亲子沟通与家庭压力",
+      "keywords_en": [
+        "parent child communication",
+        "family stress"
+      ],
+      "facet": "concept_distinction",
+      "text": "亲子沟通与家庭压力应作概念区分：亲子沟通是父母或照护者与子女交换信息情感的过程；家庭压力是家庭面对需求和资源不匹配时的负担。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C06_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C06_3",
+      "topic": "亲子沟通与家庭韧性",
+      "keywords_en": [
+        "parent child communication",
+        "family resilience"
+      ],
+      "facet": "concept_distinction",
+      "text": "亲子沟通与家庭韧性应作概念区分：亲子沟通是父母或照护者与子女交换信息情感的过程；家庭韧性是家庭在逆境中调整资源和互动以维持功能的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C06_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C06_4",
+      "topic": "亲子沟通与工作家庭冲突",
+      "keywords_en": [
+        "parent child communication",
+        "work family conflict"
+      ],
+      "facet": "concept_distinction",
+      "text": "亲子沟通与工作家庭冲突应作概念区分：亲子沟通是父母或照护者与子女交换信息情感的过程；工作家庭冲突是工作要求与家庭角色要求相互干扰的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C07_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C07_1",
+      "topic": "依恋关系与家庭压力",
+      "keywords_en": [
+        "attachment relationship",
+        "family stress"
+      ],
+      "facet": "concept_distinction",
+      "text": "依恋关系与家庭压力应作概念区分：依恋关系是个体与重要照护者之间形成的情感连接；家庭压力是家庭面对需求和资源不匹配时的负担。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C07_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C07_2",
+      "topic": "依恋关系与家庭韧性",
+      "keywords_en": [
+        "attachment relationship",
+        "family resilience"
+      ],
+      "facet": "concept_distinction",
+      "text": "依恋关系与家庭韧性应作概念区分：依恋关系是个体与重要照护者之间形成的情感连接；家庭韧性是家庭在逆境中调整资源和互动以维持功能的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C07_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C07_3",
+      "topic": "依恋关系与工作家庭冲突",
+      "keywords_en": [
+        "attachment relationship",
+        "work family conflict"
+      ],
+      "facet": "concept_distinction",
+      "text": "依恋关系与工作家庭冲突应作概念区分：依恋关系是个体与重要照护者之间形成的情感连接；工作家庭冲突是工作要求与家庭角色要求相互干扰的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C07_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C07_4",
+      "topic": "依恋关系与家庭预算",
+      "keywords_en": [
+        "attachment relationship",
+        "household budget"
+      ],
+      "facet": "concept_distinction",
+      "text": "依恋关系与家庭预算应作概念区分：依恋关系是个体与重要照护者之间形成的情感连接；家庭预算是对家庭收入支出和储蓄作出的安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C08_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C08_1",
+      "topic": "家庭压力与家庭韧性",
+      "keywords_en": [
+        "family stress",
+        "family resilience"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭压力与家庭韧性应作概念区分：家庭压力是家庭面对需求和资源不匹配时的负担；家庭韧性是家庭在逆境中调整资源和互动以维持功能的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C08_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C08_2",
+      "topic": "家庭压力与工作家庭冲突",
+      "keywords_en": [
+        "family stress",
+        "work family conflict"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭压力与工作家庭冲突应作概念区分：家庭压力是家庭面对需求和资源不匹配时的负担；工作家庭冲突是工作要求与家庭角色要求相互干扰的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C08_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C08_3",
+      "topic": "家庭压力与家庭预算",
+      "keywords_en": [
+        "family stress",
+        "household budget"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭压力与家庭预算应作概念区分：家庭压力是家庭面对需求和资源不匹配时的负担；家庭预算是对家庭收入支出和储蓄作出的安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C08_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C08_4",
+      "topic": "家庭压力与家庭社会资本",
+      "keywords_en": [
+        "family stress",
+        "family social capital"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭压力与家庭社会资本应作概念区分：家庭压力是家庭面对需求和资源不匹配时的负担；家庭社会资本是家庭通过社会关系获取帮助和资源的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C09_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C09_1",
+      "topic": "家庭韧性与工作家庭冲突",
+      "keywords_en": [
+        "family resilience",
+        "work family conflict"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭韧性与工作家庭冲突应作概念区分：家庭韧性是家庭在逆境中调整资源和互动以维持功能的能力；工作家庭冲突是工作要求与家庭角色要求相互干扰的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C09_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C09_2",
+      "topic": "家庭韧性与家庭预算",
+      "keywords_en": [
+        "family resilience",
+        "household budget"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭韧性与家庭预算应作概念区分：家庭韧性是家庭在逆境中调整资源和互动以维持功能的能力；家庭预算是对家庭收入支出和储蓄作出的安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C09_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C09_3",
+      "topic": "家庭韧性与家庭社会资本",
+      "keywords_en": [
+        "family resilience",
+        "family social capital"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭韧性与家庭社会资本应作概念区分：家庭韧性是家庭在逆境中调整资源和互动以维持功能的能力；家庭社会资本是家庭通过社会关系获取帮助和资源的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C09_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C09_4",
+      "topic": "家庭韧性与生活满意度",
+      "keywords_en": [
+        "family resilience",
+        "life satisfaction"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭韧性与生活满意度应作概念区分：家庭韧性是家庭在逆境中调整资源和互动以维持功能的能力；生活满意度是个体对总体生活状态的认知评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C10_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C10_1",
+      "topic": "工作家庭冲突与家庭预算",
+      "keywords_en": [
+        "work family conflict",
+        "household budget"
+      ],
+      "facet": "concept_distinction",
+      "text": "工作家庭冲突与家庭预算应作概念区分：工作家庭冲突是工作要求与家庭角色要求相互干扰的现象；家庭预算是对家庭收入支出和储蓄作出的安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C10_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C10_2",
+      "topic": "工作家庭冲突与家庭社会资本",
+      "keywords_en": [
+        "work family conflict",
+        "family social capital"
+      ],
+      "facet": "concept_distinction",
+      "text": "工作家庭冲突与家庭社会资本应作概念区分：工作家庭冲突是工作要求与家庭角色要求相互干扰的现象；家庭社会资本是家庭通过社会关系获取帮助和资源的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C10_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C10_3",
+      "topic": "工作家庭冲突与生活满意度",
+      "keywords_en": [
+        "work family conflict",
+        "life satisfaction"
+      ],
+      "facet": "concept_distinction",
+      "text": "工作家庭冲突与生活满意度应作概念区分：工作家庭冲突是工作要求与家庭角色要求相互干扰的现象；生活满意度是个体对总体生活状态的认知评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C10_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C10_4",
+      "topic": "工作家庭冲突与居住稳定性",
+      "keywords_en": [
+        "work family conflict",
+        "housing stability"
+      ],
+      "facet": "concept_distinction",
+      "text": "工作家庭冲突与居住稳定性应作概念区分：工作家庭冲突是工作要求与家庭角色要求相互干扰的现象；居住稳定性是家庭在一段时期内持续获得合适住房的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C11_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C11_1",
+      "topic": "家庭预算与家庭社会资本",
+      "keywords_en": [
+        "household budget",
+        "family social capital"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭预算与家庭社会资本应作概念区分：家庭预算是对家庭收入支出和储蓄作出的安排；家庭社会资本是家庭通过社会关系获取帮助和资源的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C11_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C11_2",
+      "topic": "家庭预算与生活满意度",
+      "keywords_en": [
+        "household budget",
+        "life satisfaction"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭预算与生活满意度应作概念区分：家庭预算是对家庭收入支出和储蓄作出的安排；生活满意度是个体对总体生活状态的认知评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C11_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C11_3",
+      "topic": "家庭预算与居住稳定性",
+      "keywords_en": [
+        "household budget",
+        "housing stability"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭预算与居住稳定性应作概念区分：家庭预算是对家庭收入支出和储蓄作出的安排；居住稳定性是家庭在一段时期内持续获得合适住房的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C11_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C11_4",
+      "topic": "家庭预算与数字家庭生活",
+      "keywords_en": [
+        "household budget",
+        "digital family life"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭预算与数字家庭生活应作概念区分：家庭预算是对家庭收入支出和储蓄作出的安排；数字家庭生活是家庭成员利用数字媒介进行沟通和活动的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C12_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C12_1",
+      "topic": "家庭社会资本与生活满意度",
+      "keywords_en": [
+        "family social capital",
+        "life satisfaction"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭社会资本与生活满意度应作概念区分：家庭社会资本是家庭通过社会关系获取帮助和资源的能力；生活满意度是个体对总体生活状态的认知评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C12_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C12_2",
+      "topic": "家庭社会资本与居住稳定性",
+      "keywords_en": [
+        "family social capital",
+        "housing stability"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭社会资本与居住稳定性应作概念区分：家庭社会资本是家庭通过社会关系获取帮助和资源的能力；居住稳定性是家庭在一段时期内持续获得合适住房的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C12_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C12_3",
+      "topic": "家庭社会资本与数字家庭生活",
+      "keywords_en": [
+        "family social capital",
+        "digital family life"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭社会资本与数字家庭生活应作概念区分：家庭社会资本是家庭通过社会关系获取帮助和资源的能力；数字家庭生活是家庭成员利用数字媒介进行沟通和活动的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C12_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C12_4",
+      "topic": "家庭社会资本与家庭仪式",
+      "keywords_en": [
+        "family social capital",
+        "family rituals"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭社会资本与家庭仪式应作概念区分：家庭社会资本是家庭通过社会关系获取帮助和资源的能力；家庭仪式是家庭反复开展且具有共同意义的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C13_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C13_1",
+      "topic": "生活满意度与居住稳定性",
+      "keywords_en": [
+        "life satisfaction",
+        "housing stability"
+      ],
+      "facet": "concept_distinction",
+      "text": "生活满意度与居住稳定性应作概念区分：生活满意度是个体对总体生活状态的认知评价；居住稳定性是家庭在一段时期内持续获得合适住房的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C13_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C13_2",
+      "topic": "生活满意度与数字家庭生活",
+      "keywords_en": [
+        "life satisfaction",
+        "digital family life"
+      ],
+      "facet": "concept_distinction",
+      "text": "生活满意度与数字家庭生活应作概念区分：生活满意度是个体对总体生活状态的认知评价；数字家庭生活是家庭成员利用数字媒介进行沟通和活动的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C13_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C13_3",
+      "topic": "生活满意度与家庭仪式",
+      "keywords_en": [
+        "life satisfaction",
+        "family rituals"
+      ],
+      "facet": "concept_distinction",
+      "text": "生活满意度与家庭仪式应作概念区分：生活满意度是个体对总体生活状态的认知评价；家庭仪式是家庭反复开展且具有共同意义的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C13_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C13_4",
+      "topic": "生活满意度与代际差异",
+      "keywords_en": [
+        "life satisfaction",
+        "generational differences"
+      ],
+      "facet": "concept_distinction",
+      "text": "生活满意度与代际差异应作概念区分：生活满意度是个体对总体生活状态的认知评价；代际差异是不同出生代在经历和价值取向上的差异。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C14_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C14_1",
+      "topic": "居住稳定性与数字家庭生活",
+      "keywords_en": [
+        "housing stability",
+        "digital family life"
+      ],
+      "facet": "concept_distinction",
+      "text": "居住稳定性与数字家庭生活应作概念区分：居住稳定性是家庭在一段时期内持续获得合适住房的程度；数字家庭生活是家庭成员利用数字媒介进行沟通和活动的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C14_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C14_2",
+      "topic": "居住稳定性与家庭仪式",
+      "keywords_en": [
+        "housing stability",
+        "family rituals"
+      ],
+      "facet": "concept_distinction",
+      "text": "居住稳定性与家庭仪式应作概念区分：居住稳定性是家庭在一段时期内持续获得合适住房的程度；家庭仪式是家庭反复开展且具有共同意义的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C14_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C14_3",
+      "topic": "居住稳定性与代际差异",
+      "keywords_en": [
+        "housing stability",
+        "generational differences"
+      ],
+      "facet": "concept_distinction",
+      "text": "居住稳定性与代际差异应作概念区分：居住稳定性是家庭在一段时期内持续获得合适住房的程度；代际差异是不同出生代在经历和价值取向上的差异。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C14_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C14_4",
+      "topic": "居住稳定性与社区支持网络",
+      "keywords_en": [
+        "housing stability",
+        "community support network"
+      ],
+      "facet": "concept_distinction",
+      "text": "居住稳定性与社区支持网络应作概念区分：居住稳定性是家庭在一段时期内持续获得合适住房的程度；社区支持网络是邻里和社区组织提供的日常资源和帮助。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C15_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C15_1",
+      "topic": "数字家庭生活与家庭仪式",
+      "keywords_en": [
+        "digital family life",
+        "family rituals"
+      ],
+      "facet": "concept_distinction",
+      "text": "数字家庭生活与家庭仪式应作概念区分：数字家庭生活是家庭成员利用数字媒介进行沟通和活动的实践；家庭仪式是家庭反复开展且具有共同意义的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C15_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C15_2",
+      "topic": "数字家庭生活与代际差异",
+      "keywords_en": [
+        "digital family life",
+        "generational differences"
+      ],
+      "facet": "concept_distinction",
+      "text": "数字家庭生活与代际差异应作概念区分：数字家庭生活是家庭成员利用数字媒介进行沟通和活动的实践；代际差异是不同出生代在经历和价值取向上的差异。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C15_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C15_3",
+      "topic": "数字家庭生活与社区支持网络",
+      "keywords_en": [
+        "digital family life",
+        "community support network"
+      ],
+      "facet": "concept_distinction",
+      "text": "数字家庭生活与社区支持网络应作概念区分：数字家庭生活是家庭成员利用数字媒介进行沟通和活动的实践；社区支持网络是邻里和社区组织提供的日常资源和帮助。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C15_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C15_4",
+      "topic": "数字家庭生活与家庭协商",
+      "keywords_en": [
+        "digital family life",
+        "family negotiation"
+      ],
+      "facet": "concept_distinction",
+      "text": "数字家庭生活与家庭协商应作概念区分：数字家庭生活是家庭成员利用数字媒介进行沟通和活动的实践；家庭协商是家庭成员围绕决策与责任达成安排的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C16_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C16_1",
+      "topic": "家庭仪式与代际差异",
+      "keywords_en": [
+        "family rituals",
+        "generational differences"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭仪式与代际差异应作概念区分：家庭仪式是家庭反复开展且具有共同意义的活动；代际差异是不同出生代在经历和价值取向上的差异。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C16_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C16_2",
+      "topic": "家庭仪式与社区支持网络",
+      "keywords_en": [
+        "family rituals",
+        "community support network"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭仪式与社区支持网络应作概念区分：家庭仪式是家庭反复开展且具有共同意义的活动；社区支持网络是邻里和社区组织提供的日常资源和帮助。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C16_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C16_3",
+      "topic": "家庭仪式与家庭协商",
+      "keywords_en": [
+        "family rituals",
+        "family negotiation"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭仪式与家庭协商应作概念区分：家庭仪式是家庭反复开展且具有共同意义的活动；家庭协商是家庭成员围绕决策与责任达成安排的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C16_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C16_4",
+      "topic": "家庭仪式与隐私边界",
+      "keywords_en": [
+        "family rituals",
+        "privacy boundaries"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭仪式与隐私边界应作概念区分：家庭仪式是家庭反复开展且具有共同意义的活动；隐私边界是家庭成员对个人信息空间与自主权的界定。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C17_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C17_1",
+      "topic": "代际差异与社区支持网络",
+      "keywords_en": [
+        "generational differences",
+        "community support network"
+      ],
+      "facet": "concept_distinction",
+      "text": "代际差异与社区支持网络应作概念区分：代际差异是不同出生代在经历和价值取向上的差异；社区支持网络是邻里和社区组织提供的日常资源和帮助。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C17_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C17_2",
+      "topic": "代际差异与家庭协商",
+      "keywords_en": [
+        "generational differences",
+        "family negotiation"
+      ],
+      "facet": "concept_distinction",
+      "text": "代际差异与家庭协商应作概念区分：代际差异是不同出生代在经历和价值取向上的差异；家庭协商是家庭成员围绕决策与责任达成安排的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C17_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C17_3",
+      "topic": "代际差异与隐私边界",
+      "keywords_en": [
+        "generational differences",
+        "privacy boundaries"
+      ],
+      "facet": "concept_distinction",
+      "text": "代际差异与隐私边界应作概念区分：代际差异是不同出生代在经历和价值取向上的差异；隐私边界是家庭成员对个人信息空间与自主权的界定。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C17_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C17_4",
+      "topic": "代际差异与家庭结构",
+      "keywords_en": [
+        "generational differences",
+        "family structure"
+      ],
+      "facet": "concept_distinction",
+      "text": "代际差异与家庭结构应作概念区分：代际差异是不同出生代在经历和价值取向上的差异；家庭结构是家庭成员及其关系的组织形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C18_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C18_1",
+      "topic": "社区支持网络与家庭协商",
+      "keywords_en": [
+        "community support network",
+        "family negotiation"
+      ],
+      "facet": "concept_distinction",
+      "text": "社区支持网络与家庭协商应作概念区分：社区支持网络是邻里和社区组织提供的日常资源和帮助；家庭协商是家庭成员围绕决策与责任达成安排的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C18_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C18_2",
+      "topic": "社区支持网络与隐私边界",
+      "keywords_en": [
+        "community support network",
+        "privacy boundaries"
+      ],
+      "facet": "concept_distinction",
+      "text": "社区支持网络与隐私边界应作概念区分：社区支持网络是邻里和社区组织提供的日常资源和帮助；隐私边界是家庭成员对个人信息空间与自主权的界定。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C18_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C18_3",
+      "topic": "社区支持网络与家庭结构",
+      "keywords_en": [
+        "community support network",
+        "family structure"
+      ],
+      "facet": "concept_distinction",
+      "text": "社区支持网络与家庭结构应作概念区分：社区支持网络是邻里和社区组织提供的日常资源和帮助；家庭结构是家庭成员及其关系的组织形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C18_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C18_4",
+      "topic": "社区支持网络与家庭生命周期",
+      "keywords_en": [
+        "community support network",
+        "family life course"
+      ],
+      "facet": "concept_distinction",
+      "text": "社区支持网络与家庭生命周期应作概念区分：社区支持网络是邻里和社区组织提供的日常资源和帮助；家庭生命周期是家庭随成员关系和生活事件出现的阶段变化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C19_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C19_1",
+      "topic": "家庭协商与隐私边界",
+      "keywords_en": [
+        "family negotiation",
+        "privacy boundaries"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭协商与隐私边界应作概念区分：家庭协商是家庭成员围绕决策与责任达成安排的过程；隐私边界是家庭成员对个人信息空间与自主权的界定。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C19_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C19_2",
+      "topic": "家庭协商与家庭结构",
+      "keywords_en": [
+        "family negotiation",
+        "family structure"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭协商与家庭结构应作概念区分：家庭协商是家庭成员围绕决策与责任达成安排的过程；家庭结构是家庭成员及其关系的组织形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C19_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C19_3",
+      "topic": "家庭协商与家庭生命周期",
+      "keywords_en": [
+        "family negotiation",
+        "family life course"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭协商与家庭生命周期应作概念区分：家庭协商是家庭成员围绕决策与责任达成安排的过程；家庭生命周期是家庭随成员关系和生活事件出现的阶段变化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C19_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C19_4",
+      "topic": "家庭协商与家庭分工",
+      "keywords_en": [
+        "family negotiation",
+        "household division of labor"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭协商与家庭分工应作概念区分：家庭协商是家庭成员围绕决策与责任达成安排的过程；家庭分工是家庭成员对照护家务和收入责任的分配。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C20_1",
+      "domain": "family_life",
+      "concept_id": "family_life_C20_1",
+      "topic": "隐私边界与家庭结构",
+      "keywords_en": [
+        "privacy boundaries",
+        "family structure"
+      ],
+      "facet": "concept_distinction",
+      "text": "隐私边界与家庭结构应作概念区分：隐私边界是家庭成员对个人信息空间与自主权的界定；家庭结构是家庭成员及其关系的组织形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C20_2",
+      "domain": "family_life",
+      "concept_id": "family_life_C20_2",
+      "topic": "隐私边界与家庭生命周期",
+      "keywords_en": [
+        "privacy boundaries",
+        "family life course"
+      ],
+      "facet": "concept_distinction",
+      "text": "隐私边界与家庭生命周期应作概念区分：隐私边界是家庭成员对个人信息空间与自主权的界定；家庭生命周期是家庭随成员关系和生活事件出现的阶段变化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C20_3",
+      "domain": "family_life",
+      "concept_id": "family_life_C20_3",
+      "topic": "隐私边界与家庭分工",
+      "keywords_en": [
+        "privacy boundaries",
+        "household division of labor"
+      ],
+      "facet": "concept_distinction",
+      "text": "隐私边界与家庭分工应作概念区分：隐私边界是家庭成员对个人信息空间与自主权的界定；家庭分工是家庭成员对照护家务和收入责任的分配。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_family_life_C20_4",
+      "domain": "family_life",
+      "concept_id": "family_life_C20_4",
+      "topic": "隐私边界与无偿照护",
+      "keywords_en": [
+        "privacy boundaries",
+        "unpaid care"
+      ],
+      "facet": "concept_distinction",
+      "text": "隐私边界与无偿照护应作概念区分：隐私边界是家庭成员对个人信息空间与自主权的界定；无偿照护是未直接获得报酬的育儿养老和照护劳动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

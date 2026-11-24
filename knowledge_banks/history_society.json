@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "history_society",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_history_society_D01",
+      "domain": "history_society",
+      "concept_id": "history_society_D01",
+      "topic": "口述史",
+      "keywords_en": [
+        "oral history"
+      ],
+      "facet": "definition",
+      "text": "口述史（oral history）：以记录和解释个人回忆为核心的历史资料方法。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D02",
+      "domain": "history_society",
+      "concept_id": "history_society_D02",
+      "topic": "个人回忆",
+      "keywords_en": [
+        "personal recollection"
+      ],
+      "facet": "definition",
+      "text": "个人回忆（personal recollection）：个体对过去经历的主观记述。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D03",
+      "domain": "history_society",
+      "concept_id": "history_society_D03",
+      "topic": "一手史料",
+      "keywords_en": [
+        "primary source"
+      ],
+      "facet": "definition",
+      "text": "一手史料（primary source）：直接形成于研究对象时期或事件参与者的材料。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D04",
+      "domain": "history_society",
+      "concept_id": "history_society_D04",
+      "topic": "二手史料",
+      "keywords_en": [
+        "secondary source"
+      ],
+      "facet": "definition",
+      "text": "二手史料（secondary source）：基于其他材料形成的后续解释与研究。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D05",
+      "domain": "history_society",
+      "concept_id": "history_society_D05",
+      "topic": "史料出处",
+      "keywords_en": [
+        "source provenance"
+      ],
+      "facet": "definition",
+      "text": "史料出处（source provenance）：材料的产生者时间环境及传递过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D06",
+      "domain": "history_society",
+      "concept_id": "history_society_D06",
+      "topic": "历史语境",
+      "keywords_en": [
+        "historical context"
+      ],
+      "facet": "definition",
+      "text": "历史语境（historical context）：理解历史行为所需的当时制度与文化条件。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D07",
+      "domain": "history_society",
+      "concept_id": "history_society_D07",
+      "topic": "年代学",
+      "keywords_en": [
+        "chronology"
+      ],
+      "facet": "definition",
+      "text": "年代学（chronology）：确定事件发生时间与先后顺序的方法。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D08",
+      "domain": "history_society",
+      "concept_id": "history_society_D08",
+      "topic": "历史叙事",
+      "keywords_en": [
+        "historical narrative"
+      ],
+      "facet": "definition",
+      "text": "历史叙事（historical narrative）：把事件组织成有解释结构的过去故事。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D09",
+      "domain": "history_society",
+      "concept_id": "history_society_D09",
+      "topic": "集体记忆",
+      "keywords_en": [
+        "collective memory"
+      ],
+      "facet": "definition",
+      "text": "集体记忆（collective memory）：群体对过去的共同表述和纪念实践。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D10",
+      "domain": "history_society",
+      "concept_id": "history_society_D10",
+      "topic": "记忆偏差",
+      "keywords_en": [
+        "memory bias"
+      ],
+      "facet": "definition",
+      "text": "记忆偏差（memory bias）：回忆因遗忘重构或后续影响而偏离原始经历的现象。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D11",
+      "domain": "history_society",
+      "concept_id": "history_society_D11",
+      "topic": "史料互证",
+      "keywords_en": [
+        "source triangulation"
+      ],
+      "facet": "definition",
+      "text": "史料互证（source triangulation）：使用独立来源比较和核验历史陈述的方法。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D12",
+      "domain": "history_society",
+      "concept_id": "history_society_D12",
+      "topic": "日常生活史",
+      "keywords_en": [
+        "everyday life history"
+      ],
+      "facet": "definition",
+      "text": "日常生活史（everyday life history）：关注普通人在特定时期生活实践的研究取向。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D13",
+      "domain": "history_society",
+      "concept_id": "history_society_D13",
+      "topic": "劳动史",
+      "keywords_en": [
+        "labor history"
+      ],
+      "facet": "definition",
+      "text": "劳动史（labor history）：研究劳动关系和职业生活变化的历史领域。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D14",
+      "domain": "history_society",
+      "concept_id": "history_society_D14",
+      "topic": "家庭史",
+      "keywords_en": [
+        "family history"
+      ],
+      "facet": "definition",
+      "text": "家庭史（family history）：研究家庭组织关系和生活变化的历史领域。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D15",
+      "domain": "history_society",
+      "concept_id": "history_society_D15",
+      "topic": "社会阶层",
+      "keywords_en": [
+        "social class"
+      ],
+      "facet": "definition",
+      "text": "社会阶层（social class）：依据资源地位和职业等形成的社会分层。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D16",
+      "domain": "history_society",
+      "concept_id": "history_society_D16",
+      "topic": "历史访谈提纲",
+      "keywords_en": [
+        "oral history guide"
+      ],
+      "facet": "definition",
+      "text": "历史访谈提纲（oral history guide）：围绕过去经历设置但允许追问的采访框架。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D17",
+      "domain": "history_society",
+      "concept_id": "history_society_D17",
+      "topic": "访谈者效应",
+      "keywords_en": [
+        "interviewer effect"
+      ],
+      "facet": "definition",
+      "text": "访谈者效应（interviewer effect）：采访提问方式和互动关系对受访者表述产生的影响。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D18",
+      "domain": "history_society",
+      "concept_id": "history_society_D18",
+      "topic": "档案保管",
+      "keywords_en": [
+        "archival preservation"
+      ],
+      "facet": "definition",
+      "text": "档案保管（archival preservation）：对历史材料进行保存编目和访问管理的实践。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D19",
+      "domain": "history_society",
+      "concept_id": "history_society_D19",
+      "topic": "研究者反身性",
+      "keywords_en": [
+        "researcher reflexivity"
+      ],
+      "facet": "definition",
+      "text": "研究者反身性（researcher reflexivity）：研究者检查自身立场如何影响资料生产与解释。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_D20",
+      "domain": "history_society",
+      "concept_id": "history_society_D20",
+      "topic": "史料沉默",
+      "keywords_en": [
+        "archival silence"
+      ],
+      "facet": "definition",
+      "text": "史料沉默（archival silence）：记录未涵盖或无法代表的群体与经历。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C01_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C01_1",
+      "topic": "口述史与个人回忆",
+      "keywords_en": [
+        "oral history",
+        "personal recollection"
+      ],
+      "facet": "concept_distinction",
+      "text": "口述史与个人回忆应作概念区分：口述史是以记录和解释个人回忆为核心的历史资料方法；个人回忆是个体对过去经历的主观记述。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C01_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C01_2",
+      "topic": "口述史与一手史料",
+      "keywords_en": [
+        "oral history",
+        "primary source"
+      ],
+      "facet": "concept_distinction",
+      "text": "口述史与一手史料应作概念区分：口述史是以记录和解释个人回忆为核心的历史资料方法；一手史料是直接形成于研究对象时期或事件参与者的材料。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C01_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C01_3",
+      "topic": "口述史与二手史料",
+      "keywords_en": [
+        "oral history",
+        "secondary source"
+      ],
+      "facet": "concept_distinction",
+      "text": "口述史与二手史料应作概念区分：口述史是以记录和解释个人回忆为核心的历史资料方法；二手史料是基于其他材料形成的后续解释与研究。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C01_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C01_4",
+      "topic": "口述史与史料出处",
+      "keywords_en": [
+        "oral history",
+        "source provenance"
+      ],
+      "facet": "concept_distinction",
+      "text": "口述史与史料出处应作概念区分：口述史是以记录和解释个人回忆为核心的历史资料方法；史料出处是材料的产生者时间环境及传递过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C02_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C02_1",
+      "topic": "个人回忆与一手史料",
+      "keywords_en": [
+        "personal recollection",
+        "primary source"
+      ],
+      "facet": "concept_distinction",
+      "text": "个人回忆与一手史料应作概念区分：个人回忆是个体对过去经历的主观记述；一手史料是直接形成于研究对象时期或事件参与者的材料。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C02_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C02_2",
+      "topic": "个人回忆与二手史料",
+      "keywords_en": [
+        "personal recollection",
+        "secondary source"
+      ],
+      "facet": "concept_distinction",
+      "text": "个人回忆与二手史料应作概念区分：个人回忆是个体对过去经历的主观记述；二手史料是基于其他材料形成的后续解释与研究。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C02_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C02_3",
+      "topic": "个人回忆与史料出处",
+      "keywords_en": [
+        "personal recollection",
+        "source provenance"
+      ],
+      "facet": "concept_distinction",
+      "text": "个人回忆与史料出处应作概念区分：个人回忆是个体对过去经历的主观记述；史料出处是材料的产生者时间环境及传递过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C02_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C02_4",
+      "topic": "个人回忆与历史语境",
+      "keywords_en": [
+        "personal recollection",
+        "historical context"
+      ],
+      "facet": "concept_distinction",
+      "text": "个人回忆与历史语境应作概念区分：个人回忆是个体对过去经历的主观记述；历史语境是理解历史行为所需的当时制度与文化条件。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C03_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C03_1",
+      "topic": "一手史料与二手史料",
+      "keywords_en": [
+        "primary source",
+        "secondary source"
+      ],
+      "facet": "concept_distinction",
+      "text": "一手史料与二手史料应作概念区分：一手史料是直接形成于研究对象时期或事件参与者的材料；二手史料是基于其他材料形成的后续解释与研究。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C03_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C03_2",
+      "topic": "一手史料与史料出处",
+      "keywords_en": [
+        "primary source",
+        "source provenance"
+      ],
+      "facet": "concept_distinction",
+      "text": "一手史料与史料出处应作概念区分：一手史料是直接形成于研究对象时期或事件参与者的材料；史料出处是材料的产生者时间环境及传递过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C03_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C03_3",
+      "topic": "一手史料与历史语境",
+      "keywords_en": [
+        "primary source",
+        "historical context"
+      ],
+      "facet": "concept_distinction",
+      "text": "一手史料与历史语境应作概念区分：一手史料是直接形成于研究对象时期或事件参与者的材料；历史语境是理解历史行为所需的当时制度与文化条件。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C03_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C03_4",
+      "topic": "一手史料与年代学",
+      "keywords_en": [
+        "primary source",
+        "chronology"
+      ],
+      "facet": "concept_distinction",
+      "text": "一手史料与年代学应作概念区分：一手史料是直接形成于研究对象时期或事件参与者的材料；年代学是确定事件发生时间与先后顺序的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C04_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C04_1",
+      "topic": "二手史料与史料出处",
+      "keywords_en": [
+        "secondary source",
+        "source provenance"
+      ],
+      "facet": "concept_distinction",
+      "text": "二手史料与史料出处应作概念区分：二手史料是基于其他材料形成的后续解释与研究；史料出处是材料的产生者时间环境及传递过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C04_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C04_2",
+      "topic": "二手史料与历史语境",
+      "keywords_en": [
+        "secondary source",
+        "historical context"
+      ],
+      "facet": "concept_distinction",
+      "text": "二手史料与历史语境应作概念区分：二手史料是基于其他材料形成的后续解释与研究；历史语境是理解历史行为所需的当时制度与文化条件。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C04_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C04_3",
+      "topic": "二手史料与年代学",
+      "keywords_en": [
+        "secondary source",
+        "chronology"
+      ],
+      "facet": "concept_distinction",
+      "text": "二手史料与年代学应作概念区分：二手史料是基于其他材料形成的后续解释与研究；年代学是确定事件发生时间与先后顺序的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C04_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C04_4",
+      "topic": "二手史料与历史叙事",
+      "keywords_en": [
+        "secondary source",
+        "historical narrative"
+      ],
+      "facet": "concept_distinction",
+      "text": "二手史料与历史叙事应作概念区分：二手史料是基于其他材料形成的后续解释与研究；历史叙事是把事件组织成有解释结构的过去故事。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C05_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C05_1",
+      "topic": "史料出处与历史语境",
+      "keywords_en": [
+        "source provenance",
+        "historical context"
+      ],
+      "facet": "concept_distinction",
+      "text": "史料出处与历史语境应作概念区分：史料出处是材料的产生者时间环境及传递过程；历史语境是理解历史行为所需的当时制度与文化条件。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C05_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C05_2",
+      "topic": "史料出处与年代学",
+      "keywords_en": [
+        "source provenance",
+        "chronology"
+      ],
+      "facet": "concept_distinction",
+      "text": "史料出处与年代学应作概念区分：史料出处是材料的产生者时间环境及传递过程；年代学是确定事件发生时间与先后顺序的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C05_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C05_3",
+      "topic": "史料出处与历史叙事",
+      "keywords_en": [
+        "source provenance",
+        "historical narrative"
+      ],
+      "facet": "concept_distinction",
+      "text": "史料出处与历史叙事应作概念区分：史料出处是材料的产生者时间环境及传递过程；历史叙事是把事件组织成有解释结构的过去故事。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C05_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C05_4",
+      "topic": "史料出处与集体记忆",
+      "keywords_en": [
+        "source provenance",
+        "collective memory"
+      ],
+      "facet": "concept_distinction",
+      "text": "史料出处与集体记忆应作概念区分：史料出处是材料的产生者时间环境及传递过程；集体记忆是群体对过去的共同表述和纪念实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C06_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C06_1",
+      "topic": "历史语境与年代学",
+      "keywords_en": [
+        "historical context",
+        "chronology"
+      ],
+      "facet": "concept_distinction",
+      "text": "历史语境与年代学应作概念区分：历史语境是理解历史行为所需的当时制度与文化条件；年代学是确定事件发生时间与先后顺序的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C06_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C06_2",
+      "topic": "历史语境与历史叙事",
+      "keywords_en": [
+        "historical context",
+        "historical narrative"
+      ],
+      "facet": "concept_distinction",
+      "text": "历史语境与历史叙事应作概念区分：历史语境是理解历史行为所需的当时制度与文化条件；历史叙事是把事件组织成有解释结构的过去故事。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C06_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C06_3",
+      "topic": "历史语境与集体记忆",
+      "keywords_en": [
+        "historical context",
+        "collective memory"
+      ],
+      "facet": "concept_distinction",
+      "text": "历史语境与集体记忆应作概念区分：历史语境是理解历史行为所需的当时制度与文化条件；集体记忆是群体对过去的共同表述和纪念实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C06_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C06_4",
+      "topic": "历史语境与记忆偏差",
+      "keywords_en": [
+        "historical context",
+        "memory bias"
+      ],
+      "facet": "concept_distinction",
+      "text": "历史语境与记忆偏差应作概念区分：历史语境是理解历史行为所需的当时制度与文化条件；记忆偏差是回忆因遗忘重构或后续影响而偏离原始经历的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C07_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C07_1",
+      "topic": "年代学与历史叙事",
+      "keywords_en": [
+        "chronology",
+        "historical narrative"
+      ],
+      "facet": "concept_distinction",
+      "text": "年代学与历史叙事应作概念区分：年代学是确定事件发生时间与先后顺序的方法；历史叙事是把事件组织成有解释结构的过去故事。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C07_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C07_2",
+      "topic": "年代学与集体记忆",
+      "keywords_en": [
+        "chronology",
+        "collective memory"
+      ],
+      "facet": "concept_distinction",
+      "text": "年代学与集体记忆应作概念区分：年代学是确定事件发生时间与先后顺序的方法；集体记忆是群体对过去的共同表述和纪念实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C07_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C07_3",
+      "topic": "年代学与记忆偏差",
+      "keywords_en": [
+        "chronology",
+        "memory bias"
+      ],
+      "facet": "concept_distinction",
+      "text": "年代学与记忆偏差应作概念区分：年代学是确定事件发生时间与先后顺序的方法；记忆偏差是回忆因遗忘重构或后续影响而偏离原始经历的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C07_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C07_4",
+      "topic": "年代学与史料互证",
+      "keywords_en": [
+        "chronology",
+        "source triangulation"
+      ],
+      "facet": "concept_distinction",
+      "text": "年代学与史料互证应作概念区分：年代学是确定事件发生时间与先后顺序的方法；史料互证是使用独立来源比较和核验历史陈述的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C08_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C08_1",
+      "topic": "历史叙事与集体记忆",
+      "keywords_en": [
+        "historical narrative",
+        "collective memory"
+      ],
+      "facet": "concept_distinction",
+      "text": "历史叙事与集体记忆应作概念区分：历史叙事是把事件组织成有解释结构的过去故事；集体记忆是群体对过去的共同表述和纪念实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C08_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C08_2",
+      "topic": "历史叙事与记忆偏差",
+      "keywords_en": [
+        "historical narrative",
+        "memory bias"
+      ],
+      "facet": "concept_distinction",
+      "text": "历史叙事与记忆偏差应作概念区分：历史叙事是把事件组织成有解释结构的过去故事；记忆偏差是回忆因遗忘重构或后续影响而偏离原始经历的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C08_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C08_3",
+      "topic": "历史叙事与史料互证",
+      "keywords_en": [
+        "historical narrative",
+        "source triangulation"
+      ],
+      "facet": "concept_distinction",
+      "text": "历史叙事与史料互证应作概念区分：历史叙事是把事件组织成有解释结构的过去故事；史料互证是使用独立来源比较和核验历史陈述的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C08_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C08_4",
+      "topic": "历史叙事与日常生活史",
+      "keywords_en": [
+        "historical narrative",
+        "everyday life history"
+      ],
+      "facet": "concept_distinction",
+      "text": "历史叙事与日常生活史应作概念区分：历史叙事是把事件组织成有解释结构的过去故事；日常生活史是关注普通人在特定时期生活实践的研究取向。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C09_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C09_1",
+      "topic": "集体记忆与记忆偏差",
+      "keywords_en": [
+        "collective memory",
+        "memory bias"
+      ],
+      "facet": "concept_distinction",
+      "text": "集体记忆与记忆偏差应作概念区分：集体记忆是群体对过去的共同表述和纪念实践；记忆偏差是回忆因遗忘重构或后续影响而偏离原始经历的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C09_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C09_2",
+      "topic": "集体记忆与史料互证",
+      "keywords_en": [
+        "collective memory",
+        "source triangulation"
+      ],
+      "facet": "concept_distinction",
+      "text": "集体记忆与史料互证应作概念区分：集体记忆是群体对过去的共同表述和纪念实践；史料互证是使用独立来源比较和核验历史陈述的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C09_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C09_3",
+      "topic": "集体记忆与日常生活史",
+      "keywords_en": [
+        "collective memory",
+        "everyday life history"
+      ],
+      "facet": "concept_distinction",
+      "text": "集体记忆与日常生活史应作概念区分：集体记忆是群体对过去的共同表述和纪念实践；日常生活史是关注普通人在特定时期生活实践的研究取向。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C09_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C09_4",
+      "topic": "集体记忆与劳动史",
+      "keywords_en": [
+        "collective memory",
+        "labor history"
+      ],
+      "facet": "concept_distinction",
+      "text": "集体记忆与劳动史应作概念区分：集体记忆是群体对过去的共同表述和纪念实践；劳动史是研究劳动关系和职业生活变化的历史领域。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C10_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C10_1",
+      "topic": "记忆偏差与史料互证",
+      "keywords_en": [
+        "memory bias",
+        "source triangulation"
+      ],
+      "facet": "concept_distinction",
+      "text": "记忆偏差与史料互证应作概念区分：记忆偏差是回忆因遗忘重构或后续影响而偏离原始经历的现象；史料互证是使用独立来源比较和核验历史陈述的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C10_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C10_2",
+      "topic": "记忆偏差与日常生活史",
+      "keywords_en": [
+        "memory bias",
+        "everyday life history"
+      ],
+      "facet": "concept_distinction",
+      "text": "记忆偏差与日常生活史应作概念区分：记忆偏差是回忆因遗忘重构或后续影响而偏离原始经历的现象；日常生活史是关注普通人在特定时期生活实践的研究取向。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C10_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C10_3",
+      "topic": "记忆偏差与劳动史",
+      "keywords_en": [
+        "memory bias",
+        "labor history"
+      ],
+      "facet": "concept_distinction",
+      "text": "记忆偏差与劳动史应作概念区分：记忆偏差是回忆因遗忘重构或后续影响而偏离原始经历的现象；劳动史是研究劳动关系和职业生活变化的历史领域。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C10_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C10_4",
+      "topic": "记忆偏差与家庭史",
+      "keywords_en": [
+        "memory bias",
+        "family history"
+      ],
+      "facet": "concept_distinction",
+      "text": "记忆偏差与家庭史应作概念区分：记忆偏差是回忆因遗忘重构或后续影响而偏离原始经历的现象；家庭史是研究家庭组织关系和生活变化的历史领域。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C11_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C11_1",
+      "topic": "史料互证与日常生活史",
+      "keywords_en": [
+        "source triangulation",
+        "everyday life history"
+      ],
+      "facet": "concept_distinction",
+      "text": "史料互证与日常生活史应作概念区分：史料互证是使用独立来源比较和核验历史陈述的方法；日常生活史是关注普通人在特定时期生活实践的研究取向。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C11_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C11_2",
+      "topic": "史料互证与劳动史",
+      "keywords_en": [
+        "source triangulation",
+        "labor history"
+      ],
+      "facet": "concept_distinction",
+      "text": "史料互证与劳动史应作概念区分：史料互证是使用独立来源比较和核验历史陈述的方法；劳动史是研究劳动关系和职业生活变化的历史领域。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C11_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C11_3",
+      "topic": "史料互证与家庭史",
+      "keywords_en": [
+        "source triangulation",
+        "family history"
+      ],
+      "facet": "concept_distinction",
+      "text": "史料互证与家庭史应作概念区分：史料互证是使用独立来源比较和核验历史陈述的方法；家庭史是研究家庭组织关系和生活变化的历史领域。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C11_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C11_4",
+      "topic": "史料互证与社会阶层",
+      "keywords_en": [
+        "source triangulation",
+        "social class"
+      ],
+      "facet": "concept_distinction",
+      "text": "史料互证与社会阶层应作概念区分：史料互证是使用独立来源比较和核验历史陈述的方法；社会阶层是依据资源地位和职业等形成的社会分层。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C12_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C12_1",
+      "topic": "日常生活史与劳动史",
+      "keywords_en": [
+        "everyday life history",
+        "labor history"
+      ],
+      "facet": "concept_distinction",
+      "text": "日常生活史与劳动史应作概念区分：日常生活史是关注普通人在特定时期生活实践的研究取向；劳动史是研究劳动关系和职业生活变化的历史领域。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C12_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C12_2",
+      "topic": "日常生活史与家庭史",
+      "keywords_en": [
+        "everyday life history",
+        "family history"
+      ],
+      "facet": "concept_distinction",
+      "text": "日常生活史与家庭史应作概念区分：日常生活史是关注普通人在特定时期生活实践的研究取向；家庭史是研究家庭组织关系和生活变化的历史领域。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C12_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C12_3",
+      "topic": "日常生活史与社会阶层",
+      "keywords_en": [
+        "everyday life history",
+        "social class"
+      ],
+      "facet": "concept_distinction",
+      "text": "日常生活史与社会阶层应作概念区分：日常生活史是关注普通人在特定时期生活实践的研究取向；社会阶层是依据资源地位和职业等形成的社会分层。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C12_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C12_4",
+      "topic": "日常生活史与历史访谈提纲",
+      "keywords_en": [
+        "everyday life history",
+        "oral history guide"
+      ],
+      "facet": "concept_distinction",
+      "text": "日常生活史与历史访谈提纲应作概念区分：日常生活史是关注普通人在特定时期生活实践的研究取向；历史访谈提纲是围绕过去经历设置但允许追问的采访框架。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C13_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C13_1",
+      "topic": "劳动史与家庭史",
+      "keywords_en": [
+        "labor history",
+        "family history"
+      ],
+      "facet": "concept_distinction",
+      "text": "劳动史与家庭史应作概念区分：劳动史是研究劳动关系和职业生活变化的历史领域；家庭史是研究家庭组织关系和生活变化的历史领域。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C13_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C13_2",
+      "topic": "劳动史与社会阶层",
+      "keywords_en": [
+        "labor history",
+        "social class"
+      ],
+      "facet": "concept_distinction",
+      "text": "劳动史与社会阶层应作概念区分：劳动史是研究劳动关系和职业生活变化的历史领域；社会阶层是依据资源地位和职业等形成的社会分层。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C13_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C13_3",
+      "topic": "劳动史与历史访谈提纲",
+      "keywords_en": [
+        "labor history",
+        "oral history guide"
+      ],
+      "facet": "concept_distinction",
+      "text": "劳动史与历史访谈提纲应作概念区分：劳动史是研究劳动关系和职业生活变化的历史领域；历史访谈提纲是围绕过去经历设置但允许追问的采访框架。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C13_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C13_4",
+      "topic": "劳动史与访谈者效应",
+      "keywords_en": [
+        "labor history",
+        "interviewer effect"
+      ],
+      "facet": "concept_distinction",
+      "text": "劳动史与访谈者效应应作概念区分：劳动史是研究劳动关系和职业生活变化的历史领域；访谈者效应是采访提问方式和互动关系对受访者表述产生的影响。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C14_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C14_1",
+      "topic": "家庭史与社会阶层",
+      "keywords_en": [
+        "family history",
+        "social class"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭史与社会阶层应作概念区分：家庭史是研究家庭组织关系和生活变化的历史领域；社会阶层是依据资源地位和职业等形成的社会分层。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C14_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C14_2",
+      "topic": "家庭史与历史访谈提纲",
+      "keywords_en": [
+        "family history",
+        "oral history guide"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭史与历史访谈提纲应作概念区分：家庭史是研究家庭组织关系和生活变化的历史领域；历史访谈提纲是围绕过去经历设置但允许追问的采访框架。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C14_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C14_3",
+      "topic": "家庭史与访谈者效应",
+      "keywords_en": [
+        "family history",
+        "interviewer effect"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭史与访谈者效应应作概念区分：家庭史是研究家庭组织关系和生活变化的历史领域；访谈者效应是采访提问方式和互动关系对受访者表述产生的影响。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C14_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C14_4",
+      "topic": "家庭史与档案保管",
+      "keywords_en": [
+        "family history",
+        "archival preservation"
+      ],
+      "facet": "concept_distinction",
+      "text": "家庭史与档案保管应作概念区分：家庭史是研究家庭组织关系和生活变化的历史领域；档案保管是对历史材料进行保存编目和访问管理的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C15_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C15_1",
+      "topic": "社会阶层与历史访谈提纲",
+      "keywords_en": [
+        "social class",
+        "oral history guide"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会阶层与历史访谈提纲应作概念区分：社会阶层是依据资源地位和职业等形成的社会分层；历史访谈提纲是围绕过去经历设置但允许追问的采访框架。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C15_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C15_2",
+      "topic": "社会阶层与访谈者效应",
+      "keywords_en": [
+        "social class",
+        "interviewer effect"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会阶层与访谈者效应应作概念区分：社会阶层是依据资源地位和职业等形成的社会分层；访谈者效应是采访提问方式和互动关系对受访者表述产生的影响。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C15_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C15_3",
+      "topic": "社会阶层与档案保管",
+      "keywords_en": [
+        "social class",
+        "archival preservation"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会阶层与档案保管应作概念区分：社会阶层是依据资源地位和职业等形成的社会分层；档案保管是对历史材料进行保存编目和访问管理的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C15_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C15_4",
+      "topic": "社会阶层与研究者反身性",
+      "keywords_en": [
+        "social class",
+        "researcher reflexivity"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会阶层与研究者反身性应作概念区分：社会阶层是依据资源地位和职业等形成的社会分层；研究者反身性是研究者检查自身立场如何影响资料生产与解释。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C16_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C16_1",
+      "topic": "历史访谈提纲与访谈者效应",
+      "keywords_en": [
+        "oral history guide",
+        "interviewer effect"
+      ],
+      "facet": "concept_distinction",
+      "text": "历史访谈提纲与访谈者效应应作概念区分：历史访谈提纲是围绕过去经历设置但允许追问的采访框架；访谈者效应是采访提问方式和互动关系对受访者表述产生的影响。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C16_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C16_2",
+      "topic": "历史访谈提纲与档案保管",
+      "keywords_en": [
+        "oral history guide",
+        "archival preservation"
+      ],
+      "facet": "concept_distinction",
+      "text": "历史访谈提纲与档案保管应作概念区分：历史访谈提纲是围绕过去经历设置但允许追问的采访框架；档案保管是对历史材料进行保存编目和访问管理的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C16_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C16_3",
+      "topic": "历史访谈提纲与研究者反身性",
+      "keywords_en": [
+        "oral history guide",
+        "researcher reflexivity"
+      ],
+      "facet": "concept_distinction",
+      "text": "历史访谈提纲与研究者反身性应作概念区分：历史访谈提纲是围绕过去经历设置但允许追问的采访框架；研究者反身性是研究者检查自身立场如何影响资料生产与解释。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C16_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C16_4",
+      "topic": "历史访谈提纲与史料沉默",
+      "keywords_en": [
+        "oral history guide",
+        "archival silence"
+      ],
+      "facet": "concept_distinction",
+      "text": "历史访谈提纲与史料沉默应作概念区分：历史访谈提纲是围绕过去经历设置但允许追问的采访框架；史料沉默是记录未涵盖或无法代表的群体与经历。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C17_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C17_1",
+      "topic": "访谈者效应与档案保管",
+      "keywords_en": [
+        "interviewer effect",
+        "archival preservation"
+      ],
+      "facet": "concept_distinction",
+      "text": "访谈者效应与档案保管应作概念区分：访谈者效应是采访提问方式和互动关系对受访者表述产生的影响；档案保管是对历史材料进行保存编目和访问管理的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C17_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C17_2",
+      "topic": "访谈者效应与研究者反身性",
+      "keywords_en": [
+        "interviewer effect",
+        "researcher reflexivity"
+      ],
+      "facet": "concept_distinction",
+      "text": "访谈者效应与研究者反身性应作概念区分：访谈者效应是采访提问方式和互动关系对受访者表述产生的影响；研究者反身性是研究者检查自身立场如何影响资料生产与解释。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C17_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C17_3",
+      "topic": "访谈者效应与史料沉默",
+      "keywords_en": [
+        "interviewer effect",
+        "archival silence"
+      ],
+      "facet": "concept_distinction",
+      "text": "访谈者效应与史料沉默应作概念区分：访谈者效应是采访提问方式和互动关系对受访者表述产生的影响；史料沉默是记录未涵盖或无法代表的群体与经历。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C17_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C17_4",
+      "topic": "访谈者效应与口述史",
+      "keywords_en": [
+        "interviewer effect",
+        "oral history"
+      ],
+      "facet": "concept_distinction",
+      "text": "访谈者效应与口述史应作概念区分：访谈者效应是采访提问方式和互动关系对受访者表述产生的影响；口述史是以记录和解释个人回忆为核心的历史资料方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C18_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C18_1",
+      "topic": "档案保管与研究者反身性",
+      "keywords_en": [
+        "archival preservation",
+        "researcher reflexivity"
+      ],
+      "facet": "concept_distinction",
+      "text": "档案保管与研究者反身性应作概念区分：档案保管是对历史材料进行保存编目和访问管理的实践；研究者反身性是研究者检查自身立场如何影响资料生产与解释。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C18_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C18_2",
+      "topic": "档案保管与史料沉默",
+      "keywords_en": [
+        "archival preservation",
+        "archival silence"
+      ],
+      "facet": "concept_distinction",
+      "text": "档案保管与史料沉默应作概念区分：档案保管是对历史材料进行保存编目和访问管理的实践；史料沉默是记录未涵盖或无法代表的群体与经历。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C18_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C18_3",
+      "topic": "档案保管与口述史",
+      "keywords_en": [
+        "archival preservation",
+        "oral history"
+      ],
+      "facet": "concept_distinction",
+      "text": "档案保管与口述史应作概念区分：档案保管是对历史材料进行保存编目和访问管理的实践；口述史是以记录和解释个人回忆为核心的历史资料方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C18_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C18_4",
+      "topic": "档案保管与个人回忆",
+      "keywords_en": [
+        "archival preservation",
+        "personal recollection"
+      ],
+      "facet": "concept_distinction",
+      "text": "档案保管与个人回忆应作概念区分：档案保管是对历史材料进行保存编目和访问管理的实践；个人回忆是个体对过去经历的主观记述。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C19_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C19_1",
+      "topic": "研究者反身性与史料沉默",
+      "keywords_en": [
+        "researcher reflexivity",
+        "archival silence"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究者反身性与史料沉默应作概念区分：研究者反身性是研究者检查自身立场如何影响资料生产与解释；史料沉默是记录未涵盖或无法代表的群体与经历。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C19_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C19_2",
+      "topic": "研究者反身性与口述史",
+      "keywords_en": [
+        "researcher reflexivity",
+        "oral history"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究者反身性与口述史应作概念区分：研究者反身性是研究者检查自身立场如何影响资料生产与解释；口述史是以记录和解释个人回忆为核心的历史资料方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C19_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C19_3",
+      "topic": "研究者反身性与个人回忆",
+      "keywords_en": [
+        "researcher reflexivity",
+        "personal recollection"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究者反身性与个人回忆应作概念区分：研究者反身性是研究者检查自身立场如何影响资料生产与解释；个人回忆是个体对过去经历的主观记述。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C19_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C19_4",
+      "topic": "研究者反身性与一手史料",
+      "keywords_en": [
+        "researcher reflexivity",
+        "primary source"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究者反身性与一手史料应作概念区分：研究者反身性是研究者检查自身立场如何影响资料生产与解释；一手史料是直接形成于研究对象时期或事件参与者的材料。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C20_1",
+      "domain": "history_society",
+      "concept_id": "history_society_C20_1",
+      "topic": "史料沉默与口述史",
+      "keywords_en": [
+        "archival silence",
+        "oral history"
+      ],
+      "facet": "concept_distinction",
+      "text": "史料沉默与口述史应作概念区分：史料沉默是记录未涵盖或无法代表的群体与经历；口述史是以记录和解释个人回忆为核心的历史资料方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C20_2",
+      "domain": "history_society",
+      "concept_id": "history_society_C20_2",
+      "topic": "史料沉默与个人回忆",
+      "keywords_en": [
+        "archival silence",
+        "personal recollection"
+      ],
+      "facet": "concept_distinction",
+      "text": "史料沉默与个人回忆应作概念区分：史料沉默是记录未涵盖或无法代表的群体与经历；个人回忆是个体对过去经历的主观记述。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C20_3",
+      "domain": "history_society",
+      "concept_id": "history_society_C20_3",
+      "topic": "史料沉默与一手史料",
+      "keywords_en": [
+        "archival silence",
+        "primary source"
+      ],
+      "facet": "concept_distinction",
+      "text": "史料沉默与一手史料应作概念区分：史料沉默是记录未涵盖或无法代表的群体与经历；一手史料是直接形成于研究对象时期或事件参与者的材料。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_history_society_C20_4",
+      "domain": "history_society",
+      "concept_id": "history_society_C20_4",
+      "topic": "史料沉默与二手史料",
+      "keywords_en": [
+        "archival silence",
+        "secondary source"
+      ],
+      "facet": "concept_distinction",
+      "text": "史料沉默与二手史料应作概念区分：史料沉默是记录未涵盖或无法代表的群体与经历；二手史料是基于其他材料形成的后续解释与研究。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

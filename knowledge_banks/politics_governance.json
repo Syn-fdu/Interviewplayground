@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "politics_governance",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_politics_governance_D01",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D01",
+      "topic": "公共政策",
+      "keywords_en": [
+        "public policy"
+      ],
+      "facet": "definition",
+      "text": "公共政策（public policy）：政府和公共机构为解决问题采取的行动与规则。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D02",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D02",
+      "topic": "政策议程",
+      "keywords_en": [
+        "policy agenda"
+      ],
+      "facet": "definition",
+      "text": "政策议程（policy agenda）：哪些公共问题获得决策机构注意的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D03",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D03",
+      "topic": "政策评估",
+      "keywords_en": [
+        "policy evaluation"
+      ],
+      "facet": "definition",
+      "text": "政策评估（policy evaluation）：根据标准检查政策实施和效果的研究。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D04",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D04",
+      "topic": "利益相关者",
+      "keywords_en": [
+        "stakeholders"
+      ],
+      "facet": "definition",
+      "text": "利益相关者（stakeholders）：受到决策影响或能够影响决策的个人和组织。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D05",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D05",
+      "topic": "治理",
+      "keywords_en": [
+        "governance"
+      ],
+      "facet": "definition",
+      "text": "治理（governance）：不同主体协调制定和执行公共规则的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D06",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D06",
+      "topic": "公共问责",
+      "keywords_en": [
+        "public accountability"
+      ],
+      "facet": "definition",
+      "text": "公共问责（public accountability）：公权力主体需要解释和承担其决策后果的机制。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D07",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D07",
+      "topic": "法治",
+      "keywords_en": [
+        "rule of law"
+      ],
+      "facet": "definition",
+      "text": "法治（rule of law）：公共权力与社会行为受到公开稳定规则约束的原则。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D08",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D08",
+      "topic": "司法独立",
+      "keywords_en": [
+        "judicial independence"
+      ],
+      "facet": "definition",
+      "text": "司法独立（judicial independence）：裁判机构依据法律和事实作出决定的制度安排。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D09",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D09",
+      "topic": "立法程序",
+      "keywords_en": [
+        "legislative process"
+      ],
+      "facet": "definition",
+      "text": "立法程序（legislative process）：制定修改和通过正式法律的制度化步骤。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D10",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D10",
+      "topic": "选举制度",
+      "keywords_en": [
+        "electoral system"
+      ],
+      "facet": "definition",
+      "text": "选举制度（electoral system）：把选民选择转化为代表席位或职位的规则。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D11",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D11",
+      "topic": "政治参与",
+      "keywords_en": [
+        "political participation"
+      ],
+      "facet": "definition",
+      "text": "政治参与（political participation）：公民通过投票讨论组织等方式影响公共事务。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D12",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D12",
+      "topic": "代表民主",
+      "keywords_en": [
+        "representative democracy"
+      ],
+      "facet": "definition",
+      "text": "代表民主（representative democracy）：公民授权代表参与公共决策的制度。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D13",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D13",
+      "topic": "多边主义",
+      "keywords_en": [
+        "multilateralism"
+      ],
+      "facet": "definition",
+      "text": "多边主义（multilateralism）：多个国家或主体通过规则和机制协调行动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D14",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D14",
+      "topic": "外交谈判",
+      "keywords_en": [
+        "diplomatic negotiation"
+      ],
+      "facet": "definition",
+      "text": "外交谈判（diplomatic negotiation）：国家或组织就分歧和合作进行正式磋商。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D15",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D15",
+      "topic": "国际法",
+      "keywords_en": [
+        "international law"
+      ],
+      "facet": "definition",
+      "text": "国际法（international law）：规范国家及其他国际主体关系的规则体系。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D16",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D16",
+      "topic": "冲突调解",
+      "keywords_en": [
+        "conflict mediation"
+      ],
+      "facet": "definition",
+      "text": "冲突调解（conflict mediation）：第三方帮助冲突双方沟通并寻找可接受方案的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D17",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D17",
+      "topic": "公共财政",
+      "keywords_en": [
+        "public finance"
+      ],
+      "facet": "definition",
+      "text": "公共财政（public finance）：政府的收入支出债务与资源分配活动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D18",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D18",
+      "topic": "城市规划",
+      "keywords_en": [
+        "urban planning"
+      ],
+      "facet": "definition",
+      "text": "城市规划（urban planning）：协调土地使用交通住房和公共空间发展的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D19",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D19",
+      "topic": "信息公开",
+      "keywords_en": [
+        "freedom of information"
+      ],
+      "facet": "definition",
+      "text": "信息公开（freedom of information）：公共机构向公众披露规则和信息的制度安排。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_D20",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_D20",
+      "topic": "政策执行落差",
+      "keywords_en": [
+        "implementation gap"
+      ],
+      "facet": "definition",
+      "text": "政策执行落差（implementation gap）：正式政策目标与实际实施效果之间的差异。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C01_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C01_1",
+      "topic": "公共政策与政策议程",
+      "keywords_en": [
+        "public policy",
+        "policy agenda"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共政策与政策议程应作概念区分：公共政策是政府和公共机构为解决问题采取的行动与规则；政策议程是哪些公共问题获得决策机构注意的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C01_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C01_2",
+      "topic": "公共政策与政策评估",
+      "keywords_en": [
+        "public policy",
+        "policy evaluation"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共政策与政策评估应作概念区分：公共政策是政府和公共机构为解决问题采取的行动与规则；政策评估是根据标准检查政策实施和效果的研究。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C01_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C01_3",
+      "topic": "公共政策与利益相关者",
+      "keywords_en": [
+        "public policy",
+        "stakeholders"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共政策与利益相关者应作概念区分：公共政策是政府和公共机构为解决问题采取的行动与规则；利益相关者是受到决策影响或能够影响决策的个人和组织。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C01_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C01_4",
+      "topic": "公共政策与治理",
+      "keywords_en": [
+        "public policy",
+        "governance"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共政策与治理应作概念区分：公共政策是政府和公共机构为解决问题采取的行动与规则；治理是不同主体协调制定和执行公共规则的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C02_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C02_1",
+      "topic": "政策议程与政策评估",
+      "keywords_en": [
+        "policy agenda",
+        "policy evaluation"
+      ],
+      "facet": "concept_distinction",
+      "text": "政策议程与政策评估应作概念区分：政策议程是哪些公共问题获得决策机构注意的过程；政策评估是根据标准检查政策实施和效果的研究。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C02_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C02_2",
+      "topic": "政策议程与利益相关者",
+      "keywords_en": [
+        "policy agenda",
+        "stakeholders"
+      ],
+      "facet": "concept_distinction",
+      "text": "政策议程与利益相关者应作概念区分：政策议程是哪些公共问题获得决策机构注意的过程；利益相关者是受到决策影响或能够影响决策的个人和组织。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C02_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C02_3",
+      "topic": "政策议程与治理",
+      "keywords_en": [
+        "policy agenda",
+        "governance"
+      ],
+      "facet": "concept_distinction",
+      "text": "政策议程与治理应作概念区分：政策议程是哪些公共问题获得决策机构注意的过程；治理是不同主体协调制定和执行公共规则的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C02_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C02_4",
+      "topic": "政策议程与公共问责",
+      "keywords_en": [
+        "policy agenda",
+        "public accountability"
+      ],
+      "facet": "concept_distinction",
+      "text": "政策议程与公共问责应作概念区分：政策议程是哪些公共问题获得决策机构注意的过程；公共问责是公权力主体需要解释和承担其决策后果的机制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C03_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C03_1",
+      "topic": "政策评估与利益相关者",
+      "keywords_en": [
+        "policy evaluation",
+        "stakeholders"
+      ],
+      "facet": "concept_distinction",
+      "text": "政策评估与利益相关者应作概念区分：政策评估是根据标准检查政策实施和效果的研究；利益相关者是受到决策影响或能够影响决策的个人和组织。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C03_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C03_2",
+      "topic": "政策评估与治理",
+      "keywords_en": [
+        "policy evaluation",
+        "governance"
+      ],
+      "facet": "concept_distinction",
+      "text": "政策评估与治理应作概念区分：政策评估是根据标准检查政策实施和效果的研究；治理是不同主体协调制定和执行公共规则的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C03_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C03_3",
+      "topic": "政策评估与公共问责",
+      "keywords_en": [
+        "policy evaluation",
+        "public accountability"
+      ],
+      "facet": "concept_distinction",
+      "text": "政策评估与公共问责应作概念区分：政策评估是根据标准检查政策实施和效果的研究；公共问责是公权力主体需要解释和承担其决策后果的机制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C03_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C03_4",
+      "topic": "政策评估与法治",
+      "keywords_en": [
+        "policy evaluation",
+        "rule of law"
+      ],
+      "facet": "concept_distinction",
+      "text": "政策评估与法治应作概念区分：政策评估是根据标准检查政策实施和效果的研究；法治是公共权力与社会行为受到公开稳定规则约束的原则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C04_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C04_1",
+      "topic": "利益相关者与治理",
+      "keywords_en": [
+        "stakeholders",
+        "governance"
+      ],
+      "facet": "concept_distinction",
+      "text": "利益相关者与治理应作概念区分：利益相关者是受到决策影响或能够影响决策的个人和组织；治理是不同主体协调制定和执行公共规则的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C04_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C04_2",
+      "topic": "利益相关者与公共问责",
+      "keywords_en": [
+        "stakeholders",
+        "public accountability"
+      ],
+      "facet": "concept_distinction",
+      "text": "利益相关者与公共问责应作概念区分：利益相关者是受到决策影响或能够影响决策的个人和组织；公共问责是公权力主体需要解释和承担其决策后果的机制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C04_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C04_3",
+      "topic": "利益相关者与法治",
+      "keywords_en": [
+        "stakeholders",
+        "rule of law"
+      ],
+      "facet": "concept_distinction",
+      "text": "利益相关者与法治应作概念区分：利益相关者是受到决策影响或能够影响决策的个人和组织；法治是公共权力与社会行为受到公开稳定规则约束的原则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C04_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C04_4",
+      "topic": "利益相关者与司法独立",
+      "keywords_en": [
+        "stakeholders",
+        "judicial independence"
+      ],
+      "facet": "concept_distinction",
+      "text": "利益相关者与司法独立应作概念区分：利益相关者是受到决策影响或能够影响决策的个人和组织；司法独立是裁判机构依据法律和事实作出决定的制度安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C05_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C05_1",
+      "topic": "治理与公共问责",
+      "keywords_en": [
+        "governance",
+        "public accountability"
+      ],
+      "facet": "concept_distinction",
+      "text": "治理与公共问责应作概念区分：治理是不同主体协调制定和执行公共规则的过程；公共问责是公权力主体需要解释和承担其决策后果的机制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C05_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C05_2",
+      "topic": "治理与法治",
+      "keywords_en": [
+        "governance",
+        "rule of law"
+      ],
+      "facet": "concept_distinction",
+      "text": "治理与法治应作概念区分：治理是不同主体协调制定和执行公共规则的过程；法治是公共权力与社会行为受到公开稳定规则约束的原则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C05_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C05_3",
+      "topic": "治理与司法独立",
+      "keywords_en": [
+        "governance",
+        "judicial independence"
+      ],
+      "facet": "concept_distinction",
+      "text": "治理与司法独立应作概念区分：治理是不同主体协调制定和执行公共规则的过程；司法独立是裁判机构依据法律和事实作出决定的制度安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C05_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C05_4",
+      "topic": "治理与立法程序",
+      "keywords_en": [
+        "governance",
+        "legislative process"
+      ],
+      "facet": "concept_distinction",
+      "text": "治理与立法程序应作概念区分：治理是不同主体协调制定和执行公共规则的过程；立法程序是制定修改和通过正式法律的制度化步骤。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C06_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C06_1",
+      "topic": "公共问责与法治",
+      "keywords_en": [
+        "public accountability",
+        "rule of law"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共问责与法治应作概念区分：公共问责是公权力主体需要解释和承担其决策后果的机制；法治是公共权力与社会行为受到公开稳定规则约束的原则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C06_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C06_2",
+      "topic": "公共问责与司法独立",
+      "keywords_en": [
+        "public accountability",
+        "judicial independence"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共问责与司法独立应作概念区分：公共问责是公权力主体需要解释和承担其决策后果的机制；司法独立是裁判机构依据法律和事实作出决定的制度安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C06_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C06_3",
+      "topic": "公共问责与立法程序",
+      "keywords_en": [
+        "public accountability",
+        "legislative process"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共问责与立法程序应作概念区分：公共问责是公权力主体需要解释和承担其决策后果的机制；立法程序是制定修改和通过正式法律的制度化步骤。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C06_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C06_4",
+      "topic": "公共问责与选举制度",
+      "keywords_en": [
+        "public accountability",
+        "electoral system"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共问责与选举制度应作概念区分：公共问责是公权力主体需要解释和承担其决策后果的机制；选举制度是把选民选择转化为代表席位或职位的规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C07_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C07_1",
+      "topic": "法治与司法独立",
+      "keywords_en": [
+        "rule of law",
+        "judicial independence"
+      ],
+      "facet": "concept_distinction",
+      "text": "法治与司法独立应作概念区分：法治是公共权力与社会行为受到公开稳定规则约束的原则；司法独立是裁判机构依据法律和事实作出决定的制度安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C07_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C07_2",
+      "topic": "法治与立法程序",
+      "keywords_en": [
+        "rule of law",
+        "legislative process"
+      ],
+      "facet": "concept_distinction",
+      "text": "法治与立法程序应作概念区分：法治是公共权力与社会行为受到公开稳定规则约束的原则；立法程序是制定修改和通过正式法律的制度化步骤。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C07_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C07_3",
+      "topic": "法治与选举制度",
+      "keywords_en": [
+        "rule of law",
+        "electoral system"
+      ],
+      "facet": "concept_distinction",
+      "text": "法治与选举制度应作概念区分：法治是公共权力与社会行为受到公开稳定规则约束的原则；选举制度是把选民选择转化为代表席位或职位的规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C07_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C07_4",
+      "topic": "法治与政治参与",
+      "keywords_en": [
+        "rule of law",
+        "political participation"
+      ],
+      "facet": "concept_distinction",
+      "text": "法治与政治参与应作概念区分：法治是公共权力与社会行为受到公开稳定规则约束的原则；政治参与是公民通过投票讨论组织等方式影响公共事务。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C08_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C08_1",
+      "topic": "司法独立与立法程序",
+      "keywords_en": [
+        "judicial independence",
+        "legislative process"
+      ],
+      "facet": "concept_distinction",
+      "text": "司法独立与立法程序应作概念区分：司法独立是裁判机构依据法律和事实作出决定的制度安排；立法程序是制定修改和通过正式法律的制度化步骤。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C08_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C08_2",
+      "topic": "司法独立与选举制度",
+      "keywords_en": [
+        "judicial independence",
+        "electoral system"
+      ],
+      "facet": "concept_distinction",
+      "text": "司法独立与选举制度应作概念区分：司法独立是裁判机构依据法律和事实作出决定的制度安排；选举制度是把选民选择转化为代表席位或职位的规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C08_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C08_3",
+      "topic": "司法独立与政治参与",
+      "keywords_en": [
+        "judicial independence",
+        "political participation"
+      ],
+      "facet": "concept_distinction",
+      "text": "司法独立与政治参与应作概念区分：司法独立是裁判机构依据法律和事实作出决定的制度安排；政治参与是公民通过投票讨论组织等方式影响公共事务。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C08_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C08_4",
+      "topic": "司法独立与代表民主",
+      "keywords_en": [
+        "judicial independence",
+        "representative democracy"
+      ],
+      "facet": "concept_distinction",
+      "text": "司法独立与代表民主应作概念区分：司法独立是裁判机构依据法律和事实作出决定的制度安排；代表民主是公民授权代表参与公共决策的制度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C09_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C09_1",
+      "topic": "立法程序与选举制度",
+      "keywords_en": [
+        "legislative process",
+        "electoral system"
+      ],
+      "facet": "concept_distinction",
+      "text": "立法程序与选举制度应作概念区分：立法程序是制定修改和通过正式法律的制度化步骤；选举制度是把选民选择转化为代表席位或职位的规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C09_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C09_2",
+      "topic": "立法程序与政治参与",
+      "keywords_en": [
+        "legislative process",
+        "political participation"
+      ],
+      "facet": "concept_distinction",
+      "text": "立法程序与政治参与应作概念区分：立法程序是制定修改和通过正式法律的制度化步骤；政治参与是公民通过投票讨论组织等方式影响公共事务。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C09_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C09_3",
+      "topic": "立法程序与代表民主",
+      "keywords_en": [
+        "legislative process",
+        "representative democracy"
+      ],
+      "facet": "concept_distinction",
+      "text": "立法程序与代表民主应作概念区分：立法程序是制定修改和通过正式法律的制度化步骤；代表民主是公民授权代表参与公共决策的制度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C09_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C09_4",
+      "topic": "立法程序与多边主义",
+      "keywords_en": [
+        "legislative process",
+        "multilateralism"
+      ],
+      "facet": "concept_distinction",
+      "text": "立法程序与多边主义应作概念区分：立法程序是制定修改和通过正式法律的制度化步骤；多边主义是多个国家或主体通过规则和机制协调行动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C10_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C10_1",
+      "topic": "选举制度与政治参与",
+      "keywords_en": [
+        "electoral system",
+        "political participation"
+      ],
+      "facet": "concept_distinction",
+      "text": "选举制度与政治参与应作概念区分：选举制度是把选民选择转化为代表席位或职位的规则；政治参与是公民通过投票讨论组织等方式影响公共事务。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C10_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C10_2",
+      "topic": "选举制度与代表民主",
+      "keywords_en": [
+        "electoral system",
+        "representative democracy"
+      ],
+      "facet": "concept_distinction",
+      "text": "选举制度与代表民主应作概念区分：选举制度是把选民选择转化为代表席位或职位的规则；代表民主是公民授权代表参与公共决策的制度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C10_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C10_3",
+      "topic": "选举制度与多边主义",
+      "keywords_en": [
+        "electoral system",
+        "multilateralism"
+      ],
+      "facet": "concept_distinction",
+      "text": "选举制度与多边主义应作概念区分：选举制度是把选民选择转化为代表席位或职位的规则；多边主义是多个国家或主体通过规则和机制协调行动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C10_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C10_4",
+      "topic": "选举制度与外交谈判",
+      "keywords_en": [
+        "electoral system",
+        "diplomatic negotiation"
+      ],
+      "facet": "concept_distinction",
+      "text": "选举制度与外交谈判应作概念区分：选举制度是把选民选择转化为代表席位或职位的规则；外交谈判是国家或组织就分歧和合作进行正式磋商。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C11_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C11_1",
+      "topic": "政治参与与代表民主",
+      "keywords_en": [
+        "political participation",
+        "representative democracy"
+      ],
+      "facet": "concept_distinction",
+      "text": "政治参与与代表民主应作概念区分：政治参与是公民通过投票讨论组织等方式影响公共事务；代表民主是公民授权代表参与公共决策的制度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C11_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C11_2",
+      "topic": "政治参与与多边主义",
+      "keywords_en": [
+        "political participation",
+        "multilateralism"
+      ],
+      "facet": "concept_distinction",
+      "text": "政治参与与多边主义应作概念区分：政治参与是公民通过投票讨论组织等方式影响公共事务；多边主义是多个国家或主体通过规则和机制协调行动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C11_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C11_3",
+      "topic": "政治参与与外交谈判",
+      "keywords_en": [
+        "political participation",
+        "diplomatic negotiation"
+      ],
+      "facet": "concept_distinction",
+      "text": "政治参与与外交谈判应作概念区分：政治参与是公民通过投票讨论组织等方式影响公共事务；外交谈判是国家或组织就分歧和合作进行正式磋商。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C11_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C11_4",
+      "topic": "政治参与与国际法",
+      "keywords_en": [
+        "political participation",
+        "international law"
+      ],
+      "facet": "concept_distinction",
+      "text": "政治参与与国际法应作概念区分：政治参与是公民通过投票讨论组织等方式影响公共事务；国际法是规范国家及其他国际主体关系的规则体系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C12_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C12_1",
+      "topic": "代表民主与多边主义",
+      "keywords_en": [
+        "representative democracy",
+        "multilateralism"
+      ],
+      "facet": "concept_distinction",
+      "text": "代表民主与多边主义应作概念区分：代表民主是公民授权代表参与公共决策的制度；多边主义是多个国家或主体通过规则和机制协调行动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C12_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C12_2",
+      "topic": "代表民主与外交谈判",
+      "keywords_en": [
+        "representative democracy",
+        "diplomatic negotiation"
+      ],
+      "facet": "concept_distinction",
+      "text": "代表民主与外交谈判应作概念区分：代表民主是公民授权代表参与公共决策的制度；外交谈判是国家或组织就分歧和合作进行正式磋商。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C12_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C12_3",
+      "topic": "代表民主与国际法",
+      "keywords_en": [
+        "representative democracy",
+        "international law"
+      ],
+      "facet": "concept_distinction",
+      "text": "代表民主与国际法应作概念区分：代表民主是公民授权代表参与公共决策的制度；国际法是规范国家及其他国际主体关系的规则体系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C12_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C12_4",
+      "topic": "代表民主与冲突调解",
+      "keywords_en": [
+        "representative democracy",
+        "conflict mediation"
+      ],
+      "facet": "concept_distinction",
+      "text": "代表民主与冲突调解应作概念区分：代表民主是公民授权代表参与公共决策的制度；冲突调解是第三方帮助冲突双方沟通并寻找可接受方案的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C13_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C13_1",
+      "topic": "多边主义与外交谈判",
+      "keywords_en": [
+        "multilateralism",
+        "diplomatic negotiation"
+      ],
+      "facet": "concept_distinction",
+      "text": "多边主义与外交谈判应作概念区分：多边主义是多个国家或主体通过规则和机制协调行动；外交谈判是国家或组织就分歧和合作进行正式磋商。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C13_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C13_2",
+      "topic": "多边主义与国际法",
+      "keywords_en": [
+        "multilateralism",
+        "international law"
+      ],
+      "facet": "concept_distinction",
+      "text": "多边主义与国际法应作概念区分：多边主义是多个国家或主体通过规则和机制协调行动；国际法是规范国家及其他国际主体关系的规则体系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C13_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C13_3",
+      "topic": "多边主义与冲突调解",
+      "keywords_en": [
+        "multilateralism",
+        "conflict mediation"
+      ],
+      "facet": "concept_distinction",
+      "text": "多边主义与冲突调解应作概念区分：多边主义是多个国家或主体通过规则和机制协调行动；冲突调解是第三方帮助冲突双方沟通并寻找可接受方案的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C13_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C13_4",
+      "topic": "多边主义与公共财政",
+      "keywords_en": [
+        "multilateralism",
+        "public finance"
+      ],
+      "facet": "concept_distinction",
+      "text": "多边主义与公共财政应作概念区分：多边主义是多个国家或主体通过规则和机制协调行动；公共财政是政府的收入支出债务与资源分配活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C14_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C14_1",
+      "topic": "外交谈判与国际法",
+      "keywords_en": [
+        "diplomatic negotiation",
+        "international law"
+      ],
+      "facet": "concept_distinction",
+      "text": "外交谈判与国际法应作概念区分：外交谈判是国家或组织就分歧和合作进行正式磋商；国际法是规范国家及其他国际主体关系的规则体系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C14_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C14_2",
+      "topic": "外交谈判与冲突调解",
+      "keywords_en": [
+        "diplomatic negotiation",
+        "conflict mediation"
+      ],
+      "facet": "concept_distinction",
+      "text": "外交谈判与冲突调解应作概念区分：外交谈判是国家或组织就分歧和合作进行正式磋商；冲突调解是第三方帮助冲突双方沟通并寻找可接受方案的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C14_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C14_3",
+      "topic": "外交谈判与公共财政",
+      "keywords_en": [
+        "diplomatic negotiation",
+        "public finance"
+      ],
+      "facet": "concept_distinction",
+      "text": "外交谈判与公共财政应作概念区分：外交谈判是国家或组织就分歧和合作进行正式磋商；公共财政是政府的收入支出债务与资源分配活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C14_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C14_4",
+      "topic": "外交谈判与城市规划",
+      "keywords_en": [
+        "diplomatic negotiation",
+        "urban planning"
+      ],
+      "facet": "concept_distinction",
+      "text": "外交谈判与城市规划应作概念区分：外交谈判是国家或组织就分歧和合作进行正式磋商；城市规划是协调土地使用交通住房和公共空间发展的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C15_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C15_1",
+      "topic": "国际法与冲突调解",
+      "keywords_en": [
+        "international law",
+        "conflict mediation"
+      ],
+      "facet": "concept_distinction",
+      "text": "国际法与冲突调解应作概念区分：国际法是规范国家及其他国际主体关系的规则体系；冲突调解是第三方帮助冲突双方沟通并寻找可接受方案的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C15_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C15_2",
+      "topic": "国际法与公共财政",
+      "keywords_en": [
+        "international law",
+        "public finance"
+      ],
+      "facet": "concept_distinction",
+      "text": "国际法与公共财政应作概念区分：国际法是规范国家及其他国际主体关系的规则体系；公共财政是政府的收入支出债务与资源分配活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C15_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C15_3",
+      "topic": "国际法与城市规划",
+      "keywords_en": [
+        "international law",
+        "urban planning"
+      ],
+      "facet": "concept_distinction",
+      "text": "国际法与城市规划应作概念区分：国际法是规范国家及其他国际主体关系的规则体系；城市规划是协调土地使用交通住房和公共空间发展的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C15_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C15_4",
+      "topic": "国际法与信息公开",
+      "keywords_en": [
+        "international law",
+        "freedom of information"
+      ],
+      "facet": "concept_distinction",
+      "text": "国际法与信息公开应作概念区分：国际法是规范国家及其他国际主体关系的规则体系；信息公开是公共机构向公众披露规则和信息的制度安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C16_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C16_1",
+      "topic": "冲突调解与公共财政",
+      "keywords_en": [
+        "conflict mediation",
+        "public finance"
+      ],
+      "facet": "concept_distinction",
+      "text": "冲突调解与公共财政应作概念区分：冲突调解是第三方帮助冲突双方沟通并寻找可接受方案的过程；公共财政是政府的收入支出债务与资源分配活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C16_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C16_2",
+      "topic": "冲突调解与城市规划",
+      "keywords_en": [
+        "conflict mediation",
+        "urban planning"
+      ],
+      "facet": "concept_distinction",
+      "text": "冲突调解与城市规划应作概念区分：冲突调解是第三方帮助冲突双方沟通并寻找可接受方案的过程；城市规划是协调土地使用交通住房和公共空间发展的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C16_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C16_3",
+      "topic": "冲突调解与信息公开",
+      "keywords_en": [
+        "conflict mediation",
+        "freedom of information"
+      ],
+      "facet": "concept_distinction",
+      "text": "冲突调解与信息公开应作概念区分：冲突调解是第三方帮助冲突双方沟通并寻找可接受方案的过程；信息公开是公共机构向公众披露规则和信息的制度安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C16_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C16_4",
+      "topic": "冲突调解与政策执行落差",
+      "keywords_en": [
+        "conflict mediation",
+        "implementation gap"
+      ],
+      "facet": "concept_distinction",
+      "text": "冲突调解与政策执行落差应作概念区分：冲突调解是第三方帮助冲突双方沟通并寻找可接受方案的过程；政策执行落差是正式政策目标与实际实施效果之间的差异。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C17_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C17_1",
+      "topic": "公共财政与城市规划",
+      "keywords_en": [
+        "public finance",
+        "urban planning"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共财政与城市规划应作概念区分：公共财政是政府的收入支出债务与资源分配活动；城市规划是协调土地使用交通住房和公共空间发展的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C17_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C17_2",
+      "topic": "公共财政与信息公开",
+      "keywords_en": [
+        "public finance",
+        "freedom of information"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共财政与信息公开应作概念区分：公共财政是政府的收入支出债务与资源分配活动；信息公开是公共机构向公众披露规则和信息的制度安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C17_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C17_3",
+      "topic": "公共财政与政策执行落差",
+      "keywords_en": [
+        "public finance",
+        "implementation gap"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共财政与政策执行落差应作概念区分：公共财政是政府的收入支出债务与资源分配活动；政策执行落差是正式政策目标与实际实施效果之间的差异。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C17_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C17_4",
+      "topic": "公共财政与公共政策",
+      "keywords_en": [
+        "public finance",
+        "public policy"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共财政与公共政策应作概念区分：公共财政是政府的收入支出债务与资源分配活动；公共政策是政府和公共机构为解决问题采取的行动与规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C18_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C18_1",
+      "topic": "城市规划与信息公开",
+      "keywords_en": [
+        "urban planning",
+        "freedom of information"
+      ],
+      "facet": "concept_distinction",
+      "text": "城市规划与信息公开应作概念区分：城市规划是协调土地使用交通住房和公共空间发展的过程；信息公开是公共机构向公众披露规则和信息的制度安排。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C18_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C18_2",
+      "topic": "城市规划与政策执行落差",
+      "keywords_en": [
+        "urban planning",
+        "implementation gap"
+      ],
+      "facet": "concept_distinction",
+      "text": "城市规划与政策执行落差应作概念区分：城市规划是协调土地使用交通住房和公共空间发展的过程；政策执行落差是正式政策目标与实际实施效果之间的差异。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C18_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C18_3",
+      "topic": "城市规划与公共政策",
+      "keywords_en": [
+        "urban planning",
+        "public policy"
+      ],
+      "facet": "concept_distinction",
+      "text": "城市规划与公共政策应作概念区分：城市规划是协调土地使用交通住房和公共空间发展的过程；公共政策是政府和公共机构为解决问题采取的行动与规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C18_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C18_4",
+      "topic": "城市规划与政策议程",
+      "keywords_en": [
+        "urban planning",
+        "policy agenda"
+      ],
+      "facet": "concept_distinction",
+      "text": "城市规划与政策议程应作概念区分：城市规划是协调土地使用交通住房和公共空间发展的过程；政策议程是哪些公共问题获得决策机构注意的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C19_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C19_1",
+      "topic": "信息公开与政策执行落差",
+      "keywords_en": [
+        "freedom of information",
+        "implementation gap"
+      ],
+      "facet": "concept_distinction",
+      "text": "信息公开与政策执行落差应作概念区分：信息公开是公共机构向公众披露规则和信息的制度安排；政策执行落差是正式政策目标与实际实施效果之间的差异。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C19_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C19_2",
+      "topic": "信息公开与公共政策",
+      "keywords_en": [
+        "freedom of information",
+        "public policy"
+      ],
+      "facet": "concept_distinction",
+      "text": "信息公开与公共政策应作概念区分：信息公开是公共机构向公众披露规则和信息的制度安排；公共政策是政府和公共机构为解决问题采取的行动与规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C19_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C19_3",
+      "topic": "信息公开与政策议程",
+      "keywords_en": [
+        "freedom of information",
+        "policy agenda"
+      ],
+      "facet": "concept_distinction",
+      "text": "信息公开与政策议程应作概念区分：信息公开是公共机构向公众披露规则和信息的制度安排；政策议程是哪些公共问题获得决策机构注意的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C19_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C19_4",
+      "topic": "信息公开与政策评估",
+      "keywords_en": [
+        "freedom of information",
+        "policy evaluation"
+      ],
+      "facet": "concept_distinction",
+      "text": "信息公开与政策评估应作概念区分：信息公开是公共机构向公众披露规则和信息的制度安排；政策评估是根据标准检查政策实施和效果的研究。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C20_1",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C20_1",
+      "topic": "政策执行落差与公共政策",
+      "keywords_en": [
+        "implementation gap",
+        "public policy"
+      ],
+      "facet": "concept_distinction",
+      "text": "政策执行落差与公共政策应作概念区分：政策执行落差是正式政策目标与实际实施效果之间的差异；公共政策是政府和公共机构为解决问题采取的行动与规则。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C20_2",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C20_2",
+      "topic": "政策执行落差与政策议程",
+      "keywords_en": [
+        "implementation gap",
+        "policy agenda"
+      ],
+      "facet": "concept_distinction",
+      "text": "政策执行落差与政策议程应作概念区分：政策执行落差是正式政策目标与实际实施效果之间的差异；政策议程是哪些公共问题获得决策机构注意的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C20_3",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C20_3",
+      "topic": "政策执行落差与政策评估",
+      "keywords_en": [
+        "implementation gap",
+        "policy evaluation"
+      ],
+      "facet": "concept_distinction",
+      "text": "政策执行落差与政策评估应作概念区分：政策执行落差是正式政策目标与实际实施效果之间的差异；政策评估是根据标准检查政策实施和效果的研究。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_politics_governance_C20_4",
+      "domain": "politics_governance",
+      "concept_id": "politics_governance_C20_4",
+      "topic": "政策执行落差与利益相关者",
+      "keywords_en": [
+        "implementation gap",
+        "stakeholders"
+      ],
+      "facet": "concept_distinction",
+      "text": "政策执行落差与利益相关者应作概念区分：政策执行落差是正式政策目标与实际实施效果之间的差异；利益相关者是受到决策影响或能够影响决策的个人和组织。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

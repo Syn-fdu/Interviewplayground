@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "identity_community",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_identity_community_D01",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D01",
+      "topic": "社会身份",
+      "keywords_en": [
+        "social identity"
+      ],
+      "facet": "definition",
+      "text": "社会身份（social identity）：个体从群体归属和社会类别获得的自我认知。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D02",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D02",
+      "topic": "群体归属",
+      "keywords_en": [
+        "group belonging"
+      ],
+      "facet": "definition",
+      "text": "群体归属（group belonging）：个体感到自己属于某个社会群体的体验。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D03",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D03",
+      "topic": "文化认同",
+      "keywords_en": [
+        "cultural identity"
+      ],
+      "facet": "definition",
+      "text": "文化认同（cultural identity）：个体与特定文化传统符号和实践的联系。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D04",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D04",
+      "topic": "宗教实践",
+      "keywords_en": [
+        "religious practice"
+      ],
+      "facet": "definition",
+      "text": "宗教实践（religious practice）：信仰群体或个体开展的仪式行为与日常活动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D05",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D05",
+      "topic": "社区凝聚力",
+      "keywords_en": [
+        "community cohesion"
+      ],
+      "facet": "definition",
+      "text": "社区凝聚力（community cohesion）：社区成员之间的信任联系和共同参与程度。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D06",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D06",
+      "topic": "社会资本",
+      "keywords_en": [
+        "social capital"
+      ],
+      "facet": "definition",
+      "text": "社会资本（social capital）：由社会网络关系获得的合作能力和资源。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D07",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D07",
+      "topic": "社会排斥",
+      "keywords_en": [
+        "social exclusion"
+      ],
+      "facet": "definition",
+      "text": "社会排斥（social exclusion）：某些群体在参与机会和资源获取中受到系统限制。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D08",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D08",
+      "topic": "刻板印象",
+      "keywords_en": [
+        "stereotype"
+      ],
+      "facet": "definition",
+      "text": "刻板印象（stereotype）：对某类群体做出的简化概括性信念。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D09",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D09",
+      "topic": "偏见",
+      "keywords_en": [
+        "prejudice"
+      ],
+      "facet": "definition",
+      "text": "偏见（prejudice）：对某群体的预设态度和评价。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D10",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D10",
+      "topic": "歧视",
+      "keywords_en": [
+        "discrimination"
+      ],
+      "facet": "definition",
+      "text": "歧视（discrimination）：基于群体属性做出的不平等对待。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D11",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D11",
+      "topic": "交叉性",
+      "keywords_en": [
+        "intersectionality"
+      ],
+      "facet": "definition",
+      "text": "交叉性（intersectionality）：不同社会身份和权力关系共同作用于经历的分析视角。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D12",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D12",
+      "topic": "文化适应",
+      "keywords_en": [
+        "acculturation"
+      ],
+      "facet": "definition",
+      "text": "文化适应（acculturation）：个体或群体接触不同文化后的行为和观念调整。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D13",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D13",
+      "topic": "双语实践",
+      "keywords_en": [
+        "bilingual practices"
+      ],
+      "facet": "definition",
+      "text": "双语实践（bilingual practices）：个体在不同语言之间根据情境切换使用。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D14",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D14",
+      "topic": "公民参与",
+      "keywords_en": [
+        "civic engagement"
+      ],
+      "facet": "definition",
+      "text": "公民参与（civic engagement）：个人参与公共决策和社区治理的行动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D15",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D15",
+      "topic": "社会规范",
+      "keywords_en": [
+        "social norms"
+      ],
+      "facet": "definition",
+      "text": "社会规范（social norms）：群体普遍共享的行为预期。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D16",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D16",
+      "topic": "集体行动",
+      "keywords_en": [
+        "collective action"
+      ],
+      "facet": "definition",
+      "text": "集体行动（collective action）：多人围绕共同目标协调开展的活动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D17",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D17",
+      "topic": "社会支持",
+      "keywords_en": [
+        "social support"
+      ],
+      "facet": "definition",
+      "text": "社会支持（social support）：通过关系网络提供的信息情感和实际帮助。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D18",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D18",
+      "topic": "信任",
+      "keywords_en": [
+        "trust"
+      ],
+      "facet": "definition",
+      "text": "信任（trust）：对他人或制度行为可靠性的预期。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D19",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D19",
+      "topic": "代表性",
+      "keywords_en": [
+        "representation"
+      ],
+      "facet": "definition",
+      "text": "代表性（representation）：群体观点和利益在决策或叙事中被呈现的程度。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_D20",
+      "domain": "identity_community",
+      "concept_id": "identity_community_D20",
+      "topic": "参与式研究",
+      "keywords_en": [
+        "participatory research"
+      ],
+      "facet": "definition",
+      "text": "参与式研究（participatory research）：让研究对象参与研究设计和知识生产的研究取向。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C01_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C01_1",
+      "topic": "社会身份与群体归属",
+      "keywords_en": [
+        "social identity",
+        "group belonging"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会身份与群体归属应作概念区分：社会身份是个体从群体归属和社会类别获得的自我认知；群体归属是个体感到自己属于某个社会群体的体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C01_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C01_2",
+      "topic": "社会身份与文化认同",
+      "keywords_en": [
+        "social identity",
+        "cultural identity"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会身份与文化认同应作概念区分：社会身份是个体从群体归属和社会类别获得的自我认知；文化认同是个体与特定文化传统符号和实践的联系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C01_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C01_3",
+      "topic": "社会身份与宗教实践",
+      "keywords_en": [
+        "social identity",
+        "religious practice"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会身份与宗教实践应作概念区分：社会身份是个体从群体归属和社会类别获得的自我认知；宗教实践是信仰群体或个体开展的仪式行为与日常活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C01_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C01_4",
+      "topic": "社会身份与社区凝聚力",
+      "keywords_en": [
+        "social identity",
+        "community cohesion"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会身份与社区凝聚力应作概念区分：社会身份是个体从群体归属和社会类别获得的自我认知；社区凝聚力是社区成员之间的信任联系和共同参与程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C02_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C02_1",
+      "topic": "群体归属与文化认同",
+      "keywords_en": [
+        "group belonging",
+        "cultural identity"
+      ],
+      "facet": "concept_distinction",
+      "text": "群体归属与文化认同应作概念区分：群体归属是个体感到自己属于某个社会群体的体验；文化认同是个体与特定文化传统符号和实践的联系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C02_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C02_2",
+      "topic": "群体归属与宗教实践",
+      "keywords_en": [
+        "group belonging",
+        "religious practice"
+      ],
+      "facet": "concept_distinction",
+      "text": "群体归属与宗教实践应作概念区分：群体归属是个体感到自己属于某个社会群体的体验；宗教实践是信仰群体或个体开展的仪式行为与日常活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C02_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C02_3",
+      "topic": "群体归属与社区凝聚力",
+      "keywords_en": [
+        "group belonging",
+        "community cohesion"
+      ],
+      "facet": "concept_distinction",
+      "text": "群体归属与社区凝聚力应作概念区分：群体归属是个体感到自己属于某个社会群体的体验；社区凝聚力是社区成员之间的信任联系和共同参与程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C02_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C02_4",
+      "topic": "群体归属与社会资本",
+      "keywords_en": [
+        "group belonging",
+        "social capital"
+      ],
+      "facet": "concept_distinction",
+      "text": "群体归属与社会资本应作概念区分：群体归属是个体感到自己属于某个社会群体的体验；社会资本是由社会网络关系获得的合作能力和资源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C03_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C03_1",
+      "topic": "文化认同与宗教实践",
+      "keywords_en": [
+        "cultural identity",
+        "religious practice"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化认同与宗教实践应作概念区分：文化认同是个体与特定文化传统符号和实践的联系；宗教实践是信仰群体或个体开展的仪式行为与日常活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C03_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C03_2",
+      "topic": "文化认同与社区凝聚力",
+      "keywords_en": [
+        "cultural identity",
+        "community cohesion"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化认同与社区凝聚力应作概念区分：文化认同是个体与特定文化传统符号和实践的联系；社区凝聚力是社区成员之间的信任联系和共同参与程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C03_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C03_3",
+      "topic": "文化认同与社会资本",
+      "keywords_en": [
+        "cultural identity",
+        "social capital"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化认同与社会资本应作概念区分：文化认同是个体与特定文化传统符号和实践的联系；社会资本是由社会网络关系获得的合作能力和资源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C03_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C03_4",
+      "topic": "文化认同与社会排斥",
+      "keywords_en": [
+        "cultural identity",
+        "social exclusion"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化认同与社会排斥应作概念区分：文化认同是个体与特定文化传统符号和实践的联系；社会排斥是某些群体在参与机会和资源获取中受到系统限制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C04_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C04_1",
+      "topic": "宗教实践与社区凝聚力",
+      "keywords_en": [
+        "religious practice",
+        "community cohesion"
+      ],
+      "facet": "concept_distinction",
+      "text": "宗教实践与社区凝聚力应作概念区分：宗教实践是信仰群体或个体开展的仪式行为与日常活动；社区凝聚力是社区成员之间的信任联系和共同参与程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C04_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C04_2",
+      "topic": "宗教实践与社会资本",
+      "keywords_en": [
+        "religious practice",
+        "social capital"
+      ],
+      "facet": "concept_distinction",
+      "text": "宗教实践与社会资本应作概念区分：宗教实践是信仰群体或个体开展的仪式行为与日常活动；社会资本是由社会网络关系获得的合作能力和资源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C04_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C04_3",
+      "topic": "宗教实践与社会排斥",
+      "keywords_en": [
+        "religious practice",
+        "social exclusion"
+      ],
+      "facet": "concept_distinction",
+      "text": "宗教实践与社会排斥应作概念区分：宗教实践是信仰群体或个体开展的仪式行为与日常活动；社会排斥是某些群体在参与机会和资源获取中受到系统限制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C04_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C04_4",
+      "topic": "宗教实践与刻板印象",
+      "keywords_en": [
+        "religious practice",
+        "stereotype"
+      ],
+      "facet": "concept_distinction",
+      "text": "宗教实践与刻板印象应作概念区分：宗教实践是信仰群体或个体开展的仪式行为与日常活动；刻板印象是对某类群体做出的简化概括性信念。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C05_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C05_1",
+      "topic": "社区凝聚力与社会资本",
+      "keywords_en": [
+        "community cohesion",
+        "social capital"
+      ],
+      "facet": "concept_distinction",
+      "text": "社区凝聚力与社会资本应作概念区分：社区凝聚力是社区成员之间的信任联系和共同参与程度；社会资本是由社会网络关系获得的合作能力和资源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C05_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C05_2",
+      "topic": "社区凝聚力与社会排斥",
+      "keywords_en": [
+        "community cohesion",
+        "social exclusion"
+      ],
+      "facet": "concept_distinction",
+      "text": "社区凝聚力与社会排斥应作概念区分：社区凝聚力是社区成员之间的信任联系和共同参与程度；社会排斥是某些群体在参与机会和资源获取中受到系统限制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C05_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C05_3",
+      "topic": "社区凝聚力与刻板印象",
+      "keywords_en": [
+        "community cohesion",
+        "stereotype"
+      ],
+      "facet": "concept_distinction",
+      "text": "社区凝聚力与刻板印象应作概念区分：社区凝聚力是社区成员之间的信任联系和共同参与程度；刻板印象是对某类群体做出的简化概括性信念。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C05_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C05_4",
+      "topic": "社区凝聚力与偏见",
+      "keywords_en": [
+        "community cohesion",
+        "prejudice"
+      ],
+      "facet": "concept_distinction",
+      "text": "社区凝聚力与偏见应作概念区分：社区凝聚力是社区成员之间的信任联系和共同参与程度；偏见是对某群体的预设态度和评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C06_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C06_1",
+      "topic": "社会资本与社会排斥",
+      "keywords_en": [
+        "social capital",
+        "social exclusion"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会资本与社会排斥应作概念区分：社会资本是由社会网络关系获得的合作能力和资源；社会排斥是某些群体在参与机会和资源获取中受到系统限制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C06_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C06_2",
+      "topic": "社会资本与刻板印象",
+      "keywords_en": [
+        "social capital",
+        "stereotype"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会资本与刻板印象应作概念区分：社会资本是由社会网络关系获得的合作能力和资源；刻板印象是对某类群体做出的简化概括性信念。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C06_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C06_3",
+      "topic": "社会资本与偏见",
+      "keywords_en": [
+        "social capital",
+        "prejudice"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会资本与偏见应作概念区分：社会资本是由社会网络关系获得的合作能力和资源；偏见是对某群体的预设态度和评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C06_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C06_4",
+      "topic": "社会资本与歧视",
+      "keywords_en": [
+        "social capital",
+        "discrimination"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会资本与歧视应作概念区分：社会资本是由社会网络关系获得的合作能力和资源；歧视是基于群体属性做出的不平等对待。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C07_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C07_1",
+      "topic": "社会排斥与刻板印象",
+      "keywords_en": [
+        "social exclusion",
+        "stereotype"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会排斥与刻板印象应作概念区分：社会排斥是某些群体在参与机会和资源获取中受到系统限制；刻板印象是对某类群体做出的简化概括性信念。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C07_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C07_2",
+      "topic": "社会排斥与偏见",
+      "keywords_en": [
+        "social exclusion",
+        "prejudice"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会排斥与偏见应作概念区分：社会排斥是某些群体在参与机会和资源获取中受到系统限制；偏见是对某群体的预设态度和评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C07_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C07_3",
+      "topic": "社会排斥与歧视",
+      "keywords_en": [
+        "social exclusion",
+        "discrimination"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会排斥与歧视应作概念区分：社会排斥是某些群体在参与机会和资源获取中受到系统限制；歧视是基于群体属性做出的不平等对待。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C07_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C07_4",
+      "topic": "社会排斥与交叉性",
+      "keywords_en": [
+        "social exclusion",
+        "intersectionality"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会排斥与交叉性应作概念区分：社会排斥是某些群体在参与机会和资源获取中受到系统限制；交叉性是不同社会身份和权力关系共同作用于经历的分析视角。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C08_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C08_1",
+      "topic": "刻板印象与偏见",
+      "keywords_en": [
+        "stereotype",
+        "prejudice"
+      ],
+      "facet": "concept_distinction",
+      "text": "刻板印象与偏见应作概念区分：刻板印象是对某类群体做出的简化概括性信念；偏见是对某群体的预设态度和评价。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C08_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C08_2",
+      "topic": "刻板印象与歧视",
+      "keywords_en": [
+        "stereotype",
+        "discrimination"
+      ],
+      "facet": "concept_distinction",
+      "text": "刻板印象与歧视应作概念区分：刻板印象是对某类群体做出的简化概括性信念；歧视是基于群体属性做出的不平等对待。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C08_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C08_3",
+      "topic": "刻板印象与交叉性",
+      "keywords_en": [
+        "stereotype",
+        "intersectionality"
+      ],
+      "facet": "concept_distinction",
+      "text": "刻板印象与交叉性应作概念区分：刻板印象是对某类群体做出的简化概括性信念；交叉性是不同社会身份和权力关系共同作用于经历的分析视角。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C08_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C08_4",
+      "topic": "刻板印象与文化适应",
+      "keywords_en": [
+        "stereotype",
+        "acculturation"
+      ],
+      "facet": "concept_distinction",
+      "text": "刻板印象与文化适应应作概念区分：刻板印象是对某类群体做出的简化概括性信念；文化适应是个体或群体接触不同文化后的行为和观念调整。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C09_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C09_1",
+      "topic": "偏见与歧视",
+      "keywords_en": [
+        "prejudice",
+        "discrimination"
+      ],
+      "facet": "concept_distinction",
+      "text": "偏见与歧视应作概念区分：偏见是对某群体的预设态度和评价；歧视是基于群体属性做出的不平等对待。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C09_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C09_2",
+      "topic": "偏见与交叉性",
+      "keywords_en": [
+        "prejudice",
+        "intersectionality"
+      ],
+      "facet": "concept_distinction",
+      "text": "偏见与交叉性应作概念区分：偏见是对某群体的预设态度和评价；交叉性是不同社会身份和权力关系共同作用于经历的分析视角。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C09_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C09_3",
+      "topic": "偏见与文化适应",
+      "keywords_en": [
+        "prejudice",
+        "acculturation"
+      ],
+      "facet": "concept_distinction",
+      "text": "偏见与文化适应应作概念区分：偏见是对某群体的预设态度和评价；文化适应是个体或群体接触不同文化后的行为和观念调整。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C09_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C09_4",
+      "topic": "偏见与双语实践",
+      "keywords_en": [
+        "prejudice",
+        "bilingual practices"
+      ],
+      "facet": "concept_distinction",
+      "text": "偏见与双语实践应作概念区分：偏见是对某群体的预设态度和评价；双语实践是个体在不同语言之间根据情境切换使用。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C10_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C10_1",
+      "topic": "歧视与交叉性",
+      "keywords_en": [
+        "discrimination",
+        "intersectionality"
+      ],
+      "facet": "concept_distinction",
+      "text": "歧视与交叉性应作概念区分：歧视是基于群体属性做出的不平等对待；交叉性是不同社会身份和权力关系共同作用于经历的分析视角。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C10_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C10_2",
+      "topic": "歧视与文化适应",
+      "keywords_en": [
+        "discrimination",
+        "acculturation"
+      ],
+      "facet": "concept_distinction",
+      "text": "歧视与文化适应应作概念区分：歧视是基于群体属性做出的不平等对待；文化适应是个体或群体接触不同文化后的行为和观念调整。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C10_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C10_3",
+      "topic": "歧视与双语实践",
+      "keywords_en": [
+        "discrimination",
+        "bilingual practices"
+      ],
+      "facet": "concept_distinction",
+      "text": "歧视与双语实践应作概念区分：歧视是基于群体属性做出的不平等对待；双语实践是个体在不同语言之间根据情境切换使用。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C10_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C10_4",
+      "topic": "歧视与公民参与",
+      "keywords_en": [
+        "discrimination",
+        "civic engagement"
+      ],
+      "facet": "concept_distinction",
+      "text": "歧视与公民参与应作概念区分：歧视是基于群体属性做出的不平等对待；公民参与是个人参与公共决策和社区治理的行动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C11_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C11_1",
+      "topic": "交叉性与文化适应",
+      "keywords_en": [
+        "intersectionality",
+        "acculturation"
+      ],
+      "facet": "concept_distinction",
+      "text": "交叉性与文化适应应作概念区分：交叉性是不同社会身份和权力关系共同作用于经历的分析视角；文化适应是个体或群体接触不同文化后的行为和观念调整。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C11_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C11_2",
+      "topic": "交叉性与双语实践",
+      "keywords_en": [
+        "intersectionality",
+        "bilingual practices"
+      ],
+      "facet": "concept_distinction",
+      "text": "交叉性与双语实践应作概念区分：交叉性是不同社会身份和权力关系共同作用于经历的分析视角；双语实践是个体在不同语言之间根据情境切换使用。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C11_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C11_3",
+      "topic": "交叉性与公民参与",
+      "keywords_en": [
+        "intersectionality",
+        "civic engagement"
+      ],
+      "facet": "concept_distinction",
+      "text": "交叉性与公民参与应作概念区分：交叉性是不同社会身份和权力关系共同作用于经历的分析视角；公民参与是个人参与公共决策和社区治理的行动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C11_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C11_4",
+      "topic": "交叉性与社会规范",
+      "keywords_en": [
+        "intersectionality",
+        "social norms"
+      ],
+      "facet": "concept_distinction",
+      "text": "交叉性与社会规范应作概念区分：交叉性是不同社会身份和权力关系共同作用于经历的分析视角；社会规范是群体普遍共享的行为预期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C12_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C12_1",
+      "topic": "文化适应与双语实践",
+      "keywords_en": [
+        "acculturation",
+        "bilingual practices"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化适应与双语实践应作概念区分：文化适应是个体或群体接触不同文化后的行为和观念调整；双语实践是个体在不同语言之间根据情境切换使用。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C12_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C12_2",
+      "topic": "文化适应与公民参与",
+      "keywords_en": [
+        "acculturation",
+        "civic engagement"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化适应与公民参与应作概念区分：文化适应是个体或群体接触不同文化后的行为和观念调整；公民参与是个人参与公共决策和社区治理的行动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C12_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C12_3",
+      "topic": "文化适应与社会规范",
+      "keywords_en": [
+        "acculturation",
+        "social norms"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化适应与社会规范应作概念区分：文化适应是个体或群体接触不同文化后的行为和观念调整；社会规范是群体普遍共享的行为预期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C12_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C12_4",
+      "topic": "文化适应与集体行动",
+      "keywords_en": [
+        "acculturation",
+        "collective action"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化适应与集体行动应作概念区分：文化适应是个体或群体接触不同文化后的行为和观念调整；集体行动是多人围绕共同目标协调开展的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C13_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C13_1",
+      "topic": "双语实践与公民参与",
+      "keywords_en": [
+        "bilingual practices",
+        "civic engagement"
+      ],
+      "facet": "concept_distinction",
+      "text": "双语实践与公民参与应作概念区分：双语实践是个体在不同语言之间根据情境切换使用；公民参与是个人参与公共决策和社区治理的行动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C13_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C13_2",
+      "topic": "双语实践与社会规范",
+      "keywords_en": [
+        "bilingual practices",
+        "social norms"
+      ],
+      "facet": "concept_distinction",
+      "text": "双语实践与社会规范应作概念区分：双语实践是个体在不同语言之间根据情境切换使用；社会规范是群体普遍共享的行为预期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C13_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C13_3",
+      "topic": "双语实践与集体行动",
+      "keywords_en": [
+        "bilingual practices",
+        "collective action"
+      ],
+      "facet": "concept_distinction",
+      "text": "双语实践与集体行动应作概念区分：双语实践是个体在不同语言之间根据情境切换使用；集体行动是多人围绕共同目标协调开展的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C13_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C13_4",
+      "topic": "双语实践与社会支持",
+      "keywords_en": [
+        "bilingual practices",
+        "social support"
+      ],
+      "facet": "concept_distinction",
+      "text": "双语实践与社会支持应作概念区分：双语实践是个体在不同语言之间根据情境切换使用；社会支持是通过关系网络提供的信息情感和实际帮助。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C14_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C14_1",
+      "topic": "公民参与与社会规范",
+      "keywords_en": [
+        "civic engagement",
+        "social norms"
+      ],
+      "facet": "concept_distinction",
+      "text": "公民参与与社会规范应作概念区分：公民参与是个人参与公共决策和社区治理的行动；社会规范是群体普遍共享的行为预期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C14_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C14_2",
+      "topic": "公民参与与集体行动",
+      "keywords_en": [
+        "civic engagement",
+        "collective action"
+      ],
+      "facet": "concept_distinction",
+      "text": "公民参与与集体行动应作概念区分：公民参与是个人参与公共决策和社区治理的行动；集体行动是多人围绕共同目标协调开展的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C14_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C14_3",
+      "topic": "公民参与与社会支持",
+      "keywords_en": [
+        "civic engagement",
+        "social support"
+      ],
+      "facet": "concept_distinction",
+      "text": "公民参与与社会支持应作概念区分：公民参与是个人参与公共决策和社区治理的行动；社会支持是通过关系网络提供的信息情感和实际帮助。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C14_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C14_4",
+      "topic": "公民参与与信任",
+      "keywords_en": [
+        "civic engagement",
+        "trust"
+      ],
+      "facet": "concept_distinction",
+      "text": "公民参与与信任应作概念区分：公民参与是个人参与公共决策和社区治理的行动；信任是对他人或制度行为可靠性的预期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C15_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C15_1",
+      "topic": "社会规范与集体行动",
+      "keywords_en": [
+        "social norms",
+        "collective action"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会规范与集体行动应作概念区分：社会规范是群体普遍共享的行为预期；集体行动是多人围绕共同目标协调开展的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C15_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C15_2",
+      "topic": "社会规范与社会支持",
+      "keywords_en": [
+        "social norms",
+        "social support"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会规范与社会支持应作概念区分：社会规范是群体普遍共享的行为预期；社会支持是通过关系网络提供的信息情感和实际帮助。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C15_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C15_3",
+      "topic": "社会规范与信任",
+      "keywords_en": [
+        "social norms",
+        "trust"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会规范与信任应作概念区分：社会规范是群体普遍共享的行为预期；信任是对他人或制度行为可靠性的预期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C15_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C15_4",
+      "topic": "社会规范与代表性",
+      "keywords_en": [
+        "social norms",
+        "representation"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会规范与代表性应作概念区分：社会规范是群体普遍共享的行为预期；代表性是群体观点和利益在决策或叙事中被呈现的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C16_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C16_1",
+      "topic": "集体行动与社会支持",
+      "keywords_en": [
+        "collective action",
+        "social support"
+      ],
+      "facet": "concept_distinction",
+      "text": "集体行动与社会支持应作概念区分：集体行动是多人围绕共同目标协调开展的活动；社会支持是通过关系网络提供的信息情感和实际帮助。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C16_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C16_2",
+      "topic": "集体行动与信任",
+      "keywords_en": [
+        "collective action",
+        "trust"
+      ],
+      "facet": "concept_distinction",
+      "text": "集体行动与信任应作概念区分：集体行动是多人围绕共同目标协调开展的活动；信任是对他人或制度行为可靠性的预期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C16_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C16_3",
+      "topic": "集体行动与代表性",
+      "keywords_en": [
+        "collective action",
+        "representation"
+      ],
+      "facet": "concept_distinction",
+      "text": "集体行动与代表性应作概念区分：集体行动是多人围绕共同目标协调开展的活动；代表性是群体观点和利益在决策或叙事中被呈现的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C16_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C16_4",
+      "topic": "集体行动与参与式研究",
+      "keywords_en": [
+        "collective action",
+        "participatory research"
+      ],
+      "facet": "concept_distinction",
+      "text": "集体行动与参与式研究应作概念区分：集体行动是多人围绕共同目标协调开展的活动；参与式研究是让研究对象参与研究设计和知识生产的研究取向。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C17_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C17_1",
+      "topic": "社会支持与信任",
+      "keywords_en": [
+        "social support",
+        "trust"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会支持与信任应作概念区分：社会支持是通过关系网络提供的信息情感和实际帮助；信任是对他人或制度行为可靠性的预期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C17_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C17_2",
+      "topic": "社会支持与代表性",
+      "keywords_en": [
+        "social support",
+        "representation"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会支持与代表性应作概念区分：社会支持是通过关系网络提供的信息情感和实际帮助；代表性是群体观点和利益在决策或叙事中被呈现的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C17_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C17_3",
+      "topic": "社会支持与参与式研究",
+      "keywords_en": [
+        "social support",
+        "participatory research"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会支持与参与式研究应作概念区分：社会支持是通过关系网络提供的信息情感和实际帮助；参与式研究是让研究对象参与研究设计和知识生产的研究取向。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C17_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C17_4",
+      "topic": "社会支持与社会身份",
+      "keywords_en": [
+        "social support",
+        "social identity"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会支持与社会身份应作概念区分：社会支持是通过关系网络提供的信息情感和实际帮助；社会身份是个体从群体归属和社会类别获得的自我认知。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C18_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C18_1",
+      "topic": "信任与代表性",
+      "keywords_en": [
+        "trust",
+        "representation"
+      ],
+      "facet": "concept_distinction",
+      "text": "信任与代表性应作概念区分：信任是对他人或制度行为可靠性的预期；代表性是群体观点和利益在决策或叙事中被呈现的程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C18_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C18_2",
+      "topic": "信任与参与式研究",
+      "keywords_en": [
+        "trust",
+        "participatory research"
+      ],
+      "facet": "concept_distinction",
+      "text": "信任与参与式研究应作概念区分：信任是对他人或制度行为可靠性的预期；参与式研究是让研究对象参与研究设计和知识生产的研究取向。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C18_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C18_3",
+      "topic": "信任与社会身份",
+      "keywords_en": [
+        "trust",
+        "social identity"
+      ],
+      "facet": "concept_distinction",
+      "text": "信任与社会身份应作概念区分：信任是对他人或制度行为可靠性的预期；社会身份是个体从群体归属和社会类别获得的自我认知。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C18_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C18_4",
+      "topic": "信任与群体归属",
+      "keywords_en": [
+        "trust",
+        "group belonging"
+      ],
+      "facet": "concept_distinction",
+      "text": "信任与群体归属应作概念区分：信任是对他人或制度行为可靠性的预期；群体归属是个体感到自己属于某个社会群体的体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C19_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C19_1",
+      "topic": "代表性与参与式研究",
+      "keywords_en": [
+        "representation",
+        "participatory research"
+      ],
+      "facet": "concept_distinction",
+      "text": "代表性与参与式研究应作概念区分：代表性是群体观点和利益在决策或叙事中被呈现的程度；参与式研究是让研究对象参与研究设计和知识生产的研究取向。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C19_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C19_2",
+      "topic": "代表性与社会身份",
+      "keywords_en": [
+        "representation",
+        "social identity"
+      ],
+      "facet": "concept_distinction",
+      "text": "代表性与社会身份应作概念区分：代表性是群体观点和利益在决策或叙事中被呈现的程度；社会身份是个体从群体归属和社会类别获得的自我认知。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C19_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C19_3",
+      "topic": "代表性与群体归属",
+      "keywords_en": [
+        "representation",
+        "group belonging"
+      ],
+      "facet": "concept_distinction",
+      "text": "代表性与群体归属应作概念区分：代表性是群体观点和利益在决策或叙事中被呈现的程度；群体归属是个体感到自己属于某个社会群体的体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C19_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C19_4",
+      "topic": "代表性与文化认同",
+      "keywords_en": [
+        "representation",
+        "cultural identity"
+      ],
+      "facet": "concept_distinction",
+      "text": "代表性与文化认同应作概念区分：代表性是群体观点和利益在决策或叙事中被呈现的程度；文化认同是个体与特定文化传统符号和实践的联系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C20_1",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C20_1",
+      "topic": "参与式研究与社会身份",
+      "keywords_en": [
+        "participatory research",
+        "social identity"
+      ],
+      "facet": "concept_distinction",
+      "text": "参与式研究与社会身份应作概念区分：参与式研究是让研究对象参与研究设计和知识生产的研究取向；社会身份是个体从群体归属和社会类别获得的自我认知。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C20_2",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C20_2",
+      "topic": "参与式研究与群体归属",
+      "keywords_en": [
+        "participatory research",
+        "group belonging"
+      ],
+      "facet": "concept_distinction",
+      "text": "参与式研究与群体归属应作概念区分：参与式研究是让研究对象参与研究设计和知识生产的研究取向；群体归属是个体感到自己属于某个社会群体的体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C20_3",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C20_3",
+      "topic": "参与式研究与文化认同",
+      "keywords_en": [
+        "participatory research",
+        "cultural identity"
+      ],
+      "facet": "concept_distinction",
+      "text": "参与式研究与文化认同应作概念区分：参与式研究是让研究对象参与研究设计和知识生产的研究取向；文化认同是个体与特定文化传统符号和实践的联系。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_identity_community_C20_4",
+      "domain": "identity_community",
+      "concept_id": "identity_community_C20_4",
+      "topic": "参与式研究与宗教实践",
+      "keywords_en": [
+        "participatory research",
+        "religious practice"
+      ],
+      "facet": "concept_distinction",
+      "text": "参与式研究与宗教实践应作概念区分：参与式研究是让研究对象参与研究设计和知识生产的研究取向；宗教实践是信仰群体或个体开展的仪式行为与日常活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "technology_ai",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_technology_ai_D01",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D01",
+      "topic": "监督学习",
+      "keywords_en": [
+        "supervised learning"
+      ],
+      "facet": "definition",
+      "text": "监督学习（supervised learning）：用带标签样本拟合输入到输出的映射。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D02",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D02",
+      "topic": "无监督学习",
+      "keywords_en": [
+        "unsupervised learning"
+      ],
+      "facet": "definition",
+      "text": "无监督学习（unsupervised learning）：从无标签数据中发现结构或模式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D03",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D03",
+      "topic": "强化学习",
+      "keywords_en": [
+        "reinforcement learning"
+      ],
+      "facet": "definition",
+      "text": "强化学习（reinforcement learning）：通过环境反馈和奖励优化行动策略。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D04",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D04",
+      "topic": "训练集",
+      "keywords_en": [
+        "training set"
+      ],
+      "facet": "definition",
+      "text": "训练集（training set）：用于拟合模型参数的数据样本。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D05",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D05",
+      "topic": "验证集",
+      "keywords_en": [
+        "validation set"
+      ],
+      "facet": "definition",
+      "text": "验证集（validation set）：用于选择超参数和比较方案的数据。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D06",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D06",
+      "topic": "测试集",
+      "keywords_en": [
+        "test set"
+      ],
+      "facet": "definition",
+      "text": "测试集（test set）：在模型开发完成后估计泛化表现的数据。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D07",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D07",
+      "topic": "数据泄漏",
+      "keywords_en": [
+        "data leakage"
+      ],
+      "facet": "definition",
+      "text": "数据泄漏（data leakage）：训练阶段不当使用了本应独立评估的信息。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D08",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D08",
+      "topic": "过拟合",
+      "keywords_en": [
+        "overfitting"
+      ],
+      "facet": "definition",
+      "text": "过拟合（overfitting）：模型学习了训练样本特有噪声而难以泛化。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D09",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D09",
+      "topic": "欠拟合",
+      "keywords_en": [
+        "underfitting"
+      ],
+      "facet": "definition",
+      "text": "欠拟合（underfitting）：模型表达能力或训练程度不足导致规律学习不充分。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D10",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D10",
+      "topic": "精确率",
+      "keywords_en": [
+        "precision"
+      ],
+      "facet": "definition",
+      "text": "精确率（precision）：预测为正的样本中实际为正的比例。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D11",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D11",
+      "topic": "召回率",
+      "keywords_en": [
+        "recall"
+      ],
+      "facet": "definition",
+      "text": "召回率（recall）：实际为正的样本中被正确识别的比例。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D12",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D12",
+      "topic": "大语言模型",
+      "keywords_en": [
+        "large language model"
+      ],
+      "facet": "definition",
+      "text": "大语言模型（large language model）：从大规模文本等序列学习条件生成分布的模型。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D13",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D13",
+      "topic": "词元",
+      "keywords_en": [
+        "token"
+      ],
+      "facet": "definition",
+      "text": "词元（token）：语言模型输入输出的离散编码单位。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D14",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D14",
+      "topic": "上下文窗口",
+      "keywords_en": [
+        "context window"
+      ],
+      "facet": "definition",
+      "text": "上下文窗口（context window）：模型单次推理能够处理的输入输出词元范围。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D15",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D15",
+      "topic": "检索增强生成",
+      "keywords_en": [
+        "retrieval augmented generation"
+      ],
+      "facet": "definition",
+      "text": "检索增强生成（retrieval augmented generation）：生成前从外部资料检索相关证据并将其纳入上下文。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D16",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D16",
+      "topic": "提示注入",
+      "keywords_en": [
+        "prompt injection"
+      ],
+      "facet": "definition",
+      "text": "提示注入（prompt injection）：不可信输入试图改变模型应遵守的任务或指令。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D17",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D17",
+      "topic": "代码审查",
+      "keywords_en": [
+        "code review"
+      ],
+      "facet": "definition",
+      "text": "代码审查（code review）：通过检查代码变更识别缺陷风险和可维护性问题。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D18",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D18",
+      "topic": "单元测试",
+      "keywords_en": [
+        "unit testing"
+      ],
+      "facet": "definition",
+      "text": "单元测试（unit testing）：验证单个程序单元在指定条件下行为的测试。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D19",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D19",
+      "topic": "持续集成",
+      "keywords_en": [
+        "continuous integration"
+      ],
+      "facet": "definition",
+      "text": "持续集成（continuous integration）：每次代码变更后自动执行构建与测试的流程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_D20",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_D20",
+      "topic": "模型幻觉",
+      "keywords_en": [
+        "hallucination"
+      ],
+      "facet": "definition",
+      "text": "模型幻觉（hallucination）：模型输出缺少可靠依据或包含错误断言的现象。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C01_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C01_1",
+      "topic": "监督学习与无监督学习",
+      "keywords_en": [
+        "supervised learning",
+        "unsupervised learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "监督学习与无监督学习应作概念区分：监督学习是用带标签样本拟合输入到输出的映射；无监督学习是从无标签数据中发现结构或模式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C01_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C01_2",
+      "topic": "监督学习与强化学习",
+      "keywords_en": [
+        "supervised learning",
+        "reinforcement learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "监督学习与强化学习应作概念区分：监督学习是用带标签样本拟合输入到输出的映射；强化学习是通过环境反馈和奖励优化行动策略。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C01_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C01_3",
+      "topic": "监督学习与训练集",
+      "keywords_en": [
+        "supervised learning",
+        "training set"
+      ],
+      "facet": "concept_distinction",
+      "text": "监督学习与训练集应作概念区分：监督学习是用带标签样本拟合输入到输出的映射；训练集是用于拟合模型参数的数据样本。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C01_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C01_4",
+      "topic": "监督学习与验证集",
+      "keywords_en": [
+        "supervised learning",
+        "validation set"
+      ],
+      "facet": "concept_distinction",
+      "text": "监督学习与验证集应作概念区分：监督学习是用带标签样本拟合输入到输出的映射；验证集是用于选择超参数和比较方案的数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C02_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C02_1",
+      "topic": "无监督学习与强化学习",
+      "keywords_en": [
+        "unsupervised learning",
+        "reinforcement learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "无监督学习与强化学习应作概念区分：无监督学习是从无标签数据中发现结构或模式；强化学习是通过环境反馈和奖励优化行动策略。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C02_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C02_2",
+      "topic": "无监督学习与训练集",
+      "keywords_en": [
+        "unsupervised learning",
+        "training set"
+      ],
+      "facet": "concept_distinction",
+      "text": "无监督学习与训练集应作概念区分：无监督学习是从无标签数据中发现结构或模式；训练集是用于拟合模型参数的数据样本。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C02_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C02_3",
+      "topic": "无监督学习与验证集",
+      "keywords_en": [
+        "unsupervised learning",
+        "validation set"
+      ],
+      "facet": "concept_distinction",
+      "text": "无监督学习与验证集应作概念区分：无监督学习是从无标签数据中发现结构或模式；验证集是用于选择超参数和比较方案的数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C02_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C02_4",
+      "topic": "无监督学习与测试集",
+      "keywords_en": [
+        "unsupervised learning",
+        "test set"
+      ],
+      "facet": "concept_distinction",
+      "text": "无监督学习与测试集应作概念区分：无监督学习是从无标签数据中发现结构或模式；测试集是在模型开发完成后估计泛化表现的数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C03_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C03_1",
+      "topic": "强化学习与训练集",
+      "keywords_en": [
+        "reinforcement learning",
+        "training set"
+      ],
+      "facet": "concept_distinction",
+      "text": "强化学习与训练集应作概念区分：强化学习是通过环境反馈和奖励优化行动策略；训练集是用于拟合模型参数的数据样本。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C03_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C03_2",
+      "topic": "强化学习与验证集",
+      "keywords_en": [
+        "reinforcement learning",
+        "validation set"
+      ],
+      "facet": "concept_distinction",
+      "text": "强化学习与验证集应作概念区分：强化学习是通过环境反馈和奖励优化行动策略；验证集是用于选择超参数和比较方案的数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C03_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C03_3",
+      "topic": "强化学习与测试集",
+      "keywords_en": [
+        "reinforcement learning",
+        "test set"
+      ],
+      "facet": "concept_distinction",
+      "text": "强化学习与测试集应作概念区分：强化学习是通过环境反馈和奖励优化行动策略；测试集是在模型开发完成后估计泛化表现的数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C03_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C03_4",
+      "topic": "强化学习与数据泄漏",
+      "keywords_en": [
+        "reinforcement learning",
+        "data leakage"
+      ],
+      "facet": "concept_distinction",
+      "text": "强化学习与数据泄漏应作概念区分：强化学习是通过环境反馈和奖励优化行动策略；数据泄漏是训练阶段不当使用了本应独立评估的信息。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C04_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C04_1",
+      "topic": "训练集与验证集",
+      "keywords_en": [
+        "training set",
+        "validation set"
+      ],
+      "facet": "concept_distinction",
+      "text": "训练集与验证集应作概念区分：训练集是用于拟合模型参数的数据样本；验证集是用于选择超参数和比较方案的数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C04_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C04_2",
+      "topic": "训练集与测试集",
+      "keywords_en": [
+        "training set",
+        "test set"
+      ],
+      "facet": "concept_distinction",
+      "text": "训练集与测试集应作概念区分：训练集是用于拟合模型参数的数据样本；测试集是在模型开发完成后估计泛化表现的数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C04_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C04_3",
+      "topic": "训练集与数据泄漏",
+      "keywords_en": [
+        "training set",
+        "data leakage"
+      ],
+      "facet": "concept_distinction",
+      "text": "训练集与数据泄漏应作概念区分：训练集是用于拟合模型参数的数据样本；数据泄漏是训练阶段不当使用了本应独立评估的信息。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C04_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C04_4",
+      "topic": "训练集与过拟合",
+      "keywords_en": [
+        "training set",
+        "overfitting"
+      ],
+      "facet": "concept_distinction",
+      "text": "训练集与过拟合应作概念区分：训练集是用于拟合模型参数的数据样本；过拟合是模型学习了训练样本特有噪声而难以泛化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C05_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C05_1",
+      "topic": "验证集与测试集",
+      "keywords_en": [
+        "validation set",
+        "test set"
+      ],
+      "facet": "concept_distinction",
+      "text": "验证集与测试集应作概念区分：验证集是用于选择超参数和比较方案的数据；测试集是在模型开发完成后估计泛化表现的数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C05_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C05_2",
+      "topic": "验证集与数据泄漏",
+      "keywords_en": [
+        "validation set",
+        "data leakage"
+      ],
+      "facet": "concept_distinction",
+      "text": "验证集与数据泄漏应作概念区分：验证集是用于选择超参数和比较方案的数据；数据泄漏是训练阶段不当使用了本应独立评估的信息。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C05_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C05_3",
+      "topic": "验证集与过拟合",
+      "keywords_en": [
+        "validation set",
+        "overfitting"
+      ],
+      "facet": "concept_distinction",
+      "text": "验证集与过拟合应作概念区分：验证集是用于选择超参数和比较方案的数据；过拟合是模型学习了训练样本特有噪声而难以泛化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C05_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C05_4",
+      "topic": "验证集与欠拟合",
+      "keywords_en": [
+        "validation set",
+        "underfitting"
+      ],
+      "facet": "concept_distinction",
+      "text": "验证集与欠拟合应作概念区分：验证集是用于选择超参数和比较方案的数据；欠拟合是模型表达能力或训练程度不足导致规律学习不充分。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C06_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C06_1",
+      "topic": "测试集与数据泄漏",
+      "keywords_en": [
+        "test set",
+        "data leakage"
+      ],
+      "facet": "concept_distinction",
+      "text": "测试集与数据泄漏应作概念区分：测试集是在模型开发完成后估计泛化表现的数据；数据泄漏是训练阶段不当使用了本应独立评估的信息。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C06_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C06_2",
+      "topic": "测试集与过拟合",
+      "keywords_en": [
+        "test set",
+        "overfitting"
+      ],
+      "facet": "concept_distinction",
+      "text": "测试集与过拟合应作概念区分：测试集是在模型开发完成后估计泛化表现的数据；过拟合是模型学习了训练样本特有噪声而难以泛化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C06_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C06_3",
+      "topic": "测试集与欠拟合",
+      "keywords_en": [
+        "test set",
+        "underfitting"
+      ],
+      "facet": "concept_distinction",
+      "text": "测试集与欠拟合应作概念区分：测试集是在模型开发完成后估计泛化表现的数据；欠拟合是模型表达能力或训练程度不足导致规律学习不充分。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C06_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C06_4",
+      "topic": "测试集与精确率",
+      "keywords_en": [
+        "test set",
+        "precision"
+      ],
+      "facet": "concept_distinction",
+      "text": "测试集与精确率应作概念区分：测试集是在模型开发完成后估计泛化表现的数据；精确率是预测为正的样本中实际为正的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C07_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C07_1",
+      "topic": "数据泄漏与过拟合",
+      "keywords_en": [
+        "data leakage",
+        "overfitting"
+      ],
+      "facet": "concept_distinction",
+      "text": "数据泄漏与过拟合应作概念区分：数据泄漏是训练阶段不当使用了本应独立评估的信息；过拟合是模型学习了训练样本特有噪声而难以泛化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C07_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C07_2",
+      "topic": "数据泄漏与欠拟合",
+      "keywords_en": [
+        "data leakage",
+        "underfitting"
+      ],
+      "facet": "concept_distinction",
+      "text": "数据泄漏与欠拟合应作概念区分：数据泄漏是训练阶段不当使用了本应独立评估的信息；欠拟合是模型表达能力或训练程度不足导致规律学习不充分。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C07_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C07_3",
+      "topic": "数据泄漏与精确率",
+      "keywords_en": [
+        "data leakage",
+        "precision"
+      ],
+      "facet": "concept_distinction",
+      "text": "数据泄漏与精确率应作概念区分：数据泄漏是训练阶段不当使用了本应独立评估的信息；精确率是预测为正的样本中实际为正的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C07_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C07_4",
+      "topic": "数据泄漏与召回率",
+      "keywords_en": [
+        "data leakage",
+        "recall"
+      ],
+      "facet": "concept_distinction",
+      "text": "数据泄漏与召回率应作概念区分：数据泄漏是训练阶段不当使用了本应独立评估的信息；召回率是实际为正的样本中被正确识别的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C08_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C08_1",
+      "topic": "过拟合与欠拟合",
+      "keywords_en": [
+        "overfitting",
+        "underfitting"
+      ],
+      "facet": "concept_distinction",
+      "text": "过拟合与欠拟合应作概念区分：过拟合是模型学习了训练样本特有噪声而难以泛化；欠拟合是模型表达能力或训练程度不足导致规律学习不充分。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C08_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C08_2",
+      "topic": "过拟合与精确率",
+      "keywords_en": [
+        "overfitting",
+        "precision"
+      ],
+      "facet": "concept_distinction",
+      "text": "过拟合与精确率应作概念区分：过拟合是模型学习了训练样本特有噪声而难以泛化；精确率是预测为正的样本中实际为正的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C08_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C08_3",
+      "topic": "过拟合与召回率",
+      "keywords_en": [
+        "overfitting",
+        "recall"
+      ],
+      "facet": "concept_distinction",
+      "text": "过拟合与召回率应作概念区分：过拟合是模型学习了训练样本特有噪声而难以泛化；召回率是实际为正的样本中被正确识别的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C08_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C08_4",
+      "topic": "过拟合与大语言模型",
+      "keywords_en": [
+        "overfitting",
+        "large language model"
+      ],
+      "facet": "concept_distinction",
+      "text": "过拟合与大语言模型应作概念区分：过拟合是模型学习了训练样本特有噪声而难以泛化；大语言模型是从大规模文本等序列学习条件生成分布的模型。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C09_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C09_1",
+      "topic": "欠拟合与精确率",
+      "keywords_en": [
+        "underfitting",
+        "precision"
+      ],
+      "facet": "concept_distinction",
+      "text": "欠拟合与精确率应作概念区分：欠拟合是模型表达能力或训练程度不足导致规律学习不充分；精确率是预测为正的样本中实际为正的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C09_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C09_2",
+      "topic": "欠拟合与召回率",
+      "keywords_en": [
+        "underfitting",
+        "recall"
+      ],
+      "facet": "concept_distinction",
+      "text": "欠拟合与召回率应作概念区分：欠拟合是模型表达能力或训练程度不足导致规律学习不充分；召回率是实际为正的样本中被正确识别的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C09_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C09_3",
+      "topic": "欠拟合与大语言模型",
+      "keywords_en": [
+        "underfitting",
+        "large language model"
+      ],
+      "facet": "concept_distinction",
+      "text": "欠拟合与大语言模型应作概念区分：欠拟合是模型表达能力或训练程度不足导致规律学习不充分；大语言模型是从大规模文本等序列学习条件生成分布的模型。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C09_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C09_4",
+      "topic": "欠拟合与词元",
+      "keywords_en": [
+        "underfitting",
+        "token"
+      ],
+      "facet": "concept_distinction",
+      "text": "欠拟合与词元应作概念区分：欠拟合是模型表达能力或训练程度不足导致规律学习不充分；词元是语言模型输入输出的离散编码单位。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C10_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C10_1",
+      "topic": "精确率与召回率",
+      "keywords_en": [
+        "precision",
+        "recall"
+      ],
+      "facet": "concept_distinction",
+      "text": "精确率与召回率应作概念区分：精确率是预测为正的样本中实际为正的比例；召回率是实际为正的样本中被正确识别的比例。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C10_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C10_2",
+      "topic": "精确率与大语言模型",
+      "keywords_en": [
+        "precision",
+        "large language model"
+      ],
+      "facet": "concept_distinction",
+      "text": "精确率与大语言模型应作概念区分：精确率是预测为正的样本中实际为正的比例；大语言模型是从大规模文本等序列学习条件生成分布的模型。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C10_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C10_3",
+      "topic": "精确率与词元",
+      "keywords_en": [
+        "precision",
+        "token"
+      ],
+      "facet": "concept_distinction",
+      "text": "精确率与词元应作概念区分：精确率是预测为正的样本中实际为正的比例；词元是语言模型输入输出的离散编码单位。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C10_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C10_4",
+      "topic": "精确率与上下文窗口",
+      "keywords_en": [
+        "precision",
+        "context window"
+      ],
+      "facet": "concept_distinction",
+      "text": "精确率与上下文窗口应作概念区分：精确率是预测为正的样本中实际为正的比例；上下文窗口是模型单次推理能够处理的输入输出词元范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C11_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C11_1",
+      "topic": "召回率与大语言模型",
+      "keywords_en": [
+        "recall",
+        "large language model"
+      ],
+      "facet": "concept_distinction",
+      "text": "召回率与大语言模型应作概念区分：召回率是实际为正的样本中被正确识别的比例；大语言模型是从大规模文本等序列学习条件生成分布的模型。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C11_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C11_2",
+      "topic": "召回率与词元",
+      "keywords_en": [
+        "recall",
+        "token"
+      ],
+      "facet": "concept_distinction",
+      "text": "召回率与词元应作概念区分：召回率是实际为正的样本中被正确识别的比例；词元是语言模型输入输出的离散编码单位。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C11_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C11_3",
+      "topic": "召回率与上下文窗口",
+      "keywords_en": [
+        "recall",
+        "context window"
+      ],
+      "facet": "concept_distinction",
+      "text": "召回率与上下文窗口应作概念区分：召回率是实际为正的样本中被正确识别的比例；上下文窗口是模型单次推理能够处理的输入输出词元范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C11_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C11_4",
+      "topic": "召回率与检索增强生成",
+      "keywords_en": [
+        "recall",
+        "retrieval augmented generation"
+      ],
+      "facet": "concept_distinction",
+      "text": "召回率与检索增强生成应作概念区分：召回率是实际为正的样本中被正确识别的比例；检索增强生成是生成前从外部资料检索相关证据并将其纳入上下文。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C12_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C12_1",
+      "topic": "大语言模型与词元",
+      "keywords_en": [
+        "large language model",
+        "token"
+      ],
+      "facet": "concept_distinction",
+      "text": "大语言模型与词元应作概念区分：大语言模型是从大规模文本等序列学习条件生成分布的模型；词元是语言模型输入输出的离散编码单位。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C12_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C12_2",
+      "topic": "大语言模型与上下文窗口",
+      "keywords_en": [
+        "large language model",
+        "context window"
+      ],
+      "facet": "concept_distinction",
+      "text": "大语言模型与上下文窗口应作概念区分：大语言模型是从大规模文本等序列学习条件生成分布的模型；上下文窗口是模型单次推理能够处理的输入输出词元范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C12_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C12_3",
+      "topic": "大语言模型与检索增强生成",
+      "keywords_en": [
+        "large language model",
+        "retrieval augmented generation"
+      ],
+      "facet": "concept_distinction",
+      "text": "大语言模型与检索增强生成应作概念区分：大语言模型是从大规模文本等序列学习条件生成分布的模型；检索增强生成是生成前从外部资料检索相关证据并将其纳入上下文。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C12_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C12_4",
+      "topic": "大语言模型与提示注入",
+      "keywords_en": [
+        "large language model",
+        "prompt injection"
+      ],
+      "facet": "concept_distinction",
+      "text": "大语言模型与提示注入应作概念区分：大语言模型是从大规模文本等序列学习条件生成分布的模型；提示注入是不可信输入试图改变模型应遵守的任务或指令。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C13_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C13_1",
+      "topic": "词元与上下文窗口",
+      "keywords_en": [
+        "token",
+        "context window"
+      ],
+      "facet": "concept_distinction",
+      "text": "词元与上下文窗口应作概念区分：词元是语言模型输入输出的离散编码单位；上下文窗口是模型单次推理能够处理的输入输出词元范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C13_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C13_2",
+      "topic": "词元与检索增强生成",
+      "keywords_en": [
+        "token",
+        "retrieval augmented generation"
+      ],
+      "facet": "concept_distinction",
+      "text": "词元与检索增强生成应作概念区分：词元是语言模型输入输出的离散编码单位；检索增强生成是生成前从外部资料检索相关证据并将其纳入上下文。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C13_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C13_3",
+      "topic": "词元与提示注入",
+      "keywords_en": [
+        "token",
+        "prompt injection"
+      ],
+      "facet": "concept_distinction",
+      "text": "词元与提示注入应作概念区分：词元是语言模型输入输出的离散编码单位；提示注入是不可信输入试图改变模型应遵守的任务或指令。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C13_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C13_4",
+      "topic": "词元与代码审查",
+      "keywords_en": [
+        "token",
+        "code review"
+      ],
+      "facet": "concept_distinction",
+      "text": "词元与代码审查应作概念区分：词元是语言模型输入输出的离散编码单位；代码审查是通过检查代码变更识别缺陷风险和可维护性问题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C14_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C14_1",
+      "topic": "上下文窗口与检索增强生成",
+      "keywords_en": [
+        "context window",
+        "retrieval augmented generation"
+      ],
+      "facet": "concept_distinction",
+      "text": "上下文窗口与检索增强生成应作概念区分：上下文窗口是模型单次推理能够处理的输入输出词元范围；检索增强生成是生成前从外部资料检索相关证据并将其纳入上下文。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C14_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C14_2",
+      "topic": "上下文窗口与提示注入",
+      "keywords_en": [
+        "context window",
+        "prompt injection"
+      ],
+      "facet": "concept_distinction",
+      "text": "上下文窗口与提示注入应作概念区分：上下文窗口是模型单次推理能够处理的输入输出词元范围；提示注入是不可信输入试图改变模型应遵守的任务或指令。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C14_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C14_3",
+      "topic": "上下文窗口与代码审查",
+      "keywords_en": [
+        "context window",
+        "code review"
+      ],
+      "facet": "concept_distinction",
+      "text": "上下文窗口与代码审查应作概念区分：上下文窗口是模型单次推理能够处理的输入输出词元范围；代码审查是通过检查代码变更识别缺陷风险和可维护性问题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C14_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C14_4",
+      "topic": "上下文窗口与单元测试",
+      "keywords_en": [
+        "context window",
+        "unit testing"
+      ],
+      "facet": "concept_distinction",
+      "text": "上下文窗口与单元测试应作概念区分：上下文窗口是模型单次推理能够处理的输入输出词元范围；单元测试是验证单个程序单元在指定条件下行为的测试。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C15_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C15_1",
+      "topic": "检索增强生成与提示注入",
+      "keywords_en": [
+        "retrieval augmented generation",
+        "prompt injection"
+      ],
+      "facet": "concept_distinction",
+      "text": "检索增强生成与提示注入应作概念区分：检索增强生成是生成前从外部资料检索相关证据并将其纳入上下文；提示注入是不可信输入试图改变模型应遵守的任务或指令。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C15_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C15_2",
+      "topic": "检索增强生成与代码审查",
+      "keywords_en": [
+        "retrieval augmented generation",
+        "code review"
+      ],
+      "facet": "concept_distinction",
+      "text": "检索增强生成与代码审查应作概念区分：检索增强生成是生成前从外部资料检索相关证据并将其纳入上下文；代码审查是通过检查代码变更识别缺陷风险和可维护性问题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C15_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C15_3",
+      "topic": "检索增强生成与单元测试",
+      "keywords_en": [
+        "retrieval augmented generation",
+        "unit testing"
+      ],
+      "facet": "concept_distinction",
+      "text": "检索增强生成与单元测试应作概念区分：检索增强生成是生成前从外部资料检索相关证据并将其纳入上下文；单元测试是验证单个程序单元在指定条件下行为的测试。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C15_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C15_4",
+      "topic": "检索增强生成与持续集成",
+      "keywords_en": [
+        "retrieval augmented generation",
+        "continuous integration"
+      ],
+      "facet": "concept_distinction",
+      "text": "检索增强生成与持续集成应作概念区分：检索增强生成是生成前从外部资料检索相关证据并将其纳入上下文；持续集成是每次代码变更后自动执行构建与测试的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C16_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C16_1",
+      "topic": "提示注入与代码审查",
+      "keywords_en": [
+        "prompt injection",
+        "code review"
+      ],
+      "facet": "concept_distinction",
+      "text": "提示注入与代码审查应作概念区分：提示注入是不可信输入试图改变模型应遵守的任务或指令；代码审查是通过检查代码变更识别缺陷风险和可维护性问题。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C16_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C16_2",
+      "topic": "提示注入与单元测试",
+      "keywords_en": [
+        "prompt injection",
+        "unit testing"
+      ],
+      "facet": "concept_distinction",
+      "text": "提示注入与单元测试应作概念区分：提示注入是不可信输入试图改变模型应遵守的任务或指令；单元测试是验证单个程序单元在指定条件下行为的测试。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C16_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C16_3",
+      "topic": "提示注入与持续集成",
+      "keywords_en": [
+        "prompt injection",
+        "continuous integration"
+      ],
+      "facet": "concept_distinction",
+      "text": "提示注入与持续集成应作概念区分：提示注入是不可信输入试图改变模型应遵守的任务或指令；持续集成是每次代码变更后自动执行构建与测试的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C16_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C16_4",
+      "topic": "提示注入与模型幻觉",
+      "keywords_en": [
+        "prompt injection",
+        "hallucination"
+      ],
+      "facet": "concept_distinction",
+      "text": "提示注入与模型幻觉应作概念区分：提示注入是不可信输入试图改变模型应遵守的任务或指令；模型幻觉是模型输出缺少可靠依据或包含错误断言的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C17_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C17_1",
+      "topic": "代码审查与单元测试",
+      "keywords_en": [
+        "code review",
+        "unit testing"
+      ],
+      "facet": "concept_distinction",
+      "text": "代码审查与单元测试应作概念区分：代码审查是通过检查代码变更识别缺陷风险和可维护性问题；单元测试是验证单个程序单元在指定条件下行为的测试。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C17_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C17_2",
+      "topic": "代码审查与持续集成",
+      "keywords_en": [
+        "code review",
+        "continuous integration"
+      ],
+      "facet": "concept_distinction",
+      "text": "代码审查与持续集成应作概念区分：代码审查是通过检查代码变更识别缺陷风险和可维护性问题；持续集成是每次代码变更后自动执行构建与测试的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C17_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C17_3",
+      "topic": "代码审查与模型幻觉",
+      "keywords_en": [
+        "code review",
+        "hallucination"
+      ],
+      "facet": "concept_distinction",
+      "text": "代码审查与模型幻觉应作概念区分：代码审查是通过检查代码变更识别缺陷风险和可维护性问题；模型幻觉是模型输出缺少可靠依据或包含错误断言的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C17_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C17_4",
+      "topic": "代码审查与监督学习",
+      "keywords_en": [
+        "code review",
+        "supervised learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "代码审查与监督学习应作概念区分：代码审查是通过检查代码变更识别缺陷风险和可维护性问题；监督学习是用带标签样本拟合输入到输出的映射。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C18_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C18_1",
+      "topic": "单元测试与持续集成",
+      "keywords_en": [
+        "unit testing",
+        "continuous integration"
+      ],
+      "facet": "concept_distinction",
+      "text": "单元测试与持续集成应作概念区分：单元测试是验证单个程序单元在指定条件下行为的测试；持续集成是每次代码变更后自动执行构建与测试的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C18_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C18_2",
+      "topic": "单元测试与模型幻觉",
+      "keywords_en": [
+        "unit testing",
+        "hallucination"
+      ],
+      "facet": "concept_distinction",
+      "text": "单元测试与模型幻觉应作概念区分：单元测试是验证单个程序单元在指定条件下行为的测试；模型幻觉是模型输出缺少可靠依据或包含错误断言的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C18_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C18_3",
+      "topic": "单元测试与监督学习",
+      "keywords_en": [
+        "unit testing",
+        "supervised learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "单元测试与监督学习应作概念区分：单元测试是验证单个程序单元在指定条件下行为的测试；监督学习是用带标签样本拟合输入到输出的映射。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C18_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C18_4",
+      "topic": "单元测试与无监督学习",
+      "keywords_en": [
+        "unit testing",
+        "unsupervised learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "单元测试与无监督学习应作概念区分：单元测试是验证单个程序单元在指定条件下行为的测试；无监督学习是从无标签数据中发现结构或模式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C19_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C19_1",
+      "topic": "持续集成与模型幻觉",
+      "keywords_en": [
+        "continuous integration",
+        "hallucination"
+      ],
+      "facet": "concept_distinction",
+      "text": "持续集成与模型幻觉应作概念区分：持续集成是每次代码变更后自动执行构建与测试的流程；模型幻觉是模型输出缺少可靠依据或包含错误断言的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C19_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C19_2",
+      "topic": "持续集成与监督学习",
+      "keywords_en": [
+        "continuous integration",
+        "supervised learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "持续集成与监督学习应作概念区分：持续集成是每次代码变更后自动执行构建与测试的流程；监督学习是用带标签样本拟合输入到输出的映射。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C19_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C19_3",
+      "topic": "持续集成与无监督学习",
+      "keywords_en": [
+        "continuous integration",
+        "unsupervised learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "持续集成与无监督学习应作概念区分：持续集成是每次代码变更后自动执行构建与测试的流程；无监督学习是从无标签数据中发现结构或模式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C19_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C19_4",
+      "topic": "持续集成与强化学习",
+      "keywords_en": [
+        "continuous integration",
+        "reinforcement learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "持续集成与强化学习应作概念区分：持续集成是每次代码变更后自动执行构建与测试的流程；强化学习是通过环境反馈和奖励优化行动策略。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C20_1",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C20_1",
+      "topic": "模型幻觉与监督学习",
+      "keywords_en": [
+        "hallucination",
+        "supervised learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "模型幻觉与监督学习应作概念区分：模型幻觉是模型输出缺少可靠依据或包含错误断言的现象；监督学习是用带标签样本拟合输入到输出的映射。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C20_2",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C20_2",
+      "topic": "模型幻觉与无监督学习",
+      "keywords_en": [
+        "hallucination",
+        "unsupervised learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "模型幻觉与无监督学习应作概念区分：模型幻觉是模型输出缺少可靠依据或包含错误断言的现象；无监督学习是从无标签数据中发现结构或模式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C20_3",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C20_3",
+      "topic": "模型幻觉与强化学习",
+      "keywords_en": [
+        "hallucination",
+        "reinforcement learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "模型幻觉与强化学习应作概念区分：模型幻觉是模型输出缺少可靠依据或包含错误断言的现象；强化学习是通过环境反馈和奖励优化行动策略。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_technology_ai_C20_4",
+      "domain": "technology_ai",
+      "concept_id": "technology_ai_C20_4",
+      "topic": "模型幻觉与训练集",
+      "keywords_en": [
+        "hallucination",
+        "training set"
+      ],
+      "facet": "concept_distinction",
+      "text": "模型幻觉与训练集应作概念区分：模型幻觉是模型输出缺少可靠依据或包含错误断言的现象；训练集是用于拟合模型参数的数据样本。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

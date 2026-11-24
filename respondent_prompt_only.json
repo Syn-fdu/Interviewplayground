@@ -1,0 +1,4 @@
+{
+  "format": "respondent-prompt-v1",
+  "respondent": "Researcher-selected respondent conversational guidance:\nAnswer the specific question naturally with the allowed facts. Distinguish uncertainty from refusal and do not repeat a stock sentence. Follow the configured six traits and do not add any biographical facts beyond the evidence supplied for this turn."
+}

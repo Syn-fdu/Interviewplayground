@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "other_general",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_other_general_D01",
+      "domain": "other_general",
+      "concept_id": "other_general_D01",
+      "topic": "研究主题",
+      "keywords_en": [
+        "research topic"
+      ],
+      "facet": "definition",
+      "text": "研究主题（research topic）：围绕特定问题组织资料收集与分析的关注范围。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D02",
+      "domain": "other_general",
+      "concept_id": "other_general_D02",
+      "topic": "信息来源",
+      "keywords_en": [
+        "information source"
+      ],
+      "facet": "definition",
+      "text": "信息来源（information source）：某项陈述可追溯的文档或发言主体。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D03",
+      "domain": "other_general",
+      "concept_id": "other_general_D03",
+      "topic": "来源可信度",
+      "keywords_en": [
+        "source credibility"
+      ],
+      "facet": "definition",
+      "text": "来源可信度（source credibility）：根据出处方法和独立证据评价材料可依赖程度。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D04",
+      "domain": "other_general",
+      "concept_id": "other_general_D04",
+      "topic": "事实与观点",
+      "keywords_en": [
+        "facts and opinions"
+      ],
+      "facet": "definition",
+      "text": "事实与观点（facts and opinions）：可验证的描述性陈述与主观判断之间的区分。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D05",
+      "domain": "other_general",
+      "concept_id": "other_general_D05",
+      "topic": "相关性",
+      "keywords_en": [
+        "relevance"
+      ],
+      "facet": "definition",
+      "text": "相关性（relevance）：材料与当前问题的联系程度。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D06",
+      "domain": "other_general",
+      "concept_id": "other_general_D06",
+      "topic": "证据充分性",
+      "keywords_en": [
+        "evidence sufficiency"
+      ],
+      "facet": "definition",
+      "text": "证据充分性（evidence sufficiency）：现有信息是否足以支持某项结论。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D07",
+      "domain": "other_general",
+      "concept_id": "other_general_D07",
+      "topic": "概念定义",
+      "keywords_en": [
+        "concept definition"
+      ],
+      "facet": "definition",
+      "text": "概念定义（concept definition）：明确术语内涵和适用范围的说明。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D08",
+      "domain": "other_general",
+      "concept_id": "other_general_D08",
+      "topic": "时间范围",
+      "keywords_en": [
+        "time scope"
+      ],
+      "facet": "definition",
+      "text": "时间范围（time scope）：一项材料或判断所适用的时期。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D09",
+      "domain": "other_general",
+      "concept_id": "other_general_D09",
+      "topic": "地理范围",
+      "keywords_en": [
+        "geographic scope"
+      ],
+      "facet": "definition",
+      "text": "地理范围（geographic scope）：一项陈述所针对的地域或地点。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D10",
+      "domain": "other_general",
+      "concept_id": "other_general_D10",
+      "topic": "样本代表性",
+      "keywords_en": [
+        "sample representativeness"
+      ],
+      "facet": "definition",
+      "text": "样本代表性（sample representativeness）：样本结构与目标总体之间的一致程度。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D11",
+      "domain": "other_general",
+      "concept_id": "other_general_D11",
+      "topic": "来源偏差",
+      "keywords_en": [
+        "source bias"
+      ],
+      "facet": "definition",
+      "text": "来源偏差（source bias）：资料产生和筛选机制导致的系统性偏差。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D12",
+      "domain": "other_general",
+      "concept_id": "other_general_D12",
+      "topic": "信息缺失",
+      "keywords_en": [
+        "missing information"
+      ],
+      "facet": "definition",
+      "text": "信息缺失（missing information）：关键字段或证据没有被记录的情况。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D13",
+      "domain": "other_general",
+      "concept_id": "other_general_D13",
+      "topic": "交叉核验",
+      "keywords_en": [
+        "cross verification"
+      ],
+      "facet": "definition",
+      "text": "交叉核验（cross verification）：使用不同来源验证同一主张的做法。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D14",
+      "domain": "other_general",
+      "concept_id": "other_general_D14",
+      "topic": "不确定性",
+      "keywords_en": [
+        "uncertainty"
+      ],
+      "facet": "definition",
+      "text": "不确定性（uncertainty）：对事实或估计缺乏充分确定程度的状态。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D15",
+      "domain": "other_general",
+      "concept_id": "other_general_D15",
+      "topic": "隐私边界",
+      "keywords_en": [
+        "privacy boundaries"
+      ],
+      "facet": "definition",
+      "text": "隐私边界（privacy boundaries）：可收集使用和公开个人信息的限制。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D16",
+      "domain": "other_general",
+      "concept_id": "other_general_D16",
+      "topic": "知情同意",
+      "keywords_en": [
+        "informed consent"
+      ],
+      "facet": "definition",
+      "text": "知情同意（informed consent）：参与者了解并自主授权特定用途的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D17",
+      "domain": "other_general",
+      "concept_id": "other_general_D17",
+      "topic": "元数据",
+      "keywords_en": [
+        "metadata"
+      ],
+      "facet": "definition",
+      "text": "元数据（metadata）：描述资料来源内容时间及处理规则的信息。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D18",
+      "domain": "other_general",
+      "concept_id": "other_general_D18",
+      "topic": "版本管理",
+      "keywords_en": [
+        "version control"
+      ],
+      "facet": "definition",
+      "text": "版本管理（version control）：记录内容或配置变动与可追溯历史的实践。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D19",
+      "domain": "other_general",
+      "concept_id": "other_general_D19",
+      "topic": "分类标签",
+      "keywords_en": [
+        "classification label"
+      ],
+      "facet": "definition",
+      "text": "分类标签（classification label）：用于组织和检索记录的结构化类别标识。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_D20",
+      "domain": "other_general",
+      "concept_id": "other_general_D20",
+      "topic": "人工复核",
+      "keywords_en": [
+        "human review"
+      ],
+      "facet": "definition",
+      "text": "人工复核（human review）：由审查者验证自动处理结果是否合理的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C01_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C01_1",
+      "topic": "研究主题与信息来源",
+      "keywords_en": [
+        "research topic",
+        "information source"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究主题与信息来源应作概念区分：研究主题是围绕特定问题组织资料收集与分析的关注范围；信息来源是某项陈述可追溯的文档或发言主体。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C01_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C01_2",
+      "topic": "研究主题与来源可信度",
+      "keywords_en": [
+        "research topic",
+        "source credibility"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究主题与来源可信度应作概念区分：研究主题是围绕特定问题组织资料收集与分析的关注范围；来源可信度是根据出处方法和独立证据评价材料可依赖程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C01_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C01_3",
+      "topic": "研究主题与事实与观点",
+      "keywords_en": [
+        "research topic",
+        "facts and opinions"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究主题与事实与观点应作概念区分：研究主题是围绕特定问题组织资料收集与分析的关注范围；事实与观点是可验证的描述性陈述与主观判断之间的区分。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C01_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C01_4",
+      "topic": "研究主题与相关性",
+      "keywords_en": [
+        "research topic",
+        "relevance"
+      ],
+      "facet": "concept_distinction",
+      "text": "研究主题与相关性应作概念区分：研究主题是围绕特定问题组织资料收集与分析的关注范围；相关性是材料与当前问题的联系程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C02_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C02_1",
+      "topic": "信息来源与来源可信度",
+      "keywords_en": [
+        "information source",
+        "source credibility"
+      ],
+      "facet": "concept_distinction",
+      "text": "信息来源与来源可信度应作概念区分：信息来源是某项陈述可追溯的文档或发言主体；来源可信度是根据出处方法和独立证据评价材料可依赖程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C02_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C02_2",
+      "topic": "信息来源与事实与观点",
+      "keywords_en": [
+        "information source",
+        "facts and opinions"
+      ],
+      "facet": "concept_distinction",
+      "text": "信息来源与事实与观点应作概念区分：信息来源是某项陈述可追溯的文档或发言主体；事实与观点是可验证的描述性陈述与主观判断之间的区分。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C02_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C02_3",
+      "topic": "信息来源与相关性",
+      "keywords_en": [
+        "information source",
+        "relevance"
+      ],
+      "facet": "concept_distinction",
+      "text": "信息来源与相关性应作概念区分：信息来源是某项陈述可追溯的文档或发言主体；相关性是材料与当前问题的联系程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C02_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C02_4",
+      "topic": "信息来源与证据充分性",
+      "keywords_en": [
+        "information source",
+        "evidence sufficiency"
+      ],
+      "facet": "concept_distinction",
+      "text": "信息来源与证据充分性应作概念区分：信息来源是某项陈述可追溯的文档或发言主体；证据充分性是现有信息是否足以支持某项结论。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C03_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C03_1",
+      "topic": "来源可信度与事实与观点",
+      "keywords_en": [
+        "source credibility",
+        "facts and opinions"
+      ],
+      "facet": "concept_distinction",
+      "text": "来源可信度与事实与观点应作概念区分：来源可信度是根据出处方法和独立证据评价材料可依赖程度；事实与观点是可验证的描述性陈述与主观判断之间的区分。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C03_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C03_2",
+      "topic": "来源可信度与相关性",
+      "keywords_en": [
+        "source credibility",
+        "relevance"
+      ],
+      "facet": "concept_distinction",
+      "text": "来源可信度与相关性应作概念区分：来源可信度是根据出处方法和独立证据评价材料可依赖程度；相关性是材料与当前问题的联系程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C03_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C03_3",
+      "topic": "来源可信度与证据充分性",
+      "keywords_en": [
+        "source credibility",
+        "evidence sufficiency"
+      ],
+      "facet": "concept_distinction",
+      "text": "来源可信度与证据充分性应作概念区分：来源可信度是根据出处方法和独立证据评价材料可依赖程度；证据充分性是现有信息是否足以支持某项结论。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C03_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C03_4",
+      "topic": "来源可信度与概念定义",
+      "keywords_en": [
+        "source credibility",
+        "concept definition"
+      ],
+      "facet": "concept_distinction",
+      "text": "来源可信度与概念定义应作概念区分：来源可信度是根据出处方法和独立证据评价材料可依赖程度；概念定义是明确术语内涵和适用范围的说明。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C04_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C04_1",
+      "topic": "事实与观点与相关性",
+      "keywords_en": [
+        "facts and opinions",
+        "relevance"
+      ],
+      "facet": "concept_distinction",
+      "text": "事实与观点与相关性应作概念区分：事实与观点是可验证的描述性陈述与主观判断之间的区分；相关性是材料与当前问题的联系程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C04_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C04_2",
+      "topic": "事实与观点与证据充分性",
+      "keywords_en": [
+        "facts and opinions",
+        "evidence sufficiency"
+      ],
+      "facet": "concept_distinction",
+      "text": "事实与观点与证据充分性应作概念区分：事实与观点是可验证的描述性陈述与主观判断之间的区分；证据充分性是现有信息是否足以支持某项结论。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C04_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C04_3",
+      "topic": "事实与观点与概念定义",
+      "keywords_en": [
+        "facts and opinions",
+        "concept definition"
+      ],
+      "facet": "concept_distinction",
+      "text": "事实与观点与概念定义应作概念区分：事实与观点是可验证的描述性陈述与主观判断之间的区分；概念定义是明确术语内涵和适用范围的说明。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C04_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C04_4",
+      "topic": "事实与观点与时间范围",
+      "keywords_en": [
+        "facts and opinions",
+        "time scope"
+      ],
+      "facet": "concept_distinction",
+      "text": "事实与观点与时间范围应作概念区分：事实与观点是可验证的描述性陈述与主观判断之间的区分；时间范围是一项材料或判断所适用的时期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C05_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C05_1",
+      "topic": "相关性与证据充分性",
+      "keywords_en": [
+        "relevance",
+        "evidence sufficiency"
+      ],
+      "facet": "concept_distinction",
+      "text": "相关性与证据充分性应作概念区分：相关性是材料与当前问题的联系程度；证据充分性是现有信息是否足以支持某项结论。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C05_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C05_2",
+      "topic": "相关性与概念定义",
+      "keywords_en": [
+        "relevance",
+        "concept definition"
+      ],
+      "facet": "concept_distinction",
+      "text": "相关性与概念定义应作概念区分：相关性是材料与当前问题的联系程度；概念定义是明确术语内涵和适用范围的说明。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C05_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C05_3",
+      "topic": "相关性与时间范围",
+      "keywords_en": [
+        "relevance",
+        "time scope"
+      ],
+      "facet": "concept_distinction",
+      "text": "相关性与时间范围应作概念区分：相关性是材料与当前问题的联系程度；时间范围是一项材料或判断所适用的时期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C05_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C05_4",
+      "topic": "相关性与地理范围",
+      "keywords_en": [
+        "relevance",
+        "geographic scope"
+      ],
+      "facet": "concept_distinction",
+      "text": "相关性与地理范围应作概念区分：相关性是材料与当前问题的联系程度；地理范围是一项陈述所针对的地域或地点。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C06_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C06_1",
+      "topic": "证据充分性与概念定义",
+      "keywords_en": [
+        "evidence sufficiency",
+        "concept definition"
+      ],
+      "facet": "concept_distinction",
+      "text": "证据充分性与概念定义应作概念区分：证据充分性是现有信息是否足以支持某项结论；概念定义是明确术语内涵和适用范围的说明。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C06_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C06_2",
+      "topic": "证据充分性与时间范围",
+      "keywords_en": [
+        "evidence sufficiency",
+        "time scope"
+      ],
+      "facet": "concept_distinction",
+      "text": "证据充分性与时间范围应作概念区分：证据充分性是现有信息是否足以支持某项结论；时间范围是一项材料或判断所适用的时期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C06_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C06_3",
+      "topic": "证据充分性与地理范围",
+      "keywords_en": [
+        "evidence sufficiency",
+        "geographic scope"
+      ],
+      "facet": "concept_distinction",
+      "text": "证据充分性与地理范围应作概念区分：证据充分性是现有信息是否足以支持某项结论；地理范围是一项陈述所针对的地域或地点。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C06_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C06_4",
+      "topic": "证据充分性与样本代表性",
+      "keywords_en": [
+        "evidence sufficiency",
+        "sample representativeness"
+      ],
+      "facet": "concept_distinction",
+      "text": "证据充分性与样本代表性应作概念区分：证据充分性是现有信息是否足以支持某项结论；样本代表性是样本结构与目标总体之间的一致程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C07_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C07_1",
+      "topic": "概念定义与时间范围",
+      "keywords_en": [
+        "concept definition",
+        "time scope"
+      ],
+      "facet": "concept_distinction",
+      "text": "概念定义与时间范围应作概念区分：概念定义是明确术语内涵和适用范围的说明；时间范围是一项材料或判断所适用的时期。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C07_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C07_2",
+      "topic": "概念定义与地理范围",
+      "keywords_en": [
+        "concept definition",
+        "geographic scope"
+      ],
+      "facet": "concept_distinction",
+      "text": "概念定义与地理范围应作概念区分：概念定义是明确术语内涵和适用范围的说明；地理范围是一项陈述所针对的地域或地点。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C07_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C07_3",
+      "topic": "概念定义与样本代表性",
+      "keywords_en": [
+        "concept definition",
+        "sample representativeness"
+      ],
+      "facet": "concept_distinction",
+      "text": "概念定义与样本代表性应作概念区分：概念定义是明确术语内涵和适用范围的说明；样本代表性是样本结构与目标总体之间的一致程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C07_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C07_4",
+      "topic": "概念定义与来源偏差",
+      "keywords_en": [
+        "concept definition",
+        "source bias"
+      ],
+      "facet": "concept_distinction",
+      "text": "概念定义与来源偏差应作概念区分：概念定义是明确术语内涵和适用范围的说明；来源偏差是资料产生和筛选机制导致的系统性偏差。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C08_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C08_1",
+      "topic": "时间范围与地理范围",
+      "keywords_en": [
+        "time scope",
+        "geographic scope"
+      ],
+      "facet": "concept_distinction",
+      "text": "时间范围与地理范围应作概念区分：时间范围是一项材料或判断所适用的时期；地理范围是一项陈述所针对的地域或地点。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C08_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C08_2",
+      "topic": "时间范围与样本代表性",
+      "keywords_en": [
+        "time scope",
+        "sample representativeness"
+      ],
+      "facet": "concept_distinction",
+      "text": "时间范围与样本代表性应作概念区分：时间范围是一项材料或判断所适用的时期；样本代表性是样本结构与目标总体之间的一致程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C08_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C08_3",
+      "topic": "时间范围与来源偏差",
+      "keywords_en": [
+        "time scope",
+        "source bias"
+      ],
+      "facet": "concept_distinction",
+      "text": "时间范围与来源偏差应作概念区分：时间范围是一项材料或判断所适用的时期；来源偏差是资料产生和筛选机制导致的系统性偏差。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C08_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C08_4",
+      "topic": "时间范围与信息缺失",
+      "keywords_en": [
+        "time scope",
+        "missing information"
+      ],
+      "facet": "concept_distinction",
+      "text": "时间范围与信息缺失应作概念区分：时间范围是一项材料或判断所适用的时期；信息缺失是关键字段或证据没有被记录的情况。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C09_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C09_1",
+      "topic": "地理范围与样本代表性",
+      "keywords_en": [
+        "geographic scope",
+        "sample representativeness"
+      ],
+      "facet": "concept_distinction",
+      "text": "地理范围与样本代表性应作概念区分：地理范围是一项陈述所针对的地域或地点；样本代表性是样本结构与目标总体之间的一致程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C09_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C09_2",
+      "topic": "地理范围与来源偏差",
+      "keywords_en": [
+        "geographic scope",
+        "source bias"
+      ],
+      "facet": "concept_distinction",
+      "text": "地理范围与来源偏差应作概念区分：地理范围是一项陈述所针对的地域或地点；来源偏差是资料产生和筛选机制导致的系统性偏差。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C09_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C09_3",
+      "topic": "地理范围与信息缺失",
+      "keywords_en": [
+        "geographic scope",
+        "missing information"
+      ],
+      "facet": "concept_distinction",
+      "text": "地理范围与信息缺失应作概念区分：地理范围是一项陈述所针对的地域或地点；信息缺失是关键字段或证据没有被记录的情况。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C09_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C09_4",
+      "topic": "地理范围与交叉核验",
+      "keywords_en": [
+        "geographic scope",
+        "cross verification"
+      ],
+      "facet": "concept_distinction",
+      "text": "地理范围与交叉核验应作概念区分：地理范围是一项陈述所针对的地域或地点；交叉核验是使用不同来源验证同一主张的做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C10_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C10_1",
+      "topic": "样本代表性与来源偏差",
+      "keywords_en": [
+        "sample representativeness",
+        "source bias"
+      ],
+      "facet": "concept_distinction",
+      "text": "样本代表性与来源偏差应作概念区分：样本代表性是样本结构与目标总体之间的一致程度；来源偏差是资料产生和筛选机制导致的系统性偏差。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C10_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C10_2",
+      "topic": "样本代表性与信息缺失",
+      "keywords_en": [
+        "sample representativeness",
+        "missing information"
+      ],
+      "facet": "concept_distinction",
+      "text": "样本代表性与信息缺失应作概念区分：样本代表性是样本结构与目标总体之间的一致程度；信息缺失是关键字段或证据没有被记录的情况。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C10_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C10_3",
+      "topic": "样本代表性与交叉核验",
+      "keywords_en": [
+        "sample representativeness",
+        "cross verification"
+      ],
+      "facet": "concept_distinction",
+      "text": "样本代表性与交叉核验应作概念区分：样本代表性是样本结构与目标总体之间的一致程度；交叉核验是使用不同来源验证同一主张的做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C10_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C10_4",
+      "topic": "样本代表性与不确定性",
+      "keywords_en": [
+        "sample representativeness",
+        "uncertainty"
+      ],
+      "facet": "concept_distinction",
+      "text": "样本代表性与不确定性应作概念区分：样本代表性是样本结构与目标总体之间的一致程度；不确定性是对事实或估计缺乏充分确定程度的状态。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C11_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C11_1",
+      "topic": "来源偏差与信息缺失",
+      "keywords_en": [
+        "source bias",
+        "missing information"
+      ],
+      "facet": "concept_distinction",
+      "text": "来源偏差与信息缺失应作概念区分：来源偏差是资料产生和筛选机制导致的系统性偏差；信息缺失是关键字段或证据没有被记录的情况。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C11_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C11_2",
+      "topic": "来源偏差与交叉核验",
+      "keywords_en": [
+        "source bias",
+        "cross verification"
+      ],
+      "facet": "concept_distinction",
+      "text": "来源偏差与交叉核验应作概念区分：来源偏差是资料产生和筛选机制导致的系统性偏差；交叉核验是使用不同来源验证同一主张的做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C11_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C11_3",
+      "topic": "来源偏差与不确定性",
+      "keywords_en": [
+        "source bias",
+        "uncertainty"
+      ],
+      "facet": "concept_distinction",
+      "text": "来源偏差与不确定性应作概念区分：来源偏差是资料产生和筛选机制导致的系统性偏差；不确定性是对事实或估计缺乏充分确定程度的状态。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C11_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C11_4",
+      "topic": "来源偏差与隐私边界",
+      "keywords_en": [
+        "source bias",
+        "privacy boundaries"
+      ],
+      "facet": "concept_distinction",
+      "text": "来源偏差与隐私边界应作概念区分：来源偏差是资料产生和筛选机制导致的系统性偏差；隐私边界是可收集使用和公开个人信息的限制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C12_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C12_1",
+      "topic": "信息缺失与交叉核验",
+      "keywords_en": [
+        "missing information",
+        "cross verification"
+      ],
+      "facet": "concept_distinction",
+      "text": "信息缺失与交叉核验应作概念区分：信息缺失是关键字段或证据没有被记录的情况；交叉核验是使用不同来源验证同一主张的做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C12_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C12_2",
+      "topic": "信息缺失与不确定性",
+      "keywords_en": [
+        "missing information",
+        "uncertainty"
+      ],
+      "facet": "concept_distinction",
+      "text": "信息缺失与不确定性应作概念区分：信息缺失是关键字段或证据没有被记录的情况；不确定性是对事实或估计缺乏充分确定程度的状态。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C12_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C12_3",
+      "topic": "信息缺失与隐私边界",
+      "keywords_en": [
+        "missing information",
+        "privacy boundaries"
+      ],
+      "facet": "concept_distinction",
+      "text": "信息缺失与隐私边界应作概念区分：信息缺失是关键字段或证据没有被记录的情况；隐私边界是可收集使用和公开个人信息的限制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C12_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C12_4",
+      "topic": "信息缺失与知情同意",
+      "keywords_en": [
+        "missing information",
+        "informed consent"
+      ],
+      "facet": "concept_distinction",
+      "text": "信息缺失与知情同意应作概念区分：信息缺失是关键字段或证据没有被记录的情况；知情同意是参与者了解并自主授权特定用途的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C13_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C13_1",
+      "topic": "交叉核验与不确定性",
+      "keywords_en": [
+        "cross verification",
+        "uncertainty"
+      ],
+      "facet": "concept_distinction",
+      "text": "交叉核验与不确定性应作概念区分：交叉核验是使用不同来源验证同一主张的做法；不确定性是对事实或估计缺乏充分确定程度的状态。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C13_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C13_2",
+      "topic": "交叉核验与隐私边界",
+      "keywords_en": [
+        "cross verification",
+        "privacy boundaries"
+      ],
+      "facet": "concept_distinction",
+      "text": "交叉核验与隐私边界应作概念区分：交叉核验是使用不同来源验证同一主张的做法；隐私边界是可收集使用和公开个人信息的限制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C13_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C13_3",
+      "topic": "交叉核验与知情同意",
+      "keywords_en": [
+        "cross verification",
+        "informed consent"
+      ],
+      "facet": "concept_distinction",
+      "text": "交叉核验与知情同意应作概念区分：交叉核验是使用不同来源验证同一主张的做法；知情同意是参与者了解并自主授权特定用途的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C13_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C13_4",
+      "topic": "交叉核验与元数据",
+      "keywords_en": [
+        "cross verification",
+        "metadata"
+      ],
+      "facet": "concept_distinction",
+      "text": "交叉核验与元数据应作概念区分：交叉核验是使用不同来源验证同一主张的做法；元数据是描述资料来源内容时间及处理规则的信息。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C14_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C14_1",
+      "topic": "不确定性与隐私边界",
+      "keywords_en": [
+        "uncertainty",
+        "privacy boundaries"
+      ],
+      "facet": "concept_distinction",
+      "text": "不确定性与隐私边界应作概念区分：不确定性是对事实或估计缺乏充分确定程度的状态；隐私边界是可收集使用和公开个人信息的限制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C14_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C14_2",
+      "topic": "不确定性与知情同意",
+      "keywords_en": [
+        "uncertainty",
+        "informed consent"
+      ],
+      "facet": "concept_distinction",
+      "text": "不确定性与知情同意应作概念区分：不确定性是对事实或估计缺乏充分确定程度的状态；知情同意是参与者了解并自主授权特定用途的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C14_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C14_3",
+      "topic": "不确定性与元数据",
+      "keywords_en": [
+        "uncertainty",
+        "metadata"
+      ],
+      "facet": "concept_distinction",
+      "text": "不确定性与元数据应作概念区分：不确定性是对事实或估计缺乏充分确定程度的状态；元数据是描述资料来源内容时间及处理规则的信息。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C14_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C14_4",
+      "topic": "不确定性与版本管理",
+      "keywords_en": [
+        "uncertainty",
+        "version control"
+      ],
+      "facet": "concept_distinction",
+      "text": "不确定性与版本管理应作概念区分：不确定性是对事实或估计缺乏充分确定程度的状态；版本管理是记录内容或配置变动与可追溯历史的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C15_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C15_1",
+      "topic": "隐私边界与知情同意",
+      "keywords_en": [
+        "privacy boundaries",
+        "informed consent"
+      ],
+      "facet": "concept_distinction",
+      "text": "隐私边界与知情同意应作概念区分：隐私边界是可收集使用和公开个人信息的限制；知情同意是参与者了解并自主授权特定用途的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C15_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C15_2",
+      "topic": "隐私边界与元数据",
+      "keywords_en": [
+        "privacy boundaries",
+        "metadata"
+      ],
+      "facet": "concept_distinction",
+      "text": "隐私边界与元数据应作概念区分：隐私边界是可收集使用和公开个人信息的限制；元数据是描述资料来源内容时间及处理规则的信息。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C15_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C15_3",
+      "topic": "隐私边界与版本管理",
+      "keywords_en": [
+        "privacy boundaries",
+        "version control"
+      ],
+      "facet": "concept_distinction",
+      "text": "隐私边界与版本管理应作概念区分：隐私边界是可收集使用和公开个人信息的限制；版本管理是记录内容或配置变动与可追溯历史的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C15_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C15_4",
+      "topic": "隐私边界与分类标签",
+      "keywords_en": [
+        "privacy boundaries",
+        "classification label"
+      ],
+      "facet": "concept_distinction",
+      "text": "隐私边界与分类标签应作概念区分：隐私边界是可收集使用和公开个人信息的限制；分类标签是用于组织和检索记录的结构化类别标识。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C16_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C16_1",
+      "topic": "知情同意与元数据",
+      "keywords_en": [
+        "informed consent",
+        "metadata"
+      ],
+      "facet": "concept_distinction",
+      "text": "知情同意与元数据应作概念区分：知情同意是参与者了解并自主授权特定用途的过程；元数据是描述资料来源内容时间及处理规则的信息。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C16_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C16_2",
+      "topic": "知情同意与版本管理",
+      "keywords_en": [
+        "informed consent",
+        "version control"
+      ],
+      "facet": "concept_distinction",
+      "text": "知情同意与版本管理应作概念区分：知情同意是参与者了解并自主授权特定用途的过程；版本管理是记录内容或配置变动与可追溯历史的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C16_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C16_3",
+      "topic": "知情同意与分类标签",
+      "keywords_en": [
+        "informed consent",
+        "classification label"
+      ],
+      "facet": "concept_distinction",
+      "text": "知情同意与分类标签应作概念区分：知情同意是参与者了解并自主授权特定用途的过程；分类标签是用于组织和检索记录的结构化类别标识。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C16_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C16_4",
+      "topic": "知情同意与人工复核",
+      "keywords_en": [
+        "informed consent",
+        "human review"
+      ],
+      "facet": "concept_distinction",
+      "text": "知情同意与人工复核应作概念区分：知情同意是参与者了解并自主授权特定用途的过程；人工复核是由审查者验证自动处理结果是否合理的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C17_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C17_1",
+      "topic": "元数据与版本管理",
+      "keywords_en": [
+        "metadata",
+        "version control"
+      ],
+      "facet": "concept_distinction",
+      "text": "元数据与版本管理应作概念区分：元数据是描述资料来源内容时间及处理规则的信息；版本管理是记录内容或配置变动与可追溯历史的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C17_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C17_2",
+      "topic": "元数据与分类标签",
+      "keywords_en": [
+        "metadata",
+        "classification label"
+      ],
+      "facet": "concept_distinction",
+      "text": "元数据与分类标签应作概念区分：元数据是描述资料来源内容时间及处理规则的信息；分类标签是用于组织和检索记录的结构化类别标识。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C17_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C17_3",
+      "topic": "元数据与人工复核",
+      "keywords_en": [
+        "metadata",
+        "human review"
+      ],
+      "facet": "concept_distinction",
+      "text": "元数据与人工复核应作概念区分：元数据是描述资料来源内容时间及处理规则的信息；人工复核是由审查者验证自动处理结果是否合理的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C17_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C17_4",
+      "topic": "元数据与研究主题",
+      "keywords_en": [
+        "metadata",
+        "research topic"
+      ],
+      "facet": "concept_distinction",
+      "text": "元数据与研究主题应作概念区分：元数据是描述资料来源内容时间及处理规则的信息；研究主题是围绕特定问题组织资料收集与分析的关注范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C18_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C18_1",
+      "topic": "版本管理与分类标签",
+      "keywords_en": [
+        "version control",
+        "classification label"
+      ],
+      "facet": "concept_distinction",
+      "text": "版本管理与分类标签应作概念区分：版本管理是记录内容或配置变动与可追溯历史的实践；分类标签是用于组织和检索记录的结构化类别标识。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C18_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C18_2",
+      "topic": "版本管理与人工复核",
+      "keywords_en": [
+        "version control",
+        "human review"
+      ],
+      "facet": "concept_distinction",
+      "text": "版本管理与人工复核应作概念区分：版本管理是记录内容或配置变动与可追溯历史的实践；人工复核是由审查者验证自动处理结果是否合理的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C18_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C18_3",
+      "topic": "版本管理与研究主题",
+      "keywords_en": [
+        "version control",
+        "research topic"
+      ],
+      "facet": "concept_distinction",
+      "text": "版本管理与研究主题应作概念区分：版本管理是记录内容或配置变动与可追溯历史的实践；研究主题是围绕特定问题组织资料收集与分析的关注范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C18_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C18_4",
+      "topic": "版本管理与信息来源",
+      "keywords_en": [
+        "version control",
+        "information source"
+      ],
+      "facet": "concept_distinction",
+      "text": "版本管理与信息来源应作概念区分：版本管理是记录内容或配置变动与可追溯历史的实践；信息来源是某项陈述可追溯的文档或发言主体。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C19_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C19_1",
+      "topic": "分类标签与人工复核",
+      "keywords_en": [
+        "classification label",
+        "human review"
+      ],
+      "facet": "concept_distinction",
+      "text": "分类标签与人工复核应作概念区分：分类标签是用于组织和检索记录的结构化类别标识；人工复核是由审查者验证自动处理结果是否合理的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C19_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C19_2",
+      "topic": "分类标签与研究主题",
+      "keywords_en": [
+        "classification label",
+        "research topic"
+      ],
+      "facet": "concept_distinction",
+      "text": "分类标签与研究主题应作概念区分：分类标签是用于组织和检索记录的结构化类别标识；研究主题是围绕特定问题组织资料收集与分析的关注范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C19_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C19_3",
+      "topic": "分类标签与信息来源",
+      "keywords_en": [
+        "classification label",
+        "information source"
+      ],
+      "facet": "concept_distinction",
+      "text": "分类标签与信息来源应作概念区分：分类标签是用于组织和检索记录的结构化类别标识；信息来源是某项陈述可追溯的文档或发言主体。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C19_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C19_4",
+      "topic": "分类标签与来源可信度",
+      "keywords_en": [
+        "classification label",
+        "source credibility"
+      ],
+      "facet": "concept_distinction",
+      "text": "分类标签与来源可信度应作概念区分：分类标签是用于组织和检索记录的结构化类别标识；来源可信度是根据出处方法和独立证据评价材料可依赖程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C20_1",
+      "domain": "other_general",
+      "concept_id": "other_general_C20_1",
+      "topic": "人工复核与研究主题",
+      "keywords_en": [
+        "human review",
+        "research topic"
+      ],
+      "facet": "concept_distinction",
+      "text": "人工复核与研究主题应作概念区分：人工复核是由审查者验证自动处理结果是否合理的过程；研究主题是围绕特定问题组织资料收集与分析的关注范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C20_2",
+      "domain": "other_general",
+      "concept_id": "other_general_C20_2",
+      "topic": "人工复核与信息来源",
+      "keywords_en": [
+        "human review",
+        "information source"
+      ],
+      "facet": "concept_distinction",
+      "text": "人工复核与信息来源应作概念区分：人工复核是由审查者验证自动处理结果是否合理的过程；信息来源是某项陈述可追溯的文档或发言主体。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C20_3",
+      "domain": "other_general",
+      "concept_id": "other_general_C20_3",
+      "topic": "人工复核与来源可信度",
+      "keywords_en": [
+        "human review",
+        "source credibility"
+      ],
+      "facet": "concept_distinction",
+      "text": "人工复核与来源可信度应作概念区分：人工复核是由审查者验证自动处理结果是否合理的过程；来源可信度是根据出处方法和独立证据评价材料可依赖程度。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_other_general_C20_4",
+      "domain": "other_general",
+      "concept_id": "other_general_C20_4",
+      "topic": "人工复核与事实与观点",
+      "keywords_en": [
+        "human review",
+        "facts and opinions"
+      ],
+      "facet": "concept_distinction",
+      "text": "人工复核与事实与观点应作概念区分：人工复核是由审查者验证自动处理结果是否合理的过程；事实与观点是可验证的描述性陈述与主观判断之间的区分。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

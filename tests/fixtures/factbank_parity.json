@@ -1,0 +1,552 @@
+[
+  {
+    "input": {
+      "original_text": "I use Copilot every day to draft basic code.",
+      "source_question": "How often do you use AI to program?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "v5_current_or_habitual",
+      "confidence": 0.83,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": false,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "I started using AI coding tools in 2022.",
+      "source_question": "When did you first use this tool?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "memory",
+      "classification_reason": "v5_specific_past_question",
+      "confidence": 0.79,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "Last year I worked on a Python application.",
+      "source_question": "Tell me about a project you completed.",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "memory",
+      "classification_reason": "explicit_bounded_history",
+      "confidence": 0.91,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": false,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "The workflow is automated for our team.",
+      "source_question": "What is the team workflow?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "ongoing_state_habit_or_general_claim",
+      "confidence": 0.85,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": false,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "I have never used that language at work.",
+      "source_question": "Have you worked with that language?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "ongoing_negative_experience",
+      "confidence": 0.78,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "Yes.",
+      "source_question": "Thanks for speaking with me today.",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "non_fact",
+      "classification_reason": "interview_backchannel_or_closure",
+      "confidence": 0.95,
+      "exclude_from_retrieval": true,
+      "is_fact": false,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": false,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "No, we do not record personal data.",
+      "source_question": "Do you record personal data?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "v6_present_state_or_generalized_claim",
+      "confidence": 0.73,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "I think programmers should verify model outputs.",
+      "source_question": "What is your view of AI assistance?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "general_question_dominant_generalization",
+      "confidence": 0.76,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "In general, these tools can speed up debugging.",
+      "source_question": "How does AI change coding?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "v7_advice_general_question",
+      "confidence": 0.78,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "At first I did not understand the configuration.",
+      "source_question": "What were your early experiences?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "memory",
+      "classification_reason": "v5_specific_past_event",
+      "confidence": 0.9,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": false,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "If there were failures, we would roll back.",
+      "source_question": "What is your usual response to errors?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "counterfactual_not_past_event",
+      "confidence": 0.82,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "My second internship lasted six months.",
+      "source_question": "Tell me about your internships.",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "review",
+      "classification_reason": "insufficient_temporal_evidence",
+      "confidence": 0.3,
+      "exclude_from_retrieval": true,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "We held a release meeting yesterday.",
+      "source_question": "What happened yesterday?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "memory",
+      "classification_reason": "question_anchored_historical",
+      "confidence": 0.72,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "Can you repeat the question?",
+      "source_question": "What did you think of that experience?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "non_fact",
+      "classification_reason": "respondent_interview_clarification",
+      "confidence": 0.92,
+      "exclude_from_retrieval": true,
+      "is_fact": false,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "The sharing mechanism is our documentation portal.",
+      "source_question": "What is your sharing mechanism?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "question_anchored_ongoing",
+      "confidence": 0.72,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "I will send you our notes after this interview.",
+      "source_question": "Can you share those notes?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "non_fact",
+      "classification_reason": "interview_followup_logistics",
+      "confidence": 0.85,
+      "exclude_from_retrieval": true,
+      "is_fact": false,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "I was creating a parser when it failed.",
+      "source_question": "What was happening when the error occurred?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "review",
+      "classification_reason": "insufficient_temporal_evidence",
+      "confidence": 0.3,
+      "exclude_from_retrieval": true,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "We usually use VSCode and GitHub Actions.",
+      "source_question": "What technologies do you use now?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "v7_current_rule_state",
+      "confidence": 0.78,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "There are definitely advantages to this approach.",
+      "source_question": "Do you think there are advantages?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "general_question_dominant_generalization",
+      "confidence": 0.76,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "I wouldn't recommend relying on a single answer.",
+      "source_question": "What would you recommend?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "v7_advice_general_question",
+      "confidence": 0.78,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "Right now these tools are changing the way we work.",
+      "source_question": "How is programming changing?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "present_trend_with_incidental_historical_reference",
+      "confidence": 0.73,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "That is correct.",
+      "source_question": "Could I confirm your answer?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "review",
+      "classification_reason": "short_answer_missing_semantic_anchor",
+      "confidence": 0.35,
+      "exclude_from_retrieval": true,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "My manager gave feedback and we improved testing.",
+      "source_question": "How does feedback work?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "v7_advice_general_question",
+      "confidence": 0.78,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "For four months I interned at a startup.",
+      "source_question": "What was your early employment?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "memory",
+      "classification_reason": "bounded_internship_work_history",
+      "confidence": 0.86,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  },
+  {
+    "input": {
+      "original_text": "The team doesn't need to write every test manually.",
+      "source_question": "What is your current testing practice?",
+      "source_verified": true,
+      "question_verified": true,
+      "semantic_status": "source_verified"
+    },
+    "expected": {
+      "category": "reality",
+      "classification_reason": "question_anchored_ongoing",
+      "confidence": 0.72,
+      "exclude_from_retrieval": false,
+      "is_fact": true,
+      "llm_calls": 0,
+      "memory_id": null,
+      "review_required": true,
+      "schema": "python_factbank_index.v15",
+      "source_question_turn_id": null,
+      "source_turn_id": null
+    }
+  }
+]

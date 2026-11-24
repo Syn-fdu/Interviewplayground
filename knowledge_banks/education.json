@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "education",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_education_D01",
+      "domain": "education",
+      "concept_id": "education_D01",
+      "topic": "形成性评价",
+      "keywords_en": [
+        "formative assessment"
+      ],
+      "facet": "definition",
+      "text": "形成性评价（formative assessment）：在学习过程中持续收集证据调整教学。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D02",
+      "domain": "education",
+      "concept_id": "education_D02",
+      "topic": "总结性评价",
+      "keywords_en": [
+        "summative assessment"
+      ],
+      "facet": "definition",
+      "text": "总结性评价（summative assessment）：在教学阶段结束时判断学习成果。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D03",
+      "domain": "education",
+      "concept_id": "education_D03",
+      "topic": "课程目标",
+      "keywords_en": [
+        "learning objectives"
+      ],
+      "facet": "definition",
+      "text": "课程目标（learning objectives）：学生完成学习单元后预期达到的能力。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D04",
+      "domain": "education",
+      "concept_id": "education_D04",
+      "topic": "教学支架",
+      "keywords_en": [
+        "instructional scaffolding"
+      ],
+      "facet": "definition",
+      "text": "教学支架（instructional scaffolding）：为完成暂时独立无法完成的任务提供支持。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D05",
+      "domain": "education",
+      "concept_id": "education_D05",
+      "topic": "最近发展区",
+      "keywords_en": [
+        "zone of proximal development"
+      ],
+      "facet": "definition",
+      "text": "最近发展区（zone of proximal development）：学习者独立能力与在支持下可达能力之间的范围。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D06",
+      "domain": "education",
+      "concept_id": "education_D06",
+      "topic": "认知负荷",
+      "keywords_en": [
+        "cognitive load"
+      ],
+      "facet": "definition",
+      "text": "认知负荷（cognitive load）：任务对工作记忆资源的需求。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D07",
+      "domain": "education",
+      "concept_id": "education_D07",
+      "topic": "间隔练习",
+      "keywords_en": [
+        "spaced practice"
+      ],
+      "facet": "definition",
+      "text": "间隔练习（spaced practice）：将复习分散到不同时间而非集中完成。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D08",
+      "domain": "education",
+      "concept_id": "education_D08",
+      "topic": "检索练习",
+      "keywords_en": [
+        "retrieval practice"
+      ],
+      "facet": "definition",
+      "text": "检索练习（retrieval practice）：通过主动回忆巩固知识的学习方式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D09",
+      "domain": "education",
+      "concept_id": "education_D09",
+      "topic": "元认知",
+      "keywords_en": [
+        "metacognition"
+      ],
+      "facet": "definition",
+      "text": "元认知（metacognition）：对自身认知过程进行监测与调节。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D10",
+      "domain": "education",
+      "concept_id": "education_D10",
+      "topic": "学习动机",
+      "keywords_en": [
+        "learning motivation"
+      ],
+      "facet": "definition",
+      "text": "学习动机（learning motivation）：影响学习行为启动、方向和持续的因素。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D11",
+      "domain": "education",
+      "concept_id": "education_D11",
+      "topic": "课堂反馈",
+      "keywords_en": [
+        "classroom feedback"
+      ],
+      "facet": "definition",
+      "text": "课堂反馈（classroom feedback）：关于学习表现与目标差距的信息。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D12",
+      "domain": "education",
+      "concept_id": "education_D12",
+      "topic": "同伴学习",
+      "keywords_en": [
+        "peer learning"
+      ],
+      "facet": "definition",
+      "text": "同伴学习（peer learning）：学生通过相互解释协作促进学习。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D13",
+      "domain": "education",
+      "concept_id": "education_D13",
+      "topic": "差异化教学",
+      "keywords_en": [
+        "differentiated instruction"
+      ],
+      "facet": "definition",
+      "text": "差异化教学（differentiated instruction）：根据学生学习需要调整内容、过程或成果要求。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D14",
+      "domain": "education",
+      "concept_id": "education_D14",
+      "topic": "教育公平",
+      "keywords_en": [
+        "educational equity"
+      ],
+      "facet": "definition",
+      "text": "教育公平（educational equity）：关注学生获得学习机会和支持的合理性。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D15",
+      "domain": "education",
+      "concept_id": "education_D15",
+      "topic": "融合教育",
+      "keywords_en": [
+        "inclusive education"
+      ],
+      "facet": "definition",
+      "text": "融合教育（inclusive education）：为具有不同需要的学生创造共同参与环境。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D16",
+      "domain": "education",
+      "concept_id": "education_D16",
+      "topic": "学校归属感",
+      "keywords_en": [
+        "school belonging"
+      ],
+      "facet": "definition",
+      "text": "学校归属感（school belonging）：学生感到被学校群体接纳与支持的体验。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D17",
+      "domain": "education",
+      "concept_id": "education_D17",
+      "topic": "学生参与度",
+      "keywords_en": [
+        "student engagement"
+      ],
+      "facet": "definition",
+      "text": "学生参与度（student engagement）：学生在行为、情感和认知层面的学习投入。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D18",
+      "domain": "education",
+      "concept_id": "education_D18",
+      "topic": "家校合作",
+      "keywords_en": [
+        "family school partnership"
+      ],
+      "facet": "definition",
+      "text": "家校合作（family school partnership）：家庭与学校围绕学生发展形成的信息和行动协作。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D19",
+      "domain": "education",
+      "concept_id": "education_D19",
+      "topic": "教育测量信度",
+      "keywords_en": [
+        "measurement reliability"
+      ],
+      "facet": "definition",
+      "text": "教育测量信度（measurement reliability）：评估工具在可比条件下结果的一致性。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_D20",
+      "domain": "education",
+      "concept_id": "education_D20",
+      "topic": "教育测量效度",
+      "keywords_en": [
+        "measurement validity"
+      ],
+      "facet": "definition",
+      "text": "教育测量效度（measurement validity）：评价分数解释与使用是否有证据支持。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C01_1",
+      "domain": "education",
+      "concept_id": "education_C01_1",
+      "topic": "形成性评价与总结性评价",
+      "keywords_en": [
+        "formative assessment",
+        "summative assessment"
+      ],
+      "facet": "concept_distinction",
+      "text": "形成性评价与总结性评价应作概念区分：形成性评价是在学习过程中持续收集证据调整教学；总结性评价是在教学阶段结束时判断学习成果。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C01_2",
+      "domain": "education",
+      "concept_id": "education_C01_2",
+      "topic": "形成性评价与课程目标",
+      "keywords_en": [
+        "formative assessment",
+        "learning objectives"
+      ],
+      "facet": "concept_distinction",
+      "text": "形成性评价与课程目标应作概念区分：形成性评价是在学习过程中持续收集证据调整教学；课程目标是学生完成学习单元后预期达到的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C01_3",
+      "domain": "education",
+      "concept_id": "education_C01_3",
+      "topic": "形成性评价与教学支架",
+      "keywords_en": [
+        "formative assessment",
+        "instructional scaffolding"
+      ],
+      "facet": "concept_distinction",
+      "text": "形成性评价与教学支架应作概念区分：形成性评价是在学习过程中持续收集证据调整教学；教学支架是为完成暂时独立无法完成的任务提供支持。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C01_4",
+      "domain": "education",
+      "concept_id": "education_C01_4",
+      "topic": "形成性评价与最近发展区",
+      "keywords_en": [
+        "formative assessment",
+        "zone of proximal development"
+      ],
+      "facet": "concept_distinction",
+      "text": "形成性评价与最近发展区应作概念区分：形成性评价是在学习过程中持续收集证据调整教学；最近发展区是学习者独立能力与在支持下可达能力之间的范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C02_1",
+      "domain": "education",
+      "concept_id": "education_C02_1",
+      "topic": "总结性评价与课程目标",
+      "keywords_en": [
+        "summative assessment",
+        "learning objectives"
+      ],
+      "facet": "concept_distinction",
+      "text": "总结性评价与课程目标应作概念区分：总结性评价是在教学阶段结束时判断学习成果；课程目标是学生完成学习单元后预期达到的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C02_2",
+      "domain": "education",
+      "concept_id": "education_C02_2",
+      "topic": "总结性评价与教学支架",
+      "keywords_en": [
+        "summative assessment",
+        "instructional scaffolding"
+      ],
+      "facet": "concept_distinction",
+      "text": "总结性评价与教学支架应作概念区分：总结性评价是在教学阶段结束时判断学习成果；教学支架是为完成暂时独立无法完成的任务提供支持。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C02_3",
+      "domain": "education",
+      "concept_id": "education_C02_3",
+      "topic": "总结性评价与最近发展区",
+      "keywords_en": [
+        "summative assessment",
+        "zone of proximal development"
+      ],
+      "facet": "concept_distinction",
+      "text": "总结性评价与最近发展区应作概念区分：总结性评价是在教学阶段结束时判断学习成果；最近发展区是学习者独立能力与在支持下可达能力之间的范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C02_4",
+      "domain": "education",
+      "concept_id": "education_C02_4",
+      "topic": "总结性评价与认知负荷",
+      "keywords_en": [
+        "summative assessment",
+        "cognitive load"
+      ],
+      "facet": "concept_distinction",
+      "text": "总结性评价与认知负荷应作概念区分：总结性评价是在教学阶段结束时判断学习成果；认知负荷是任务对工作记忆资源的需求。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C03_1",
+      "domain": "education",
+      "concept_id": "education_C03_1",
+      "topic": "课程目标与教学支架",
+      "keywords_en": [
+        "learning objectives",
+        "instructional scaffolding"
+      ],
+      "facet": "concept_distinction",
+      "text": "课程目标与教学支架应作概念区分：课程目标是学生完成学习单元后预期达到的能力；教学支架是为完成暂时独立无法完成的任务提供支持。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C03_2",
+      "domain": "education",
+      "concept_id": "education_C03_2",
+      "topic": "课程目标与最近发展区",
+      "keywords_en": [
+        "learning objectives",
+        "zone of proximal development"
+      ],
+      "facet": "concept_distinction",
+      "text": "课程目标与最近发展区应作概念区分：课程目标是学生完成学习单元后预期达到的能力；最近发展区是学习者独立能力与在支持下可达能力之间的范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C03_3",
+      "domain": "education",
+      "concept_id": "education_C03_3",
+      "topic": "课程目标与认知负荷",
+      "keywords_en": [
+        "learning objectives",
+        "cognitive load"
+      ],
+      "facet": "concept_distinction",
+      "text": "课程目标与认知负荷应作概念区分：课程目标是学生完成学习单元后预期达到的能力；认知负荷是任务对工作记忆资源的需求。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C03_4",
+      "domain": "education",
+      "concept_id": "education_C03_4",
+      "topic": "课程目标与间隔练习",
+      "keywords_en": [
+        "learning objectives",
+        "spaced practice"
+      ],
+      "facet": "concept_distinction",
+      "text": "课程目标与间隔练习应作概念区分：课程目标是学生完成学习单元后预期达到的能力；间隔练习是将复习分散到不同时间而非集中完成。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C04_1",
+      "domain": "education",
+      "concept_id": "education_C04_1",
+      "topic": "教学支架与最近发展区",
+      "keywords_en": [
+        "instructional scaffolding",
+        "zone of proximal development"
+      ],
+      "facet": "concept_distinction",
+      "text": "教学支架与最近发展区应作概念区分：教学支架是为完成暂时独立无法完成的任务提供支持；最近发展区是学习者独立能力与在支持下可达能力之间的范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C04_2",
+      "domain": "education",
+      "concept_id": "education_C04_2",
+      "topic": "教学支架与认知负荷",
+      "keywords_en": [
+        "instructional scaffolding",
+        "cognitive load"
+      ],
+      "facet": "concept_distinction",
+      "text": "教学支架与认知负荷应作概念区分：教学支架是为完成暂时独立无法完成的任务提供支持；认知负荷是任务对工作记忆资源的需求。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C04_3",
+      "domain": "education",
+      "concept_id": "education_C04_3",
+      "topic": "教学支架与间隔练习",
+      "keywords_en": [
+        "instructional scaffolding",
+        "spaced practice"
+      ],
+      "facet": "concept_distinction",
+      "text": "教学支架与间隔练习应作概念区分：教学支架是为完成暂时独立无法完成的任务提供支持；间隔练习是将复习分散到不同时间而非集中完成。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C04_4",
+      "domain": "education",
+      "concept_id": "education_C04_4",
+      "topic": "教学支架与检索练习",
+      "keywords_en": [
+        "instructional scaffolding",
+        "retrieval practice"
+      ],
+      "facet": "concept_distinction",
+      "text": "教学支架与检索练习应作概念区分：教学支架是为完成暂时独立无法完成的任务提供支持；检索练习是通过主动回忆巩固知识的学习方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C05_1",
+      "domain": "education",
+      "concept_id": "education_C05_1",
+      "topic": "最近发展区与认知负荷",
+      "keywords_en": [
+        "zone of proximal development",
+        "cognitive load"
+      ],
+      "facet": "concept_distinction",
+      "text": "最近发展区与认知负荷应作概念区分：最近发展区是学习者独立能力与在支持下可达能力之间的范围；认知负荷是任务对工作记忆资源的需求。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C05_2",
+      "domain": "education",
+      "concept_id": "education_C05_2",
+      "topic": "最近发展区与间隔练习",
+      "keywords_en": [
+        "zone of proximal development",
+        "spaced practice"
+      ],
+      "facet": "concept_distinction",
+      "text": "最近发展区与间隔练习应作概念区分：最近发展区是学习者独立能力与在支持下可达能力之间的范围；间隔练习是将复习分散到不同时间而非集中完成。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C05_3",
+      "domain": "education",
+      "concept_id": "education_C05_3",
+      "topic": "最近发展区与检索练习",
+      "keywords_en": [
+        "zone of proximal development",
+        "retrieval practice"
+      ],
+      "facet": "concept_distinction",
+      "text": "最近发展区与检索练习应作概念区分：最近发展区是学习者独立能力与在支持下可达能力之间的范围；检索练习是通过主动回忆巩固知识的学习方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C05_4",
+      "domain": "education",
+      "concept_id": "education_C05_4",
+      "topic": "最近发展区与元认知",
+      "keywords_en": [
+        "zone of proximal development",
+        "metacognition"
+      ],
+      "facet": "concept_distinction",
+      "text": "最近发展区与元认知应作概念区分：最近发展区是学习者独立能力与在支持下可达能力之间的范围；元认知是对自身认知过程进行监测与调节。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C06_1",
+      "domain": "education",
+      "concept_id": "education_C06_1",
+      "topic": "认知负荷与间隔练习",
+      "keywords_en": [
+        "cognitive load",
+        "spaced practice"
+      ],
+      "facet": "concept_distinction",
+      "text": "认知负荷与间隔练习应作概念区分：认知负荷是任务对工作记忆资源的需求；间隔练习是将复习分散到不同时间而非集中完成。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C06_2",
+      "domain": "education",
+      "concept_id": "education_C06_2",
+      "topic": "认知负荷与检索练习",
+      "keywords_en": [
+        "cognitive load",
+        "retrieval practice"
+      ],
+      "facet": "concept_distinction",
+      "text": "认知负荷与检索练习应作概念区分：认知负荷是任务对工作记忆资源的需求；检索练习是通过主动回忆巩固知识的学习方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C06_3",
+      "domain": "education",
+      "concept_id": "education_C06_3",
+      "topic": "认知负荷与元认知",
+      "keywords_en": [
+        "cognitive load",
+        "metacognition"
+      ],
+      "facet": "concept_distinction",
+      "text": "认知负荷与元认知应作概念区分：认知负荷是任务对工作记忆资源的需求；元认知是对自身认知过程进行监测与调节。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C06_4",
+      "domain": "education",
+      "concept_id": "education_C06_4",
+      "topic": "认知负荷与学习动机",
+      "keywords_en": [
+        "cognitive load",
+        "learning motivation"
+      ],
+      "facet": "concept_distinction",
+      "text": "认知负荷与学习动机应作概念区分：认知负荷是任务对工作记忆资源的需求；学习动机是影响学习行为启动、方向和持续的因素。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C07_1",
+      "domain": "education",
+      "concept_id": "education_C07_1",
+      "topic": "间隔练习与检索练习",
+      "keywords_en": [
+        "spaced practice",
+        "retrieval practice"
+      ],
+      "facet": "concept_distinction",
+      "text": "间隔练习与检索练习应作概念区分：间隔练习是将复习分散到不同时间而非集中完成；检索练习是通过主动回忆巩固知识的学习方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C07_2",
+      "domain": "education",
+      "concept_id": "education_C07_2",
+      "topic": "间隔练习与元认知",
+      "keywords_en": [
+        "spaced practice",
+        "metacognition"
+      ],
+      "facet": "concept_distinction",
+      "text": "间隔练习与元认知应作概念区分：间隔练习是将复习分散到不同时间而非集中完成；元认知是对自身认知过程进行监测与调节。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C07_3",
+      "domain": "education",
+      "concept_id": "education_C07_3",
+      "topic": "间隔练习与学习动机",
+      "keywords_en": [
+        "spaced practice",
+        "learning motivation"
+      ],
+      "facet": "concept_distinction",
+      "text": "间隔练习与学习动机应作概念区分：间隔练习是将复习分散到不同时间而非集中完成；学习动机是影响学习行为启动、方向和持续的因素。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C07_4",
+      "domain": "education",
+      "concept_id": "education_C07_4",
+      "topic": "间隔练习与课堂反馈",
+      "keywords_en": [
+        "spaced practice",
+        "classroom feedback"
+      ],
+      "facet": "concept_distinction",
+      "text": "间隔练习与课堂反馈应作概念区分：间隔练习是将复习分散到不同时间而非集中完成；课堂反馈是关于学习表现与目标差距的信息。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C08_1",
+      "domain": "education",
+      "concept_id": "education_C08_1",
+      "topic": "检索练习与元认知",
+      "keywords_en": [
+        "retrieval practice",
+        "metacognition"
+      ],
+      "facet": "concept_distinction",
+      "text": "检索练习与元认知应作概念区分：检索练习是通过主动回忆巩固知识的学习方式；元认知是对自身认知过程进行监测与调节。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C08_2",
+      "domain": "education",
+      "concept_id": "education_C08_2",
+      "topic": "检索练习与学习动机",
+      "keywords_en": [
+        "retrieval practice",
+        "learning motivation"
+      ],
+      "facet": "concept_distinction",
+      "text": "检索练习与学习动机应作概念区分：检索练习是通过主动回忆巩固知识的学习方式；学习动机是影响学习行为启动、方向和持续的因素。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C08_3",
+      "domain": "education",
+      "concept_id": "education_C08_3",
+      "topic": "检索练习与课堂反馈",
+      "keywords_en": [
+        "retrieval practice",
+        "classroom feedback"
+      ],
+      "facet": "concept_distinction",
+      "text": "检索练习与课堂反馈应作概念区分：检索练习是通过主动回忆巩固知识的学习方式；课堂反馈是关于学习表现与目标差距的信息。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C08_4",
+      "domain": "education",
+      "concept_id": "education_C08_4",
+      "topic": "检索练习与同伴学习",
+      "keywords_en": [
+        "retrieval practice",
+        "peer learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "检索练习与同伴学习应作概念区分：检索练习是通过主动回忆巩固知识的学习方式；同伴学习是学生通过相互解释协作促进学习。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C09_1",
+      "domain": "education",
+      "concept_id": "education_C09_1",
+      "topic": "元认知与学习动机",
+      "keywords_en": [
+        "metacognition",
+        "learning motivation"
+      ],
+      "facet": "concept_distinction",
+      "text": "元认知与学习动机应作概念区分：元认知是对自身认知过程进行监测与调节；学习动机是影响学习行为启动、方向和持续的因素。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C09_2",
+      "domain": "education",
+      "concept_id": "education_C09_2",
+      "topic": "元认知与课堂反馈",
+      "keywords_en": [
+        "metacognition",
+        "classroom feedback"
+      ],
+      "facet": "concept_distinction",
+      "text": "元认知与课堂反馈应作概念区分：元认知是对自身认知过程进行监测与调节；课堂反馈是关于学习表现与目标差距的信息。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C09_3",
+      "domain": "education",
+      "concept_id": "education_C09_3",
+      "topic": "元认知与同伴学习",
+      "keywords_en": [
+        "metacognition",
+        "peer learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "元认知与同伴学习应作概念区分：元认知是对自身认知过程进行监测与调节；同伴学习是学生通过相互解释协作促进学习。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C09_4",
+      "domain": "education",
+      "concept_id": "education_C09_4",
+      "topic": "元认知与差异化教学",
+      "keywords_en": [
+        "metacognition",
+        "differentiated instruction"
+      ],
+      "facet": "concept_distinction",
+      "text": "元认知与差异化教学应作概念区分：元认知是对自身认知过程进行监测与调节；差异化教学是根据学生学习需要调整内容、过程或成果要求。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C10_1",
+      "domain": "education",
+      "concept_id": "education_C10_1",
+      "topic": "学习动机与课堂反馈",
+      "keywords_en": [
+        "learning motivation",
+        "classroom feedback"
+      ],
+      "facet": "concept_distinction",
+      "text": "学习动机与课堂反馈应作概念区分：学习动机是影响学习行为启动、方向和持续的因素；课堂反馈是关于学习表现与目标差距的信息。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C10_2",
+      "domain": "education",
+      "concept_id": "education_C10_2",
+      "topic": "学习动机与同伴学习",
+      "keywords_en": [
+        "learning motivation",
+        "peer learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "学习动机与同伴学习应作概念区分：学习动机是影响学习行为启动、方向和持续的因素；同伴学习是学生通过相互解释协作促进学习。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C10_3",
+      "domain": "education",
+      "concept_id": "education_C10_3",
+      "topic": "学习动机与差异化教学",
+      "keywords_en": [
+        "learning motivation",
+        "differentiated instruction"
+      ],
+      "facet": "concept_distinction",
+      "text": "学习动机与差异化教学应作概念区分：学习动机是影响学习行为启动、方向和持续的因素；差异化教学是根据学生学习需要调整内容、过程或成果要求。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C10_4",
+      "domain": "education",
+      "concept_id": "education_C10_4",
+      "topic": "学习动机与教育公平",
+      "keywords_en": [
+        "learning motivation",
+        "educational equity"
+      ],
+      "facet": "concept_distinction",
+      "text": "学习动机与教育公平应作概念区分：学习动机是影响学习行为启动、方向和持续的因素；教育公平是关注学生获得学习机会和支持的合理性。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C11_1",
+      "domain": "education",
+      "concept_id": "education_C11_1",
+      "topic": "课堂反馈与同伴学习",
+      "keywords_en": [
+        "classroom feedback",
+        "peer learning"
+      ],
+      "facet": "concept_distinction",
+      "text": "课堂反馈与同伴学习应作概念区分：课堂反馈是关于学习表现与目标差距的信息；同伴学习是学生通过相互解释协作促进学习。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C11_2",
+      "domain": "education",
+      "concept_id": "education_C11_2",
+      "topic": "课堂反馈与差异化教学",
+      "keywords_en": [
+        "classroom feedback",
+        "differentiated instruction"
+      ],
+      "facet": "concept_distinction",
+      "text": "课堂反馈与差异化教学应作概念区分：课堂反馈是关于学习表现与目标差距的信息；差异化教学是根据学生学习需要调整内容、过程或成果要求。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C11_3",
+      "domain": "education",
+      "concept_id": "education_C11_3",
+      "topic": "课堂反馈与教育公平",
+      "keywords_en": [
+        "classroom feedback",
+        "educational equity"
+      ],
+      "facet": "concept_distinction",
+      "text": "课堂反馈与教育公平应作概念区分：课堂反馈是关于学习表现与目标差距的信息；教育公平是关注学生获得学习机会和支持的合理性。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C11_4",
+      "domain": "education",
+      "concept_id": "education_C11_4",
+      "topic": "课堂反馈与融合教育",
+      "keywords_en": [
+        "classroom feedback",
+        "inclusive education"
+      ],
+      "facet": "concept_distinction",
+      "text": "课堂反馈与融合教育应作概念区分：课堂反馈是关于学习表现与目标差距的信息；融合教育是为具有不同需要的学生创造共同参与环境。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C12_1",
+      "domain": "education",
+      "concept_id": "education_C12_1",
+      "topic": "同伴学习与差异化教学",
+      "keywords_en": [
+        "peer learning",
+        "differentiated instruction"
+      ],
+      "facet": "concept_distinction",
+      "text": "同伴学习与差异化教学应作概念区分：同伴学习是学生通过相互解释协作促进学习；差异化教学是根据学生学习需要调整内容、过程或成果要求。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C12_2",
+      "domain": "education",
+      "concept_id": "education_C12_2",
+      "topic": "同伴学习与教育公平",
+      "keywords_en": [
+        "peer learning",
+        "educational equity"
+      ],
+      "facet": "concept_distinction",
+      "text": "同伴学习与教育公平应作概念区分：同伴学习是学生通过相互解释协作促进学习；教育公平是关注学生获得学习机会和支持的合理性。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C12_3",
+      "domain": "education",
+      "concept_id": "education_C12_3",
+      "topic": "同伴学习与融合教育",
+      "keywords_en": [
+        "peer learning",
+        "inclusive education"
+      ],
+      "facet": "concept_distinction",
+      "text": "同伴学习与融合教育应作概念区分：同伴学习是学生通过相互解释协作促进学习；融合教育是为具有不同需要的学生创造共同参与环境。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C12_4",
+      "domain": "education",
+      "concept_id": "education_C12_4",
+      "topic": "同伴学习与学校归属感",
+      "keywords_en": [
+        "peer learning",
+        "school belonging"
+      ],
+      "facet": "concept_distinction",
+      "text": "同伴学习与学校归属感应作概念区分：同伴学习是学生通过相互解释协作促进学习；学校归属感是学生感到被学校群体接纳与支持的体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C13_1",
+      "domain": "education",
+      "concept_id": "education_C13_1",
+      "topic": "差异化教学与教育公平",
+      "keywords_en": [
+        "differentiated instruction",
+        "educational equity"
+      ],
+      "facet": "concept_distinction",
+      "text": "差异化教学与教育公平应作概念区分：差异化教学是根据学生学习需要调整内容、过程或成果要求；教育公平是关注学生获得学习机会和支持的合理性。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C13_2",
+      "domain": "education",
+      "concept_id": "education_C13_2",
+      "topic": "差异化教学与融合教育",
+      "keywords_en": [
+        "differentiated instruction",
+        "inclusive education"
+      ],
+      "facet": "concept_distinction",
+      "text": "差异化教学与融合教育应作概念区分：差异化教学是根据学生学习需要调整内容、过程或成果要求；融合教育是为具有不同需要的学生创造共同参与环境。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C13_3",
+      "domain": "education",
+      "concept_id": "education_C13_3",
+      "topic": "差异化教学与学校归属感",
+      "keywords_en": [
+        "differentiated instruction",
+        "school belonging"
+      ],
+      "facet": "concept_distinction",
+      "text": "差异化教学与学校归属感应作概念区分：差异化教学是根据学生学习需要调整内容、过程或成果要求；学校归属感是学生感到被学校群体接纳与支持的体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C13_4",
+      "domain": "education",
+      "concept_id": "education_C13_4",
+      "topic": "差异化教学与学生参与度",
+      "keywords_en": [
+        "differentiated instruction",
+        "student engagement"
+      ],
+      "facet": "concept_distinction",
+      "text": "差异化教学与学生参与度应作概念区分：差异化教学是根据学生学习需要调整内容、过程或成果要求；学生参与度是学生在行为、情感和认知层面的学习投入。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C14_1",
+      "domain": "education",
+      "concept_id": "education_C14_1",
+      "topic": "教育公平与融合教育",
+      "keywords_en": [
+        "educational equity",
+        "inclusive education"
+      ],
+      "facet": "concept_distinction",
+      "text": "教育公平与融合教育应作概念区分：教育公平是关注学生获得学习机会和支持的合理性；融合教育是为具有不同需要的学生创造共同参与环境。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C14_2",
+      "domain": "education",
+      "concept_id": "education_C14_2",
+      "topic": "教育公平与学校归属感",
+      "keywords_en": [
+        "educational equity",
+        "school belonging"
+      ],
+      "facet": "concept_distinction",
+      "text": "教育公平与学校归属感应作概念区分：教育公平是关注学生获得学习机会和支持的合理性；学校归属感是学生感到被学校群体接纳与支持的体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C14_3",
+      "domain": "education",
+      "concept_id": "education_C14_3",
+      "topic": "教育公平与学生参与度",
+      "keywords_en": [
+        "educational equity",
+        "student engagement"
+      ],
+      "facet": "concept_distinction",
+      "text": "教育公平与学生参与度应作概念区分：教育公平是关注学生获得学习机会和支持的合理性；学生参与度是学生在行为、情感和认知层面的学习投入。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C14_4",
+      "domain": "education",
+      "concept_id": "education_C14_4",
+      "topic": "教育公平与家校合作",
+      "keywords_en": [
+        "educational equity",
+        "family school partnership"
+      ],
+      "facet": "concept_distinction",
+      "text": "教育公平与家校合作应作概念区分：教育公平是关注学生获得学习机会和支持的合理性；家校合作是家庭与学校围绕学生发展形成的信息和行动协作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C15_1",
+      "domain": "education",
+      "concept_id": "education_C15_1",
+      "topic": "融合教育与学校归属感",
+      "keywords_en": [
+        "inclusive education",
+        "school belonging"
+      ],
+      "facet": "concept_distinction",
+      "text": "融合教育与学校归属感应作概念区分：融合教育是为具有不同需要的学生创造共同参与环境；学校归属感是学生感到被学校群体接纳与支持的体验。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C15_2",
+      "domain": "education",
+      "concept_id": "education_C15_2",
+      "topic": "融合教育与学生参与度",
+      "keywords_en": [
+        "inclusive education",
+        "student engagement"
+      ],
+      "facet": "concept_distinction",
+      "text": "融合教育与学生参与度应作概念区分：融合教育是为具有不同需要的学生创造共同参与环境；学生参与度是学生在行为、情感和认知层面的学习投入。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C15_3",
+      "domain": "education",
+      "concept_id": "education_C15_3",
+      "topic": "融合教育与家校合作",
+      "keywords_en": [
+        "inclusive education",
+        "family school partnership"
+      ],
+      "facet": "concept_distinction",
+      "text": "融合教育与家校合作应作概念区分：融合教育是为具有不同需要的学生创造共同参与环境；家校合作是家庭与学校围绕学生发展形成的信息和行动协作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C15_4",
+      "domain": "education",
+      "concept_id": "education_C15_4",
+      "topic": "融合教育与教育测量信度",
+      "keywords_en": [
+        "inclusive education",
+        "measurement reliability"
+      ],
+      "facet": "concept_distinction",
+      "text": "融合教育与教育测量信度应作概念区分：融合教育是为具有不同需要的学生创造共同参与环境；教育测量信度是评估工具在可比条件下结果的一致性。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C16_1",
+      "domain": "education",
+      "concept_id": "education_C16_1",
+      "topic": "学校归属感与学生参与度",
+      "keywords_en": [
+        "school belonging",
+        "student engagement"
+      ],
+      "facet": "concept_distinction",
+      "text": "学校归属感与学生参与度应作概念区分：学校归属感是学生感到被学校群体接纳与支持的体验；学生参与度是学生在行为、情感和认知层面的学习投入。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C16_2",
+      "domain": "education",
+      "concept_id": "education_C16_2",
+      "topic": "学校归属感与家校合作",
+      "keywords_en": [
+        "school belonging",
+        "family school partnership"
+      ],
+      "facet": "concept_distinction",
+      "text": "学校归属感与家校合作应作概念区分：学校归属感是学生感到被学校群体接纳与支持的体验；家校合作是家庭与学校围绕学生发展形成的信息和行动协作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C16_3",
+      "domain": "education",
+      "concept_id": "education_C16_3",
+      "topic": "学校归属感与教育测量信度",
+      "keywords_en": [
+        "school belonging",
+        "measurement reliability"
+      ],
+      "facet": "concept_distinction",
+      "text": "学校归属感与教育测量信度应作概念区分：学校归属感是学生感到被学校群体接纳与支持的体验；教育测量信度是评估工具在可比条件下结果的一致性。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C16_4",
+      "domain": "education",
+      "concept_id": "education_C16_4",
+      "topic": "学校归属感与教育测量效度",
+      "keywords_en": [
+        "school belonging",
+        "measurement validity"
+      ],
+      "facet": "concept_distinction",
+      "text": "学校归属感与教育测量效度应作概念区分：学校归属感是学生感到被学校群体接纳与支持的体验；教育测量效度是评价分数解释与使用是否有证据支持。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C17_1",
+      "domain": "education",
+      "concept_id": "education_C17_1",
+      "topic": "学生参与度与家校合作",
+      "keywords_en": [
+        "student engagement",
+        "family school partnership"
+      ],
+      "facet": "concept_distinction",
+      "text": "学生参与度与家校合作应作概念区分：学生参与度是学生在行为、情感和认知层面的学习投入；家校合作是家庭与学校围绕学生发展形成的信息和行动协作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C17_2",
+      "domain": "education",
+      "concept_id": "education_C17_2",
+      "topic": "学生参与度与教育测量信度",
+      "keywords_en": [
+        "student engagement",
+        "measurement reliability"
+      ],
+      "facet": "concept_distinction",
+      "text": "学生参与度与教育测量信度应作概念区分：学生参与度是学生在行为、情感和认知层面的学习投入；教育测量信度是评估工具在可比条件下结果的一致性。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C17_3",
+      "domain": "education",
+      "concept_id": "education_C17_3",
+      "topic": "学生参与度与教育测量效度",
+      "keywords_en": [
+        "student engagement",
+        "measurement validity"
+      ],
+      "facet": "concept_distinction",
+      "text": "学生参与度与教育测量效度应作概念区分：学生参与度是学生在行为、情感和认知层面的学习投入；教育测量效度是评价分数解释与使用是否有证据支持。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C17_4",
+      "domain": "education",
+      "concept_id": "education_C17_4",
+      "topic": "学生参与度与形成性评价",
+      "keywords_en": [
+        "student engagement",
+        "formative assessment"
+      ],
+      "facet": "concept_distinction",
+      "text": "学生参与度与形成性评价应作概念区分：学生参与度是学生在行为、情感和认知层面的学习投入；形成性评价是在学习过程中持续收集证据调整教学。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C18_1",
+      "domain": "education",
+      "concept_id": "education_C18_1",
+      "topic": "家校合作与教育测量信度",
+      "keywords_en": [
+        "family school partnership",
+        "measurement reliability"
+      ],
+      "facet": "concept_distinction",
+      "text": "家校合作与教育测量信度应作概念区分：家校合作是家庭与学校围绕学生发展形成的信息和行动协作；教育测量信度是评估工具在可比条件下结果的一致性。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C18_2",
+      "domain": "education",
+      "concept_id": "education_C18_2",
+      "topic": "家校合作与教育测量效度",
+      "keywords_en": [
+        "family school partnership",
+        "measurement validity"
+      ],
+      "facet": "concept_distinction",
+      "text": "家校合作与教育测量效度应作概念区分：家校合作是家庭与学校围绕学生发展形成的信息和行动协作；教育测量效度是评价分数解释与使用是否有证据支持。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C18_3",
+      "domain": "education",
+      "concept_id": "education_C18_3",
+      "topic": "家校合作与形成性评价",
+      "keywords_en": [
+        "family school partnership",
+        "formative assessment"
+      ],
+      "facet": "concept_distinction",
+      "text": "家校合作与形成性评价应作概念区分：家校合作是家庭与学校围绕学生发展形成的信息和行动协作；形成性评价是在学习过程中持续收集证据调整教学。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C18_4",
+      "domain": "education",
+      "concept_id": "education_C18_4",
+      "topic": "家校合作与总结性评价",
+      "keywords_en": [
+        "family school partnership",
+        "summative assessment"
+      ],
+      "facet": "concept_distinction",
+      "text": "家校合作与总结性评价应作概念区分：家校合作是家庭与学校围绕学生发展形成的信息和行动协作；总结性评价是在教学阶段结束时判断学习成果。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C19_1",
+      "domain": "education",
+      "concept_id": "education_C19_1",
+      "topic": "教育测量信度与教育测量效度",
+      "keywords_en": [
+        "measurement reliability",
+        "measurement validity"
+      ],
+      "facet": "concept_distinction",
+      "text": "教育测量信度与教育测量效度应作概念区分：教育测量信度是评估工具在可比条件下结果的一致性；教育测量效度是评价分数解释与使用是否有证据支持。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C19_2",
+      "domain": "education",
+      "concept_id": "education_C19_2",
+      "topic": "教育测量信度与形成性评价",
+      "keywords_en": [
+        "measurement reliability",
+        "formative assessment"
+      ],
+      "facet": "concept_distinction",
+      "text": "教育测量信度与形成性评价应作概念区分：教育测量信度是评估工具在可比条件下结果的一致性；形成性评价是在学习过程中持续收集证据调整教学。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C19_3",
+      "domain": "education",
+      "concept_id": "education_C19_3",
+      "topic": "教育测量信度与总结性评价",
+      "keywords_en": [
+        "measurement reliability",
+        "summative assessment"
+      ],
+      "facet": "concept_distinction",
+      "text": "教育测量信度与总结性评价应作概念区分：教育测量信度是评估工具在可比条件下结果的一致性；总结性评价是在教学阶段结束时判断学习成果。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C19_4",
+      "domain": "education",
+      "concept_id": "education_C19_4",
+      "topic": "教育测量信度与课程目标",
+      "keywords_en": [
+        "measurement reliability",
+        "learning objectives"
+      ],
+      "facet": "concept_distinction",
+      "text": "教育测量信度与课程目标应作概念区分：教育测量信度是评估工具在可比条件下结果的一致性；课程目标是学生完成学习单元后预期达到的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C20_1",
+      "domain": "education",
+      "concept_id": "education_C20_1",
+      "topic": "教育测量效度与形成性评价",
+      "keywords_en": [
+        "measurement validity",
+        "formative assessment"
+      ],
+      "facet": "concept_distinction",
+      "text": "教育测量效度与形成性评价应作概念区分：教育测量效度是评价分数解释与使用是否有证据支持；形成性评价是在学习过程中持续收集证据调整教学。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C20_2",
+      "domain": "education",
+      "concept_id": "education_C20_2",
+      "topic": "教育测量效度与总结性评价",
+      "keywords_en": [
+        "measurement validity",
+        "summative assessment"
+      ],
+      "facet": "concept_distinction",
+      "text": "教育测量效度与总结性评价应作概念区分：教育测量效度是评价分数解释与使用是否有证据支持；总结性评价是在教学阶段结束时判断学习成果。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C20_3",
+      "domain": "education",
+      "concept_id": "education_C20_3",
+      "topic": "教育测量效度与课程目标",
+      "keywords_en": [
+        "measurement validity",
+        "learning objectives"
+      ],
+      "facet": "concept_distinction",
+      "text": "教育测量效度与课程目标应作概念区分：教育测量效度是评价分数解释与使用是否有证据支持；课程目标是学生完成学习单元后预期达到的能力。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_education_C20_4",
+      "domain": "education",
+      "concept_id": "education_C20_4",
+      "topic": "教育测量效度与教学支架",
+      "keywords_en": [
+        "measurement validity",
+        "instructional scaffolding"
+      ],
+      "facet": "concept_distinction",
+      "text": "教育测量效度与教学支架应作概念区分：教育测量效度是评价分数解释与使用是否有证据支持；教学支架是为完成暂时独立无法完成的任务提供支持。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

@@ -1,0 +1,872 @@
+{
+  "schema_version": "public_memory_pool.v1",
+  "usage": "non_factual_prompting_only",
+  "name": "Default 144 domain-specific general-context cues (24 topics)",
+  "description": "144 distinct bilingual contextual ideas across 24 topics. These are not the participant’s memories or evidence. Do not use them to invent autobiographical events.",
+  "memories": [
+    {
+      "memory_id": "P0001",
+      "category": "work",
+      "cue_zh": "一般情境线索：在「日常工作中的分工、职责调整和合作」中，交接可能涉及共享文档、口头约定和未写明的职责边界；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for sharing responsibilities, shifting duties, and collaboration at work: handoffs can involve shared documents, verbal agreements, and unclear responsibility boundaries. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0002",
+      "category": "work",
+      "cue_zh": "一般情境线索：在「日常工作中的分工、职责调整和合作」中，排班或交付时间变化会影响人际协作和任务优先顺序；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for sharing responsibilities, shifting duties, and collaboration at work: changes in shifts or delivery dates can affect teamwork and task priorities. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0003",
+      "category": "work",
+      "cue_zh": "一般情境线索：在「日常工作中的分工、职责调整和合作」中，工具权限、设备条件和培训机会会影响工作开展方式；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for sharing responsibilities, shifting duties, and collaboration at work: tool access, equipment, and training opportunities can shape how work is organized. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0004",
+      "category": "work",
+      "cue_zh": "一般情境线索：在「日常工作中的分工、职责调整和合作」中，组织沟通常同时出现在会议、即时消息和非正式交谈中；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for sharing responsibilities, shifting duties, and collaboration at work: organizational communication may happen in meetings, messages, and informal conversations. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0005",
+      "category": "work",
+      "cue_zh": "一般情境线索：在「日常工作中的分工、职责调整和合作」中，同一岗位的正式职责与实际承担的隐性劳动可能不一致；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for sharing responsibilities, shifting duties, and collaboration at work: a formal job description and the less visible labor involved in a role may differ. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0006",
+      "category": "work",
+      "cue_zh": "一般情境线索：在「日常工作中的分工、职责调整和合作」中，工作变化可能来自组织调整、个人选择或外部限制，不能混为一谈；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for sharing responsibilities, shifting duties, and collaboration at work: a workplace change can reflect restructuring, personal choice, or external constraints. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0007",
+      "category": "study",
+      "cue_zh": "一般情境线索：在「学习方法、课堂体验和培训路径」中，课程作业、考试准备和实际技能训练可能采用不同的时间安排；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for learning methods, classroom experiences, and training pathways: assignments, exam preparation, and practical skills training may need different schedules. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0008",
+      "category": "study",
+      "cue_zh": "一般情境线索：在「学习方法、课堂体验和培训路径」中，线上课堂中的参与方式与面对面讨论的反馈节奏不一定相同；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for learning methods, classroom experiences, and training pathways: online participation and face-to-face discussions can offer different feedback rhythms. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0009",
+      "category": "study",
+      "cue_zh": "一般情境线索：在「学习方法、课堂体验和培训路径」中，同伴协作可能涉及分工、共享笔记和对完成标准的协商；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for learning methods, classroom experiences, and training pathways: peer collaboration can involve task division, shared notes, and negotiating completion standards. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0010",
+      "category": "study",
+      "cue_zh": "一般情境线索：在「学习方法、课堂体验和培训路径」中，学习资源既可能来自教师，也可能来自图书馆、同伴或开放资料；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for learning methods, classroom experiences, and training pathways: learning resources can come from instructors, libraries, peers, or open materials. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0011",
+      "category": "study",
+      "cue_zh": "一般情境线索：在「学习方法、课堂体验和培训路径」中，重新学习一项技能通常涉及先前经验、练习条件和错误反馈；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for learning methods, classroom experiences, and training pathways: relearning a skill can involve prior experience, practice conditions, and feedback on mistakes. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0012",
+      "category": "study",
+      "cue_zh": "一般情境线索：在「学习方法、课堂体验和培训路径」中，培训证书、实际能力和能否在现场应用所学并非同一件事；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for learning methods, classroom experiences, and training pathways: training certificates, practical competence, and opportunities to apply skills are different. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0013",
+      "category": "home",
+      "cue_zh": "一般情境线索：在「居住空间、搬迁过程和日常安排」中，搬家会涉及合同、物品整理、交通安排和新旧住处的衔接；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for living space, moving homes, and daily household routines: moving can involve contracts, packing, transport, and coordinating old and new housing. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0014",
+      "category": "home",
+      "cue_zh": "一般情境线索：在「居住空间、搬迁过程和日常安排」中，共享住所的空间使用常需要约定安静时间、清洁和访客安排；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for living space, moving homes, and daily household routines: shared housing may require agreements on quiet hours, cleaning, and visitors. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0015",
+      "category": "home",
+      "cue_zh": "一般情境线索：在「居住空间、搬迁过程和日常安排」中，家庭日程可能被维修、物业通知或公共设施故障打乱；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for living space, moving homes, and daily household routines: home routines can be disrupted by repairs, building notices, or facility outages. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0016",
+      "category": "home",
+      "cue_zh": "一般情境线索：在「居住空间、搬迁过程和日常安排」中，选择居住位置时可能同时考虑租金、通勤和附近的服务设施；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for living space, moving homes, and daily household routines: housing choices can involve rent, commuting, and nearby services. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0017",
+      "category": "home",
+      "cue_zh": "一般情境线索：在「居住空间、搬迁过程和日常安排」中，日常家务具有频率不同、时间灵活度不同和可见性不同的特点；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for living space, moving homes, and daily household routines: household tasks vary in frequency, schedule flexibility, and visibility. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0018",
+      "category": "home",
+      "cue_zh": "一般情境线索：在「居住空间、搬迁过程和日常安排」中，居住体验还可能与光线、噪声、隐私和空间可达性有关；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for living space, moving homes, and daily household routines: living conditions can be shaped by light, noise, privacy, and accessibility. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0019",
+      "category": "family",
+      "cue_zh": "一般情境线索：在「家庭角色、相处方式和照料分工」中，照料安排可能在家庭成员、正式服务和朋友支持之间分配；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for family roles, relationships, and caregiving responsibilities: care may be shared among relatives, formal services, and friends. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0020",
+      "category": "family",
+      "cue_zh": "一般情境线索：在「家庭角色、相处方式和照料分工」中，家庭角色的变化有时与年龄、工作安排或健康需要有关；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for family roles, relationships, and caregiving responsibilities: family roles may change alongside age, work schedules, or health needs. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0021",
+      "category": "family",
+      "cue_zh": "一般情境线索：在「家庭角色、相处方式和照料分工」中，代际交流可能因为语言习惯、技术使用和生活节奏不同而调整；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for family roles, relationships, and caregiving responsibilities: communication across generations can differ in language, technology, and routines. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0022",
+      "category": "family",
+      "cue_zh": "一般情境线索：在「家庭角色、相处方式和照料分工」中，共同决策可能牵涉住房、教育、财务和家务分工；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for family roles, relationships, and caregiving responsibilities: shared family decisions may involve housing, education, money, and household labor. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0023",
+      "category": "family",
+      "cue_zh": "一般情境线索：在「家庭角色、相处方式和照料分工」中，亲属间的距离和探访频率会改变协作和联络的具体方式；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for family roles, relationships, and caregiving responsibilities: distance between relatives and visit frequency can affect cooperation. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0024",
+      "category": "family",
+      "cue_zh": "一般情境线索：在「家庭角色、相处方式和照料分工」中，亲近关系中支持、义务和个人边界是可以分开描述的维度；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for family roles, relationships, and caregiving responsibilities: support, obligation, and personal boundaries are distinct aspects of close relationships. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0025",
+      "category": "friendship",
+      "cue_zh": "一般情境线索：在「友谊维持、彼此支持和沟通变化」中，朋友之间的联络可通过即时消息、电话、共同活动或偶尔探访维系；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for maintaining friendships, mutual support, and changing communication: friendships can be maintained through messages, calls, activities, or occasional visits. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0026",
+      "category": "friendship",
+      "cue_zh": "一般情境线索：在「友谊维持、彼此支持和沟通变化」中，生活阶段改变之后，见面的机会和日常分享的主题可能发生变化；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for maintaining friendships, mutual support, and changing communication: life-stage transitions can change opportunities to meet and topics people discuss. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0027",
+      "category": "friendship",
+      "cue_zh": "一般情境线索：在「友谊维持、彼此支持和沟通变化」中，互相帮助可能包括倾听、陪伴、具体事务或信息分享；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for maintaining friendships, mutual support, and changing communication: mutual support can include listening, company, practical help, or information. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0028",
+      "category": "friendship",
+      "cue_zh": "一般情境线索：在「友谊维持、彼此支持和沟通变化」中，表达关心与提供建议不总被对方以相同方式理解；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for maintaining friendships, mutual support, and changing communication: expressing concern and offering advice may be received differently. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0029",
+      "category": "friendship",
+      "cue_zh": "一般情境线索：在「友谊维持、彼此支持和沟通变化」中，友谊中的误解可能与沟通媒介、语气和时间差有关；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for maintaining friendships, mutual support, and changing communication: misunderstandings can arise from communication channels, tone, and timing. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0030",
+      "category": "friendship",
+      "cue_zh": "一般情境线索：在「友谊维持、彼此支持和沟通变化」中，关系亲疏可能随距离、共同经历和个人边界而变化；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for maintaining friendships, mutual support, and changing communication: closeness may shift with distance, shared activities, and personal boundaries. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0031",
+      "category": "community",
+      "cue_zh": "一般情境线索：在「邻里联系、社区活动和公共参与」中，社区参与可能发生在居民会议、志愿群体或非正式邻里互助中；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for neighborhood connections, community events, and civic participation: participation may take place through resident meetings, volunteer groups, or informal mutual aid. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0032",
+      "category": "community",
+      "cue_zh": "一般情境线索：在「邻里联系、社区活动和公共参与」中，公共活动的信息可能通过公告、社交平台和熟人传播；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for neighborhood connections, community events, and civic participation: information about local activities may spread through notices, platforms, or personal networks. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0033",
+      "category": "community",
+      "cue_zh": "一般情境线索：在「邻里联系、社区活动和公共参与」中，图书馆、活动中心和开放空间的可达性会影响参与机会；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for neighborhood connections, community events, and civic participation: access to libraries, centers, and open spaces can affect opportunities to participate. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0034",
+      "category": "community",
+      "cue_zh": "一般情境线索：在「邻里联系、社区活动和公共参与」中，居民对公共议题的理解可能受不同语言和信息渠道影响；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for neighborhood connections, community events, and civic participation: language and information channels can shape access to civic discussion. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0035",
+      "category": "community",
+      "cue_zh": "一般情境线索：在「邻里联系、社区活动和公共参与」中，共同使用设施可能带来维护、预约与使用规范的协商；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for neighborhood connections, community events, and civic participation: shared facilities can create coordination over upkeep, scheduling, and rules. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0036",
+      "category": "community",
+      "cue_zh": "一般情境线索：在「邻里联系、社区活动和公共参与」中，社区归属与是否参与某次活动不一定一致；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for neighborhood connections, community events, and civic participation: a sense of belonging is not the same as attendance at particular events. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0037",
+      "category": "mobility",
+      "cue_zh": "一般情境线索：在「出行路线、交通选择和时间安排」中，规划一段出行往往需要综合路线、换乘次数和班次稳定性；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for travel routes, transportation choices, and scheduling: trip planning may involve routes, transfers, and schedule reliability. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0038",
+      "category": "mobility",
+      "cue_zh": "一般情境线索：在「出行路线、交通选择和时间安排」中，交通成本不仅包含票价或油费，还可能包含等待和时间成本；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for travel routes, transportation choices, and scheduling: travel costs can include waiting time as well as fares or fuel. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0039",
+      "category": "mobility",
+      "cue_zh": "一般情境线索：在「出行路线、交通选择和时间安排」中，无障碍条件会影响某些交通方式是否真正可选择；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for travel routes, transportation choices, and scheduling: accessibility can determine whether a transport option is actually usable. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0040",
+      "category": "mobility",
+      "cue_zh": "一般情境线索：在「出行路线、交通选择和时间安排」中，天气、施工和临时停运会使熟悉的路线不再适用；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for travel routes, transportation choices, and scheduling: weather, road works, or service disruptions can change familiar routes. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0041",
+      "category": "mobility",
+      "cue_zh": "一般情境线索：在「出行路线、交通选择和时间安排」中，出行目的可能是工作、照料、就医或社交，时间弹性各不相同；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for travel routes, transportation choices, and scheduling: commutes for work, care, health, or social contact differ in schedule flexibility. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0042",
+      "category": "mobility",
+      "cue_zh": "一般情境线索：在「出行路线、交通选择和时间安排」中，远程参与能够替代部分出行，但也受到设备与网络条件影响；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for travel routes, transportation choices, and scheduling: remote participation can replace some travel but depends on equipment and connectivity. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0043",
+      "category": "technology",
+      "cue_zh": "一般情境线索：在「数字工具的学习、使用和替代选择」中，新工具的学习成本可能来自界面变化、账号设置或既有习惯；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for learning to use digital tools and considering alternatives: learning a new tool can involve interface changes, account setup, and existing habits. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0044",
+      "category": "technology",
+      "cue_zh": "一般情境线索：在「数字工具的学习、使用和替代选择」中，技术故障时的应对可能包括求助、临时替代和延后任务；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for learning to use digital tools and considering alternatives: responses to technical failures may include help-seeking, workarounds, and delays. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0045",
+      "category": "technology",
+      "cue_zh": "一般情境线索：在「数字工具的学习、使用和替代选择」中，通知频率和默认设置会改变注意力分配，但影响因人而异；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for learning to use digital tools and considering alternatives: notification frequency and defaults can alter attention differently across users. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0046",
+      "category": "technology",
+      "cue_zh": "一般情境线索：在「数字工具的学习、使用和替代选择」中，无障碍支持决定某种工具能否被不同使用者有效操作；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for learning to use digital tools and considering alternatives: accessibility features affect whether different users can operate a tool. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0047",
+      "category": "technology",
+      "cue_zh": "一般情境线索：在「数字工具的学习、使用和替代选择」中，同一任务可能通过手机、电脑、纸质记录或面对面交流完成；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for learning to use digital tools and considering alternatives: a task may be handled through mobile, desktop, paper, or face-to-face channels. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0048",
+      "category": "technology",
+      "cue_zh": "一般情境线索：在「数字工具的学习、使用和替代选择」中，更换工具时通常会遇到数据迁移、兼容性和使用习惯的问题；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for learning to use digital tools and considering alternatives: switching tools can raise data-migration, compatibility, and habit issues. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0049",
+      "category": "privacy",
+      "cue_zh": "一般情境线索：在「信息披露、数字隐私和边界意识」中，信息被分享给单个人与被公开发布有不同的传播范围；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for information sharing, digital privacy, and personal boundaries: sharing with one person differs from posting information publicly. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0050",
+      "category": "privacy",
+      "cue_zh": "一般情境线索：在「信息披露、数字隐私和边界意识」中，截图、转发与二次使用会使信息超出最初的交流场景；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for information sharing, digital privacy, and personal boundaries: screenshots, forwarding, and reuse can move information beyond its original context. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0051",
+      "category": "privacy",
+      "cue_zh": "一般情境线索：在「信息披露、数字隐私和边界意识」中，参与者同意某次谈话不等于同意永久保存或其他用途；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for information sharing, digital privacy, and personal boundaries: consent to a conversation is not blanket permission for indefinite storage or reuse. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0052",
+      "category": "privacy",
+      "cue_zh": "一般情境线索：在「信息披露、数字隐私和边界意识」中，隐私设置的存在不等于使用者总是知道如何配置它们；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for information sharing, digital privacy, and personal boundaries: the availability of privacy settings does not guarantee users know how to manage them. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0053",
+      "category": "privacy",
+      "cue_zh": "一般情境线索：在「信息披露、数字隐私和边界意识」中，匿名化资料仍可能因细节组合而存在重新识别风险；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for information sharing, digital privacy, and personal boundaries: even anonymized records may pose re-identification risks through combined details. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0054",
+      "category": "privacy",
+      "cue_zh": "一般情境线索：在「信息披露、数字隐私和边界意识」中，什么可以分享可能取决于对象、时机、地点和个人边界；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for information sharing, digital privacy, and personal boundaries: information-sharing boundaries may depend on audience, time, place, and expectations. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0055",
+      "category": "money",
+      "cue_zh": "一般情境线索：在「消费决定、预算取舍和资源安排」中，固定支出与偶发支出的安排会影响短期预算的灵活度；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for spending choices, budgeting tradeoffs, and resources: fixed and unexpected expenses affect short-term budgeting flexibility. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0056",
+      "category": "money",
+      "cue_zh": "一般情境线索：在「消费决定、预算取舍和资源安排」中，购买决定可能同时涉及价格、质量、时间与替代方案；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for spending choices, budgeting tradeoffs, and resources: purchasing decisions can weigh price, quality, time, and alternatives. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0057",
+      "category": "money",
+      "cue_zh": "一般情境线索：在「消费决定、预算取舍和资源安排」中，价格变化的影响与家庭或组织能否调整支出有关；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for spending choices, budgeting tradeoffs, and resources: the effect of price changes depends on the ability to adjust spending. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0058",
+      "category": "money",
+      "cue_zh": "一般情境线索：在「消费决定、预算取舍和资源安排」中，共同财务安排往往要求解释支出优先级和责任分担；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for spending choices, budgeting tradeoffs, and resources: shared financial arrangements can require discussing priorities and responsibilities. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0059",
+      "category": "money",
+      "cue_zh": "一般情境线索：在「消费决定、预算取舍和资源安排」中，资源不充足与缺乏相关信息是两种不同的决策困难；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for spending choices, budgeting tradeoffs, and resources: insufficient resources and insufficient information are different barriers. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0060",
+      "category": "money",
+      "cue_zh": "一般情境线索：在「消费决定、预算取舍和资源安排」中，同一笔开支既可能被视为必要投入，也可能被视为可推迟项目；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for spending choices, budgeting tradeoffs, and resources: one expense may be essential in one context and deferrable in another. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0061",
+      "category": "healthcare",
+      "cue_zh": "一般情境线索：在「医疗服务接触、信息获取和选择过程」中，预约流程、候诊时间和交通条件可能影响是否能够顺利就诊；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for accessing care, finding information, and navigating choices: appointments, waiting times, and transport can affect access to care. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0062",
+      "category": "healthcare",
+      "cue_zh": "一般情境线索：在「医疗服务接触、信息获取和选择过程」中，医疗信息可能来自专业人员、亲友、搜索渠道或宣传材料；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for accessing care, finding information, and navigating choices: health information may come from professionals, relatives, searches, or brochures. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0063",
+      "category": "healthcare",
+      "cue_zh": "一般情境线索：在「医疗服务接触、信息获取和选择过程」中，理解医学术语和做出医疗选择是可以区分的两个环节；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for accessing care, finding information, and navigating choices: understanding medical terms and deciding on treatment are distinct steps. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0064",
+      "category": "healthcare",
+      "cue_zh": "一般情境线索：在「医疗服务接触、信息获取和选择过程」中，连续就医中资料传递和不同人员的解释可能影响沟通；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for accessing care, finding information, and navigating choices: record transfer and explanations across providers can affect continuity of care. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0065",
+      "category": "healthcare",
+      "cue_zh": "一般情境线索：在「医疗服务接触、信息获取和选择过程」中，医疗场景中的隐私顾虑与个人自愿披露的程度有关；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for accessing care, finding information, and navigating choices: privacy expectations can influence how much someone voluntarily shares in care settings. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0066",
+      "category": "healthcare",
+      "cue_zh": "一般情境线索：在「医疗服务接触、信息获取和选择过程」中，获得第二意见、长期随访与一次性咨询代表不同的服务形式；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for accessing care, finding information, and navigating choices: second opinions, long-term follow-up, and one-time visits are different care forms. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0067",
+      "category": "wellbeing",
+      "cue_zh": "一般情境线索：在「休息、压力管理和日常节奏」中，疲劳可能来自睡眠不足、工作节奏或照料安排等不同条件；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for rest, responses to stress, and everyday rhythms: fatigue may arise from sleep, work rhythms, or care obligations. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0068",
+      "category": "wellbeing",
+      "cue_zh": "一般情境线索：在「休息、压力管理和日常节奏」中，休息时间的长短与是否能不受打扰地恢复精力不完全相同；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for rest, responses to stress, and everyday rhythms: rest duration is not identical to having uninterrupted recovery time. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0069",
+      "category": "wellbeing",
+      "cue_zh": "一般情境线索：在「休息、压力管理和日常节奏」中，情绪支持、具体事务协助和独处空间属于不同的支持形式；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for rest, responses to stress, and everyday rhythms: emotional support, practical assistance, and private space are different supports. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0070",
+      "category": "wellbeing",
+      "cue_zh": "一般情境线索：在「休息、压力管理和日常节奏」中，压力管理的方式可能受可支配时间和经济条件限制；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for rest, responses to stress, and everyday rhythms: ways to manage stress can be constrained by time and finances. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0071",
+      "category": "wellbeing",
+      "cue_zh": "一般情境线索：在「休息、压力管理和日常节奏」中，某种日常习惯是否有帮助应以当事人的实际描述为准；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for rest, responses to stress, and everyday rhythms: whether a routine helps a person depends on that person’s actual account. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0072",
+      "category": "wellbeing",
+      "cue_zh": "一般情境线索：在「休息、压力管理和日常节奏」中，短期情绪体验与长期生活满意程度不应直接画等号；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for rest, responses to stress, and everyday rhythms: short-term mood and long-term life satisfaction are not interchangeable. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0073",
+      "category": "food",
+      "cue_zh": "一般情境线索：在「饮食安排、烹饪选择和共同用餐」中，餐食准备可能同时涉及采购、烹饪、储存和清理的时间；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for food routines, cooking decisions, and shared meals: meal preparation can include shopping, cooking, storage, and clean-up time. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0074",
+      "category": "food",
+      "cue_zh": "一般情境线索：在「饮食安排、烹饪选择和共同用餐」中，多人共同用餐常需要协商饮食偏好、作息和预算；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for food routines, cooking decisions, and shared meals: shared meals can require coordination of preferences, schedules, and budgets. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0075",
+      "category": "food",
+      "cue_zh": "一般情境线索：在「饮食安排、烹饪选择和共同用餐」中，获取食物的渠道与交通、营业时间和居住环境有关；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for food routines, cooking decisions, and shared meals: food access can depend on transport, opening hours, and neighborhood conditions. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0076",
+      "category": "food",
+      "cue_zh": "一般情境线索：在「饮食安排、烹饪选择和共同用餐」中，饮食习惯可能与文化传承有关，也可能出于个人便利；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for food routines, cooking decisions, and shared meals: food routines may reflect culture or simply practical convenience. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0077",
+      "category": "food",
+      "cue_zh": "一般情境线索：在「饮食安排、烹饪选择和共同用餐」中，某一饮食选择不能单独说明个人健康状况或价值观；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for food routines, cooking decisions, and shared meals: a food choice alone does not establish health status or personal values. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0078",
+      "category": "food",
+      "cue_zh": "一般情境线索：在「饮食安排、烹饪选择和共同用餐」中，节庆餐食、日常便餐和特殊需要下的餐食安排差异很大；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for food routines, cooking decisions, and shared meals: celebration meals, everyday lunches, and special-diet planning can differ greatly. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0079",
+      "category": "arts",
+      "cue_zh": "一般情境线索：在「艺术体验、文化活动和观影习惯」中，观看作品时，情节、声音、画面和观看环境可能影响不同方面的体验；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for arts experiences, cultural activities, and viewing habits: story, sound, visuals, and the viewing environment shape different aspects of an experience. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0080",
+      "category": "arts",
+      "cue_zh": "一般情境线索：在「艺术体验、文化活动和观影习惯」中，文化活动的参与门槛可能来自票价、交通或时间安排；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for arts experiences, cultural activities, and viewing habits: event participation may be limited by cost, transport, or schedules. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0081",
+      "category": "arts",
+      "cue_zh": "一般情境线索：在「艺术体验、文化活动和观影习惯」中，修复旧影像需要区分原始材料的限制与后期处理的选择；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for arts experiences, cultural activities, and viewing habits: archival film restoration distinguishes source limitations from restoration decisions. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0082",
+      "category": "arts",
+      "cue_zh": "一般情境线索：在「艺术体验、文化活动和观影习惯」中，艺术表达中个人偏好与对技术品质的评价不一定相同；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for arts experiences, cultural activities, and viewing habits: artistic preference and assessment of technical quality are not the same. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0083",
+      "category": "arts",
+      "cue_zh": "一般情境线索：在「艺术体验、文化活动和观影习惯」中，熟悉的作品可能唤起社会记忆，但每个人的联想并不相同；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for arts experiences, cultural activities, and viewing habits: familiar artworks can evoke shared cultural memory without producing identical associations. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0084",
+      "category": "arts",
+      "cue_zh": "一般情境线索：在「艺术体验、文化活动和观影习惯」中，参与创作、协助组织和作为观众体验是不同的角色；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for arts experiences, cultural activities, and viewing habits: making art, helping organize an event, and attending are distinct roles. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0085",
+      "category": "sports",
+      "cue_zh": "一般情境线索：在「体育活动、身体练习和参与体验」中，参与体育活动可能涉及场地、装备、培训和时间安排；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for sporting activities, physical practice, and participation: sports participation can require facilities, equipment, coaching, and time. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0086",
+      "category": "sports",
+      "cue_zh": "一般情境线索：在「体育活动、身体练习和参与体验」中，练习的频率、强度和目标可随着阶段或资源条件改变；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for sporting activities, physical practice, and participation: practice frequency, intensity, and goals can shift with circumstances. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0087",
+      "category": "sports",
+      "cue_zh": "一般情境线索：在「体育活动、身体练习和参与体验」中，团队运动的协调与个人训练的反馈方式不完全相同；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for sporting activities, physical practice, and participation: team coordination differs from feedback in individual training. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0088",
+      "category": "sports",
+      "cue_zh": "一般情境线索：在「体育活动、身体练习和参与体验」中，身体不适、天气与设施维护可能打断活动计划；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for sporting activities, physical practice, and participation: physical discomfort, weather, and facility maintenance can interrupt plans. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0089",
+      "category": "sports",
+      "cue_zh": "一般情境线索：在「体育活动、身体练习和参与体验」中，观看比赛与亲自参与运动可能产生不同的社交体验；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for sporting activities, physical practice, and participation: spectating and participating can provide different social experiences. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0090",
+      "category": "sports",
+      "cue_zh": "一般情境线索：在「体育活动、身体练习和参与体验」中，体能变化、技术进步和参与意愿是不同的评价维度；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for sporting activities, physical practice, and participation: fitness, skill improvement, and willingness to participate are distinct dimensions. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0091",
+      "category": "nature",
+      "cue_zh": "一般情境线索：在「自然环境、季节变化和户外经历」中，户外活动可能受天气、日照、路况和季节条件影响；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for natural settings, seasonal changes, and outdoor experiences: outdoor plans may depend on weather, daylight, terrain, and seasons. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0092",
+      "category": "nature",
+      "cue_zh": "一般情境线索：在「自然环境、季节变化和户外经历」中，城市公园、乡村步道与野外环境有不同的便利设施；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for natural settings, seasonal changes, and outdoor experiences: urban parks, rural trails, and wilderness offer different facilities. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0093",
+      "category": "nature",
+      "cue_zh": "一般情境线索：在「自然环境、季节变化和户外经历」中，环境变化的观察可来自亲身活动、当地新闻或长期记录；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for natural settings, seasonal changes, and outdoor experiences: environmental observations may come from activities, local news, or long-term records. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0094",
+      "category": "nature",
+      "cue_zh": "一般情境线索：在「自然环境、季节变化和户外经历」中，一些自然空间有开放时间、保护规定或使用容量限制；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for natural settings, seasonal changes, and outdoor experiences: some natural spaces have opening hours, protections, or capacity limits. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0095",
+      "category": "nature",
+      "cue_zh": "一般情境线索：在「自然环境、季节变化和户外经历」中，同一气候条件对出行、身体舒适度和工作安排的影响可能不同；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for natural settings, seasonal changes, and outdoor experiences: the same weather can affect mobility, comfort, and work differently. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0096",
+      "category": "nature",
+      "cue_zh": "一般情境线索：在「自然环境、季节变化和户外经历」中，环境体验的情感意义不能仅凭地点名称推断；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for natural settings, seasonal changes, and outdoor experiences: the emotional meaning of a place cannot be inferred from its name alone. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0097",
+      "category": "volunteering",
+      "cue_zh": "一般情境线索：在「志愿参与、互助活动和服务经验」中，志愿活动的开展可能需要招募、培训、排班和持续沟通；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for volunteering, mutual aid, and service experiences: volunteer programs may involve recruitment, training, shifts, and ongoing coordination. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0098",
+      "category": "volunteering",
+      "cue_zh": "一般情境线索：在「志愿参与、互助活动和服务经验」中，一次性活动与持续服务对参与者时间的要求不同；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for volunteering, mutual aid, and service experiences: one-off events and continuing service demand different time commitments. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0099",
+      "category": "volunteering",
+      "cue_zh": "一般情境线索：在「志愿参与、互助活动和服务经验」中，捐赠物资、提供信息和面对面服务是不同的参与形式；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for volunteering, mutual aid, and service experiences: donating supplies, sharing information, and direct service are different contributions. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0100",
+      "category": "volunteering",
+      "cue_zh": "一般情境线索：在「志愿参与、互助活动和服务经验」中，活动组织者可能需要在需求、资金和人力之间作取舍；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for volunteering, mutual aid, and service experiences: organizers may balance needs, funding, and available volunteers. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0101",
+      "category": "volunteering",
+      "cue_zh": "一般情境线索：在「志愿参与、互助活动和服务经验」中，接受帮助的人对服务方式的评价可能不同于组织者预期；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for volunteering, mutual aid, and service experiences: recipients may evaluate help differently from organizers’ expectations. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0102",
+      "category": "volunteering",
+      "cue_zh": "一般情境线索：在「志愿参与、互助活动和服务经验」中，服务效果不应只以活动次数来衡量，也可能取决于持续性；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for volunteering, mutual aid, and service experiences: the value of volunteering is not captured by event counts alone. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0103",
+      "category": "leadership",
+      "cue_zh": "一般情境线索：在「组织协调、意见表达和责任承担」中，协调任务时可能需要明确目标、分工、反馈与截止时间；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for coordination, expressing opinions, and responsibility: coordination can involve clear goals, responsibility, feedback, and deadlines. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0104",
+      "category": "leadership",
+      "cue_zh": "一般情境线索：在「组织协调、意见表达和责任承担」中，正式职位与非正式影响力并不必然由同一个人承担；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for coordination, expressing opinions, and responsibility: formal authority and informal influence need not belong to the same person. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0105",
+      "category": "leadership",
+      "cue_zh": "一般情境线索：在「组织协调、意见表达和责任承担」中，让成员表达不同意见可能需要时间和明确的讨论规则；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for coordination, expressing opinions, and responsibility: making space for dissent can require time and explicit discussion norms. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0106",
+      "category": "leadership",
+      "cue_zh": "一般情境线索：在「组织协调、意见表达和责任承担」中，决策透明度与最终结果是否得到认可属于不同问题；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for coordination, expressing opinions, and responsibility: decision transparency and agreement with outcomes are different questions. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0107",
+      "category": "leadership",
+      "cue_zh": "一般情境线索：在「组织协调、意见表达和责任承担」中，负责人可能同时需要处理资源约束和成员之间的关系；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for coordination, expressing opinions, and responsibility: leaders may need to manage resource limits and interpersonal relationships. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0108",
+      "category": "leadership",
+      "cue_zh": "一般情境线索：在「组织协调、意见表达和责任承担」中，责任承担可以体现在解释决定、修正错误或协调后续行动；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for coordination, expressing opinions, and responsibility: accountability may involve explaining decisions, correcting mistakes, or coordinating follow-up. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0109",
+      "category": "conflict",
+      "cue_zh": "一般情境线索：在「分歧处理、协商与误解澄清」中，表达方式与实际意图之间可能产生差距，尤其在跨媒介沟通时；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for disagreements, negotiation, and resolving misunderstandings: the tone of a message and its intent can diverge, especially across media. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0110",
+      "category": "conflict",
+      "cue_zh": "一般情境线索：在「分歧处理、协商与误解澄清」中，分歧可能涉及事实判断、价值判断或资源分配，不能混为一谈；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for disagreements, negotiation, and resolving misunderstandings: disputes may concern facts, values, or allocation of resources. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0111",
+      "category": "conflict",
+      "cue_zh": "一般情境线索：在「分歧处理、协商与误解澄清」中，协商过程中双方掌握的信息和权力可能并不对称；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for disagreements, negotiation, and resolving misunderstandings: negotiation can involve unequal information and power. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0112",
+      "category": "conflict",
+      "cue_zh": "一般情境线索：在「分歧处理、协商与误解澄清」中，第三方调解、直接沟通与暂时保持距离是不同的应对方式；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for disagreements, negotiation, and resolving misunderstandings: mediation, direct discussion, and temporary distance are distinct responses. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0113",
+      "category": "conflict",
+      "cue_zh": "一般情境线索：在「分歧处理、协商与误解澄清」中，公开表达与私下沟通可能对关系修复产生不同影响；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for disagreements, negotiation, and resolving misunderstandings: public statements and private conversations can affect reconciliation differently. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0114",
+      "category": "conflict",
+      "cue_zh": "一般情境线索：在「分歧处理、协商与误解澄清」中，一次争执结束并不等于所有后续关系问题已经解决；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for disagreements, negotiation, and resolving misunderstandings: ending an argument does not necessarily resolve later relationship issues. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0115",
+      "category": "identity",
+      "cue_zh": "一般情境线索：在「身份表达、自我理解和外部期待」中，同一个人在不同场合可能强调职业、家庭或群体身份的不同侧面；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for identity expression, self-understanding, and outside expectations: people may highlight occupational, family, or group identities in different settings. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0116",
+      "category": "identity",
+      "cue_zh": "一般情境线索：在「身份表达、自我理解和外部期待」中，外界分类与一个人的自我描述并不一定完全一致；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for identity expression, self-understanding, and outside expectations: external labels and self-descriptions do not always align. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0117",
+      "category": "identity",
+      "cue_zh": "一般情境线索：在「身份表达、自我理解和外部期待」中，语言选择可能体现习惯、便利或交流对象，而非单一身份判断；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for identity expression, self-understanding, and outside expectations: language choice can reflect habit, convenience, or audience rather than one identity. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0118",
+      "category": "identity",
+      "cue_zh": "一般情境线索：在「身份表达、自我理解和外部期待」中，某个群体内部也可能存在经历、意见和生活条件的差异；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for identity expression, self-understanding, and outside expectations: people within one group may have diverse circumstances and perspectives. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0119",
+      "category": "identity",
+      "cue_zh": "一般情境线索：在「身份表达、自我理解和外部期待」中，自我理解可能随学习、工作或关系经历产生变化；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for identity expression, self-understanding, and outside expectations: self-understanding can change through learning, work, or relationships. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0120",
+      "category": "identity",
+      "cue_zh": "一般情境线索：在「身份表达、自我理解和外部期待」中，在公开场合展示的身份信息不等于愿意在私人谈话中全部披露；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for identity expression, self-understanding, and outside expectations: public identity presentation is not blanket willingness to disclose private details. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0121",
+      "category": "tradition",
+      "cue_zh": "一般情境线索：在「生活习惯、代际经验和传统变化」中，节庆活动可能涉及时间、场地、饮食和参加人员的协调；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for customs, experiences across generations, and evolving traditions: celebrations can involve coordinating time, places, food, and participants. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0122",
+      "category": "tradition",
+      "cue_zh": "一般情境线索：在「生活习惯、代际经验和传统变化」中，某种传统在不同家庭或地区可能以不同方式实践；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for customs, experiences across generations, and evolving traditions: a tradition may be practiced differently across families or regions. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0123",
+      "category": "tradition",
+      "cue_zh": "一般情境线索：在「生活习惯、代际经验和传统变化」中，代际传承可能通过语言、技艺、故事和日常习惯发生；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for customs, experiences across generations, and evolving traditions: intergenerational transmission may occur through language, skills, stories, and routines. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0124",
+      "category": "tradition",
+      "cue_zh": "一般情境线索：在「生活习惯、代际经验和传统变化」中，保留习惯与改变具体做法可以同时发生，并不矛盾；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for customs, experiences across generations, and evolving traditions: preserving a custom and changing its practical form can happen together. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0125",
+      "category": "tradition",
+      "cue_zh": "一般情境线索：在「生活习惯、代际经验和传统变化」中，长期延续的仪式可能在意义与参与人数上发生变化；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for customs, experiences across generations, and evolving traditions: long-standing rituals can change in meaning or attendance. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0126",
+      "category": "tradition",
+      "cue_zh": "一般情境线索：在「生活习惯、代际经验和传统变化」中，不参与某项传统的原因不能仅凭个人身份推断；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for customs, experiences across generations, and evolving traditions: non-participation in a tradition cannot be inferred from identity alone. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0127",
+      "category": "safety",
+      "cue_zh": "一般情境线索：在「风险判断、保障安排和安全感」中，风险判断往往同时考虑事件概率、潜在后果和可用资源；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for assessing risk, planning safeguards, and feeling safe: risk assessment can involve likelihood, consequences, and available resources. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0128",
+      "category": "safety",
+      "cue_zh": "一般情境线索：在「风险判断、保障安排和安全感」中，警示标志、培训和现场应急计划属于不同层次的安全安排；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for assessing risk, planning safeguards, and feeling safe: signage, training, and emergency planning are different layers of safety. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0129",
+      "category": "safety",
+      "cue_zh": "一般情境线索：在「风险判断、保障安排和安全感」中，报告问题的渠道是否可信可能影响人们是否愿意提出担忧；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for assessing risk, planning safeguards, and feeling safe: trust in reporting channels can affect whether concerns are raised. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0130",
+      "category": "safety",
+      "cue_zh": "一般情境线索：在「风险判断、保障安排和安全感」中，公共空间的照明、交通与无障碍条件可能影响安全体验；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for assessing risk, planning safeguards, and feeling safe: lighting, transport, and accessibility can affect experiences of public safety. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0131",
+      "category": "safety",
+      "cue_zh": "一般情境线索：在「风险判断、保障安排和安全感」中，个人的安全感不必然等于客观风险水平，也不代表相反；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for assessing risk, planning safeguards, and feeling safe: subjective safety and measured risk are related but not identical. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0132",
+      "category": "safety",
+      "cue_zh": "一般情境线索：在「风险判断、保障安排和安全感」中，发生突发情况后，信息传递与求助速度可能影响处置过程；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for assessing risk, planning safeguards, and feeling safe: information sharing and access to help can shape emergency responses. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0133",
+      "category": "change",
+      "cue_zh": "一般情境线索：在「新环境适应、人生转折和计划调整」中，转换新环境时可能需要了解规则、建立联系并安排日常流程；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for adapting to change, transitions, and revising plans: entering a new setting can involve learning rules, making contacts, and organizing routines. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0134",
+      "category": "change",
+      "cue_zh": "一般情境线索：在「新环境适应、人生转折和计划调整」中，职业、学校或居住的变化可能同步发生，也可能相隔多年；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for adapting to change, transitions, and revising plans: job, school, and housing changes may coincide or occur years apart. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0135",
+      "category": "change",
+      "cue_zh": "一般情境线索：在「新环境适应、人生转折和计划调整」中，一次转折可同时具有自主决定与外部条件的影响；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for adapting to change, transitions, and revising plans: a transition may involve both personal decisions and external conditions. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0136",
+      "category": "change",
+      "cue_zh": "一般情境线索：在「新环境适应、人生转折和计划调整」中，适应程度可以表现为熟悉流程、建立关系或重新界定目标；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for adapting to change, transitions, and revising plans: adaptation can involve learning routines, building relationships, or revising goals. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0137",
+      "category": "change",
+      "cue_zh": "一般情境线索：在「新环境适应、人生转折和计划调整」中，短期的不确定感不必然说明长期结果会怎样；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for adapting to change, transitions, and revising plans: short-term uncertainty does not by itself predict long-term outcomes. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0138",
+      "category": "change",
+      "cue_zh": "一般情境线索：在「新环境适应、人生转折和计划调整」中，计划被打断之后可能出现延期、替代路径或重新协商；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for adapting to change, transitions, and revising plans: when plans are disrupted, people may delay, choose alternatives, or renegotiate. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0139",
+      "category": "trust",
+      "cue_zh": "一般情境线索：在「建立信任、核实信息和处理疑虑」中，形成信任可能涉及信息一致性、长期行为与是否公开解释决策；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for building trust, checking information, and navigating doubts: trust can depend on consistency, repeated behavior, and transparent explanations. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0140",
+      "category": "trust",
+      "cue_zh": "一般情境线索：在「建立信任、核实信息和处理疑虑」中，核实事实与判断某个人是否值得信任是不同的过程；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for building trust, checking information, and navigating doubts: checking factual claims and judging a person's trustworthiness are distinct. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0141",
+      "category": "trust",
+      "cue_zh": "一般情境线索：在「建立信任、核实信息和处理疑虑」中，建立信任的速度可能与互动频率和过往经历有关；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for building trust, checking information, and navigating doubts: the pace of trust can vary with interaction frequency and previous experiences. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0142",
+      "category": "trust",
+      "cue_zh": "一般情境线索：在「建立信任、核实信息和处理疑虑」中，专业权威、熟人推荐和个人试用体验可能提供不同的信任来源；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for building trust, checking information, and navigating doubts: expert authority, personal recommendations, and direct use provide different trust cues. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0143",
+      "category": "trust",
+      "cue_zh": "一般情境线索：在「建立信任、核实信息和处理疑虑」中，保密承诺是否具体和能否执行会影响人们对信息分享的判断；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for building trust, checking information, and navigating doubts: specific, enforceable confidentiality promises may affect information sharing. This does not establish that the participant experienced it."
+    },
+    {
+      "memory_id": "P0144",
+      "category": "trust",
+      "cue_zh": "一般情境线索：在「建立信任、核实信息和处理疑虑」中，信任被破坏后的修复可能需要解释、补救和可验证的改变；这不说明受访者本人经历过这种情况。",
+      "cue_en": "General context for building trust, checking information, and navigating doubts: rebuilding trust may require explanations, repair efforts, and observable changes. This does not establish that the participant experienced it."
+    }
+  ]
+}

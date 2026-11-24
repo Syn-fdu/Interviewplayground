@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "cybersecurity",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_cybersecurity_D01",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D01",
+      "topic": "最小权限原则",
+      "keywords_en": [
+        "least privilege"
+      ],
+      "facet": "definition",
+      "text": "最小权限原则（least privilege）：主体只应获得完成任务所必需的权限。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D02",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D02",
+      "topic": "纵深防御",
+      "keywords_en": [
+        "defense in depth"
+      ],
+      "facet": "definition",
+      "text": "纵深防御（defense in depth）：以多层独立控制降低单点失效风险。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D03",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D03",
+      "topic": "身份验证",
+      "keywords_en": [
+        "authentication"
+      ],
+      "facet": "definition",
+      "text": "身份验证（authentication）：确认访问主体声称身份的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D04",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D04",
+      "topic": "授权",
+      "keywords_en": [
+        "authorization"
+      ],
+      "facet": "definition",
+      "text": "授权（authorization）：规定已识别主体能够执行哪些操作。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D05",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D05",
+      "topic": "威胁建模",
+      "keywords_en": [
+        "threat modeling"
+      ],
+      "facet": "definition",
+      "text": "威胁建模（threat modeling）：系统识别资产、攻击面、威胁及缓解措施。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D06",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D06",
+      "topic": "漏洞",
+      "keywords_en": [
+        "vulnerability"
+      ],
+      "facet": "definition",
+      "text": "漏洞（vulnerability）：系统设计或实现中可能被利用的弱点。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D07",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D07",
+      "topic": "风险",
+      "keywords_en": [
+        "security risk"
+      ],
+      "facet": "definition",
+      "text": "风险（security risk）：综合考虑威胁发生可能性及其影响。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D08",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D08",
+      "topic": "软件物料清单",
+      "keywords_en": [
+        "software bill of materials"
+      ],
+      "facet": "definition",
+      "text": "软件物料清单（software bill of materials）：记录软件组成组件和依赖关系的清单。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D09",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D09",
+      "topic": "依赖供应链风险",
+      "keywords_en": [
+        "software supply chain"
+      ],
+      "facet": "definition",
+      "text": "依赖供应链风险（software supply chain）：第三方组件或分发环节引入的安全风险。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D10",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D10",
+      "topic": "漏洞披露",
+      "keywords_en": [
+        "vulnerability disclosure"
+      ],
+      "facet": "definition",
+      "text": "漏洞披露（vulnerability disclosure）：向维护方报告并协调修复安全问题的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D11",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D11",
+      "topic": "补丁管理",
+      "keywords_en": [
+        "patch management"
+      ],
+      "facet": "definition",
+      "text": "补丁管理（patch management）：评估、部署和验证安全更新的流程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D12",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D12",
+      "topic": "访问日志",
+      "keywords_en": [
+        "access logs"
+      ],
+      "facet": "definition",
+      "text": "访问日志（access logs）：记录主体访问系统和资源事件的审计数据。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D13",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D13",
+      "topic": "加密传输",
+      "keywords_en": [
+        "encryption in transit"
+      ],
+      "facet": "definition",
+      "text": "加密传输（encryption in transit）：对传输数据实施密码学保护以降低窃听篡改风险。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D14",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D14",
+      "topic": "静态加密",
+      "keywords_en": [
+        "encryption at rest"
+      ],
+      "facet": "definition",
+      "text": "静态加密（encryption at rest）：对存储中的数据实施密码学保护。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D15",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D15",
+      "topic": "密钥轮换",
+      "keywords_en": [
+        "key rotation"
+      ],
+      "facet": "definition",
+      "text": "密钥轮换（key rotation）：定期或按事件更换密码密钥的控制。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D16",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D16",
+      "topic": "钓鱼攻击",
+      "keywords_en": [
+        "phishing"
+      ],
+      "facet": "definition",
+      "text": "钓鱼攻击（phishing）：通过欺骗通信诱导泄露凭据或执行操作。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D17",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D17",
+      "topic": "社会工程攻击",
+      "keywords_en": [
+        "social engineering"
+      ],
+      "facet": "definition",
+      "text": "社会工程攻击（social engineering）：利用人的判断和行为而非单纯技术缺陷的攻击。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D18",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D18",
+      "topic": "隐私最小化",
+      "keywords_en": [
+        "data minimization"
+      ],
+      "facet": "definition",
+      "text": "隐私最小化（data minimization）：只收集和处理达成明确目的所必需的个人数据。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D19",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D19",
+      "topic": "漏洞严重度",
+      "keywords_en": [
+        "vulnerability severity"
+      ],
+      "facet": "definition",
+      "text": "漏洞严重度（vulnerability severity）：根据影响和利用条件评估漏洞处置优先级。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_D20",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_D20",
+      "topic": "事件响应",
+      "keywords_en": [
+        "incident response"
+      ],
+      "facet": "definition",
+      "text": "事件响应（incident response）：识别、控制、消除安全事件并恢复业务的流程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C01_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C01_1",
+      "topic": "最小权限原则与纵深防御",
+      "keywords_en": [
+        "least privilege",
+        "defense in depth"
+      ],
+      "facet": "concept_distinction",
+      "text": "最小权限原则与纵深防御应作概念区分：最小权限原则是主体只应获得完成任务所必需的权限；纵深防御是以多层独立控制降低单点失效风险。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C01_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C01_2",
+      "topic": "最小权限原则与身份验证",
+      "keywords_en": [
+        "least privilege",
+        "authentication"
+      ],
+      "facet": "concept_distinction",
+      "text": "最小权限原则与身份验证应作概念区分：最小权限原则是主体只应获得完成任务所必需的权限；身份验证是确认访问主体声称身份的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C01_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C01_3",
+      "topic": "最小权限原则与授权",
+      "keywords_en": [
+        "least privilege",
+        "authorization"
+      ],
+      "facet": "concept_distinction",
+      "text": "最小权限原则与授权应作概念区分：最小权限原则是主体只应获得完成任务所必需的权限；授权是规定已识别主体能够执行哪些操作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C01_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C01_4",
+      "topic": "最小权限原则与威胁建模",
+      "keywords_en": [
+        "least privilege",
+        "threat modeling"
+      ],
+      "facet": "concept_distinction",
+      "text": "最小权限原则与威胁建模应作概念区分：最小权限原则是主体只应获得完成任务所必需的权限；威胁建模是系统识别资产、攻击面、威胁及缓解措施。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C02_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C02_1",
+      "topic": "纵深防御与身份验证",
+      "keywords_en": [
+        "defense in depth",
+        "authentication"
+      ],
+      "facet": "concept_distinction",
+      "text": "纵深防御与身份验证应作概念区分：纵深防御是以多层独立控制降低单点失效风险；身份验证是确认访问主体声称身份的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C02_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C02_2",
+      "topic": "纵深防御与授权",
+      "keywords_en": [
+        "defense in depth",
+        "authorization"
+      ],
+      "facet": "concept_distinction",
+      "text": "纵深防御与授权应作概念区分：纵深防御是以多层独立控制降低单点失效风险；授权是规定已识别主体能够执行哪些操作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C02_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C02_3",
+      "topic": "纵深防御与威胁建模",
+      "keywords_en": [
+        "defense in depth",
+        "threat modeling"
+      ],
+      "facet": "concept_distinction",
+      "text": "纵深防御与威胁建模应作概念区分：纵深防御是以多层独立控制降低单点失效风险；威胁建模是系统识别资产、攻击面、威胁及缓解措施。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C02_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C02_4",
+      "topic": "纵深防御与漏洞",
+      "keywords_en": [
+        "defense in depth",
+        "vulnerability"
+      ],
+      "facet": "concept_distinction",
+      "text": "纵深防御与漏洞应作概念区分：纵深防御是以多层独立控制降低单点失效风险；漏洞是系统设计或实现中可能被利用的弱点。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C03_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C03_1",
+      "topic": "身份验证与授权",
+      "keywords_en": [
+        "authentication",
+        "authorization"
+      ],
+      "facet": "concept_distinction",
+      "text": "身份验证与授权应作概念区分：身份验证是确认访问主体声称身份的过程；授权是规定已识别主体能够执行哪些操作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C03_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C03_2",
+      "topic": "身份验证与威胁建模",
+      "keywords_en": [
+        "authentication",
+        "threat modeling"
+      ],
+      "facet": "concept_distinction",
+      "text": "身份验证与威胁建模应作概念区分：身份验证是确认访问主体声称身份的过程；威胁建模是系统识别资产、攻击面、威胁及缓解措施。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C03_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C03_3",
+      "topic": "身份验证与漏洞",
+      "keywords_en": [
+        "authentication",
+        "vulnerability"
+      ],
+      "facet": "concept_distinction",
+      "text": "身份验证与漏洞应作概念区分：身份验证是确认访问主体声称身份的过程；漏洞是系统设计或实现中可能被利用的弱点。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C03_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C03_4",
+      "topic": "身份验证与风险",
+      "keywords_en": [
+        "authentication",
+        "security risk"
+      ],
+      "facet": "concept_distinction",
+      "text": "身份验证与风险应作概念区分：身份验证是确认访问主体声称身份的过程；风险是综合考虑威胁发生可能性及其影响。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C04_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C04_1",
+      "topic": "授权与威胁建模",
+      "keywords_en": [
+        "authorization",
+        "threat modeling"
+      ],
+      "facet": "concept_distinction",
+      "text": "授权与威胁建模应作概念区分：授权是规定已识别主体能够执行哪些操作；威胁建模是系统识别资产、攻击面、威胁及缓解措施。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C04_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C04_2",
+      "topic": "授权与漏洞",
+      "keywords_en": [
+        "authorization",
+        "vulnerability"
+      ],
+      "facet": "concept_distinction",
+      "text": "授权与漏洞应作概念区分：授权是规定已识别主体能够执行哪些操作；漏洞是系统设计或实现中可能被利用的弱点。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C04_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C04_3",
+      "topic": "授权与风险",
+      "keywords_en": [
+        "authorization",
+        "security risk"
+      ],
+      "facet": "concept_distinction",
+      "text": "授权与风险应作概念区分：授权是规定已识别主体能够执行哪些操作；风险是综合考虑威胁发生可能性及其影响。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C04_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C04_4",
+      "topic": "授权与软件物料清单",
+      "keywords_en": [
+        "authorization",
+        "software bill of materials"
+      ],
+      "facet": "concept_distinction",
+      "text": "授权与软件物料清单应作概念区分：授权是规定已识别主体能够执行哪些操作；软件物料清单是记录软件组成组件和依赖关系的清单。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C05_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C05_1",
+      "topic": "威胁建模与漏洞",
+      "keywords_en": [
+        "threat modeling",
+        "vulnerability"
+      ],
+      "facet": "concept_distinction",
+      "text": "威胁建模与漏洞应作概念区分：威胁建模是系统识别资产、攻击面、威胁及缓解措施；漏洞是系统设计或实现中可能被利用的弱点。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C05_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C05_2",
+      "topic": "威胁建模与风险",
+      "keywords_en": [
+        "threat modeling",
+        "security risk"
+      ],
+      "facet": "concept_distinction",
+      "text": "威胁建模与风险应作概念区分：威胁建模是系统识别资产、攻击面、威胁及缓解措施；风险是综合考虑威胁发生可能性及其影响。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C05_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C05_3",
+      "topic": "威胁建模与软件物料清单",
+      "keywords_en": [
+        "threat modeling",
+        "software bill of materials"
+      ],
+      "facet": "concept_distinction",
+      "text": "威胁建模与软件物料清单应作概念区分：威胁建模是系统识别资产、攻击面、威胁及缓解措施；软件物料清单是记录软件组成组件和依赖关系的清单。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C05_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C05_4",
+      "topic": "威胁建模与依赖供应链风险",
+      "keywords_en": [
+        "threat modeling",
+        "software supply chain"
+      ],
+      "facet": "concept_distinction",
+      "text": "威胁建模与依赖供应链风险应作概念区分：威胁建模是系统识别资产、攻击面、威胁及缓解措施；依赖供应链风险是第三方组件或分发环节引入的安全风险。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C06_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C06_1",
+      "topic": "漏洞与风险",
+      "keywords_en": [
+        "vulnerability",
+        "security risk"
+      ],
+      "facet": "concept_distinction",
+      "text": "漏洞与风险应作概念区分：漏洞是系统设计或实现中可能被利用的弱点；风险是综合考虑威胁发生可能性及其影响。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C06_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C06_2",
+      "topic": "漏洞与软件物料清单",
+      "keywords_en": [
+        "vulnerability",
+        "software bill of materials"
+      ],
+      "facet": "concept_distinction",
+      "text": "漏洞与软件物料清单应作概念区分：漏洞是系统设计或实现中可能被利用的弱点；软件物料清单是记录软件组成组件和依赖关系的清单。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C06_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C06_3",
+      "topic": "漏洞与依赖供应链风险",
+      "keywords_en": [
+        "vulnerability",
+        "software supply chain"
+      ],
+      "facet": "concept_distinction",
+      "text": "漏洞与依赖供应链风险应作概念区分：漏洞是系统设计或实现中可能被利用的弱点；依赖供应链风险是第三方组件或分发环节引入的安全风险。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C06_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C06_4",
+      "topic": "漏洞与漏洞披露",
+      "keywords_en": [
+        "vulnerability",
+        "vulnerability disclosure"
+      ],
+      "facet": "concept_distinction",
+      "text": "漏洞与漏洞披露应作概念区分：漏洞是系统设计或实现中可能被利用的弱点；漏洞披露是向维护方报告并协调修复安全问题的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C07_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C07_1",
+      "topic": "风险与软件物料清单",
+      "keywords_en": [
+        "security risk",
+        "software bill of materials"
+      ],
+      "facet": "concept_distinction",
+      "text": "风险与软件物料清单应作概念区分：风险是综合考虑威胁发生可能性及其影响；软件物料清单是记录软件组成组件和依赖关系的清单。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C07_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C07_2",
+      "topic": "风险与依赖供应链风险",
+      "keywords_en": [
+        "security risk",
+        "software supply chain"
+      ],
+      "facet": "concept_distinction",
+      "text": "风险与依赖供应链风险应作概念区分：风险是综合考虑威胁发生可能性及其影响；依赖供应链风险是第三方组件或分发环节引入的安全风险。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C07_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C07_3",
+      "topic": "风险与漏洞披露",
+      "keywords_en": [
+        "security risk",
+        "vulnerability disclosure"
+      ],
+      "facet": "concept_distinction",
+      "text": "风险与漏洞披露应作概念区分：风险是综合考虑威胁发生可能性及其影响；漏洞披露是向维护方报告并协调修复安全问题的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C07_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C07_4",
+      "topic": "风险与补丁管理",
+      "keywords_en": [
+        "security risk",
+        "patch management"
+      ],
+      "facet": "concept_distinction",
+      "text": "风险与补丁管理应作概念区分：风险是综合考虑威胁发生可能性及其影响；补丁管理是评估、部署和验证安全更新的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C08_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C08_1",
+      "topic": "软件物料清单与依赖供应链风险",
+      "keywords_en": [
+        "software bill of materials",
+        "software supply chain"
+      ],
+      "facet": "concept_distinction",
+      "text": "软件物料清单与依赖供应链风险应作概念区分：软件物料清单是记录软件组成组件和依赖关系的清单；依赖供应链风险是第三方组件或分发环节引入的安全风险。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C08_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C08_2",
+      "topic": "软件物料清单与漏洞披露",
+      "keywords_en": [
+        "software bill of materials",
+        "vulnerability disclosure"
+      ],
+      "facet": "concept_distinction",
+      "text": "软件物料清单与漏洞披露应作概念区分：软件物料清单是记录软件组成组件和依赖关系的清单；漏洞披露是向维护方报告并协调修复安全问题的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C08_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C08_3",
+      "topic": "软件物料清单与补丁管理",
+      "keywords_en": [
+        "software bill of materials",
+        "patch management"
+      ],
+      "facet": "concept_distinction",
+      "text": "软件物料清单与补丁管理应作概念区分：软件物料清单是记录软件组成组件和依赖关系的清单；补丁管理是评估、部署和验证安全更新的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C08_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C08_4",
+      "topic": "软件物料清单与访问日志",
+      "keywords_en": [
+        "software bill of materials",
+        "access logs"
+      ],
+      "facet": "concept_distinction",
+      "text": "软件物料清单与访问日志应作概念区分：软件物料清单是记录软件组成组件和依赖关系的清单；访问日志是记录主体访问系统和资源事件的审计数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C09_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C09_1",
+      "topic": "依赖供应链风险与漏洞披露",
+      "keywords_en": [
+        "software supply chain",
+        "vulnerability disclosure"
+      ],
+      "facet": "concept_distinction",
+      "text": "依赖供应链风险与漏洞披露应作概念区分：依赖供应链风险是第三方组件或分发环节引入的安全风险；漏洞披露是向维护方报告并协调修复安全问题的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C09_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C09_2",
+      "topic": "依赖供应链风险与补丁管理",
+      "keywords_en": [
+        "software supply chain",
+        "patch management"
+      ],
+      "facet": "concept_distinction",
+      "text": "依赖供应链风险与补丁管理应作概念区分：依赖供应链风险是第三方组件或分发环节引入的安全风险；补丁管理是评估、部署和验证安全更新的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C09_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C09_3",
+      "topic": "依赖供应链风险与访问日志",
+      "keywords_en": [
+        "software supply chain",
+        "access logs"
+      ],
+      "facet": "concept_distinction",
+      "text": "依赖供应链风险与访问日志应作概念区分：依赖供应链风险是第三方组件或分发环节引入的安全风险；访问日志是记录主体访问系统和资源事件的审计数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C09_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C09_4",
+      "topic": "依赖供应链风险与加密传输",
+      "keywords_en": [
+        "software supply chain",
+        "encryption in transit"
+      ],
+      "facet": "concept_distinction",
+      "text": "依赖供应链风险与加密传输应作概念区分：依赖供应链风险是第三方组件或分发环节引入的安全风险；加密传输是对传输数据实施密码学保护以降低窃听篡改风险。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C10_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C10_1",
+      "topic": "漏洞披露与补丁管理",
+      "keywords_en": [
+        "vulnerability disclosure",
+        "patch management"
+      ],
+      "facet": "concept_distinction",
+      "text": "漏洞披露与补丁管理应作概念区分：漏洞披露是向维护方报告并协调修复安全问题的过程；补丁管理是评估、部署和验证安全更新的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C10_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C10_2",
+      "topic": "漏洞披露与访问日志",
+      "keywords_en": [
+        "vulnerability disclosure",
+        "access logs"
+      ],
+      "facet": "concept_distinction",
+      "text": "漏洞披露与访问日志应作概念区分：漏洞披露是向维护方报告并协调修复安全问题的过程；访问日志是记录主体访问系统和资源事件的审计数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C10_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C10_3",
+      "topic": "漏洞披露与加密传输",
+      "keywords_en": [
+        "vulnerability disclosure",
+        "encryption in transit"
+      ],
+      "facet": "concept_distinction",
+      "text": "漏洞披露与加密传输应作概念区分：漏洞披露是向维护方报告并协调修复安全问题的过程；加密传输是对传输数据实施密码学保护以降低窃听篡改风险。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C10_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C10_4",
+      "topic": "漏洞披露与静态加密",
+      "keywords_en": [
+        "vulnerability disclosure",
+        "encryption at rest"
+      ],
+      "facet": "concept_distinction",
+      "text": "漏洞披露与静态加密应作概念区分：漏洞披露是向维护方报告并协调修复安全问题的过程；静态加密是对存储中的数据实施密码学保护。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C11_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C11_1",
+      "topic": "补丁管理与访问日志",
+      "keywords_en": [
+        "patch management",
+        "access logs"
+      ],
+      "facet": "concept_distinction",
+      "text": "补丁管理与访问日志应作概念区分：补丁管理是评估、部署和验证安全更新的流程；访问日志是记录主体访问系统和资源事件的审计数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C11_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C11_2",
+      "topic": "补丁管理与加密传输",
+      "keywords_en": [
+        "patch management",
+        "encryption in transit"
+      ],
+      "facet": "concept_distinction",
+      "text": "补丁管理与加密传输应作概念区分：补丁管理是评估、部署和验证安全更新的流程；加密传输是对传输数据实施密码学保护以降低窃听篡改风险。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C11_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C11_3",
+      "topic": "补丁管理与静态加密",
+      "keywords_en": [
+        "patch management",
+        "encryption at rest"
+      ],
+      "facet": "concept_distinction",
+      "text": "补丁管理与静态加密应作概念区分：补丁管理是评估、部署和验证安全更新的流程；静态加密是对存储中的数据实施密码学保护。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C11_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C11_4",
+      "topic": "补丁管理与密钥轮换",
+      "keywords_en": [
+        "patch management",
+        "key rotation"
+      ],
+      "facet": "concept_distinction",
+      "text": "补丁管理与密钥轮换应作概念区分：补丁管理是评估、部署和验证安全更新的流程；密钥轮换是定期或按事件更换密码密钥的控制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C12_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C12_1",
+      "topic": "访问日志与加密传输",
+      "keywords_en": [
+        "access logs",
+        "encryption in transit"
+      ],
+      "facet": "concept_distinction",
+      "text": "访问日志与加密传输应作概念区分：访问日志是记录主体访问系统和资源事件的审计数据；加密传输是对传输数据实施密码学保护以降低窃听篡改风险。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C12_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C12_2",
+      "topic": "访问日志与静态加密",
+      "keywords_en": [
+        "access logs",
+        "encryption at rest"
+      ],
+      "facet": "concept_distinction",
+      "text": "访问日志与静态加密应作概念区分：访问日志是记录主体访问系统和资源事件的审计数据；静态加密是对存储中的数据实施密码学保护。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C12_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C12_3",
+      "topic": "访问日志与密钥轮换",
+      "keywords_en": [
+        "access logs",
+        "key rotation"
+      ],
+      "facet": "concept_distinction",
+      "text": "访问日志与密钥轮换应作概念区分：访问日志是记录主体访问系统和资源事件的审计数据；密钥轮换是定期或按事件更换密码密钥的控制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C12_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C12_4",
+      "topic": "访问日志与钓鱼攻击",
+      "keywords_en": [
+        "access logs",
+        "phishing"
+      ],
+      "facet": "concept_distinction",
+      "text": "访问日志与钓鱼攻击应作概念区分：访问日志是记录主体访问系统和资源事件的审计数据；钓鱼攻击是通过欺骗通信诱导泄露凭据或执行操作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C13_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C13_1",
+      "topic": "加密传输与静态加密",
+      "keywords_en": [
+        "encryption in transit",
+        "encryption at rest"
+      ],
+      "facet": "concept_distinction",
+      "text": "加密传输与静态加密应作概念区分：加密传输是对传输数据实施密码学保护以降低窃听篡改风险；静态加密是对存储中的数据实施密码学保护。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C13_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C13_2",
+      "topic": "加密传输与密钥轮换",
+      "keywords_en": [
+        "encryption in transit",
+        "key rotation"
+      ],
+      "facet": "concept_distinction",
+      "text": "加密传输与密钥轮换应作概念区分：加密传输是对传输数据实施密码学保护以降低窃听篡改风险；密钥轮换是定期或按事件更换密码密钥的控制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C13_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C13_3",
+      "topic": "加密传输与钓鱼攻击",
+      "keywords_en": [
+        "encryption in transit",
+        "phishing"
+      ],
+      "facet": "concept_distinction",
+      "text": "加密传输与钓鱼攻击应作概念区分：加密传输是对传输数据实施密码学保护以降低窃听篡改风险；钓鱼攻击是通过欺骗通信诱导泄露凭据或执行操作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C13_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C13_4",
+      "topic": "加密传输与社会工程攻击",
+      "keywords_en": [
+        "encryption in transit",
+        "social engineering"
+      ],
+      "facet": "concept_distinction",
+      "text": "加密传输与社会工程攻击应作概念区分：加密传输是对传输数据实施密码学保护以降低窃听篡改风险；社会工程攻击是利用人的判断和行为而非单纯技术缺陷的攻击。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C14_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C14_1",
+      "topic": "静态加密与密钥轮换",
+      "keywords_en": [
+        "encryption at rest",
+        "key rotation"
+      ],
+      "facet": "concept_distinction",
+      "text": "静态加密与密钥轮换应作概念区分：静态加密是对存储中的数据实施密码学保护；密钥轮换是定期或按事件更换密码密钥的控制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C14_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C14_2",
+      "topic": "静态加密与钓鱼攻击",
+      "keywords_en": [
+        "encryption at rest",
+        "phishing"
+      ],
+      "facet": "concept_distinction",
+      "text": "静态加密与钓鱼攻击应作概念区分：静态加密是对存储中的数据实施密码学保护；钓鱼攻击是通过欺骗通信诱导泄露凭据或执行操作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C14_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C14_3",
+      "topic": "静态加密与社会工程攻击",
+      "keywords_en": [
+        "encryption at rest",
+        "social engineering"
+      ],
+      "facet": "concept_distinction",
+      "text": "静态加密与社会工程攻击应作概念区分：静态加密是对存储中的数据实施密码学保护；社会工程攻击是利用人的判断和行为而非单纯技术缺陷的攻击。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C14_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C14_4",
+      "topic": "静态加密与隐私最小化",
+      "keywords_en": [
+        "encryption at rest",
+        "data minimization"
+      ],
+      "facet": "concept_distinction",
+      "text": "静态加密与隐私最小化应作概念区分：静态加密是对存储中的数据实施密码学保护；隐私最小化是只收集和处理达成明确目的所必需的个人数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C15_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C15_1",
+      "topic": "密钥轮换与钓鱼攻击",
+      "keywords_en": [
+        "key rotation",
+        "phishing"
+      ],
+      "facet": "concept_distinction",
+      "text": "密钥轮换与钓鱼攻击应作概念区分：密钥轮换是定期或按事件更换密码密钥的控制；钓鱼攻击是通过欺骗通信诱导泄露凭据或执行操作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C15_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C15_2",
+      "topic": "密钥轮换与社会工程攻击",
+      "keywords_en": [
+        "key rotation",
+        "social engineering"
+      ],
+      "facet": "concept_distinction",
+      "text": "密钥轮换与社会工程攻击应作概念区分：密钥轮换是定期或按事件更换密码密钥的控制；社会工程攻击是利用人的判断和行为而非单纯技术缺陷的攻击。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C15_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C15_3",
+      "topic": "密钥轮换与隐私最小化",
+      "keywords_en": [
+        "key rotation",
+        "data minimization"
+      ],
+      "facet": "concept_distinction",
+      "text": "密钥轮换与隐私最小化应作概念区分：密钥轮换是定期或按事件更换密码密钥的控制；隐私最小化是只收集和处理达成明确目的所必需的个人数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C15_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C15_4",
+      "topic": "密钥轮换与漏洞严重度",
+      "keywords_en": [
+        "key rotation",
+        "vulnerability severity"
+      ],
+      "facet": "concept_distinction",
+      "text": "密钥轮换与漏洞严重度应作概念区分：密钥轮换是定期或按事件更换密码密钥的控制；漏洞严重度是根据影响和利用条件评估漏洞处置优先级。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C16_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C16_1",
+      "topic": "钓鱼攻击与社会工程攻击",
+      "keywords_en": [
+        "phishing",
+        "social engineering"
+      ],
+      "facet": "concept_distinction",
+      "text": "钓鱼攻击与社会工程攻击应作概念区分：钓鱼攻击是通过欺骗通信诱导泄露凭据或执行操作；社会工程攻击是利用人的判断和行为而非单纯技术缺陷的攻击。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C16_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C16_2",
+      "topic": "钓鱼攻击与隐私最小化",
+      "keywords_en": [
+        "phishing",
+        "data minimization"
+      ],
+      "facet": "concept_distinction",
+      "text": "钓鱼攻击与隐私最小化应作概念区分：钓鱼攻击是通过欺骗通信诱导泄露凭据或执行操作；隐私最小化是只收集和处理达成明确目的所必需的个人数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C16_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C16_3",
+      "topic": "钓鱼攻击与漏洞严重度",
+      "keywords_en": [
+        "phishing",
+        "vulnerability severity"
+      ],
+      "facet": "concept_distinction",
+      "text": "钓鱼攻击与漏洞严重度应作概念区分：钓鱼攻击是通过欺骗通信诱导泄露凭据或执行操作；漏洞严重度是根据影响和利用条件评估漏洞处置优先级。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C16_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C16_4",
+      "topic": "钓鱼攻击与事件响应",
+      "keywords_en": [
+        "phishing",
+        "incident response"
+      ],
+      "facet": "concept_distinction",
+      "text": "钓鱼攻击与事件响应应作概念区分：钓鱼攻击是通过欺骗通信诱导泄露凭据或执行操作；事件响应是识别、控制、消除安全事件并恢复业务的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C17_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C17_1",
+      "topic": "社会工程攻击与隐私最小化",
+      "keywords_en": [
+        "social engineering",
+        "data minimization"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会工程攻击与隐私最小化应作概念区分：社会工程攻击是利用人的判断和行为而非单纯技术缺陷的攻击；隐私最小化是只收集和处理达成明确目的所必需的个人数据。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C17_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C17_2",
+      "topic": "社会工程攻击与漏洞严重度",
+      "keywords_en": [
+        "social engineering",
+        "vulnerability severity"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会工程攻击与漏洞严重度应作概念区分：社会工程攻击是利用人的判断和行为而非单纯技术缺陷的攻击；漏洞严重度是根据影响和利用条件评估漏洞处置优先级。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C17_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C17_3",
+      "topic": "社会工程攻击与事件响应",
+      "keywords_en": [
+        "social engineering",
+        "incident response"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会工程攻击与事件响应应作概念区分：社会工程攻击是利用人的判断和行为而非单纯技术缺陷的攻击；事件响应是识别、控制、消除安全事件并恢复业务的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C17_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C17_4",
+      "topic": "社会工程攻击与最小权限原则",
+      "keywords_en": [
+        "social engineering",
+        "least privilege"
+      ],
+      "facet": "concept_distinction",
+      "text": "社会工程攻击与最小权限原则应作概念区分：社会工程攻击是利用人的判断和行为而非单纯技术缺陷的攻击；最小权限原则是主体只应获得完成任务所必需的权限。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C18_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C18_1",
+      "topic": "隐私最小化与漏洞严重度",
+      "keywords_en": [
+        "data minimization",
+        "vulnerability severity"
+      ],
+      "facet": "concept_distinction",
+      "text": "隐私最小化与漏洞严重度应作概念区分：隐私最小化是只收集和处理达成明确目的所必需的个人数据；漏洞严重度是根据影响和利用条件评估漏洞处置优先级。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C18_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C18_2",
+      "topic": "隐私最小化与事件响应",
+      "keywords_en": [
+        "data minimization",
+        "incident response"
+      ],
+      "facet": "concept_distinction",
+      "text": "隐私最小化与事件响应应作概念区分：隐私最小化是只收集和处理达成明确目的所必需的个人数据；事件响应是识别、控制、消除安全事件并恢复业务的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C18_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C18_3",
+      "topic": "隐私最小化与最小权限原则",
+      "keywords_en": [
+        "data minimization",
+        "least privilege"
+      ],
+      "facet": "concept_distinction",
+      "text": "隐私最小化与最小权限原则应作概念区分：隐私最小化是只收集和处理达成明确目的所必需的个人数据；最小权限原则是主体只应获得完成任务所必需的权限。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C18_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C18_4",
+      "topic": "隐私最小化与纵深防御",
+      "keywords_en": [
+        "data minimization",
+        "defense in depth"
+      ],
+      "facet": "concept_distinction",
+      "text": "隐私最小化与纵深防御应作概念区分：隐私最小化是只收集和处理达成明确目的所必需的个人数据；纵深防御是以多层独立控制降低单点失效风险。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C19_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C19_1",
+      "topic": "漏洞严重度与事件响应",
+      "keywords_en": [
+        "vulnerability severity",
+        "incident response"
+      ],
+      "facet": "concept_distinction",
+      "text": "漏洞严重度与事件响应应作概念区分：漏洞严重度是根据影响和利用条件评估漏洞处置优先级；事件响应是识别、控制、消除安全事件并恢复业务的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C19_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C19_2",
+      "topic": "漏洞严重度与最小权限原则",
+      "keywords_en": [
+        "vulnerability severity",
+        "least privilege"
+      ],
+      "facet": "concept_distinction",
+      "text": "漏洞严重度与最小权限原则应作概念区分：漏洞严重度是根据影响和利用条件评估漏洞处置优先级；最小权限原则是主体只应获得完成任务所必需的权限。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C19_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C19_3",
+      "topic": "漏洞严重度与纵深防御",
+      "keywords_en": [
+        "vulnerability severity",
+        "defense in depth"
+      ],
+      "facet": "concept_distinction",
+      "text": "漏洞严重度与纵深防御应作概念区分：漏洞严重度是根据影响和利用条件评估漏洞处置优先级；纵深防御是以多层独立控制降低单点失效风险。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C19_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C19_4",
+      "topic": "漏洞严重度与身份验证",
+      "keywords_en": [
+        "vulnerability severity",
+        "authentication"
+      ],
+      "facet": "concept_distinction",
+      "text": "漏洞严重度与身份验证应作概念区分：漏洞严重度是根据影响和利用条件评估漏洞处置优先级；身份验证是确认访问主体声称身份的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C20_1",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C20_1",
+      "topic": "事件响应与最小权限原则",
+      "keywords_en": [
+        "incident response",
+        "least privilege"
+      ],
+      "facet": "concept_distinction",
+      "text": "事件响应与最小权限原则应作概念区分：事件响应是识别、控制、消除安全事件并恢复业务的流程；最小权限原则是主体只应获得完成任务所必需的权限。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C20_2",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C20_2",
+      "topic": "事件响应与纵深防御",
+      "keywords_en": [
+        "incident response",
+        "defense in depth"
+      ],
+      "facet": "concept_distinction",
+      "text": "事件响应与纵深防御应作概念区分：事件响应是识别、控制、消除安全事件并恢复业务的流程；纵深防御是以多层独立控制降低单点失效风险。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C20_3",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C20_3",
+      "topic": "事件响应与身份验证",
+      "keywords_en": [
+        "incident response",
+        "authentication"
+      ],
+      "facet": "concept_distinction",
+      "text": "事件响应与身份验证应作概念区分：事件响应是识别、控制、消除安全事件并恢复业务的流程；身份验证是确认访问主体声称身份的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_cybersecurity_C20_4",
+      "domain": "cybersecurity",
+      "concept_id": "cybersecurity_C20_4",
+      "topic": "事件响应与授权",
+      "keywords_en": [
+        "incident response",
+        "authorization"
+      ],
+      "facet": "concept_distinction",
+      "text": "事件响应与授权应作概念区分：事件响应是识别、控制、消除安全事件并恢复业务的流程；授权是规定已识别主体能够执行哪些操作。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

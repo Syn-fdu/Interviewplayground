@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "environment_energy",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_environment_energy_D01",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D01",
+      "topic": "温室气体",
+      "keywords_en": [
+        "greenhouse gas"
+      ],
+      "facet": "definition",
+      "text": "温室气体（greenhouse gas）：吸收并重新辐射部分地球长波辐射的气体。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D02",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D02",
+      "topic": "碳足迹",
+      "keywords_en": [
+        "carbon footprint"
+      ],
+      "facet": "definition",
+      "text": "碳足迹（carbon footprint）：活动或产品生命周期的温室气体排放估算。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D03",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D03",
+      "topic": "气候变化",
+      "keywords_en": [
+        "climate change"
+      ],
+      "facet": "definition",
+      "text": "气候变化（climate change）：长期气候统计特征发生变化的现象。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D04",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D04",
+      "topic": "气候适应",
+      "keywords_en": [
+        "climate adaptation"
+      ],
+      "facet": "definition",
+      "text": "气候适应（climate adaptation）：为降低已发生或预期气候影响而调整系统。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D05",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D05",
+      "topic": "气候减缓",
+      "keywords_en": [
+        "climate mitigation"
+      ],
+      "facet": "definition",
+      "text": "气候减缓（climate mitigation）：通过减少排放或增加碳汇限制气候变化。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D06",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D06",
+      "topic": "可再生能源",
+      "keywords_en": [
+        "renewable energy"
+      ],
+      "facet": "definition",
+      "text": "可再生能源（renewable energy）：来自自然持续补充过程的能源。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D07",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D07",
+      "topic": "太阳能光伏",
+      "keywords_en": [
+        "solar photovoltaic"
+      ],
+      "facet": "definition",
+      "text": "太阳能光伏（solar photovoltaic）：利用半导体光伏效应把光转为电能。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D08",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D08",
+      "topic": "风能",
+      "keywords_en": [
+        "wind energy"
+      ],
+      "facet": "definition",
+      "text": "风能（wind energy）：利用空气流动驱动设备发电或做功。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D09",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D09",
+      "topic": "电网",
+      "keywords_en": [
+        "electric grid"
+      ],
+      "facet": "definition",
+      "text": "电网（electric grid）：连接发电输配电和用户的电力网络。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D10",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D10",
+      "topic": "需求响应",
+      "keywords_en": [
+        "demand response"
+      ],
+      "facet": "definition",
+      "text": "需求响应（demand response）：用电侧随电价或调度信号调整消费。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D11",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D11",
+      "topic": "能源效率",
+      "keywords_en": [
+        "energy efficiency"
+      ],
+      "facet": "definition",
+      "text": "能源效率（energy efficiency）：单位能源投入获得的有用服务或产出。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D12",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D12",
+      "topic": "建筑保温",
+      "keywords_en": [
+        "building insulation"
+      ],
+      "facet": "definition",
+      "text": "建筑保温（building insulation）：降低建筑围护结构热量传递的设计与措施。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D13",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D13",
+      "topic": "热泵",
+      "keywords_en": [
+        "heat pump"
+      ],
+      "facet": "definition",
+      "text": "热泵（heat pump）：借助外部能量将热量从低温侧转移到高温侧的设备。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D14",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D14",
+      "topic": "峰谷电价",
+      "keywords_en": [
+        "time of use pricing"
+      ],
+      "facet": "definition",
+      "text": "峰谷电价（time of use pricing）：按用电时段差异设置的价格机制。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D15",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D15",
+      "topic": "分布式能源",
+      "keywords_en": [
+        "distributed energy"
+      ],
+      "facet": "definition",
+      "text": "分布式能源（distributed energy）：靠近用户或负荷侧布置的小型供能资源。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D16",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D16",
+      "topic": "能源贫困",
+      "keywords_en": [
+        "energy poverty"
+      ],
+      "facet": "definition",
+      "text": "能源贫困（energy poverty）：家庭难以负担满足基本需要的能源服务。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D17",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D17",
+      "topic": "生命周期评价",
+      "keywords_en": [
+        "life cycle assessment"
+      ],
+      "facet": "definition",
+      "text": "生命周期评价（life cycle assessment）：评估产品从原料到处置全过程环境影响的方法。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D18",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D18",
+      "topic": "循环经济",
+      "keywords_en": [
+        "circular economy"
+      ],
+      "facet": "definition",
+      "text": "循环经济（circular economy）：强调减量、再利用与资源循环的经济模式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D19",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D19",
+      "topic": "生态系统服务",
+      "keywords_en": [
+        "ecosystem services"
+      ],
+      "facet": "definition",
+      "text": "生态系统服务（ecosystem services）：生态系统对人类福祉作出的贡献。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_D20",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_D20",
+      "topic": "环境正义",
+      "keywords_en": [
+        "environmental justice"
+      ],
+      "facet": "definition",
+      "text": "环境正义（environmental justice）：关注环境风险和收益在不同群体间的公平分配。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C01_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C01_1",
+      "topic": "温室气体与碳足迹",
+      "keywords_en": [
+        "greenhouse gas",
+        "carbon footprint"
+      ],
+      "facet": "concept_distinction",
+      "text": "温室气体与碳足迹应作概念区分：温室气体是吸收并重新辐射部分地球长波辐射的气体；碳足迹是活动或产品生命周期的温室气体排放估算。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C01_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C01_2",
+      "topic": "温室气体与气候变化",
+      "keywords_en": [
+        "greenhouse gas",
+        "climate change"
+      ],
+      "facet": "concept_distinction",
+      "text": "温室气体与气候变化应作概念区分：温室气体是吸收并重新辐射部分地球长波辐射的气体；气候变化是长期气候统计特征发生变化的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C01_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C01_3",
+      "topic": "温室气体与气候适应",
+      "keywords_en": [
+        "greenhouse gas",
+        "climate adaptation"
+      ],
+      "facet": "concept_distinction",
+      "text": "温室气体与气候适应应作概念区分：温室气体是吸收并重新辐射部分地球长波辐射的气体；气候适应是为降低已发生或预期气候影响而调整系统。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C01_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C01_4",
+      "topic": "温室气体与气候减缓",
+      "keywords_en": [
+        "greenhouse gas",
+        "climate mitigation"
+      ],
+      "facet": "concept_distinction",
+      "text": "温室气体与气候减缓应作概念区分：温室气体是吸收并重新辐射部分地球长波辐射的气体；气候减缓是通过减少排放或增加碳汇限制气候变化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C02_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C02_1",
+      "topic": "碳足迹与气候变化",
+      "keywords_en": [
+        "carbon footprint",
+        "climate change"
+      ],
+      "facet": "concept_distinction",
+      "text": "碳足迹与气候变化应作概念区分：碳足迹是活动或产品生命周期的温室气体排放估算；气候变化是长期气候统计特征发生变化的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C02_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C02_2",
+      "topic": "碳足迹与气候适应",
+      "keywords_en": [
+        "carbon footprint",
+        "climate adaptation"
+      ],
+      "facet": "concept_distinction",
+      "text": "碳足迹与气候适应应作概念区分：碳足迹是活动或产品生命周期的温室气体排放估算；气候适应是为降低已发生或预期气候影响而调整系统。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C02_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C02_3",
+      "topic": "碳足迹与气候减缓",
+      "keywords_en": [
+        "carbon footprint",
+        "climate mitigation"
+      ],
+      "facet": "concept_distinction",
+      "text": "碳足迹与气候减缓应作概念区分：碳足迹是活动或产品生命周期的温室气体排放估算；气候减缓是通过减少排放或增加碳汇限制气候变化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C02_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C02_4",
+      "topic": "碳足迹与可再生能源",
+      "keywords_en": [
+        "carbon footprint",
+        "renewable energy"
+      ],
+      "facet": "concept_distinction",
+      "text": "碳足迹与可再生能源应作概念区分：碳足迹是活动或产品生命周期的温室气体排放估算；可再生能源是来自自然持续补充过程的能源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C03_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C03_1",
+      "topic": "气候变化与气候适应",
+      "keywords_en": [
+        "climate change",
+        "climate adaptation"
+      ],
+      "facet": "concept_distinction",
+      "text": "气候变化与气候适应应作概念区分：气候变化是长期气候统计特征发生变化的现象；气候适应是为降低已发生或预期气候影响而调整系统。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C03_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C03_2",
+      "topic": "气候变化与气候减缓",
+      "keywords_en": [
+        "climate change",
+        "climate mitigation"
+      ],
+      "facet": "concept_distinction",
+      "text": "气候变化与气候减缓应作概念区分：气候变化是长期气候统计特征发生变化的现象；气候减缓是通过减少排放或增加碳汇限制气候变化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C03_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C03_3",
+      "topic": "气候变化与可再生能源",
+      "keywords_en": [
+        "climate change",
+        "renewable energy"
+      ],
+      "facet": "concept_distinction",
+      "text": "气候变化与可再生能源应作概念区分：气候变化是长期气候统计特征发生变化的现象；可再生能源是来自自然持续补充过程的能源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C03_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C03_4",
+      "topic": "气候变化与太阳能光伏",
+      "keywords_en": [
+        "climate change",
+        "solar photovoltaic"
+      ],
+      "facet": "concept_distinction",
+      "text": "气候变化与太阳能光伏应作概念区分：气候变化是长期气候统计特征发生变化的现象；太阳能光伏是利用半导体光伏效应把光转为电能。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C04_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C04_1",
+      "topic": "气候适应与气候减缓",
+      "keywords_en": [
+        "climate adaptation",
+        "climate mitigation"
+      ],
+      "facet": "concept_distinction",
+      "text": "气候适应与气候减缓应作概念区分：气候适应是为降低已发生或预期气候影响而调整系统；气候减缓是通过减少排放或增加碳汇限制气候变化。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C04_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C04_2",
+      "topic": "气候适应与可再生能源",
+      "keywords_en": [
+        "climate adaptation",
+        "renewable energy"
+      ],
+      "facet": "concept_distinction",
+      "text": "气候适应与可再生能源应作概念区分：气候适应是为降低已发生或预期气候影响而调整系统；可再生能源是来自自然持续补充过程的能源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C04_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C04_3",
+      "topic": "气候适应与太阳能光伏",
+      "keywords_en": [
+        "climate adaptation",
+        "solar photovoltaic"
+      ],
+      "facet": "concept_distinction",
+      "text": "气候适应与太阳能光伏应作概念区分：气候适应是为降低已发生或预期气候影响而调整系统；太阳能光伏是利用半导体光伏效应把光转为电能。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C04_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C04_4",
+      "topic": "气候适应与风能",
+      "keywords_en": [
+        "climate adaptation",
+        "wind energy"
+      ],
+      "facet": "concept_distinction",
+      "text": "气候适应与风能应作概念区分：气候适应是为降低已发生或预期气候影响而调整系统；风能是利用空气流动驱动设备发电或做功。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C05_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C05_1",
+      "topic": "气候减缓与可再生能源",
+      "keywords_en": [
+        "climate mitigation",
+        "renewable energy"
+      ],
+      "facet": "concept_distinction",
+      "text": "气候减缓与可再生能源应作概念区分：气候减缓是通过减少排放或增加碳汇限制气候变化；可再生能源是来自自然持续补充过程的能源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C05_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C05_2",
+      "topic": "气候减缓与太阳能光伏",
+      "keywords_en": [
+        "climate mitigation",
+        "solar photovoltaic"
+      ],
+      "facet": "concept_distinction",
+      "text": "气候减缓与太阳能光伏应作概念区分：气候减缓是通过减少排放或增加碳汇限制气候变化；太阳能光伏是利用半导体光伏效应把光转为电能。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C05_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C05_3",
+      "topic": "气候减缓与风能",
+      "keywords_en": [
+        "climate mitigation",
+        "wind energy"
+      ],
+      "facet": "concept_distinction",
+      "text": "气候减缓与风能应作概念区分：气候减缓是通过减少排放或增加碳汇限制气候变化；风能是利用空气流动驱动设备发电或做功。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C05_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C05_4",
+      "topic": "气候减缓与电网",
+      "keywords_en": [
+        "climate mitigation",
+        "electric grid"
+      ],
+      "facet": "concept_distinction",
+      "text": "气候减缓与电网应作概念区分：气候减缓是通过减少排放或增加碳汇限制气候变化；电网是连接发电输配电和用户的电力网络。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C06_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C06_1",
+      "topic": "可再生能源与太阳能光伏",
+      "keywords_en": [
+        "renewable energy",
+        "solar photovoltaic"
+      ],
+      "facet": "concept_distinction",
+      "text": "可再生能源与太阳能光伏应作概念区分：可再生能源是来自自然持续补充过程的能源；太阳能光伏是利用半导体光伏效应把光转为电能。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C06_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C06_2",
+      "topic": "可再生能源与风能",
+      "keywords_en": [
+        "renewable energy",
+        "wind energy"
+      ],
+      "facet": "concept_distinction",
+      "text": "可再生能源与风能应作概念区分：可再生能源是来自自然持续补充过程的能源；风能是利用空气流动驱动设备发电或做功。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C06_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C06_3",
+      "topic": "可再生能源与电网",
+      "keywords_en": [
+        "renewable energy",
+        "electric grid"
+      ],
+      "facet": "concept_distinction",
+      "text": "可再生能源与电网应作概念区分：可再生能源是来自自然持续补充过程的能源；电网是连接发电输配电和用户的电力网络。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C06_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C06_4",
+      "topic": "可再生能源与需求响应",
+      "keywords_en": [
+        "renewable energy",
+        "demand response"
+      ],
+      "facet": "concept_distinction",
+      "text": "可再生能源与需求响应应作概念区分：可再生能源是来自自然持续补充过程的能源；需求响应是用电侧随电价或调度信号调整消费。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C07_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C07_1",
+      "topic": "太阳能光伏与风能",
+      "keywords_en": [
+        "solar photovoltaic",
+        "wind energy"
+      ],
+      "facet": "concept_distinction",
+      "text": "太阳能光伏与风能应作概念区分：太阳能光伏是利用半导体光伏效应把光转为电能；风能是利用空气流动驱动设备发电或做功。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C07_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C07_2",
+      "topic": "太阳能光伏与电网",
+      "keywords_en": [
+        "solar photovoltaic",
+        "electric grid"
+      ],
+      "facet": "concept_distinction",
+      "text": "太阳能光伏与电网应作概念区分：太阳能光伏是利用半导体光伏效应把光转为电能；电网是连接发电输配电和用户的电力网络。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C07_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C07_3",
+      "topic": "太阳能光伏与需求响应",
+      "keywords_en": [
+        "solar photovoltaic",
+        "demand response"
+      ],
+      "facet": "concept_distinction",
+      "text": "太阳能光伏与需求响应应作概念区分：太阳能光伏是利用半导体光伏效应把光转为电能；需求响应是用电侧随电价或调度信号调整消费。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C07_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C07_4",
+      "topic": "太阳能光伏与能源效率",
+      "keywords_en": [
+        "solar photovoltaic",
+        "energy efficiency"
+      ],
+      "facet": "concept_distinction",
+      "text": "太阳能光伏与能源效率应作概念区分：太阳能光伏是利用半导体光伏效应把光转为电能；能源效率是单位能源投入获得的有用服务或产出。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C08_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C08_1",
+      "topic": "风能与电网",
+      "keywords_en": [
+        "wind energy",
+        "electric grid"
+      ],
+      "facet": "concept_distinction",
+      "text": "风能与电网应作概念区分：风能是利用空气流动驱动设备发电或做功；电网是连接发电输配电和用户的电力网络。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C08_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C08_2",
+      "topic": "风能与需求响应",
+      "keywords_en": [
+        "wind energy",
+        "demand response"
+      ],
+      "facet": "concept_distinction",
+      "text": "风能与需求响应应作概念区分：风能是利用空气流动驱动设备发电或做功；需求响应是用电侧随电价或调度信号调整消费。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C08_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C08_3",
+      "topic": "风能与能源效率",
+      "keywords_en": [
+        "wind energy",
+        "energy efficiency"
+      ],
+      "facet": "concept_distinction",
+      "text": "风能与能源效率应作概念区分：风能是利用空气流动驱动设备发电或做功；能源效率是单位能源投入获得的有用服务或产出。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C08_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C08_4",
+      "topic": "风能与建筑保温",
+      "keywords_en": [
+        "wind energy",
+        "building insulation"
+      ],
+      "facet": "concept_distinction",
+      "text": "风能与建筑保温应作概念区分：风能是利用空气流动驱动设备发电或做功；建筑保温是降低建筑围护结构热量传递的设计与措施。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C09_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C09_1",
+      "topic": "电网与需求响应",
+      "keywords_en": [
+        "electric grid",
+        "demand response"
+      ],
+      "facet": "concept_distinction",
+      "text": "电网与需求响应应作概念区分：电网是连接发电输配电和用户的电力网络；需求响应是用电侧随电价或调度信号调整消费。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C09_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C09_2",
+      "topic": "电网与能源效率",
+      "keywords_en": [
+        "electric grid",
+        "energy efficiency"
+      ],
+      "facet": "concept_distinction",
+      "text": "电网与能源效率应作概念区分：电网是连接发电输配电和用户的电力网络；能源效率是单位能源投入获得的有用服务或产出。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C09_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C09_3",
+      "topic": "电网与建筑保温",
+      "keywords_en": [
+        "electric grid",
+        "building insulation"
+      ],
+      "facet": "concept_distinction",
+      "text": "电网与建筑保温应作概念区分：电网是连接发电输配电和用户的电力网络；建筑保温是降低建筑围护结构热量传递的设计与措施。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C09_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C09_4",
+      "topic": "电网与热泵",
+      "keywords_en": [
+        "electric grid",
+        "heat pump"
+      ],
+      "facet": "concept_distinction",
+      "text": "电网与热泵应作概念区分：电网是连接发电输配电和用户的电力网络；热泵是借助外部能量将热量从低温侧转移到高温侧的设备。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C10_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C10_1",
+      "topic": "需求响应与能源效率",
+      "keywords_en": [
+        "demand response",
+        "energy efficiency"
+      ],
+      "facet": "concept_distinction",
+      "text": "需求响应与能源效率应作概念区分：需求响应是用电侧随电价或调度信号调整消费；能源效率是单位能源投入获得的有用服务或产出。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C10_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C10_2",
+      "topic": "需求响应与建筑保温",
+      "keywords_en": [
+        "demand response",
+        "building insulation"
+      ],
+      "facet": "concept_distinction",
+      "text": "需求响应与建筑保温应作概念区分：需求响应是用电侧随电价或调度信号调整消费；建筑保温是降低建筑围护结构热量传递的设计与措施。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C10_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C10_3",
+      "topic": "需求响应与热泵",
+      "keywords_en": [
+        "demand response",
+        "heat pump"
+      ],
+      "facet": "concept_distinction",
+      "text": "需求响应与热泵应作概念区分：需求响应是用电侧随电价或调度信号调整消费；热泵是借助外部能量将热量从低温侧转移到高温侧的设备。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C10_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C10_4",
+      "topic": "需求响应与峰谷电价",
+      "keywords_en": [
+        "demand response",
+        "time of use pricing"
+      ],
+      "facet": "concept_distinction",
+      "text": "需求响应与峰谷电价应作概念区分：需求响应是用电侧随电价或调度信号调整消费；峰谷电价是按用电时段差异设置的价格机制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C11_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C11_1",
+      "topic": "能源效率与建筑保温",
+      "keywords_en": [
+        "energy efficiency",
+        "building insulation"
+      ],
+      "facet": "concept_distinction",
+      "text": "能源效率与建筑保温应作概念区分：能源效率是单位能源投入获得的有用服务或产出；建筑保温是降低建筑围护结构热量传递的设计与措施。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C11_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C11_2",
+      "topic": "能源效率与热泵",
+      "keywords_en": [
+        "energy efficiency",
+        "heat pump"
+      ],
+      "facet": "concept_distinction",
+      "text": "能源效率与热泵应作概念区分：能源效率是单位能源投入获得的有用服务或产出；热泵是借助外部能量将热量从低温侧转移到高温侧的设备。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C11_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C11_3",
+      "topic": "能源效率与峰谷电价",
+      "keywords_en": [
+        "energy efficiency",
+        "time of use pricing"
+      ],
+      "facet": "concept_distinction",
+      "text": "能源效率与峰谷电价应作概念区分：能源效率是单位能源投入获得的有用服务或产出；峰谷电价是按用电时段差异设置的价格机制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C11_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C11_4",
+      "topic": "能源效率与分布式能源",
+      "keywords_en": [
+        "energy efficiency",
+        "distributed energy"
+      ],
+      "facet": "concept_distinction",
+      "text": "能源效率与分布式能源应作概念区分：能源效率是单位能源投入获得的有用服务或产出；分布式能源是靠近用户或负荷侧布置的小型供能资源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C12_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C12_1",
+      "topic": "建筑保温与热泵",
+      "keywords_en": [
+        "building insulation",
+        "heat pump"
+      ],
+      "facet": "concept_distinction",
+      "text": "建筑保温与热泵应作概念区分：建筑保温是降低建筑围护结构热量传递的设计与措施；热泵是借助外部能量将热量从低温侧转移到高温侧的设备。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C12_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C12_2",
+      "topic": "建筑保温与峰谷电价",
+      "keywords_en": [
+        "building insulation",
+        "time of use pricing"
+      ],
+      "facet": "concept_distinction",
+      "text": "建筑保温与峰谷电价应作概念区分：建筑保温是降低建筑围护结构热量传递的设计与措施；峰谷电价是按用电时段差异设置的价格机制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C12_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C12_3",
+      "topic": "建筑保温与分布式能源",
+      "keywords_en": [
+        "building insulation",
+        "distributed energy"
+      ],
+      "facet": "concept_distinction",
+      "text": "建筑保温与分布式能源应作概念区分：建筑保温是降低建筑围护结构热量传递的设计与措施；分布式能源是靠近用户或负荷侧布置的小型供能资源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C12_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C12_4",
+      "topic": "建筑保温与能源贫困",
+      "keywords_en": [
+        "building insulation",
+        "energy poverty"
+      ],
+      "facet": "concept_distinction",
+      "text": "建筑保温与能源贫困应作概念区分：建筑保温是降低建筑围护结构热量传递的设计与措施；能源贫困是家庭难以负担满足基本需要的能源服务。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C13_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C13_1",
+      "topic": "热泵与峰谷电价",
+      "keywords_en": [
+        "heat pump",
+        "time of use pricing"
+      ],
+      "facet": "concept_distinction",
+      "text": "热泵与峰谷电价应作概念区分：热泵是借助外部能量将热量从低温侧转移到高温侧的设备；峰谷电价是按用电时段差异设置的价格机制。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C13_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C13_2",
+      "topic": "热泵与分布式能源",
+      "keywords_en": [
+        "heat pump",
+        "distributed energy"
+      ],
+      "facet": "concept_distinction",
+      "text": "热泵与分布式能源应作概念区分：热泵是借助外部能量将热量从低温侧转移到高温侧的设备；分布式能源是靠近用户或负荷侧布置的小型供能资源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C13_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C13_3",
+      "topic": "热泵与能源贫困",
+      "keywords_en": [
+        "heat pump",
+        "energy poverty"
+      ],
+      "facet": "concept_distinction",
+      "text": "热泵与能源贫困应作概念区分：热泵是借助外部能量将热量从低温侧转移到高温侧的设备；能源贫困是家庭难以负担满足基本需要的能源服务。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C13_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C13_4",
+      "topic": "热泵与生命周期评价",
+      "keywords_en": [
+        "heat pump",
+        "life cycle assessment"
+      ],
+      "facet": "concept_distinction",
+      "text": "热泵与生命周期评价应作概念区分：热泵是借助外部能量将热量从低温侧转移到高温侧的设备；生命周期评价是评估产品从原料到处置全过程环境影响的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C14_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C14_1",
+      "topic": "峰谷电价与分布式能源",
+      "keywords_en": [
+        "time of use pricing",
+        "distributed energy"
+      ],
+      "facet": "concept_distinction",
+      "text": "峰谷电价与分布式能源应作概念区分：峰谷电价是按用电时段差异设置的价格机制；分布式能源是靠近用户或负荷侧布置的小型供能资源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C14_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C14_2",
+      "topic": "峰谷电价与能源贫困",
+      "keywords_en": [
+        "time of use pricing",
+        "energy poverty"
+      ],
+      "facet": "concept_distinction",
+      "text": "峰谷电价与能源贫困应作概念区分：峰谷电价是按用电时段差异设置的价格机制；能源贫困是家庭难以负担满足基本需要的能源服务。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C14_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C14_3",
+      "topic": "峰谷电价与生命周期评价",
+      "keywords_en": [
+        "time of use pricing",
+        "life cycle assessment"
+      ],
+      "facet": "concept_distinction",
+      "text": "峰谷电价与生命周期评价应作概念区分：峰谷电价是按用电时段差异设置的价格机制；生命周期评价是评估产品从原料到处置全过程环境影响的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C14_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C14_4",
+      "topic": "峰谷电价与循环经济",
+      "keywords_en": [
+        "time of use pricing",
+        "circular economy"
+      ],
+      "facet": "concept_distinction",
+      "text": "峰谷电价与循环经济应作概念区分：峰谷电价是按用电时段差异设置的价格机制；循环经济是强调减量、再利用与资源循环的经济模式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C15_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C15_1",
+      "topic": "分布式能源与能源贫困",
+      "keywords_en": [
+        "distributed energy",
+        "energy poverty"
+      ],
+      "facet": "concept_distinction",
+      "text": "分布式能源与能源贫困应作概念区分：分布式能源是靠近用户或负荷侧布置的小型供能资源；能源贫困是家庭难以负担满足基本需要的能源服务。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C15_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C15_2",
+      "topic": "分布式能源与生命周期评价",
+      "keywords_en": [
+        "distributed energy",
+        "life cycle assessment"
+      ],
+      "facet": "concept_distinction",
+      "text": "分布式能源与生命周期评价应作概念区分：分布式能源是靠近用户或负荷侧布置的小型供能资源；生命周期评价是评估产品从原料到处置全过程环境影响的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C15_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C15_3",
+      "topic": "分布式能源与循环经济",
+      "keywords_en": [
+        "distributed energy",
+        "circular economy"
+      ],
+      "facet": "concept_distinction",
+      "text": "分布式能源与循环经济应作概念区分：分布式能源是靠近用户或负荷侧布置的小型供能资源；循环经济是强调减量、再利用与资源循环的经济模式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C15_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C15_4",
+      "topic": "分布式能源与生态系统服务",
+      "keywords_en": [
+        "distributed energy",
+        "ecosystem services"
+      ],
+      "facet": "concept_distinction",
+      "text": "分布式能源与生态系统服务应作概念区分：分布式能源是靠近用户或负荷侧布置的小型供能资源；生态系统服务是生态系统对人类福祉作出的贡献。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C16_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C16_1",
+      "topic": "能源贫困与生命周期评价",
+      "keywords_en": [
+        "energy poverty",
+        "life cycle assessment"
+      ],
+      "facet": "concept_distinction",
+      "text": "能源贫困与生命周期评价应作概念区分：能源贫困是家庭难以负担满足基本需要的能源服务；生命周期评价是评估产品从原料到处置全过程环境影响的方法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C16_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C16_2",
+      "topic": "能源贫困与循环经济",
+      "keywords_en": [
+        "energy poverty",
+        "circular economy"
+      ],
+      "facet": "concept_distinction",
+      "text": "能源贫困与循环经济应作概念区分：能源贫困是家庭难以负担满足基本需要的能源服务；循环经济是强调减量、再利用与资源循环的经济模式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C16_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C16_3",
+      "topic": "能源贫困与生态系统服务",
+      "keywords_en": [
+        "energy poverty",
+        "ecosystem services"
+      ],
+      "facet": "concept_distinction",
+      "text": "能源贫困与生态系统服务应作概念区分：能源贫困是家庭难以负担满足基本需要的能源服务；生态系统服务是生态系统对人类福祉作出的贡献。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C16_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C16_4",
+      "topic": "能源贫困与环境正义",
+      "keywords_en": [
+        "energy poverty",
+        "environmental justice"
+      ],
+      "facet": "concept_distinction",
+      "text": "能源贫困与环境正义应作概念区分：能源贫困是家庭难以负担满足基本需要的能源服务；环境正义是关注环境风险和收益在不同群体间的公平分配。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C17_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C17_1",
+      "topic": "生命周期评价与循环经济",
+      "keywords_en": [
+        "life cycle assessment",
+        "circular economy"
+      ],
+      "facet": "concept_distinction",
+      "text": "生命周期评价与循环经济应作概念区分：生命周期评价是评估产品从原料到处置全过程环境影响的方法；循环经济是强调减量、再利用与资源循环的经济模式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C17_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C17_2",
+      "topic": "生命周期评价与生态系统服务",
+      "keywords_en": [
+        "life cycle assessment",
+        "ecosystem services"
+      ],
+      "facet": "concept_distinction",
+      "text": "生命周期评价与生态系统服务应作概念区分：生命周期评价是评估产品从原料到处置全过程环境影响的方法；生态系统服务是生态系统对人类福祉作出的贡献。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C17_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C17_3",
+      "topic": "生命周期评价与环境正义",
+      "keywords_en": [
+        "life cycle assessment",
+        "environmental justice"
+      ],
+      "facet": "concept_distinction",
+      "text": "生命周期评价与环境正义应作概念区分：生命周期评价是评估产品从原料到处置全过程环境影响的方法；环境正义是关注环境风险和收益在不同群体间的公平分配。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C17_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C17_4",
+      "topic": "生命周期评价与温室气体",
+      "keywords_en": [
+        "life cycle assessment",
+        "greenhouse gas"
+      ],
+      "facet": "concept_distinction",
+      "text": "生命周期评价与温室气体应作概念区分：生命周期评价是评估产品从原料到处置全过程环境影响的方法；温室气体是吸收并重新辐射部分地球长波辐射的气体。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C18_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C18_1",
+      "topic": "循环经济与生态系统服务",
+      "keywords_en": [
+        "circular economy",
+        "ecosystem services"
+      ],
+      "facet": "concept_distinction",
+      "text": "循环经济与生态系统服务应作概念区分：循环经济是强调减量、再利用与资源循环的经济模式；生态系统服务是生态系统对人类福祉作出的贡献。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C18_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C18_2",
+      "topic": "循环经济与环境正义",
+      "keywords_en": [
+        "circular economy",
+        "environmental justice"
+      ],
+      "facet": "concept_distinction",
+      "text": "循环经济与环境正义应作概念区分：循环经济是强调减量、再利用与资源循环的经济模式；环境正义是关注环境风险和收益在不同群体间的公平分配。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C18_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C18_3",
+      "topic": "循环经济与温室气体",
+      "keywords_en": [
+        "circular economy",
+        "greenhouse gas"
+      ],
+      "facet": "concept_distinction",
+      "text": "循环经济与温室气体应作概念区分：循环经济是强调减量、再利用与资源循环的经济模式；温室气体是吸收并重新辐射部分地球长波辐射的气体。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C18_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C18_4",
+      "topic": "循环经济与碳足迹",
+      "keywords_en": [
+        "circular economy",
+        "carbon footprint"
+      ],
+      "facet": "concept_distinction",
+      "text": "循环经济与碳足迹应作概念区分：循环经济是强调减量、再利用与资源循环的经济模式；碳足迹是活动或产品生命周期的温室气体排放估算。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C19_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C19_1",
+      "topic": "生态系统服务与环境正义",
+      "keywords_en": [
+        "ecosystem services",
+        "environmental justice"
+      ],
+      "facet": "concept_distinction",
+      "text": "生态系统服务与环境正义应作概念区分：生态系统服务是生态系统对人类福祉作出的贡献；环境正义是关注环境风险和收益在不同群体间的公平分配。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C19_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C19_2",
+      "topic": "生态系统服务与温室气体",
+      "keywords_en": [
+        "ecosystem services",
+        "greenhouse gas"
+      ],
+      "facet": "concept_distinction",
+      "text": "生态系统服务与温室气体应作概念区分：生态系统服务是生态系统对人类福祉作出的贡献；温室气体是吸收并重新辐射部分地球长波辐射的气体。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C19_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C19_3",
+      "topic": "生态系统服务与碳足迹",
+      "keywords_en": [
+        "ecosystem services",
+        "carbon footprint"
+      ],
+      "facet": "concept_distinction",
+      "text": "生态系统服务与碳足迹应作概念区分：生态系统服务是生态系统对人类福祉作出的贡献；碳足迹是活动或产品生命周期的温室气体排放估算。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C19_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C19_4",
+      "topic": "生态系统服务与气候变化",
+      "keywords_en": [
+        "ecosystem services",
+        "climate change"
+      ],
+      "facet": "concept_distinction",
+      "text": "生态系统服务与气候变化应作概念区分：生态系统服务是生态系统对人类福祉作出的贡献；气候变化是长期气候统计特征发生变化的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C20_1",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C20_1",
+      "topic": "环境正义与温室气体",
+      "keywords_en": [
+        "environmental justice",
+        "greenhouse gas"
+      ],
+      "facet": "concept_distinction",
+      "text": "环境正义与温室气体应作概念区分：环境正义是关注环境风险和收益在不同群体间的公平分配；温室气体是吸收并重新辐射部分地球长波辐射的气体。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C20_2",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C20_2",
+      "topic": "环境正义与碳足迹",
+      "keywords_en": [
+        "environmental justice",
+        "carbon footprint"
+      ],
+      "facet": "concept_distinction",
+      "text": "环境正义与碳足迹应作概念区分：环境正义是关注环境风险和收益在不同群体间的公平分配；碳足迹是活动或产品生命周期的温室气体排放估算。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C20_3",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C20_3",
+      "topic": "环境正义与气候变化",
+      "keywords_en": [
+        "environmental justice",
+        "climate change"
+      ],
+      "facet": "concept_distinction",
+      "text": "环境正义与气候变化应作概念区分：环境正义是关注环境风险和收益在不同群体间的公平分配；气候变化是长期气候统计特征发生变化的现象。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_environment_energy_C20_4",
+      "domain": "environment_energy",
+      "concept_id": "environment_energy_C20_4",
+      "topic": "环境正义与气候适应",
+      "keywords_en": [
+        "environmental justice",
+        "climate adaptation"
+      ],
+      "facet": "concept_distinction",
+      "text": "环境正义与气候适应应作概念区分：环境正义是关注环境风险和收益在不同群体间的公平分配；气候适应是为降低已发生或预期气候影响而调整系统。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

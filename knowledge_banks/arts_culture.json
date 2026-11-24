@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "arts_culture",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_arts_culture_D01",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D01",
+      "topic": "文化遗产",
+      "keywords_en": [
+        "cultural heritage"
+      ],
+      "facet": "definition",
+      "text": "文化遗产（cultural heritage）：由社会继承并赋予价值的物质与非物质文化资源。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D02",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D02",
+      "topic": "艺术创作",
+      "keywords_en": [
+        "artistic creation"
+      ],
+      "facet": "definition",
+      "text": "艺术创作（artistic creation）：通过媒介与形式表达概念体验或审美的活动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D03",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D03",
+      "topic": "创作过程",
+      "keywords_en": [
+        "creative process"
+      ],
+      "facet": "definition",
+      "text": "创作过程（creative process）：从构思实验制作到修改的工作环节。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D04",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D04",
+      "topic": "媒介",
+      "keywords_en": [
+        "medium"
+      ],
+      "facet": "definition",
+      "text": "媒介（medium）：承载艺术表达的材料技术或传播渠道。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D05",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D05",
+      "topic": "视觉叙事",
+      "keywords_en": [
+        "visual storytelling"
+      ],
+      "facet": "definition",
+      "text": "视觉叙事（visual storytelling）：通过画面构图和连续视觉元素组织意义。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D06",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D06",
+      "topic": "电影修复",
+      "keywords_en": [
+        "film restoration"
+      ],
+      "facet": "definition",
+      "text": "电影修复（film restoration）：对电影载体或数字影像损伤进行保护和修复的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D07",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D07",
+      "topic": "色彩校正",
+      "keywords_en": [
+        "color grading"
+      ],
+      "facet": "definition",
+      "text": "色彩校正（color grading）：调整影像色彩与亮度以实现视觉目标的工艺。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D08",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D08",
+      "topic": "声音设计",
+      "keywords_en": [
+        "sound design"
+      ],
+      "facet": "definition",
+      "text": "声音设计（sound design）：组织对白音效环境声与音乐的创作过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D09",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D09",
+      "topic": "版权",
+      "keywords_en": [
+        "copyright"
+      ],
+      "facet": "definition",
+      "text": "版权（copyright）：对原创作品表达形式提供的法定权利。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D10",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D10",
+      "topic": "合理使用",
+      "keywords_en": [
+        "fair use"
+      ],
+      "facet": "definition",
+      "text": "合理使用（fair use）：在特定法律条件下不经授权使用受保护作品的例外。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D11",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D11",
+      "topic": "公共领域",
+      "keywords_en": [
+        "public domain"
+      ],
+      "facet": "definition",
+      "text": "公共领域（public domain）：不再受相关专有版权保护的作品范围。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D12",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D12",
+      "topic": "创意实践研究",
+      "keywords_en": [
+        "practice based research"
+      ],
+      "facet": "definition",
+      "text": "创意实践研究（practice based research）：将创作过程与作品纳入系统知识生产的研究形式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D13",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D13",
+      "topic": "艺术档案",
+      "keywords_en": [
+        "art archives"
+      ],
+      "facet": "definition",
+      "text": "艺术档案（art archives）：保存作品草稿过程材料和相关元数据的集合。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D14",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D14",
+      "topic": "策展",
+      "keywords_en": [
+        "curation"
+      ],
+      "facet": "definition",
+      "text": "策展（curation）：围绕主题挑选组织与解释展品的实践。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D15",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D15",
+      "topic": "艺术接受",
+      "keywords_en": [
+        "audience reception"
+      ],
+      "facet": "definition",
+      "text": "艺术接受（audience reception）：观众如何感知解释和评价作品的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D16",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D16",
+      "topic": "审美经验",
+      "keywords_en": [
+        "aesthetic experience"
+      ],
+      "facet": "definition",
+      "text": "审美经验（aesthetic experience）：个体在感知艺术或环境时产生的体验与判断。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D17",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D17",
+      "topic": "文学体裁",
+      "keywords_en": [
+        "literary genre"
+      ],
+      "facet": "definition",
+      "text": "文学体裁（literary genre）：依据形式和表达惯例划分的作品类别。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D18",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D18",
+      "topic": "叙事视角",
+      "keywords_en": [
+        "narrative perspective"
+      ],
+      "facet": "definition",
+      "text": "叙事视角（narrative perspective）：故事中信息通过何种讲述位置呈现的方式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D19",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D19",
+      "topic": "表演艺术",
+      "keywords_en": [
+        "performing arts"
+      ],
+      "facet": "definition",
+      "text": "表演艺术（performing arts）：依赖现场或录制表演过程实现表达的艺术形式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_D20",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_D20",
+      "topic": "文化传播",
+      "keywords_en": [
+        "cultural dissemination"
+      ],
+      "facet": "definition",
+      "text": "文化传播（cultural dissemination）：作品和观念在不同人群媒介与情境间流通的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C01_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C01_1",
+      "topic": "文化遗产与艺术创作",
+      "keywords_en": [
+        "cultural heritage",
+        "artistic creation"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化遗产与艺术创作应作概念区分：文化遗产是由社会继承并赋予价值的物质与非物质文化资源；艺术创作是通过媒介与形式表达概念体验或审美的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C01_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C01_2",
+      "topic": "文化遗产与创作过程",
+      "keywords_en": [
+        "cultural heritage",
+        "creative process"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化遗产与创作过程应作概念区分：文化遗产是由社会继承并赋予价值的物质与非物质文化资源；创作过程是从构思实验制作到修改的工作环节。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C01_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C01_3",
+      "topic": "文化遗产与媒介",
+      "keywords_en": [
+        "cultural heritage",
+        "medium"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化遗产与媒介应作概念区分：文化遗产是由社会继承并赋予价值的物质与非物质文化资源；媒介是承载艺术表达的材料技术或传播渠道。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C01_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C01_4",
+      "topic": "文化遗产与视觉叙事",
+      "keywords_en": [
+        "cultural heritage",
+        "visual storytelling"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化遗产与视觉叙事应作概念区分：文化遗产是由社会继承并赋予价值的物质与非物质文化资源；视觉叙事是通过画面构图和连续视觉元素组织意义。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C02_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C02_1",
+      "topic": "艺术创作与创作过程",
+      "keywords_en": [
+        "artistic creation",
+        "creative process"
+      ],
+      "facet": "concept_distinction",
+      "text": "艺术创作与创作过程应作概念区分：艺术创作是通过媒介与形式表达概念体验或审美的活动；创作过程是从构思实验制作到修改的工作环节。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C02_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C02_2",
+      "topic": "艺术创作与媒介",
+      "keywords_en": [
+        "artistic creation",
+        "medium"
+      ],
+      "facet": "concept_distinction",
+      "text": "艺术创作与媒介应作概念区分：艺术创作是通过媒介与形式表达概念体验或审美的活动；媒介是承载艺术表达的材料技术或传播渠道。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C02_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C02_3",
+      "topic": "艺术创作与视觉叙事",
+      "keywords_en": [
+        "artistic creation",
+        "visual storytelling"
+      ],
+      "facet": "concept_distinction",
+      "text": "艺术创作与视觉叙事应作概念区分：艺术创作是通过媒介与形式表达概念体验或审美的活动；视觉叙事是通过画面构图和连续视觉元素组织意义。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C02_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C02_4",
+      "topic": "艺术创作与电影修复",
+      "keywords_en": [
+        "artistic creation",
+        "film restoration"
+      ],
+      "facet": "concept_distinction",
+      "text": "艺术创作与电影修复应作概念区分：艺术创作是通过媒介与形式表达概念体验或审美的活动；电影修复是对电影载体或数字影像损伤进行保护和修复的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C03_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C03_1",
+      "topic": "创作过程与媒介",
+      "keywords_en": [
+        "creative process",
+        "medium"
+      ],
+      "facet": "concept_distinction",
+      "text": "创作过程与媒介应作概念区分：创作过程是从构思实验制作到修改的工作环节；媒介是承载艺术表达的材料技术或传播渠道。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C03_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C03_2",
+      "topic": "创作过程与视觉叙事",
+      "keywords_en": [
+        "creative process",
+        "visual storytelling"
+      ],
+      "facet": "concept_distinction",
+      "text": "创作过程与视觉叙事应作概念区分：创作过程是从构思实验制作到修改的工作环节；视觉叙事是通过画面构图和连续视觉元素组织意义。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C03_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C03_3",
+      "topic": "创作过程与电影修复",
+      "keywords_en": [
+        "creative process",
+        "film restoration"
+      ],
+      "facet": "concept_distinction",
+      "text": "创作过程与电影修复应作概念区分：创作过程是从构思实验制作到修改的工作环节；电影修复是对电影载体或数字影像损伤进行保护和修复的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C03_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C03_4",
+      "topic": "创作过程与色彩校正",
+      "keywords_en": [
+        "creative process",
+        "color grading"
+      ],
+      "facet": "concept_distinction",
+      "text": "创作过程与色彩校正应作概念区分：创作过程是从构思实验制作到修改的工作环节；色彩校正是调整影像色彩与亮度以实现视觉目标的工艺。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C04_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C04_1",
+      "topic": "媒介与视觉叙事",
+      "keywords_en": [
+        "medium",
+        "visual storytelling"
+      ],
+      "facet": "concept_distinction",
+      "text": "媒介与视觉叙事应作概念区分：媒介是承载艺术表达的材料技术或传播渠道；视觉叙事是通过画面构图和连续视觉元素组织意义。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C04_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C04_2",
+      "topic": "媒介与电影修复",
+      "keywords_en": [
+        "medium",
+        "film restoration"
+      ],
+      "facet": "concept_distinction",
+      "text": "媒介与电影修复应作概念区分：媒介是承载艺术表达的材料技术或传播渠道；电影修复是对电影载体或数字影像损伤进行保护和修复的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C04_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C04_3",
+      "topic": "媒介与色彩校正",
+      "keywords_en": [
+        "medium",
+        "color grading"
+      ],
+      "facet": "concept_distinction",
+      "text": "媒介与色彩校正应作概念区分：媒介是承载艺术表达的材料技术或传播渠道；色彩校正是调整影像色彩与亮度以实现视觉目标的工艺。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C04_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C04_4",
+      "topic": "媒介与声音设计",
+      "keywords_en": [
+        "medium",
+        "sound design"
+      ],
+      "facet": "concept_distinction",
+      "text": "媒介与声音设计应作概念区分：媒介是承载艺术表达的材料技术或传播渠道；声音设计是组织对白音效环境声与音乐的创作过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C05_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C05_1",
+      "topic": "视觉叙事与电影修复",
+      "keywords_en": [
+        "visual storytelling",
+        "film restoration"
+      ],
+      "facet": "concept_distinction",
+      "text": "视觉叙事与电影修复应作概念区分：视觉叙事是通过画面构图和连续视觉元素组织意义；电影修复是对电影载体或数字影像损伤进行保护和修复的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C05_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C05_2",
+      "topic": "视觉叙事与色彩校正",
+      "keywords_en": [
+        "visual storytelling",
+        "color grading"
+      ],
+      "facet": "concept_distinction",
+      "text": "视觉叙事与色彩校正应作概念区分：视觉叙事是通过画面构图和连续视觉元素组织意义；色彩校正是调整影像色彩与亮度以实现视觉目标的工艺。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C05_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C05_3",
+      "topic": "视觉叙事与声音设计",
+      "keywords_en": [
+        "visual storytelling",
+        "sound design"
+      ],
+      "facet": "concept_distinction",
+      "text": "视觉叙事与声音设计应作概念区分：视觉叙事是通过画面构图和连续视觉元素组织意义；声音设计是组织对白音效环境声与音乐的创作过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C05_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C05_4",
+      "topic": "视觉叙事与版权",
+      "keywords_en": [
+        "visual storytelling",
+        "copyright"
+      ],
+      "facet": "concept_distinction",
+      "text": "视觉叙事与版权应作概念区分：视觉叙事是通过画面构图和连续视觉元素组织意义；版权是对原创作品表达形式提供的法定权利。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C06_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C06_1",
+      "topic": "电影修复与色彩校正",
+      "keywords_en": [
+        "film restoration",
+        "color grading"
+      ],
+      "facet": "concept_distinction",
+      "text": "电影修复与色彩校正应作概念区分：电影修复是对电影载体或数字影像损伤进行保护和修复的过程；色彩校正是调整影像色彩与亮度以实现视觉目标的工艺。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C06_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C06_2",
+      "topic": "电影修复与声音设计",
+      "keywords_en": [
+        "film restoration",
+        "sound design"
+      ],
+      "facet": "concept_distinction",
+      "text": "电影修复与声音设计应作概念区分：电影修复是对电影载体或数字影像损伤进行保护和修复的过程；声音设计是组织对白音效环境声与音乐的创作过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C06_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C06_3",
+      "topic": "电影修复与版权",
+      "keywords_en": [
+        "film restoration",
+        "copyright"
+      ],
+      "facet": "concept_distinction",
+      "text": "电影修复与版权应作概念区分：电影修复是对电影载体或数字影像损伤进行保护和修复的过程；版权是对原创作品表达形式提供的法定权利。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C06_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C06_4",
+      "topic": "电影修复与合理使用",
+      "keywords_en": [
+        "film restoration",
+        "fair use"
+      ],
+      "facet": "concept_distinction",
+      "text": "电影修复与合理使用应作概念区分：电影修复是对电影载体或数字影像损伤进行保护和修复的过程；合理使用是在特定法律条件下不经授权使用受保护作品的例外。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C07_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C07_1",
+      "topic": "色彩校正与声音设计",
+      "keywords_en": [
+        "color grading",
+        "sound design"
+      ],
+      "facet": "concept_distinction",
+      "text": "色彩校正与声音设计应作概念区分：色彩校正是调整影像色彩与亮度以实现视觉目标的工艺；声音设计是组织对白音效环境声与音乐的创作过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C07_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C07_2",
+      "topic": "色彩校正与版权",
+      "keywords_en": [
+        "color grading",
+        "copyright"
+      ],
+      "facet": "concept_distinction",
+      "text": "色彩校正与版权应作概念区分：色彩校正是调整影像色彩与亮度以实现视觉目标的工艺；版权是对原创作品表达形式提供的法定权利。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C07_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C07_3",
+      "topic": "色彩校正与合理使用",
+      "keywords_en": [
+        "color grading",
+        "fair use"
+      ],
+      "facet": "concept_distinction",
+      "text": "色彩校正与合理使用应作概念区分：色彩校正是调整影像色彩与亮度以实现视觉目标的工艺；合理使用是在特定法律条件下不经授权使用受保护作品的例外。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C07_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C07_4",
+      "topic": "色彩校正与公共领域",
+      "keywords_en": [
+        "color grading",
+        "public domain"
+      ],
+      "facet": "concept_distinction",
+      "text": "色彩校正与公共领域应作概念区分：色彩校正是调整影像色彩与亮度以实现视觉目标的工艺；公共领域是不再受相关专有版权保护的作品范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C08_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C08_1",
+      "topic": "声音设计与版权",
+      "keywords_en": [
+        "sound design",
+        "copyright"
+      ],
+      "facet": "concept_distinction",
+      "text": "声音设计与版权应作概念区分：声音设计是组织对白音效环境声与音乐的创作过程；版权是对原创作品表达形式提供的法定权利。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C08_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C08_2",
+      "topic": "声音设计与合理使用",
+      "keywords_en": [
+        "sound design",
+        "fair use"
+      ],
+      "facet": "concept_distinction",
+      "text": "声音设计与合理使用应作概念区分：声音设计是组织对白音效环境声与音乐的创作过程；合理使用是在特定法律条件下不经授权使用受保护作品的例外。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C08_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C08_3",
+      "topic": "声音设计与公共领域",
+      "keywords_en": [
+        "sound design",
+        "public domain"
+      ],
+      "facet": "concept_distinction",
+      "text": "声音设计与公共领域应作概念区分：声音设计是组织对白音效环境声与音乐的创作过程；公共领域是不再受相关专有版权保护的作品范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C08_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C08_4",
+      "topic": "声音设计与创意实践研究",
+      "keywords_en": [
+        "sound design",
+        "practice based research"
+      ],
+      "facet": "concept_distinction",
+      "text": "声音设计与创意实践研究应作概念区分：声音设计是组织对白音效环境声与音乐的创作过程；创意实践研究是将创作过程与作品纳入系统知识生产的研究形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C09_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C09_1",
+      "topic": "版权与合理使用",
+      "keywords_en": [
+        "copyright",
+        "fair use"
+      ],
+      "facet": "concept_distinction",
+      "text": "版权与合理使用应作概念区分：版权是对原创作品表达形式提供的法定权利；合理使用是在特定法律条件下不经授权使用受保护作品的例外。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C09_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C09_2",
+      "topic": "版权与公共领域",
+      "keywords_en": [
+        "copyright",
+        "public domain"
+      ],
+      "facet": "concept_distinction",
+      "text": "版权与公共领域应作概念区分：版权是对原创作品表达形式提供的法定权利；公共领域是不再受相关专有版权保护的作品范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C09_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C09_3",
+      "topic": "版权与创意实践研究",
+      "keywords_en": [
+        "copyright",
+        "practice based research"
+      ],
+      "facet": "concept_distinction",
+      "text": "版权与创意实践研究应作概念区分：版权是对原创作品表达形式提供的法定权利；创意实践研究是将创作过程与作品纳入系统知识生产的研究形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C09_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C09_4",
+      "topic": "版权与艺术档案",
+      "keywords_en": [
+        "copyright",
+        "art archives"
+      ],
+      "facet": "concept_distinction",
+      "text": "版权与艺术档案应作概念区分：版权是对原创作品表达形式提供的法定权利；艺术档案是保存作品草稿过程材料和相关元数据的集合。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C10_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C10_1",
+      "topic": "合理使用与公共领域",
+      "keywords_en": [
+        "fair use",
+        "public domain"
+      ],
+      "facet": "concept_distinction",
+      "text": "合理使用与公共领域应作概念区分：合理使用是在特定法律条件下不经授权使用受保护作品的例外；公共领域是不再受相关专有版权保护的作品范围。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C10_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C10_2",
+      "topic": "合理使用与创意实践研究",
+      "keywords_en": [
+        "fair use",
+        "practice based research"
+      ],
+      "facet": "concept_distinction",
+      "text": "合理使用与创意实践研究应作概念区分：合理使用是在特定法律条件下不经授权使用受保护作品的例外；创意实践研究是将创作过程与作品纳入系统知识生产的研究形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C10_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C10_3",
+      "topic": "合理使用与艺术档案",
+      "keywords_en": [
+        "fair use",
+        "art archives"
+      ],
+      "facet": "concept_distinction",
+      "text": "合理使用与艺术档案应作概念区分：合理使用是在特定法律条件下不经授权使用受保护作品的例外；艺术档案是保存作品草稿过程材料和相关元数据的集合。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C10_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C10_4",
+      "topic": "合理使用与策展",
+      "keywords_en": [
+        "fair use",
+        "curation"
+      ],
+      "facet": "concept_distinction",
+      "text": "合理使用与策展应作概念区分：合理使用是在特定法律条件下不经授权使用受保护作品的例外；策展是围绕主题挑选组织与解释展品的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C11_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C11_1",
+      "topic": "公共领域与创意实践研究",
+      "keywords_en": [
+        "public domain",
+        "practice based research"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共领域与创意实践研究应作概念区分：公共领域是不再受相关专有版权保护的作品范围；创意实践研究是将创作过程与作品纳入系统知识生产的研究形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C11_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C11_2",
+      "topic": "公共领域与艺术档案",
+      "keywords_en": [
+        "public domain",
+        "art archives"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共领域与艺术档案应作概念区分：公共领域是不再受相关专有版权保护的作品范围；艺术档案是保存作品草稿过程材料和相关元数据的集合。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C11_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C11_3",
+      "topic": "公共领域与策展",
+      "keywords_en": [
+        "public domain",
+        "curation"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共领域与策展应作概念区分：公共领域是不再受相关专有版权保护的作品范围；策展是围绕主题挑选组织与解释展品的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C11_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C11_4",
+      "topic": "公共领域与艺术接受",
+      "keywords_en": [
+        "public domain",
+        "audience reception"
+      ],
+      "facet": "concept_distinction",
+      "text": "公共领域与艺术接受应作概念区分：公共领域是不再受相关专有版权保护的作品范围；艺术接受是观众如何感知解释和评价作品的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C12_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C12_1",
+      "topic": "创意实践研究与艺术档案",
+      "keywords_en": [
+        "practice based research",
+        "art archives"
+      ],
+      "facet": "concept_distinction",
+      "text": "创意实践研究与艺术档案应作概念区分：创意实践研究是将创作过程与作品纳入系统知识生产的研究形式；艺术档案是保存作品草稿过程材料和相关元数据的集合。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C12_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C12_2",
+      "topic": "创意实践研究与策展",
+      "keywords_en": [
+        "practice based research",
+        "curation"
+      ],
+      "facet": "concept_distinction",
+      "text": "创意实践研究与策展应作概念区分：创意实践研究是将创作过程与作品纳入系统知识生产的研究形式；策展是围绕主题挑选组织与解释展品的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C12_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C12_3",
+      "topic": "创意实践研究与艺术接受",
+      "keywords_en": [
+        "practice based research",
+        "audience reception"
+      ],
+      "facet": "concept_distinction",
+      "text": "创意实践研究与艺术接受应作概念区分：创意实践研究是将创作过程与作品纳入系统知识生产的研究形式；艺术接受是观众如何感知解释和评价作品的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C12_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C12_4",
+      "topic": "创意实践研究与审美经验",
+      "keywords_en": [
+        "practice based research",
+        "aesthetic experience"
+      ],
+      "facet": "concept_distinction",
+      "text": "创意实践研究与审美经验应作概念区分：创意实践研究是将创作过程与作品纳入系统知识生产的研究形式；审美经验是个体在感知艺术或环境时产生的体验与判断。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C13_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C13_1",
+      "topic": "艺术档案与策展",
+      "keywords_en": [
+        "art archives",
+        "curation"
+      ],
+      "facet": "concept_distinction",
+      "text": "艺术档案与策展应作概念区分：艺术档案是保存作品草稿过程材料和相关元数据的集合；策展是围绕主题挑选组织与解释展品的实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C13_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C13_2",
+      "topic": "艺术档案与艺术接受",
+      "keywords_en": [
+        "art archives",
+        "audience reception"
+      ],
+      "facet": "concept_distinction",
+      "text": "艺术档案与艺术接受应作概念区分：艺术档案是保存作品草稿过程材料和相关元数据的集合；艺术接受是观众如何感知解释和评价作品的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C13_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C13_3",
+      "topic": "艺术档案与审美经验",
+      "keywords_en": [
+        "art archives",
+        "aesthetic experience"
+      ],
+      "facet": "concept_distinction",
+      "text": "艺术档案与审美经验应作概念区分：艺术档案是保存作品草稿过程材料和相关元数据的集合；审美经验是个体在感知艺术或环境时产生的体验与判断。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C13_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C13_4",
+      "topic": "艺术档案与文学体裁",
+      "keywords_en": [
+        "art archives",
+        "literary genre"
+      ],
+      "facet": "concept_distinction",
+      "text": "艺术档案与文学体裁应作概念区分：艺术档案是保存作品草稿过程材料和相关元数据的集合；文学体裁是依据形式和表达惯例划分的作品类别。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C14_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C14_1",
+      "topic": "策展与艺术接受",
+      "keywords_en": [
+        "curation",
+        "audience reception"
+      ],
+      "facet": "concept_distinction",
+      "text": "策展与艺术接受应作概念区分：策展是围绕主题挑选组织与解释展品的实践；艺术接受是观众如何感知解释和评价作品的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C14_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C14_2",
+      "topic": "策展与审美经验",
+      "keywords_en": [
+        "curation",
+        "aesthetic experience"
+      ],
+      "facet": "concept_distinction",
+      "text": "策展与审美经验应作概念区分：策展是围绕主题挑选组织与解释展品的实践；审美经验是个体在感知艺术或环境时产生的体验与判断。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C14_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C14_3",
+      "topic": "策展与文学体裁",
+      "keywords_en": [
+        "curation",
+        "literary genre"
+      ],
+      "facet": "concept_distinction",
+      "text": "策展与文学体裁应作概念区分：策展是围绕主题挑选组织与解释展品的实践；文学体裁是依据形式和表达惯例划分的作品类别。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C14_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C14_4",
+      "topic": "策展与叙事视角",
+      "keywords_en": [
+        "curation",
+        "narrative perspective"
+      ],
+      "facet": "concept_distinction",
+      "text": "策展与叙事视角应作概念区分：策展是围绕主题挑选组织与解释展品的实践；叙事视角是故事中信息通过何种讲述位置呈现的方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C15_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C15_1",
+      "topic": "艺术接受与审美经验",
+      "keywords_en": [
+        "audience reception",
+        "aesthetic experience"
+      ],
+      "facet": "concept_distinction",
+      "text": "艺术接受与审美经验应作概念区分：艺术接受是观众如何感知解释和评价作品的过程；审美经验是个体在感知艺术或环境时产生的体验与判断。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C15_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C15_2",
+      "topic": "艺术接受与文学体裁",
+      "keywords_en": [
+        "audience reception",
+        "literary genre"
+      ],
+      "facet": "concept_distinction",
+      "text": "艺术接受与文学体裁应作概念区分：艺术接受是观众如何感知解释和评价作品的过程；文学体裁是依据形式和表达惯例划分的作品类别。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C15_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C15_3",
+      "topic": "艺术接受与叙事视角",
+      "keywords_en": [
+        "audience reception",
+        "narrative perspective"
+      ],
+      "facet": "concept_distinction",
+      "text": "艺术接受与叙事视角应作概念区分：艺术接受是观众如何感知解释和评价作品的过程；叙事视角是故事中信息通过何种讲述位置呈现的方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C15_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C15_4",
+      "topic": "艺术接受与表演艺术",
+      "keywords_en": [
+        "audience reception",
+        "performing arts"
+      ],
+      "facet": "concept_distinction",
+      "text": "艺术接受与表演艺术应作概念区分：艺术接受是观众如何感知解释和评价作品的过程；表演艺术是依赖现场或录制表演过程实现表达的艺术形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C16_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C16_1",
+      "topic": "审美经验与文学体裁",
+      "keywords_en": [
+        "aesthetic experience",
+        "literary genre"
+      ],
+      "facet": "concept_distinction",
+      "text": "审美经验与文学体裁应作概念区分：审美经验是个体在感知艺术或环境时产生的体验与判断；文学体裁是依据形式和表达惯例划分的作品类别。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C16_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C16_2",
+      "topic": "审美经验与叙事视角",
+      "keywords_en": [
+        "aesthetic experience",
+        "narrative perspective"
+      ],
+      "facet": "concept_distinction",
+      "text": "审美经验与叙事视角应作概念区分：审美经验是个体在感知艺术或环境时产生的体验与判断；叙事视角是故事中信息通过何种讲述位置呈现的方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C16_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C16_3",
+      "topic": "审美经验与表演艺术",
+      "keywords_en": [
+        "aesthetic experience",
+        "performing arts"
+      ],
+      "facet": "concept_distinction",
+      "text": "审美经验与表演艺术应作概念区分：审美经验是个体在感知艺术或环境时产生的体验与判断；表演艺术是依赖现场或录制表演过程实现表达的艺术形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C16_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C16_4",
+      "topic": "审美经验与文化传播",
+      "keywords_en": [
+        "aesthetic experience",
+        "cultural dissemination"
+      ],
+      "facet": "concept_distinction",
+      "text": "审美经验与文化传播应作概念区分：审美经验是个体在感知艺术或环境时产生的体验与判断；文化传播是作品和观念在不同人群媒介与情境间流通的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C17_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C17_1",
+      "topic": "文学体裁与叙事视角",
+      "keywords_en": [
+        "literary genre",
+        "narrative perspective"
+      ],
+      "facet": "concept_distinction",
+      "text": "文学体裁与叙事视角应作概念区分：文学体裁是依据形式和表达惯例划分的作品类别；叙事视角是故事中信息通过何种讲述位置呈现的方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C17_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C17_2",
+      "topic": "文学体裁与表演艺术",
+      "keywords_en": [
+        "literary genre",
+        "performing arts"
+      ],
+      "facet": "concept_distinction",
+      "text": "文学体裁与表演艺术应作概念区分：文学体裁是依据形式和表达惯例划分的作品类别；表演艺术是依赖现场或录制表演过程实现表达的艺术形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C17_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C17_3",
+      "topic": "文学体裁与文化传播",
+      "keywords_en": [
+        "literary genre",
+        "cultural dissemination"
+      ],
+      "facet": "concept_distinction",
+      "text": "文学体裁与文化传播应作概念区分：文学体裁是依据形式和表达惯例划分的作品类别；文化传播是作品和观念在不同人群媒介与情境间流通的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C17_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C17_4",
+      "topic": "文学体裁与文化遗产",
+      "keywords_en": [
+        "literary genre",
+        "cultural heritage"
+      ],
+      "facet": "concept_distinction",
+      "text": "文学体裁与文化遗产应作概念区分：文学体裁是依据形式和表达惯例划分的作品类别；文化遗产是由社会继承并赋予价值的物质与非物质文化资源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C18_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C18_1",
+      "topic": "叙事视角与表演艺术",
+      "keywords_en": [
+        "narrative perspective",
+        "performing arts"
+      ],
+      "facet": "concept_distinction",
+      "text": "叙事视角与表演艺术应作概念区分：叙事视角是故事中信息通过何种讲述位置呈现的方式；表演艺术是依赖现场或录制表演过程实现表达的艺术形式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C18_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C18_2",
+      "topic": "叙事视角与文化传播",
+      "keywords_en": [
+        "narrative perspective",
+        "cultural dissemination"
+      ],
+      "facet": "concept_distinction",
+      "text": "叙事视角与文化传播应作概念区分：叙事视角是故事中信息通过何种讲述位置呈现的方式；文化传播是作品和观念在不同人群媒介与情境间流通的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C18_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C18_3",
+      "topic": "叙事视角与文化遗产",
+      "keywords_en": [
+        "narrative perspective",
+        "cultural heritage"
+      ],
+      "facet": "concept_distinction",
+      "text": "叙事视角与文化遗产应作概念区分：叙事视角是故事中信息通过何种讲述位置呈现的方式；文化遗产是由社会继承并赋予价值的物质与非物质文化资源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C18_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C18_4",
+      "topic": "叙事视角与艺术创作",
+      "keywords_en": [
+        "narrative perspective",
+        "artistic creation"
+      ],
+      "facet": "concept_distinction",
+      "text": "叙事视角与艺术创作应作概念区分：叙事视角是故事中信息通过何种讲述位置呈现的方式；艺术创作是通过媒介与形式表达概念体验或审美的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C19_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C19_1",
+      "topic": "表演艺术与文化传播",
+      "keywords_en": [
+        "performing arts",
+        "cultural dissemination"
+      ],
+      "facet": "concept_distinction",
+      "text": "表演艺术与文化传播应作概念区分：表演艺术是依赖现场或录制表演过程实现表达的艺术形式；文化传播是作品和观念在不同人群媒介与情境间流通的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C19_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C19_2",
+      "topic": "表演艺术与文化遗产",
+      "keywords_en": [
+        "performing arts",
+        "cultural heritage"
+      ],
+      "facet": "concept_distinction",
+      "text": "表演艺术与文化遗产应作概念区分：表演艺术是依赖现场或录制表演过程实现表达的艺术形式；文化遗产是由社会继承并赋予价值的物质与非物质文化资源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C19_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C19_3",
+      "topic": "表演艺术与艺术创作",
+      "keywords_en": [
+        "performing arts",
+        "artistic creation"
+      ],
+      "facet": "concept_distinction",
+      "text": "表演艺术与艺术创作应作概念区分：表演艺术是依赖现场或录制表演过程实现表达的艺术形式；艺术创作是通过媒介与形式表达概念体验或审美的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C19_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C19_4",
+      "topic": "表演艺术与创作过程",
+      "keywords_en": [
+        "performing arts",
+        "creative process"
+      ],
+      "facet": "concept_distinction",
+      "text": "表演艺术与创作过程应作概念区分：表演艺术是依赖现场或录制表演过程实现表达的艺术形式；创作过程是从构思实验制作到修改的工作环节。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C20_1",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C20_1",
+      "topic": "文化传播与文化遗产",
+      "keywords_en": [
+        "cultural dissemination",
+        "cultural heritage"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化传播与文化遗产应作概念区分：文化传播是作品和观念在不同人群媒介与情境间流通的过程；文化遗产是由社会继承并赋予价值的物质与非物质文化资源。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C20_2",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C20_2",
+      "topic": "文化传播与艺术创作",
+      "keywords_en": [
+        "cultural dissemination",
+        "artistic creation"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化传播与艺术创作应作概念区分：文化传播是作品和观念在不同人群媒介与情境间流通的过程；艺术创作是通过媒介与形式表达概念体验或审美的活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C20_3",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C20_3",
+      "topic": "文化传播与创作过程",
+      "keywords_en": [
+        "cultural dissemination",
+        "creative process"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化传播与创作过程应作概念区分：文化传播是作品和观念在不同人群媒介与情境间流通的过程；创作过程是从构思实验制作到修改的工作环节。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_arts_culture_C20_4",
+      "domain": "arts_culture",
+      "concept_id": "arts_culture_C20_4",
+      "topic": "文化传播与媒介",
+      "keywords_en": [
+        "cultural dissemination",
+        "medium"
+      ],
+      "facet": "concept_distinction",
+      "text": "文化传播与媒介应作概念区分：文化传播是作品和观念在不同人群媒介与情境间流通的过程；媒介是承载艺术表达的材料技术或传播渠道。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}

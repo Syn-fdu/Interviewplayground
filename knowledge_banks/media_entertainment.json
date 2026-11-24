@@ -1,0 +1,1591 @@
+{
+  "schema_version": "knowledge_bank.v1",
+  "domain": "media_entertainment",
+  "count": 100,
+  "core_concept_count": 20,
+  "concept_distinction_count": 80,
+  "review_status": "editorial_draft_requires_expert_review",
+  "usage": "restricted_local_domain_background_only",
+  "entries": [
+    {
+      "knowledge_id": "KB_media_entertainment_D01",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D01",
+      "topic": "新闻采访",
+      "keywords_en": [
+        "news interview"
+      ],
+      "facet": "definition",
+      "text": "新闻采访（news interview）：为报道公共事件或人物而进行的信息采集交流。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D02",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D02",
+      "topic": "节目采访",
+      "keywords_en": [
+        "broadcast interview"
+      ],
+      "facet": "definition",
+      "text": "节目采访（broadcast interview）：面向观众或听众录制并编辑的采访活动。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D03",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D03",
+      "topic": "访谈节目",
+      "keywords_en": [
+        "talk show"
+      ],
+      "facet": "definition",
+      "text": "访谈节目（talk show）：以主持人与嘉宾对话为核心形式的节目。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D04",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D04",
+      "topic": "现场直播",
+      "keywords_en": [
+        "live broadcasting"
+      ],
+      "facet": "definition",
+      "text": "现场直播（live broadcasting）：内容在发生的同时传送给受众的传播方式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D05",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D05",
+      "topic": "录播",
+      "keywords_en": [
+        "recorded broadcast"
+      ],
+      "facet": "definition",
+      "text": "录播（recorded broadcast）：先采集后编辑并在指定时间发布的节目方式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D06",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D06",
+      "topic": "节目制作流程",
+      "keywords_en": [
+        "media production workflow"
+      ],
+      "facet": "definition",
+      "text": "节目制作流程（media production workflow）：选题策划录制编辑审核到发布的工作链。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D07",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D07",
+      "topic": "主持人提问",
+      "keywords_en": [
+        "host questions"
+      ],
+      "facet": "definition",
+      "text": "主持人提问（host questions）：通过语言组织访谈节奏与信息呈现的行为。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D08",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D08",
+      "topic": "媒体议程设置",
+      "keywords_en": [
+        "agenda setting"
+      ],
+      "facet": "definition",
+      "text": "媒体议程设置（agenda setting）：媒体突出某些议题影响公众关注程度的理论。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D09",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D09",
+      "topic": "新闻框架",
+      "keywords_en": [
+        "news framing"
+      ],
+      "facet": "definition",
+      "text": "新闻框架（news framing）：媒体选择和强调信息的叙事组织方式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D10",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D10",
+      "topic": "事实核查",
+      "keywords_en": [
+        "fact checking"
+      ],
+      "facet": "definition",
+      "text": "事实核查（fact checking）：对可验证陈述查找独立证据的过程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D11",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D11",
+      "topic": "消息来源",
+      "keywords_en": [
+        "sources"
+      ],
+      "facet": "definition",
+      "text": "消息来源（sources）：新闻或节目内容的信息提供者或材料出处。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D12",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D12",
+      "topic": "采访问责",
+      "keywords_en": [
+        "accountability interview"
+      ],
+      "facet": "definition",
+      "text": "采访问责（accountability interview）：对受访者主张提出证据与解释要求的采访做法。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D13",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D13",
+      "topic": "人物特写",
+      "keywords_en": [
+        "profile feature"
+      ],
+      "facet": "definition",
+      "text": "人物特写（profile feature）：聚焦特定人物经历与社会意义的报道类型。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D14",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D14",
+      "topic": "娱乐新闻",
+      "keywords_en": [
+        "entertainment news"
+      ],
+      "facet": "definition",
+      "text": "娱乐新闻（entertainment news）：以文化明星节目等娱乐行业活动为主要内容的报道。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D15",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D15",
+      "topic": "广播编辑",
+      "keywords_en": [
+        "audio editing"
+      ],
+      "facet": "definition",
+      "text": "广播编辑（audio editing）：对音频素材进行选择裁切和结构安排的流程。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D16",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D16",
+      "topic": "影视宣传采访",
+      "keywords_en": [
+        "promotional interview"
+      ],
+      "facet": "definition",
+      "text": "影视宣传采访（promotional interview）：围绕作品发布和创作人员开展的推广性对话。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D17",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D17",
+      "topic": "粉丝文化",
+      "keywords_en": [
+        "fandom"
+      ],
+      "facet": "definition",
+      "text": "粉丝文化（fandom）：围绕文化作品或人物形成的群体实践。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D18",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D18",
+      "topic": "流媒体",
+      "keywords_en": [
+        "streaming media"
+      ],
+      "facet": "definition",
+      "text": "流媒体（streaming media）：通过网络按需或连续传输音视频内容的分发方式。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D19",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D19",
+      "topic": "观众反馈",
+      "keywords_en": [
+        "audience feedback"
+      ],
+      "facet": "definition",
+      "text": "观众反馈（audience feedback）：受众通过评论收视或调查反馈对内容的反应。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_D20",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_D20",
+      "topic": "媒体伦理",
+      "keywords_en": [
+        "media ethics"
+      ],
+      "facet": "definition",
+      "text": "媒体伦理（media ethics）：涉及真实性独立性隐私及伤害控制的职业规范。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C01_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C01_1",
+      "topic": "新闻采访与节目采访",
+      "keywords_en": [
+        "news interview",
+        "broadcast interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "新闻采访与节目采访应作概念区分：新闻采访是为报道公共事件或人物而进行的信息采集交流；节目采访是面向观众或听众录制并编辑的采访活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C01_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C01_2",
+      "topic": "新闻采访与访谈节目",
+      "keywords_en": [
+        "news interview",
+        "talk show"
+      ],
+      "facet": "concept_distinction",
+      "text": "新闻采访与访谈节目应作概念区分：新闻采访是为报道公共事件或人物而进行的信息采集交流；访谈节目是以主持人与嘉宾对话为核心形式的节目。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C01_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C01_3",
+      "topic": "新闻采访与现场直播",
+      "keywords_en": [
+        "news interview",
+        "live broadcasting"
+      ],
+      "facet": "concept_distinction",
+      "text": "新闻采访与现场直播应作概念区分：新闻采访是为报道公共事件或人物而进行的信息采集交流；现场直播是内容在发生的同时传送给受众的传播方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C01_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C01_4",
+      "topic": "新闻采访与录播",
+      "keywords_en": [
+        "news interview",
+        "recorded broadcast"
+      ],
+      "facet": "concept_distinction",
+      "text": "新闻采访与录播应作概念区分：新闻采访是为报道公共事件或人物而进行的信息采集交流；录播是先采集后编辑并在指定时间发布的节目方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C02_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C02_1",
+      "topic": "节目采访与访谈节目",
+      "keywords_en": [
+        "broadcast interview",
+        "talk show"
+      ],
+      "facet": "concept_distinction",
+      "text": "节目采访与访谈节目应作概念区分：节目采访是面向观众或听众录制并编辑的采访活动；访谈节目是以主持人与嘉宾对话为核心形式的节目。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C02_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C02_2",
+      "topic": "节目采访与现场直播",
+      "keywords_en": [
+        "broadcast interview",
+        "live broadcasting"
+      ],
+      "facet": "concept_distinction",
+      "text": "节目采访与现场直播应作概念区分：节目采访是面向观众或听众录制并编辑的采访活动；现场直播是内容在发生的同时传送给受众的传播方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C02_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C02_3",
+      "topic": "节目采访与录播",
+      "keywords_en": [
+        "broadcast interview",
+        "recorded broadcast"
+      ],
+      "facet": "concept_distinction",
+      "text": "节目采访与录播应作概念区分：节目采访是面向观众或听众录制并编辑的采访活动；录播是先采集后编辑并在指定时间发布的节目方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C02_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C02_4",
+      "topic": "节目采访与节目制作流程",
+      "keywords_en": [
+        "broadcast interview",
+        "media production workflow"
+      ],
+      "facet": "concept_distinction",
+      "text": "节目采访与节目制作流程应作概念区分：节目采访是面向观众或听众录制并编辑的采访活动；节目制作流程是选题策划录制编辑审核到发布的工作链。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C03_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C03_1",
+      "topic": "访谈节目与现场直播",
+      "keywords_en": [
+        "talk show",
+        "live broadcasting"
+      ],
+      "facet": "concept_distinction",
+      "text": "访谈节目与现场直播应作概念区分：访谈节目是以主持人与嘉宾对话为核心形式的节目；现场直播是内容在发生的同时传送给受众的传播方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C03_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C03_2",
+      "topic": "访谈节目与录播",
+      "keywords_en": [
+        "talk show",
+        "recorded broadcast"
+      ],
+      "facet": "concept_distinction",
+      "text": "访谈节目与录播应作概念区分：访谈节目是以主持人与嘉宾对话为核心形式的节目；录播是先采集后编辑并在指定时间发布的节目方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C03_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C03_3",
+      "topic": "访谈节目与节目制作流程",
+      "keywords_en": [
+        "talk show",
+        "media production workflow"
+      ],
+      "facet": "concept_distinction",
+      "text": "访谈节目与节目制作流程应作概念区分：访谈节目是以主持人与嘉宾对话为核心形式的节目；节目制作流程是选题策划录制编辑审核到发布的工作链。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C03_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C03_4",
+      "topic": "访谈节目与主持人提问",
+      "keywords_en": [
+        "talk show",
+        "host questions"
+      ],
+      "facet": "concept_distinction",
+      "text": "访谈节目与主持人提问应作概念区分：访谈节目是以主持人与嘉宾对话为核心形式的节目；主持人提问是通过语言组织访谈节奏与信息呈现的行为。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C04_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C04_1",
+      "topic": "现场直播与录播",
+      "keywords_en": [
+        "live broadcasting",
+        "recorded broadcast"
+      ],
+      "facet": "concept_distinction",
+      "text": "现场直播与录播应作概念区分：现场直播是内容在发生的同时传送给受众的传播方式；录播是先采集后编辑并在指定时间发布的节目方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C04_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C04_2",
+      "topic": "现场直播与节目制作流程",
+      "keywords_en": [
+        "live broadcasting",
+        "media production workflow"
+      ],
+      "facet": "concept_distinction",
+      "text": "现场直播与节目制作流程应作概念区分：现场直播是内容在发生的同时传送给受众的传播方式；节目制作流程是选题策划录制编辑审核到发布的工作链。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C04_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C04_3",
+      "topic": "现场直播与主持人提问",
+      "keywords_en": [
+        "live broadcasting",
+        "host questions"
+      ],
+      "facet": "concept_distinction",
+      "text": "现场直播与主持人提问应作概念区分：现场直播是内容在发生的同时传送给受众的传播方式；主持人提问是通过语言组织访谈节奏与信息呈现的行为。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C04_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C04_4",
+      "topic": "现场直播与媒体议程设置",
+      "keywords_en": [
+        "live broadcasting",
+        "agenda setting"
+      ],
+      "facet": "concept_distinction",
+      "text": "现场直播与媒体议程设置应作概念区分：现场直播是内容在发生的同时传送给受众的传播方式；媒体议程设置是媒体突出某些议题影响公众关注程度的理论。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C05_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C05_1",
+      "topic": "录播与节目制作流程",
+      "keywords_en": [
+        "recorded broadcast",
+        "media production workflow"
+      ],
+      "facet": "concept_distinction",
+      "text": "录播与节目制作流程应作概念区分：录播是先采集后编辑并在指定时间发布的节目方式；节目制作流程是选题策划录制编辑审核到发布的工作链。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C05_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C05_2",
+      "topic": "录播与主持人提问",
+      "keywords_en": [
+        "recorded broadcast",
+        "host questions"
+      ],
+      "facet": "concept_distinction",
+      "text": "录播与主持人提问应作概念区分：录播是先采集后编辑并在指定时间发布的节目方式；主持人提问是通过语言组织访谈节奏与信息呈现的行为。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C05_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C05_3",
+      "topic": "录播与媒体议程设置",
+      "keywords_en": [
+        "recorded broadcast",
+        "agenda setting"
+      ],
+      "facet": "concept_distinction",
+      "text": "录播与媒体议程设置应作概念区分：录播是先采集后编辑并在指定时间发布的节目方式；媒体议程设置是媒体突出某些议题影响公众关注程度的理论。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C05_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C05_4",
+      "topic": "录播与新闻框架",
+      "keywords_en": [
+        "recorded broadcast",
+        "news framing"
+      ],
+      "facet": "concept_distinction",
+      "text": "录播与新闻框架应作概念区分：录播是先采集后编辑并在指定时间发布的节目方式；新闻框架是媒体选择和强调信息的叙事组织方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C06_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C06_1",
+      "topic": "节目制作流程与主持人提问",
+      "keywords_en": [
+        "media production workflow",
+        "host questions"
+      ],
+      "facet": "concept_distinction",
+      "text": "节目制作流程与主持人提问应作概念区分：节目制作流程是选题策划录制编辑审核到发布的工作链；主持人提问是通过语言组织访谈节奏与信息呈现的行为。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C06_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C06_2",
+      "topic": "节目制作流程与媒体议程设置",
+      "keywords_en": [
+        "media production workflow",
+        "agenda setting"
+      ],
+      "facet": "concept_distinction",
+      "text": "节目制作流程与媒体议程设置应作概念区分：节目制作流程是选题策划录制编辑审核到发布的工作链；媒体议程设置是媒体突出某些议题影响公众关注程度的理论。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C06_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C06_3",
+      "topic": "节目制作流程与新闻框架",
+      "keywords_en": [
+        "media production workflow",
+        "news framing"
+      ],
+      "facet": "concept_distinction",
+      "text": "节目制作流程与新闻框架应作概念区分：节目制作流程是选题策划录制编辑审核到发布的工作链；新闻框架是媒体选择和强调信息的叙事组织方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C06_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C06_4",
+      "topic": "节目制作流程与事实核查",
+      "keywords_en": [
+        "media production workflow",
+        "fact checking"
+      ],
+      "facet": "concept_distinction",
+      "text": "节目制作流程与事实核查应作概念区分：节目制作流程是选题策划录制编辑审核到发布的工作链；事实核查是对可验证陈述查找独立证据的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C07_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C07_1",
+      "topic": "主持人提问与媒体议程设置",
+      "keywords_en": [
+        "host questions",
+        "agenda setting"
+      ],
+      "facet": "concept_distinction",
+      "text": "主持人提问与媒体议程设置应作概念区分：主持人提问是通过语言组织访谈节奏与信息呈现的行为；媒体议程设置是媒体突出某些议题影响公众关注程度的理论。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C07_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C07_2",
+      "topic": "主持人提问与新闻框架",
+      "keywords_en": [
+        "host questions",
+        "news framing"
+      ],
+      "facet": "concept_distinction",
+      "text": "主持人提问与新闻框架应作概念区分：主持人提问是通过语言组织访谈节奏与信息呈现的行为；新闻框架是媒体选择和强调信息的叙事组织方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C07_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C07_3",
+      "topic": "主持人提问与事实核查",
+      "keywords_en": [
+        "host questions",
+        "fact checking"
+      ],
+      "facet": "concept_distinction",
+      "text": "主持人提问与事实核查应作概念区分：主持人提问是通过语言组织访谈节奏与信息呈现的行为；事实核查是对可验证陈述查找独立证据的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C07_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C07_4",
+      "topic": "主持人提问与消息来源",
+      "keywords_en": [
+        "host questions",
+        "sources"
+      ],
+      "facet": "concept_distinction",
+      "text": "主持人提问与消息来源应作概念区分：主持人提问是通过语言组织访谈节奏与信息呈现的行为；消息来源是新闻或节目内容的信息提供者或材料出处。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C08_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C08_1",
+      "topic": "媒体议程设置与新闻框架",
+      "keywords_en": [
+        "agenda setting",
+        "news framing"
+      ],
+      "facet": "concept_distinction",
+      "text": "媒体议程设置与新闻框架应作概念区分：媒体议程设置是媒体突出某些议题影响公众关注程度的理论；新闻框架是媒体选择和强调信息的叙事组织方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C08_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C08_2",
+      "topic": "媒体议程设置与事实核查",
+      "keywords_en": [
+        "agenda setting",
+        "fact checking"
+      ],
+      "facet": "concept_distinction",
+      "text": "媒体议程设置与事实核查应作概念区分：媒体议程设置是媒体突出某些议题影响公众关注程度的理论；事实核查是对可验证陈述查找独立证据的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C08_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C08_3",
+      "topic": "媒体议程设置与消息来源",
+      "keywords_en": [
+        "agenda setting",
+        "sources"
+      ],
+      "facet": "concept_distinction",
+      "text": "媒体议程设置与消息来源应作概念区分：媒体议程设置是媒体突出某些议题影响公众关注程度的理论；消息来源是新闻或节目内容的信息提供者或材料出处。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C08_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C08_4",
+      "topic": "媒体议程设置与采访问责",
+      "keywords_en": [
+        "agenda setting",
+        "accountability interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "媒体议程设置与采访问责应作概念区分：媒体议程设置是媒体突出某些议题影响公众关注程度的理论；采访问责是对受访者主张提出证据与解释要求的采访做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C09_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C09_1",
+      "topic": "新闻框架与事实核查",
+      "keywords_en": [
+        "news framing",
+        "fact checking"
+      ],
+      "facet": "concept_distinction",
+      "text": "新闻框架与事实核查应作概念区分：新闻框架是媒体选择和强调信息的叙事组织方式；事实核查是对可验证陈述查找独立证据的过程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C09_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C09_2",
+      "topic": "新闻框架与消息来源",
+      "keywords_en": [
+        "news framing",
+        "sources"
+      ],
+      "facet": "concept_distinction",
+      "text": "新闻框架与消息来源应作概念区分：新闻框架是媒体选择和强调信息的叙事组织方式；消息来源是新闻或节目内容的信息提供者或材料出处。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C09_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C09_3",
+      "topic": "新闻框架与采访问责",
+      "keywords_en": [
+        "news framing",
+        "accountability interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "新闻框架与采访问责应作概念区分：新闻框架是媒体选择和强调信息的叙事组织方式；采访问责是对受访者主张提出证据与解释要求的采访做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C09_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C09_4",
+      "topic": "新闻框架与人物特写",
+      "keywords_en": [
+        "news framing",
+        "profile feature"
+      ],
+      "facet": "concept_distinction",
+      "text": "新闻框架与人物特写应作概念区分：新闻框架是媒体选择和强调信息的叙事组织方式；人物特写是聚焦特定人物经历与社会意义的报道类型。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C10_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C10_1",
+      "topic": "事实核查与消息来源",
+      "keywords_en": [
+        "fact checking",
+        "sources"
+      ],
+      "facet": "concept_distinction",
+      "text": "事实核查与消息来源应作概念区分：事实核查是对可验证陈述查找独立证据的过程；消息来源是新闻或节目内容的信息提供者或材料出处。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C10_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C10_2",
+      "topic": "事实核查与采访问责",
+      "keywords_en": [
+        "fact checking",
+        "accountability interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "事实核查与采访问责应作概念区分：事实核查是对可验证陈述查找独立证据的过程；采访问责是对受访者主张提出证据与解释要求的采访做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C10_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C10_3",
+      "topic": "事实核查与人物特写",
+      "keywords_en": [
+        "fact checking",
+        "profile feature"
+      ],
+      "facet": "concept_distinction",
+      "text": "事实核查与人物特写应作概念区分：事实核查是对可验证陈述查找独立证据的过程；人物特写是聚焦特定人物经历与社会意义的报道类型。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C10_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C10_4",
+      "topic": "事实核查与娱乐新闻",
+      "keywords_en": [
+        "fact checking",
+        "entertainment news"
+      ],
+      "facet": "concept_distinction",
+      "text": "事实核查与娱乐新闻应作概念区分：事实核查是对可验证陈述查找独立证据的过程；娱乐新闻是以文化明星节目等娱乐行业活动为主要内容的报道。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C11_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C11_1",
+      "topic": "消息来源与采访问责",
+      "keywords_en": [
+        "sources",
+        "accountability interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "消息来源与采访问责应作概念区分：消息来源是新闻或节目内容的信息提供者或材料出处；采访问责是对受访者主张提出证据与解释要求的采访做法。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C11_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C11_2",
+      "topic": "消息来源与人物特写",
+      "keywords_en": [
+        "sources",
+        "profile feature"
+      ],
+      "facet": "concept_distinction",
+      "text": "消息来源与人物特写应作概念区分：消息来源是新闻或节目内容的信息提供者或材料出处；人物特写是聚焦特定人物经历与社会意义的报道类型。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C11_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C11_3",
+      "topic": "消息来源与娱乐新闻",
+      "keywords_en": [
+        "sources",
+        "entertainment news"
+      ],
+      "facet": "concept_distinction",
+      "text": "消息来源与娱乐新闻应作概念区分：消息来源是新闻或节目内容的信息提供者或材料出处；娱乐新闻是以文化明星节目等娱乐行业活动为主要内容的报道。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C11_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C11_4",
+      "topic": "消息来源与广播编辑",
+      "keywords_en": [
+        "sources",
+        "audio editing"
+      ],
+      "facet": "concept_distinction",
+      "text": "消息来源与广播编辑应作概念区分：消息来源是新闻或节目内容的信息提供者或材料出处；广播编辑是对音频素材进行选择裁切和结构安排的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C12_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C12_1",
+      "topic": "采访问责与人物特写",
+      "keywords_en": [
+        "accountability interview",
+        "profile feature"
+      ],
+      "facet": "concept_distinction",
+      "text": "采访问责与人物特写应作概念区分：采访问责是对受访者主张提出证据与解释要求的采访做法；人物特写是聚焦特定人物经历与社会意义的报道类型。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C12_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C12_2",
+      "topic": "采访问责与娱乐新闻",
+      "keywords_en": [
+        "accountability interview",
+        "entertainment news"
+      ],
+      "facet": "concept_distinction",
+      "text": "采访问责与娱乐新闻应作概念区分：采访问责是对受访者主张提出证据与解释要求的采访做法；娱乐新闻是以文化明星节目等娱乐行业活动为主要内容的报道。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C12_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C12_3",
+      "topic": "采访问责与广播编辑",
+      "keywords_en": [
+        "accountability interview",
+        "audio editing"
+      ],
+      "facet": "concept_distinction",
+      "text": "采访问责与广播编辑应作概念区分：采访问责是对受访者主张提出证据与解释要求的采访做法；广播编辑是对音频素材进行选择裁切和结构安排的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C12_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C12_4",
+      "topic": "采访问责与影视宣传采访",
+      "keywords_en": [
+        "accountability interview",
+        "promotional interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "采访问责与影视宣传采访应作概念区分：采访问责是对受访者主张提出证据与解释要求的采访做法；影视宣传采访是围绕作品发布和创作人员开展的推广性对话。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C13_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C13_1",
+      "topic": "人物特写与娱乐新闻",
+      "keywords_en": [
+        "profile feature",
+        "entertainment news"
+      ],
+      "facet": "concept_distinction",
+      "text": "人物特写与娱乐新闻应作概念区分：人物特写是聚焦特定人物经历与社会意义的报道类型；娱乐新闻是以文化明星节目等娱乐行业活动为主要内容的报道。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C13_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C13_2",
+      "topic": "人物特写与广播编辑",
+      "keywords_en": [
+        "profile feature",
+        "audio editing"
+      ],
+      "facet": "concept_distinction",
+      "text": "人物特写与广播编辑应作概念区分：人物特写是聚焦特定人物经历与社会意义的报道类型；广播编辑是对音频素材进行选择裁切和结构安排的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C13_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C13_3",
+      "topic": "人物特写与影视宣传采访",
+      "keywords_en": [
+        "profile feature",
+        "promotional interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "人物特写与影视宣传采访应作概念区分：人物特写是聚焦特定人物经历与社会意义的报道类型；影视宣传采访是围绕作品发布和创作人员开展的推广性对话。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C13_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C13_4",
+      "topic": "人物特写与粉丝文化",
+      "keywords_en": [
+        "profile feature",
+        "fandom"
+      ],
+      "facet": "concept_distinction",
+      "text": "人物特写与粉丝文化应作概念区分：人物特写是聚焦特定人物经历与社会意义的报道类型；粉丝文化是围绕文化作品或人物形成的群体实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C14_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C14_1",
+      "topic": "娱乐新闻与广播编辑",
+      "keywords_en": [
+        "entertainment news",
+        "audio editing"
+      ],
+      "facet": "concept_distinction",
+      "text": "娱乐新闻与广播编辑应作概念区分：娱乐新闻是以文化明星节目等娱乐行业活动为主要内容的报道；广播编辑是对音频素材进行选择裁切和结构安排的流程。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C14_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C14_2",
+      "topic": "娱乐新闻与影视宣传采访",
+      "keywords_en": [
+        "entertainment news",
+        "promotional interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "娱乐新闻与影视宣传采访应作概念区分：娱乐新闻是以文化明星节目等娱乐行业活动为主要内容的报道；影视宣传采访是围绕作品发布和创作人员开展的推广性对话。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C14_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C14_3",
+      "topic": "娱乐新闻与粉丝文化",
+      "keywords_en": [
+        "entertainment news",
+        "fandom"
+      ],
+      "facet": "concept_distinction",
+      "text": "娱乐新闻与粉丝文化应作概念区分：娱乐新闻是以文化明星节目等娱乐行业活动为主要内容的报道；粉丝文化是围绕文化作品或人物形成的群体实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C14_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C14_4",
+      "topic": "娱乐新闻与流媒体",
+      "keywords_en": [
+        "entertainment news",
+        "streaming media"
+      ],
+      "facet": "concept_distinction",
+      "text": "娱乐新闻与流媒体应作概念区分：娱乐新闻是以文化明星节目等娱乐行业活动为主要内容的报道；流媒体是通过网络按需或连续传输音视频内容的分发方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C15_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C15_1",
+      "topic": "广播编辑与影视宣传采访",
+      "keywords_en": [
+        "audio editing",
+        "promotional interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "广播编辑与影视宣传采访应作概念区分：广播编辑是对音频素材进行选择裁切和结构安排的流程；影视宣传采访是围绕作品发布和创作人员开展的推广性对话。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C15_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C15_2",
+      "topic": "广播编辑与粉丝文化",
+      "keywords_en": [
+        "audio editing",
+        "fandom"
+      ],
+      "facet": "concept_distinction",
+      "text": "广播编辑与粉丝文化应作概念区分：广播编辑是对音频素材进行选择裁切和结构安排的流程；粉丝文化是围绕文化作品或人物形成的群体实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C15_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C15_3",
+      "topic": "广播编辑与流媒体",
+      "keywords_en": [
+        "audio editing",
+        "streaming media"
+      ],
+      "facet": "concept_distinction",
+      "text": "广播编辑与流媒体应作概念区分：广播编辑是对音频素材进行选择裁切和结构安排的流程；流媒体是通过网络按需或连续传输音视频内容的分发方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C15_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C15_4",
+      "topic": "广播编辑与观众反馈",
+      "keywords_en": [
+        "audio editing",
+        "audience feedback"
+      ],
+      "facet": "concept_distinction",
+      "text": "广播编辑与观众反馈应作概念区分：广播编辑是对音频素材进行选择裁切和结构安排的流程；观众反馈是受众通过评论收视或调查反馈对内容的反应。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C16_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C16_1",
+      "topic": "影视宣传采访与粉丝文化",
+      "keywords_en": [
+        "promotional interview",
+        "fandom"
+      ],
+      "facet": "concept_distinction",
+      "text": "影视宣传采访与粉丝文化应作概念区分：影视宣传采访是围绕作品发布和创作人员开展的推广性对话；粉丝文化是围绕文化作品或人物形成的群体实践。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C16_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C16_2",
+      "topic": "影视宣传采访与流媒体",
+      "keywords_en": [
+        "promotional interview",
+        "streaming media"
+      ],
+      "facet": "concept_distinction",
+      "text": "影视宣传采访与流媒体应作概念区分：影视宣传采访是围绕作品发布和创作人员开展的推广性对话；流媒体是通过网络按需或连续传输音视频内容的分发方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C16_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C16_3",
+      "topic": "影视宣传采访与观众反馈",
+      "keywords_en": [
+        "promotional interview",
+        "audience feedback"
+      ],
+      "facet": "concept_distinction",
+      "text": "影视宣传采访与观众反馈应作概念区分：影视宣传采访是围绕作品发布和创作人员开展的推广性对话；观众反馈是受众通过评论收视或调查反馈对内容的反应。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C16_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C16_4",
+      "topic": "影视宣传采访与媒体伦理",
+      "keywords_en": [
+        "promotional interview",
+        "media ethics"
+      ],
+      "facet": "concept_distinction",
+      "text": "影视宣传采访与媒体伦理应作概念区分：影视宣传采访是围绕作品发布和创作人员开展的推广性对话；媒体伦理是涉及真实性独立性隐私及伤害控制的职业规范。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C17_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C17_1",
+      "topic": "粉丝文化与流媒体",
+      "keywords_en": [
+        "fandom",
+        "streaming media"
+      ],
+      "facet": "concept_distinction",
+      "text": "粉丝文化与流媒体应作概念区分：粉丝文化是围绕文化作品或人物形成的群体实践；流媒体是通过网络按需或连续传输音视频内容的分发方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C17_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C17_2",
+      "topic": "粉丝文化与观众反馈",
+      "keywords_en": [
+        "fandom",
+        "audience feedback"
+      ],
+      "facet": "concept_distinction",
+      "text": "粉丝文化与观众反馈应作概念区分：粉丝文化是围绕文化作品或人物形成的群体实践；观众反馈是受众通过评论收视或调查反馈对内容的反应。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C17_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C17_3",
+      "topic": "粉丝文化与媒体伦理",
+      "keywords_en": [
+        "fandom",
+        "media ethics"
+      ],
+      "facet": "concept_distinction",
+      "text": "粉丝文化与媒体伦理应作概念区分：粉丝文化是围绕文化作品或人物形成的群体实践；媒体伦理是涉及真实性独立性隐私及伤害控制的职业规范。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C17_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C17_4",
+      "topic": "粉丝文化与新闻采访",
+      "keywords_en": [
+        "fandom",
+        "news interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "粉丝文化与新闻采访应作概念区分：粉丝文化是围绕文化作品或人物形成的群体实践；新闻采访是为报道公共事件或人物而进行的信息采集交流。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C18_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C18_1",
+      "topic": "流媒体与观众反馈",
+      "keywords_en": [
+        "streaming media",
+        "audience feedback"
+      ],
+      "facet": "concept_distinction",
+      "text": "流媒体与观众反馈应作概念区分：流媒体是通过网络按需或连续传输音视频内容的分发方式；观众反馈是受众通过评论收视或调查反馈对内容的反应。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C18_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C18_2",
+      "topic": "流媒体与媒体伦理",
+      "keywords_en": [
+        "streaming media",
+        "media ethics"
+      ],
+      "facet": "concept_distinction",
+      "text": "流媒体与媒体伦理应作概念区分：流媒体是通过网络按需或连续传输音视频内容的分发方式；媒体伦理是涉及真实性独立性隐私及伤害控制的职业规范。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C18_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C18_3",
+      "topic": "流媒体与新闻采访",
+      "keywords_en": [
+        "streaming media",
+        "news interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "流媒体与新闻采访应作概念区分：流媒体是通过网络按需或连续传输音视频内容的分发方式；新闻采访是为报道公共事件或人物而进行的信息采集交流。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C18_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C18_4",
+      "topic": "流媒体与节目采访",
+      "keywords_en": [
+        "streaming media",
+        "broadcast interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "流媒体与节目采访应作概念区分：流媒体是通过网络按需或连续传输音视频内容的分发方式；节目采访是面向观众或听众录制并编辑的采访活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C19_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C19_1",
+      "topic": "观众反馈与媒体伦理",
+      "keywords_en": [
+        "audience feedback",
+        "media ethics"
+      ],
+      "facet": "concept_distinction",
+      "text": "观众反馈与媒体伦理应作概念区分：观众反馈是受众通过评论收视或调查反馈对内容的反应；媒体伦理是涉及真实性独立性隐私及伤害控制的职业规范。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C19_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C19_2",
+      "topic": "观众反馈与新闻采访",
+      "keywords_en": [
+        "audience feedback",
+        "news interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "观众反馈与新闻采访应作概念区分：观众反馈是受众通过评论收视或调查反馈对内容的反应；新闻采访是为报道公共事件或人物而进行的信息采集交流。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C19_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C19_3",
+      "topic": "观众反馈与节目采访",
+      "keywords_en": [
+        "audience feedback",
+        "broadcast interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "观众反馈与节目采访应作概念区分：观众反馈是受众通过评论收视或调查反馈对内容的反应；节目采访是面向观众或听众录制并编辑的采访活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C19_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C19_4",
+      "topic": "观众反馈与访谈节目",
+      "keywords_en": [
+        "audience feedback",
+        "talk show"
+      ],
+      "facet": "concept_distinction",
+      "text": "观众反馈与访谈节目应作概念区分：观众反馈是受众通过评论收视或调查反馈对内容的反应；访谈节目是以主持人与嘉宾对话为核心形式的节目。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C20_1",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C20_1",
+      "topic": "媒体伦理与新闻采访",
+      "keywords_en": [
+        "media ethics",
+        "news interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "媒体伦理与新闻采访应作概念区分：媒体伦理是涉及真实性独立性隐私及伤害控制的职业规范；新闻采访是为报道公共事件或人物而进行的信息采集交流。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C20_2",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C20_2",
+      "topic": "媒体伦理与节目采访",
+      "keywords_en": [
+        "media ethics",
+        "broadcast interview"
+      ],
+      "facet": "concept_distinction",
+      "text": "媒体伦理与节目采访应作概念区分：媒体伦理是涉及真实性独立性隐私及伤害控制的职业规范；节目采访是面向观众或听众录制并编辑的采访活动。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C20_3",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C20_3",
+      "topic": "媒体伦理与访谈节目",
+      "keywords_en": [
+        "media ethics",
+        "talk show"
+      ],
+      "facet": "concept_distinction",
+      "text": "媒体伦理与访谈节目应作概念区分：媒体伦理是涉及真实性独立性隐私及伤害控制的职业规范；访谈节目是以主持人与嘉宾对话为核心形式的节目。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    },
+    {
+      "knowledge_id": "KB_media_entertainment_C20_4",
+      "domain": "media_entertainment",
+      "concept_id": "media_entertainment_C20_4",
+      "topic": "媒体伦理与现场直播",
+      "keywords_en": [
+        "media ethics",
+        "live broadcasting"
+      ],
+      "facet": "concept_distinction",
+      "text": "媒体伦理与现场直播应作概念区分：媒体伦理是涉及真实性独立性隐私及伤害控制的职业规范；现场直播是内容在发生的同时传送给受众的传播方式。判断具体案例时不能将两者混为一谈。",
+      "language": "zh",
+      "source_kind": "editorial_general_domain_knowledge",
+      "verification_status": "human_review_required",
+      "not_personal_experience": true
+    }
+  ]
+}
