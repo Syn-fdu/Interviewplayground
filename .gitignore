@@ -29,11 +29,12 @@ diagnostics/
 *_raw_model_response*.json
 *_raw_model_response*.txt
 
-# Raw source interviews, participant profiles and locally generated memory
-# are intentionally omitted from this Git-ready distribution.
+# Keep original interview records, respondent profiles and memory banks
+# available in local distributions, but OUT of normal GitHub commits.
+# Source-only CI skips data-dependent tests when *all* private records are
+# absent; if even one dataset is present, its complete integrity is tested.
+# Do not force-add any real participant data without authorization.
 # Review the redistribution rights for graded outlines before publishing.
-# Public, researcher-reviewed graded outline definitions can be committed.
-# The source package intentionally contains no interview records/profiles/memorybank.
 resources/bundled_data/InterviewData_Cumulative_Refined_14/social_research/*/processed/*
 !resources/bundled_data/InterviewData_Cumulative_Refined_14/social_research/*/processed/outline_levels.json
 resources/bundled_data/graded_guides/**/.DS_Store

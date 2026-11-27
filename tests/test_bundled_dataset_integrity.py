@@ -12,7 +12,13 @@ DATA = ROOT / "resources" / "bundled_data" / "InterviewData_Cumulative_Refined_1
 
 class BundledDatasetIntegrityTests(unittest.TestCase):
     def test_all_seven_datasets_have_real_eligible_candidates(self):
-        self.assertTrue(DATA.is_dir(), "Bundled interview data directory missing")
+        # Public GitHub clones intentionally omit private interview records.
+        # Skip only when *none* of the seven datasets is provided; if any are
+        # present, demand all seven so partial deployments cannot pass silently.
+        records = list(DATA.glob("*/processed/interview_records.json"))
+        if not records:
+            self.skipTest("Private research datasets are excluded from the public source checkout")
+        self.assertEqual(len(records), 7, "Incomplete bundled dataset: expected 7 interview record files")
         catalogue = build_catalog(pack_data_directory(DATA))
         self.assertEqual(len(catalogue["datasets"]), 7)
         self.assertEqual(catalogue["total_candidates"], 97)

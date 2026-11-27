@@ -1,16 +1,37 @@
 name: Python runtime regression
+
 on:
   push:
   pull_request:
+
 jobs:
   smoke:
+    name: Python runtime regression / smoke
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-      - name: Python syntax and smoke tests
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-ci.txt
+
+      - name: Install test dependencies
         run: |
-          python -m compileall -q .
-          python -m unittest discover -s tests -v
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-ci.txt
+
+      - name: Check Python syntax
+        run: python -m compileall -q server.py playground standalone_evaluation tests
+
+      - name: Check browser JavaScript syntax
+        run: node --check assets/batch_experiments.js
+
+      - name: Run regression suite
+        run: python -m pytest -q tests -rs

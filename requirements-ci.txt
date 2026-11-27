@@ -1,0 +1,4 @@
+# Dependencies for GitHub Actions regression tests.
+-r requirements.txt
+beautifulsoup4>=4.12,<5
+pytest>=8,<10
