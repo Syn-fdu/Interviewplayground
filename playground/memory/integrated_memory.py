@@ -13,6 +13,7 @@ import re
 import tempfile
 import time
 import urllib.request
+from playground.common.interruptible_http import interruptible_urlopen, cancellable_sleep
 import urllib.error
 from pathlib import Path
 
@@ -137,7 +138,7 @@ def _call(model, messages, timeout, num_predict, schema, temperature=0.0, max_at
                                "只返回一个完整 JSON 对象；不要添加 Markdown 代码围栏、"
                                "解释文字或对象以外的内容。字段必须符合原任务要求。")
                 }]
-                time.sleep(0.25)
+                cancellable_sleep(0.25)
                 continue
             error=StudioError(
                 "Agent 记忆准备 API 返回无效 JSON；本次没有自动重发请求，未提交缓存。",
@@ -161,7 +162,7 @@ def _call(model, messages, timeout, num_predict, schema, temperature=0.0, max_at
                              'num_predict':num_predict,'num_ctx':max(4096, min(131072, int(num_predict) * 2))}},ensure_ascii=False).encode(),
             headers={'Content-Type':'application/json'},method='POST')
         try:
-            with urllib.request.urlopen(request,timeout=timeout) as resp:
+            with interruptible_urlopen(request,timeout=timeout) as resp:
                 out=json.load(resp)
         except (TimeoutError, OSError, urllib.error.URLError) as exc:
             raise StudioError('整合记忆问答模型调用失败；没有自动重试。',
@@ -364,7 +365,7 @@ def _call_plain_answer_impl(model, messages, timeout, num_predict, temperature=0
                 # Keep bounded retries for other transient errors unchanged.
                 if (transient and detail != "upstream_http_524" and attempt<3
                         and remote_timeout-(time.monotonic()-started)>delay+1):
-                    time.sleep(delay)
+                    cancellable_sleep(delay)
                     continue
                 error=StudioError(
                     "远程受访者 API 失败（"+detail+"）；已保留之前成功的轮次。"
@@ -391,7 +392,7 @@ def _call_plain_answer_impl(model, messages, timeout, num_predict, temperature=0
         data=json.dumps(payload, ensure_ascii=False).encode('utf-8'),
         headers={'Content-Type': 'application/json'}, method='POST')
     try:
-        with urllib.request.urlopen(request, timeout=timeout) as resp:
+        with interruptible_urlopen(request, timeout=timeout) as resp:
             out = json.load(resp)
     except (TimeoutError, OSError, urllib.error.URLError) as exc:
         raise StudioError('受访者 Ollama 调用失败；未自动重试。',
@@ -657,6 +658,8 @@ def _native_factbank_prepare(bundle, model, hybrid=False):
     except (ValueError,TypeError):
         concurrency=2
     def process_batch(batch_idx):
+        from playground.common.interruptible_http import check_cancelled
+        check_cancelled()
         batch=batches[batch_idx]
         accepted={}
         pending=[]
@@ -711,16 +714,19 @@ def _native_factbank_prepare(bundle, model, hybrid=False):
                     len(expanded),len(missing),str(dict(reasons)),", ".join(missing[:5])),
                     "llm_factbank_bulk_incomplete",502)
             for source in records:
+                check_cancelled()
                 save_unit(CACHE_DIR,source,model,provider,PROMPT_VERSION,
                           accepted[source["id"]])
             return {"batch_index":batch_idx,"source_ids":[x["id"] for x in batch],
                     "units":[accepted[x["id"]] for x in batch]},calls
         for attempt in range(4):
+            check_cancelled()
             if not pending:
                 break
             chunk_size=len(pending) if attempt==0 else (3 if attempt==1 else 1)
             next_pending=[]
             for offset in range(0,len(pending),chunk_size):
+                check_cancelled()
                 chunk=pending[offset:offset+chunk_size]
                 elapsed=time.monotonic()-started
                 if elapsed>=budget-10:
@@ -733,6 +739,7 @@ def _native_factbank_prepare(bundle, model, hybrid=False):
                 units=validate_batch(result,chunk)
                 for source,unit in zip(chunk,units):
                     if unit.get("llm_status")=="accepted":
+                        check_cancelled()
                         if hybrid:
                             unit=validate_semantic_unit(source,unit)
                         if unit is not None:
@@ -763,6 +770,8 @@ def _native_factbank_prepare(bundle, model, hybrid=False):
                      for idx in range(start_batch,len(batches))]
             try:
                 for future in futures:
+                    from playground.common.interruptible_http import check_cancelled
+                    check_cancelled()
                     row,calls=future.result()
                     llm_api_call_count+=calls
                     completed.append(row)

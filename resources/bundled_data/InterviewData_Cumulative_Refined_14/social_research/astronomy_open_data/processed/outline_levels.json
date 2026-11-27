@@ -1,0 +1,168 @@
+{
+  "schema": "interviewplayground.bundled_outline_levels.v1",
+  "dataset_id": "astronomy_open_data",
+  "research_focus": "天文学数据共享、专有期与科研权益",
+  "source_status": "direct_records",
+  "review_status": "research_candidate_not_original",
+  "levels": {
+    "level0": [
+      {
+        "id": "L0_01",
+        "question_zh": "天文学研究中数据如何获取、管理与使用？",
+        "covers_level1": [
+          "B01",
+          "B03",
+          "B04"
+        ]
+      },
+      {
+        "id": "L0_02",
+        "question_zh": "研究者怎样看待和实践数据共享及专有期安排？",
+        "covers_level1": [
+          "B02",
+          "B05",
+          "B06",
+          "B07"
+        ]
+      },
+      {
+        "id": "L0_03",
+        "question_zh": "基础设施和权益制度怎样影响开放数据？",
+        "covers_level1": [
+          "B08",
+          "B09"
+        ]
+      },
+      {
+        "id": "L0_04",
+        "question_zh": "你认为数据开放制度应怎样改进？",
+        "covers_level1": [
+          "B10"
+        ]
+      }
+    ],
+    "level1": [
+      {
+        "id": "B01",
+        "question_zh": "你的研究工作涉及哪些天文数据与合作方式？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B02",
+        "question_zh": "你如何理解天文学领域的数据开放原则？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B03",
+        "question_zh": "你通常如何获取其他团队的观测或研究数据？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B04",
+        "question_zh": "研究数据从产生到存放通常怎样管理？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B05",
+        "question_zh": "你和团队在什么情况下会共享研究数据？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B06",
+        "question_zh": "专有期制度对数据使用与合作产生什么影响？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B07",
+        "question_zh": "科研团队为什么会选择共享或暂不共享数据？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B08",
+        "question_zh": "数据中心与其他基础设施的实际作用如何？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B09",
+        "question_zh": "数据、软件与论文成果的权益通常怎样安排？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B10",
+        "question_zh": "你认为现行开放数据实践最需要改进什么？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      }
+    ],
+    "level2": [
+      {
+        "id": "D01",
+        "parent_id": "B03",
+        "question_zh": "请回忆最近一次获取其他团队数据的过程：通过什么渠道提出请求、随后怎样获得数据？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D02",
+        "parent_id": "B05",
+        "question_zh": "最近一次考虑发布数据时，你和团队如何决定公开范围与时间？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D03",
+        "parent_id": "B06",
+        "question_zh": "如果遇到专有期内跨项目使用数据的情况，通常由谁决定权限、如何记录？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D04",
+        "parent_id": "B07",
+        "question_zh": "是否有过因为成果发表或合作安排而推迟数据共享的情况？如果有，如何协调？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D05",
+        "parent_id": "B08",
+        "question_zh": "遇到数据中心的数据不能实际使用时，通常卡在哪个环节？若没有此经历，可谈常见障碍。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D06",
+        "parent_id": "B09",
+        "question_zh": "使用他人处理软件产生成果时，你如何决定引用、署名或协作关系？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D07",
+        "parent_id": "B10",
+        "question_zh": "如果由你修改一条开放共享规则，你会先改哪一条，预期影响谁？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      }
+    ]
+  }
+}

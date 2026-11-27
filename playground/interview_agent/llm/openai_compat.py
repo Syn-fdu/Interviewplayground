@@ -7,6 +7,8 @@ import urllib.error
 import urllib.request
 from typing import List, Optional
 
+from playground.common.interruptible_http import interruptible_urlopen, InterruptedModelCall, cancellable_sleep
+
 from ..config import ModelConfig
 from .base import LLMClient, LLMError, Message
 
@@ -47,12 +49,14 @@ class OpenAICompatClient(LLMClient):
                 remaining=deadline-time.monotonic()
                 if remaining<=0:
                     raise RemoteAPIError("connection_or_timeout",retryable=True)
-                with urllib.request.urlopen(request, timeout=remaining) as resp:
+                with interruptible_urlopen(request, timeout=remaining) as resp:
                     data = json.loads(resp.read().decode("utf-8"))
                 content = data["choices"][0]["message"].get("content")
                 if not isinstance(content, str) or not content.strip():
                     raise RemoteAPIError("invalid_or_empty_response", retryable=False)
                 return content
+            except InterruptedModelCall:
+                raise
             except urllib.error.HTTPError as exc:
                 # Never include raw upstream error bodies: some providers echo sensitive data.
                 status = int(exc.code)
@@ -72,5 +76,5 @@ class OpenAICompatClient(LLMClient):
                 raise error
             delay=min(2.0 * (2 ** attempt), 4.0)
             if deadline-time.monotonic()<=delay:raise error
-            time.sleep(delay)
+            cancellable_sleep(delay)
         raise AssertionError("unreachable")

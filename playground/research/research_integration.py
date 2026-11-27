@@ -15,6 +15,7 @@ from playground.interview.respondent_llm import (
     FIXED_LOCAL_ENDPOINT, LocalModelError
 )
 from urllib.request import urlopen
+from playground.common.interruptible_http import interruptible_urlopen
 from playground.research.guide_schema import standardize_guide, validate_guide, with_validation_snapshot
 
 MAX_EDIT_BYTES = 6 * 1024 * 1024
@@ -67,7 +68,7 @@ def make_bundle(scenario, model="qwen2.5:7b", public_pool=None, public_pool_sour
     validate_bundle(b)
     return b
 
-def _semantic_selection(bundle, question, history, model, opener=urlopen):
+def _semantic_selection(bundle, question, history, model, opener=interruptible_urlopen):
     """Always select locally across languages, including when <= 10 memories.
 
     On very large banks, retain the legacy batchwise local semantic selector.
@@ -96,7 +97,7 @@ def _semantic_selection(bundle, question, history, model, opener=urlopen):
     selected,_ = _semantic_memory_retrieve(snippets,question,history,model,opener,max_selected=5)
     return [m["memory_id"] for m in selected], "ollama_multilingual_semantic_batched"
 
-def plan(bundle, question, history=None, model=None, retrieval="semantic", opener=urlopen):
+def plan(bundle, question, history=None, model=None, retrieval="semantic", opener=interruptible_urlopen):
     history=history or []
     if retrieval=="semantic":
         ids, status = _semantic_selection(bundle,question,history,
@@ -111,7 +112,7 @@ def plan(bundle, question, history=None, model=None, retrieval="semantic", opene
     return p
 
 def respond(bundle, question, history, model, language, behavioral_traits=None,
-            client=None, opener=urlopen, memory_mode="retrieval"):
+            client=None, opener=interruptible_urlopen, memory_mode="retrieval"):
     """Return a new, verified bundle + browser-compatible respondent answer."""
     b=copy.deepcopy(bundle)
     if behavioral_traits is not None:

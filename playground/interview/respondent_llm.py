@@ -12,6 +12,7 @@ import re
 import time
 from playground.common.performance_metrics import record as perf_record
 from urllib.request import Request, urlopen
+from playground.common.interruptible_http import interruptible_urlopen
 
 MODEL_NAME_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._:/-]{0,99}$")
 FIXED_LOCAL_ENDPOINT = "http://127.0.0.1:11434/v1/chat/completions"
@@ -339,7 +340,7 @@ def run_local_respondent(scenario,question,history,language,model,opener=None,
                          endpoint=FIXED_LOCAL_ENDPOINT,behavioral_traits=None,quality_mode=True):
     if endpoint!=FIXED_LOCAL_ENDPOINT:
         raise LocalModelError("只允许请求固定本机 Ollama 地址。")
-    if opener is None:opener=urlopen
+    if opener is None:opener=interruptible_urlopen
     _validate_scenario(scenario,question,history,language)
     bank=(scenario.get('private') or {}).get('memory_bank')
     mode='legacy_evidence_cards'

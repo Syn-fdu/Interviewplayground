@@ -1,0 +1,154 @@
+{
+  "schema": "interviewplayground.bundled_outline_levels.v1",
+  "dataset_id": "ai_coding_workflows",
+  "research_focus": "专业开发者的日常编码流程及 AI 认知负荷",
+  "source_status": "direct_records",
+  "review_status": "research_candidate_not_original",
+  "levels": {
+    "level0": [
+      {
+        "id": "L0_01",
+        "question_zh": "你日常的软件开发工作通常如何开展？",
+        "covers_level1": [
+          "B01",
+          "B02",
+          "B06"
+        ]
+      },
+      {
+        "id": "L0_02",
+        "question_zh": "你如何在开发任务中使用或选择不使用 AI 工具？",
+        "covers_level1": [
+          "B03",
+          "B04",
+          "B05"
+        ]
+      },
+      {
+        "id": "L0_03",
+        "question_zh": "你如何判断 AI 协助的质量，并评价它对工作流程的影响？",
+        "covers_level1": [
+          "B07",
+          "B08",
+          "B09"
+        ]
+      }
+    ],
+    "level1": [
+      {
+        "id": "B01",
+        "question_zh": "你目前参与什么类型的软件开发工作？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B02",
+        "question_zh": "日常完成编程任务通常经过哪些步骤？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B03",
+        "question_zh": "AI 工具在你的工作中通常承担什么角色？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B04",
+        "question_zh": "你如何决定何时自己编写代码、何时请求 AI 帮助？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B05",
+        "question_zh": "AI 工具会怎样影响你对开发任务的理解与安排？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B06",
+        "question_zh": "开发任务中有哪些环节需要你投入较多注意力或精力？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B07",
+        "question_zh": "你如何检查、修订和整合 AI 的输出？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B08",
+        "question_zh": "在实际工作中，你认为 AI 带来了哪些收益和限制？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B09",
+        "question_zh": "你希望怎样调整未来与 AI 协作的工作方式？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      }
+    ],
+    "level2": [
+      {
+        "id": "D01",
+        "parent_id": "B02",
+        "question_zh": "请选最近完成的一项任务，从接到需求到交付，描述主要步骤和工具切换。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D02",
+        "parent_id": "B03",
+        "question_zh": "回忆最近一次在 IDE 中收到 AI 提示的情境：当时在做什么，之后如何处理这条提示？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D03",
+        "parent_id": "B04",
+        "question_zh": "当代码库不熟悉时，你如何在搜索、阅读文档、询问同事和问 AI 之间选择？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D04",
+        "parent_id": "B05",
+        "question_zh": "有没有 AI 解释影响你理解需求的经历？如果有，当时如何发现并修正？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D05",
+        "parent_id": "B06",
+        "question_zh": "AI 提示或建议是否影响过你的工作思路？请谈一段具体过程。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D06",
+        "parent_id": "B07",
+        "question_zh": "最近一次修改 AI 生成代码时，哪些位置由你手动改写，为什么？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D07",
+        "parent_id": "B08",
+        "question_zh": "请比较一次 AI 协助任务的节省时间与额外核查工作，两者分别体现在哪里？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      }
+    ]
+  }
+}

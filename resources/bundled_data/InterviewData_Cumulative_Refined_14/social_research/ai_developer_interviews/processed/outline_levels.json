@@ -1,0 +1,168 @@
+{
+  "schema": "interviewplayground.bundled_outline_levels.v1",
+  "dataset_id": "ai_developer_interviews",
+  "research_focus": "生成式 AI 贯穿软件开发生命周期的实际使用",
+  "source_status": "direct_records",
+  "review_status": "research_candidate_not_original",
+  "levels": {
+    "level0": [
+      {
+        "id": "L0_01",
+        "question_zh": "你的软件开发背景和 AI 工具使用情况如何？",
+        "covers_level1": [
+          "B01",
+          "B02",
+          "B03"
+        ]
+      },
+      {
+        "id": "L0_02",
+        "question_zh": "你如何在开发任务中选择、提示和评价 AI 的帮助？",
+        "covers_level1": [
+          "B04",
+          "B05",
+          "B06"
+        ]
+      },
+      {
+        "id": "L0_03",
+        "question_zh": "AI 对代码质量、开发流程和团队合作有什么影响？",
+        "covers_level1": [
+          "B07",
+          "B08",
+          "B09"
+        ]
+      },
+      {
+        "id": "L0_04",
+        "question_zh": "你对今后使用 AI 开发工具有什么看法？",
+        "covers_level1": [
+          "B10"
+        ]
+      }
+    ],
+    "level1": [
+      {
+        "id": "B01",
+        "question_zh": "你的编程背景与团队开发经历是怎样的？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B02",
+        "question_zh": "你如何理解并区分不同类型的 AI 开发工具？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B03",
+        "question_zh": "生成式 AI 通常在开发周期哪些环节介入？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B04",
+        "question_zh": "你选择使用或不使用 AI 的主要考虑是什么？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B05",
+        "question_zh": "你通常如何向 AI 描述开发任务？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B06",
+        "question_zh": "你如何评价和取舍 AI 生成的代码或建议？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B07",
+        "question_zh": "使用 AI 后，调试、测试和交付流程有什么变化？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B08",
+        "question_zh": "你在使用 AI 开发工具时遇到过哪些不符合预期的情况？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B09",
+        "question_zh": "使用 AI 是否影响你与团队成员的协作？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B10",
+        "question_zh": "你如何看待未来在开发工作中继续使用 AI？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      }
+    ],
+    "level2": [
+      {
+        "id": "D01",
+        "parent_id": "B03",
+        "question_zh": "请选最近一个项目，说明 AI 具体介入了需求理解、设计、编码、测试中的哪些步骤。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D02",
+        "parent_id": "B05",
+        "question_zh": "回忆一次你反复改写提示词的过程：每次调整想解决什么问题？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D03",
+        "parent_id": "B06",
+        "question_zh": "有没有一次你决定不采用 AI 建议？如果有，请说明判断依据和最终方案。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D04",
+        "parent_id": "B07",
+        "question_zh": "最近一次使用 AI 代码时，你做过哪些检查，代码评审环节如何处理其来源？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D05",
+        "parent_id": "B08",
+        "question_zh": "有没有 AI 建议未达到预期的经历？请说明具体问题及后续处理。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D06",
+        "parent_id": "B09",
+        "question_zh": "在你参与的团队中，AI 生成代码的来源或质量如何被讨论？请举例。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D07",
+        "parent_id": "B10",
+        "question_zh": "什么任务你目前仍坚持自己完成，而不交给 AI？原因是什么？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      }
+    ]
+  }
+}

@@ -203,7 +203,7 @@ def _load_source_outline(source_bytes, dataset, candidate):
         return row, topics, method
 
 
-def prepare_public_outline(source_bytes,scenario,revision,provider='shubi',llm=None):
+def prepare_public_outline(source_bytes,scenario,revision,provider='shubi',llm=None,outline_level=None):
     provenance=scenario.get('provenance') or {}
     dataset=provenance.get('dataset')
     candidate=provenance.get('candidate_id')
@@ -214,7 +214,9 @@ def prepare_public_outline(source_bytes,scenario,revision,provider='shubi',llm=N
     # by actual interviewer Outline content and model configuration, not scenario ID.
     from playground.common.model_services import get as get_model_config
     effective_cfg=get_model_config(provider,"interviewer",False)
-    key=(fingerprint,dataset,candidate,revision)
+    level=outline_level or provenance.get('guide_level') or 'level1'
+    if level not in ('level0','level1','level2'):raise ValueError('Invalid selected guide level')
+    key=(fingerprint,dataset,candidate,revision,level)
     with _LOCK:
         cached=copy.deepcopy(_DETAILS.get(key))
         if (key in _OUTLINES and cached
@@ -224,7 +226,28 @@ def prepare_public_outline(source_bytes,scenario,revision,provider='shubi',llm=N
                 and cached.get("interviewer_base_url")==effective_cfg.base_url
                 and not cached.get("native_fallback_question_ids")):
             return {'ok':True,'cached':True,**cached}
-    source,topics,question_source=_load_source_outline(source_bytes,dataset,candidate)
+    from playground.research.graded_guides import match, question_view, _dataset
+    from playground.research.outline_levels import has_refined_guide, build_native_outline
+    graded_row=match(dataset,candidate,provenance.get('guide_category'))
+    if (provenance.get('graded_guide_status')=="matched" and
+            level not in (provenance.get('available_guide_levels') or [])):
+        raise ValueError("This level was not bound to the selected scenario")
+    projection=(scenario.get("public") or {}).get("interview_guide",{}).get("graded_guide_source") or {}
+    if projection.get("origin")=="outline_levels" or (
+            not projection and has_refined_guide(dataset)):
+        native=build_native_outline(dataset,level)
+        outline=Outline.from_dict(native)
+        topics=native["topics"]
+        source={"source_topic_label":native["title"],"goal":native.get("objective","")}
+        question_source="verified_dataset_local_outline_levels_"+level
+    elif graded_row is not None:
+        topics=question_view(graded_row,level)
+        source={'source_topic_label':graded_row.get('category') or dataset,'goal':[]}
+        question_source='verified_user_supplied_graded_guide_'+level
+    elif _dataset(dataset) is not None:
+        raise ValueError('No matching graded guide for this interview; cross-interview fallback is prohibited')
+    else:
+        source,topics,question_source=_load_source_outline(source_bytes,dataset,candidate)
     if not topics:
         raise ValueError(
             "此场景的 Outline 为空，且原始 Record 中未发现可恢复的采访者提问。"
@@ -241,7 +264,7 @@ def prepare_public_outline(source_bytes,scenario,revision,provider='shubi',llm=N
         'topics':topics,
     })
     if not outline.questions():raise ValueError('Outline 结构无可用问题')
-    if provider not in ("maas","shubi"):
+    if provider not in ("maas","shubi","local"):
         raise ValueError("无效的采访者提供商")
 
     # Serialize same-content workers. Persistent entries survive service restarts,
@@ -279,7 +302,8 @@ def prepare_public_outline(source_bytes,scenario,revision,provider='shubi',llm=N
     benchmark_slot_eligible=True
     details={'scenario_id':scenario['scenario_id'], 'revision':revision,
              'source_fingerprint_sha256':fingerprint,
-             'source_dataset':dataset,'source_candidate_id':candidate,
+             'source_dataset':dataset,'source_candidate_id':candidate,'guide_level':level,
+             'outline_level':level,
              'provider':provider,
              'interviewer_model':effective_cfg.model,
              'interviewer_base_url':effective_cfg.base_url,
@@ -300,9 +324,9 @@ def prepare_public_outline(source_bytes,scenario,revision,provider='shubi',llm=N
         _DETAILS[key]=copy.deepcopy(details)
     return {'ok':True,'cached':reused,**details}
 
-def read_prepared(scenario,revision):
+def read_prepared(scenario,revision,outline_level=None):
     p=scenario.get('provenance') or {}
-    key=(p.get('source_fingerprint_sha256'),p.get('dataset'),p.get('candidate_id'),revision)
+    key=(p.get('source_fingerprint_sha256'),p.get('dataset'),p.get('candidate_id'),revision,outline_level or p.get('guide_level') or 'level1')
     with _LOCK:
         entry=copy.deepcopy(_OUTLINES.get(key))
         details=copy.deepcopy(_DETAILS.get(key))

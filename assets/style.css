@@ -154,3 +154,89 @@ input[type="checkbox"]{accent-color:#19816b;width:15px;height:15px;flex-shrink:0
 .interview-main-column .session-actions{margin:3px 0 12px;gap:12px;padding:15px 17px;border-radius:12px;background:#f7faf6;border:1px solid #e2ece3;flex-wrap:wrap}
 .interview-main-column .session-actions-title h2{font-size:16px}
 @media(max-width:760px){.interview-main-column .session-actions{align-items:flex-start}.interview-pick-search{flex-wrap:wrap}.model-picker-title{display:block}}
+
+/* Batch runtime diagnostics: compact, readable on narrow screens. */
+.batch-live{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:10px;margin:14px 0}
+.batch-live>div{border:1px solid #dbe7df;border-radius:12px;padding:11px 13px;background:#f6faf7;min-width:0}
+.batch-live span{display:block;color:#5e796c;font-size:12px;margin-bottom:5px}
+.batch-live strong{display:block;color:#1d4a3b;font-size:14px;overflow-wrap:anywhere}
+.batch-hint{font-size:12px;line-height:1.65;color:#667b71}
+
+/* Batch interview controls share the interactive lab's compact field treatment. */
+.batch-parameter-panel{margin:18px 0;padding:16px;border:1px solid #d5e7d9;border-radius:13px;background:#f8fbf8}
+.batch-parameter-heading{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin:10px 0}
+.batch-parameter-heading h3{font-size:15px;margin:0;color:#285c48}
+.batch-parameter-note{font-size:12px;line-height:1.65;color:#607a6d;margin:7px 0 14px}
+.batch-parameter-grid,.batch-trait-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:13px}
+.batch-parameter-grid label,.batch-trait-grid label{display:flex;flex-direction:column;gap:7px;min-width:0;font-size:13px;color:#315649}
+.batch-parameter-grid input{box-sizing:border-box;width:100%;padding:9px;border:1px solid #c8dcd0;border-radius:8px}
+.batch-parameter-grid small{font-size:11px;color:#698174;line-height:1.45}
+.batch-trait-grid{margin-top:10px}
+.batch-trait-grid label{padding:12px;border:1px solid #d3e9dd;border-radius:9px;background:#fff}
+.batch-trait-grid output{font-variant-numeric:tabular-nums;font-weight:700;color:#21765b}
+.batch-trait-grid input{width:100%;accent-color:#22846c}
+
+/* Research configuration: compact, keyboard-friendly grouped panels. */
+#interview .config-fold{display:block;margin:12px 0;border:1px solid #d9e8de;border-radius:15px;background:#fbfdfa;overflow:hidden}
+#interview .config-fold>summary{cursor:pointer;padding:15px 17px;font-weight:750;color:#245442;list-style-position:inside;outline-offset:-4px}
+#interview .config-fold>summary span{font-size:12px;font-weight:450;color:#698379;margin-left:8px}
+#interview .config-fold>section{padding:0 15px 15px}
+#interview .interview-guide-selector{padding:12px;border-radius:12px;background:#f0f7f1;border:1px solid #cce0d0;display:grid;gap:8px}
+#interview .interview-guide-selector select{width:100%}
+#interview .interview-guide-selector small{line-height:1.6;color:#517366}
+#batch .batch-delete-group{border:1px solid #d9e8de;border-radius:14px;padding:12px 15px;margin:15px 0}
+#batch .batch-delete-group summary{cursor:pointer;font-weight:700}
+#batch #batchDeleteSelection{width:100%;max-width:850px;min-height:140px;padding:8px;border:1px solid #cadae1;border-radius:9px}
+#batch #batchDeleteSelection option{padding:6px}
+#batch .batch-clean-actions{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0}
+@media(max-width:700px){#interview .config-fold>summary span{display:block;margin:3px 0 0 22px}}
+
+/* Truly independent batch configurations */
+#batch .batch-role-config-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,330px),1fr));gap:16px;margin:18px 0}
+#batch .batch-model-fieldset{border:1px solid #cbded3;border-radius:14px;background:#fafdfa;padding:17px;min-width:0;display:grid;gap:7px}
+#batch .batch-model-fieldset legend{font-weight:750;color:#235543;padding:0 6px}
+#batch .batch-model-fieldset .api-config-input{width:100%;box-sizing:border-box}
+#batch .batch-model-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px}
+#batch .batch-model-fieldset small{line-height:1.6;color:#567767;overflow-wrap:anywhere}
+#scenario .builder-all-levels-note{border:1px solid #cce3d4;border-radius:10px;padding:10px 12px;background:#f2faf4;color:#285f45;font-size:13px;line-height:1.6}
+
+#interview #modelInterviewerTest,#interview #modelRespondentTest{display:inline-flex!important}
+#batch .batch-history-settings{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:12px 0}
+#batch .batch-history-settings small{color:#567868;line-height:1.5}
+
+/* Batch workspace v2: task-first, four clearly separated work areas. */
+#data #selectionDetails[hidden]{display:none!important}
+#batch .batch-workspace{display:grid;gap:18px;margin-bottom:20px}
+#batch .batch-step{padding:24px 26px;border:1px solid #dbe8e0;border-radius:19px;min-width:0;box-shadow:0 3px 18px rgba(25,75,54,.035)}
+#batch .batch-step-primary{border-color:#b9dcc7;background:linear-gradient(135deg,#fbfdfa,#f5faf6)}
+#batch .batch-step-head{display:flex;align-items:center;gap:13px;margin:0 0 22px}
+#batch .batch-step-head h2{font-size:19px;letter-spacing:-.02em;margin:0;color:#214e3e}
+#batch .batch-step-head p{margin:3px 0 0;color:#789184;font-size:12px}
+#batch .batch-step-number{display:grid;place-items:center;flex:0 0 39px;height:39px;background:#e8f3eb;color:#307256;border-radius:12px;font-weight:800;font-size:13px}
+#batch .batch-task-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px 19px}
+#batch .batch-task-grid label,#batch .batch-source-control label,#batch .batch-memory-row label{display:flex;flex-direction:column;gap:8px;min-width:0}
+#batch .batch-task-grid select,#batch .batch-task-grid input,#batch .batch-source-control select,#batch .batch-memory-row select{display:block;width:100%;min-width:0;min-height:44px;box-sizing:border-box;border:1px solid #d5e3d9;border-radius:11px;background:#fff;padding:9px 12px;color:#294e40}
+#batch .batch-role-config-grid{margin:0;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+#batch .batch-model-column{border:1px solid #dce9df;background:#fafcf9;border-radius:15px;padding:17px;min-width:0}
+#batch .batch-source-control{margin-bottom:14px}
+#batch .batch-model-fieldset{margin:0;padding:0!important;background:transparent!important;border:0!important;display:flex;flex-direction:column;gap:8px}
+#batch .batch-model-fieldset legend{font-size:15px;margin-bottom:13px}
+#batch .batch-model-fieldset input{min-height:42px;border:1px solid #d5e3d9;border-radius:9px}
+#batch .batch-model-actions .btn{flex:1;min-width:135px;justify-content:center}
+#batch .batch-memory-row{max-width:400px;margin-bottom:22px}
+#batch .batch-parameter-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+#batch .batch-parameter-grid label{padding:12px;background:#f8fbf8;border:1px solid #e2ebe4;border-radius:12px}
+#batch .batch-parameter-grid label small{display:none}
+#batch .batch-parameter-grid input{margin-top:auto;min-height:40px;background:#fff}
+#batch .batch-trait-fold{margin-top:20px;border:1px solid #dce9df;border-radius:13px;overflow:hidden}
+#batch .batch-trait-fold summary{cursor:pointer;padding:17px 19px;font-weight:700;color:#295c48;background:#f7faf7}
+#batch .batch-trait-fold summary span{float:right;font-weight:400;font-size:12px;color:#769183}
+#batch .batch-trait-grid{padding:16px;grid-template-columns:repeat(3,minmax(0,1fr));margin:0}
+#batch .batch-consent{border:1px solid #dae8dc;border-radius:12px;padding:14px 16px;background:#f8fbf8;margin-bottom:18px}
+#batch .batch-consent label{display:flex;align-items:flex-start;gap:10px;font-size:13px;line-height:1.6}
+#batch .batch-consent input{margin-top:4px;flex:none}
+#batch .batch-run-actions{display:flex;gap:10px;flex-wrap:wrap}
+#batch .batch-run-actions .btn{min-height:43px}
+@media(max-width:1020px){#batch .batch-task-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#batch .batch-parameter-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:740px){#batch .batch-step{padding:18px 16px}#batch .batch-role-config-grid{grid-template-columns:1fr}#batch .batch-trait-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:530px){#batch .batch-task-grid,#batch .batch-parameter-grid,#batch .batch-trait-grid{grid-template-columns:1fr}#batch .batch-run-actions .btn{flex:1 1 100%}}

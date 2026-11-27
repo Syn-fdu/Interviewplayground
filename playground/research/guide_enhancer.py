@@ -7,6 +7,7 @@ are marked unreviewed and constrained to traceable source turn IDs.
 import json
 import re
 from urllib.request import Request,urlopen
+from playground.common.interruptible_http import interruptible_urlopen
 from playground.interview.respondent_llm import validate_model, FIXED_LOCAL_ENDPOINT, LocalModelError
 
 PROMPT="""You are a qualitative research guide assistant working in an offline research preview.
@@ -55,7 +56,7 @@ def refine_public_guide(guide,source_questions,model,opener=None):
                     {'role':'user','content':json.dumps(payload,ensure_ascii=False)}]
     },ensure_ascii=False).encode('utf-8'),
         headers={'Content-Type':'application/json'},method='POST')
-    with (opener or urlopen)(req,timeout=120) as res:
+    with (opener or interruptible_urlopen)(req,timeout=120) as res:
         response=json.load(res)
     raw=response['choices'][0]['message']['content']
     model_data=_json_content(raw)

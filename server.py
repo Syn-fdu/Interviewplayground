@@ -88,6 +88,7 @@ def _bundled_archive_path(filename):
 
 
 BUNDLED_DATASETS = {
+    'complete28': ('InterviewData_28_Original_With_26_Graded_Guides.zip', '28 类原始数据 + 26 类新版 L0/L1/L2 Guide'),
     'refined': ('InterviewData_Cumulative_Refined_14.zip',
                 '累计精修数据（7 类 · 部分条目待语义复核）'),
 }
@@ -169,8 +170,287 @@ class LocalStore:
 
 STORE = LocalStore()
 
+# Batch is intentionally independent of the interactive browser session.
+# The handler API and browser reuse the same existing native engines.
+def _run_batch_interview(batch, candidate_id, turns, stop):
+    from playground.research.batch_model_profiles import activated
+    with activated(batch["experiment_id"]):
+        return _run_batch_interview_scoped(batch, candidate_id, turns, stop)
+
+
+def _run_batch_interview_scoped(batch, candidate_id, turns, stop):
+    from playground.research.group_interviewer_bridge import run_next
+    from playground.research.interviewer_preparation import prepare_public_outline
+    from playground.common.model_services import get
+    from playground.research.batch_experiments import BatchError
+    options = batch['options']
+    report = batch.get('_report_progress', lambda *args, **kwargs: None)
+    provider = options['interviewer_provider']
+    respondent_provider = options['respondent_provider']
+    with STORE.lock:
+        catalog = STORE.catalog
+        if not catalog or catalog['source_fingerprint'] != batch['source_fingerprint_sha256']:
+            raise BatchError('Original dataset has changed; reload the exact source')
+        item = next((c for c in catalog['candidates']
+                     if c['candidate_id'] == candidate_id and c['dataset'] == batch['dataset']), None)
+        if item is None or not item.get('scenario_eligible'):
+            raise BatchError('Candidate no longer eligible')
+        source = STORE.source_zip
+        dataset_index = catalog['source_index'].get(item['dataset'])
+        dataset_label = next((d['label'] for d in catalog['datasets']
+                              if d['id'] == item['dataset']), item['dataset'])
+    scenario_snapshot = batch.get('_scenario_snapshot')
+    if scenario_snapshot is not None:
+        if (not isinstance(scenario_snapshot, dict) or
+            (scenario_snapshot.get('provenance') or {}).get('candidate_id') != candidate_id or
+            (scenario_snapshot.get('provenance') or {}).get('dataset') != batch['dataset']):
+            raise BatchError('Saved scenario belongs to another participant or dataset')
+        scenario = copy.deepcopy(scenario_snapshot)
+        report('scenario_restored')
+    else:
+        report("scenario_setup")
+        if stop.is_set():
+            return {"status": "incomplete", "error": "Interrupted before scenario"}
+        scenario = build_from_v2(source, item, batch['source_fingerprint_sha256'],
+                                 dataset_index=dataset_index, dataset_label=dataset_label)
+        scenario['provenance']['guide_level'] = options.get('guide_level','level1')
+        scenario['provenance']['guide_category'] = options.get('guide_category')
+        scenario['scenario_id'] += '_G' + options.get('guide_level','level1')
+        from playground.research.guide_level_projection import bind_batch_level
+        bind_batch_level(scenario, options.get('guide_level','level1'), options.get('guide_category'))
+        if scenario.get('construction_mode') == 'guide_only':
+            raise BatchError('Candidate requires a human respondent; cannot simulate')
+        scenario['scenario_id'] += '_B' + uuid.uuid4().hex[:8]
+        # ACK from parent only after the stage JSON is fsynced and atomically replaced.
+        # Resume during respondent preparation must not run build_from_v2 again.
+        report('scenario_saved', artifact=scenario)
+    if scenario.get('construction_mode') == 'guide_only':
+        raise BatchError('Candidate requires a human respondent; cannot simulate')
+    # A stopped provider call may still be running when the researcher resumes.
+    # Give every execution generation a distinct runtime workspace.  The
+    # *durable* scenario snapshot above remains unchanged, so resume reuses the
+    # same research input without allowing an old worker's finally-cleanup to
+    # delete the new worker's interviewer/respondent sessions and caches.
+    scenario['scenario_id'] = scenario['scenario_id'] + '_run_' + uuid.uuid4().hex[:12]
+    sid = scenario['scenario_id']
+    try:
+        with STORE.lock:
+            public_pool = copy.deepcopy(STORE.public_pool)
+            public_pool_source = STORE.public_pool_source
+        bundle = make_research_bundle(scenario, MODEL, public_pool=public_pool,
+                                      public_pool_source=public_pool_source)
+        report("evidence_preparation")
+        # Never hold the global interactive workspace lock across slow
+        # preparation or an uncooperative model/network call.
+        prepare_evidence_index(bundle, timeout_seconds=300)
+        if stop.is_set():
+            return {'status': 'incomplete', 'error': 'Stopped during evidence preparation'}
+        with STORE.lock:
+            STORE.scenarios[sid] = scenario
+            STORE.research_bundles[sid] = bundle
+            revision = bundle['audit']['revision']
+        if stop.is_set():
+            return {'status': 'incomplete', 'error': 'Stopped before preparation'}
+        # Required source-only interviewer preparation; never pass private memories
+        # or gold respondent answers to the native Interviewer.
+        report("interviewer_preparation")
+        checkpoint = batch.get('_checkpoint')
+        pending_question = batch.get('_pending_question')
+        prep_checkpoint = (pending_question or {}).get('interviewer_checkpoint') or checkpoint
+        if (turns or pending_question) and prep_checkpoint:
+            from playground.research import group_interviewer_bridge as bridge
+            from playground.interview_agent.outline.models import Outline
+            saved_interviewer = prep_checkpoint.get('interviewer', prep_checkpoint)
+            saved_outline = saved_interviewer.get('native', {}).get('outline')
+            if (saved_interviewer.get('fingerprint') != batch['source_fingerprint_sha256']
+                    or saved_interviewer.get('provider') != provider
+                    or not isinstance(saved_outline, dict)):
+                raise BatchError('Cannot continue: original interviewer outline is missing or mismatched '
+                                 f'(phase=checkpoint_validation, turns={len(turns)}, '
+                                 f'provider_match={saved_interviewer.get("provider") == provider}, '
+                                 f'fingerprint_match={saved_interviewer.get("fingerprint") == batch["source_fingerprint_sha256"]}, '
+                                 f'outline_present={isinstance(saved_outline, dict)})')
+            validated_outline = Outline.from_dict(saved_outline)
+            if not validated_outline.questions():
+                raise BatchError('Cannot continue: saved interviewer outline is empty')
+            provenance = scenario['provenance']
+            key = (batch['source_fingerprint_sha256'], provenance['dataset'],
+                   provenance['candidate_id'], revision, provenance.get('guide_level','level1'))
+            with bridge._LOCK:
+                bridge._OUTLINES[key] = validated_outline.to_dict()
+            prepared = {'ready': True, 'continued_from_checkpoint': True}
+        else:
+            prepared = prepare_public_outline(source, scenario, revision, provider=provider)
+        if stop.is_set():
+            return {"status": "incomplete", "error": "Interrupted during interviewer preparation"}
+        if not prepared.get('ready'):
+            raise BatchError('Native interviewer outline not ready')
+        respondent_model = (get('local','respondent').model if respondent_provider == 'local' else
+                            get(respondent_provider, 'respondent').model)
+        report("respondent_preparation")
+        _run_preparation_request({
+            'scenario_id': sid, 'research_revision': revision, 'model': respondent_model,
+            'respondent_provider': respondent_provider, 'local_consent': True,
+            'preparation_mode': options['preparation_mode'],
+            'behavioral_traits': options.get('behavioral_traits')})
+        if stop.is_set():
+            return {'status': 'incomplete', 'error': 'Stopped after preparation'}
+        session_id = uuid.uuid4().hex
+        checkpoint = batch.get('_checkpoint')
+        pending_question = batch.get('_pending_question')
+        if pending_question:
+            if (pending_question.get('turn_index') != len(turns) or
+                    not isinstance(pending_question.get('interviewer_checkpoint'), dict)):
+                raise BatchError('Pending interviewer question does not match saved transcript')
+        if turns:
+            if not isinstance(checkpoint, dict) or not checkpoint.get('respondent_state'):
+                raise BatchError('Cannot continue without full interviewer and respondent state')
+            if checkpoint.get('research_revision') != revision:
+                raise BatchError('Research revision changed; saved interview cannot be continued safely')
+            state = copy.deepcopy(checkpoint['respondent_state'])
+            if state.get('turn') != len(turns) or state.get('history') != turns:
+                raise BatchError('Saved respondent state does not match completed turns')
+            with STORE.lock:
+                STORE.research_sessions[(sid, session_id)] = state
+        finish_message = None
+        prep_to_retrieval = {'fast_hybrid': 'new_retrieval',
+                             'no_fact_sort': 'unified_retrieval',
+                             'python_binary': 'python_binary_retrieval'}
+        starting_turn = len(turns)
+        for turn_index in (range(starting_turn, options['max_turns']) if options['max_turns'] else __import__('itertools').count(starting_turn)):
+            round_started = time.monotonic()
+            if stop.is_set():
+                return {'status': 'incomplete', 'error': 'Stopped between turns'}
+            replay_pending = bool(pending_question is not None and turn_index == starting_turn)
+            interviewer_started = time.monotonic()
+            if replay_pending:
+                question = pending_question['question']
+                pending_interviewer = pending_question['interviewer_checkpoint']
+                if not isinstance(question, str) or not question.strip():
+                    raise BatchError('Saved interviewer question is empty')
+                report('interviewer_question_restored', turn_count=len(turns))
+            else:
+                report("interviewer_question", turn_count=len(turns))
+                interviewer_checkpoint = checkpoint.get('interviewer') if checkpoint else None
+                # After a recovered pending question, the fresh child has no native
+                # Interviewer session. Restore from the saved post-question snapshot
+                # on the next turn, rather than generating the old question again.
+                if pending_question is not None and turn_index == starting_turn + 1:
+                    interviewer_checkpoint = pending_question['interviewer_checkpoint']
+                agent = run_next({
+                    'protocol': 'native_interviewer_v1', 'provider': provider,
+                    'scenario_id': sid, 'session_id': session_id,
+                    'research_revision': revision,
+                    'source_fingerprint_sha256': batch['source_fingerprint_sha256'],
+                    'history': copy.deepcopy(turns), 'language': options['language'],
+                    'interviewer_timeout_seconds': options['interviewer_timeout_seconds'],
+                    **({'checkpoint': interviewer_checkpoint} if interviewer_checkpoint is not None and
+                       (turn_index == starting_turn and starting_turn > 0 or
+                        pending_question is not None and turn_index == starting_turn + 1) else {})
+                }, scenario, source, revision, provider=provider)
+                if agent.get('finished') or agent.get('action') == 'conclude':
+                    finish_message = agent.get('closing_message') or agent['question']
+                    return {'status': 'completed', 'closing_message': finish_message}
+                if stop.is_set():
+                    return {'status': 'incomplete', 'error': 'Interrupted after interviewer response'}
+                question = agent['question']
+                from playground.research.group_interviewer_bridge import export_checkpoint
+                pending_interviewer = export_checkpoint(provider, session_id, sid,
+                      batch['source_fingerprint_sha256'], revision)
+                # ACK from parent after fsync; once persisted, interruption in
+                # respondent generation must never repeat this question.
+                report('interviewer_question_saved', turn_count=len(turns), artifact={
+                    'turn_index': turn_index, 'question': question,
+                    'interviewer_checkpoint': pending_interviewer})
+            interviewer_seconds = 0.0 if replay_pending else time.monotonic() - interviewer_started
+            if stop.is_set():
+                return {'status': 'incomplete', 'error': 'Interrupted before respondent answer'}
+            report('respondent_answer', turn_count=len(turns))
+            respondent_started = time.monotonic()
+            # The interactive respondent transaction is already idempotent and
+            # validates source/revision/turn. We reuse it without HTTP or fake data.
+            response = PlaygroundHandler.respondent_v08(None, scenario, {
+                'session_id': session_id, 'turn_index': turn_index,
+                'question': question, 'history': copy.deepcopy(turns),
+                'respondent_provider': respondent_provider, 'model': respondent_model,
+                'research_revision': revision, 'memory_mode': 'integrated',
+                'preparation_mode': options['preparation_mode'],
+                'retrieval_strategy': prep_to_retrieval[options['preparation_mode']],
+                'behavioral_traits': options.get('behavioral_traits'),
+                # Same default quality contract as the interactive request.
+                'quality_mode': options.get('quality_mode', True) is not False,
+                'language': options['language'],
+                'respondent_timeout_seconds': options['respondent_timeout_seconds'],
+                'retrieval_timeout_seconds': options['retrieval_timeout_seconds']
+            }, respondent_model)
+            respondent_seconds = time.monotonic() - respondent_started
+            if stop.is_set():
+                return {'status': 'incomplete', 'error': 'Interrupted after respondent response'}
+            if response.get('question_echo') != question or not response.get('answer'):
+                raise BatchError('Respondent question/answer contract mismatch')
+            turns.append({'question': question, 'answer': response['answer']})
+            # pending_interviewer is the native state recorded immediately after
+            # the question was generated.  When a pending question is replayed
+            # on resume, no in-memory interviewer session has been created yet:
+            # exporting again here would raise "Cannot checkpoint a missing
+            # interviewer session".  The saved native checkpoint is the correct
+            # boundary for the next run_next(history=[...], checkpoint=...).
+            if not isinstance(pending_interviewer, dict):
+                raise BatchError('Missing native interviewer checkpoint for answered question')
+            with STORE.lock:
+                respondent_state = copy.deepcopy(STORE.research_sessions[(sid, session_id)])
+            checkpoint = {
+                'research_revision': revision,
+                'interviewer': pending_interviewer,
+                'respondent_state': respondent_state}
+            # Diagnostics are separate from transcript turns: respondent_state.history
+            # and native interviewer checkpoints must remain exact question/answer pairs.
+            selection = response.get('memory_selection') or {}
+            runtime = selection.get('runtime_timing') or {}
+            report('turn_saved', turn_count=len(turns), checkpoint=checkpoint,
+                   last_turn_seconds=time.monotonic() - round_started,
+                   artifact={'timing': {
+                       'interviewer_seconds': round(interviewer_seconds, 3),
+                       'respondent_seconds': round(respondent_seconds, 3),
+                       'interviewer_restored': replay_pending,
+                       'respondent_retrieval_ms': runtime.get('retrieval_ms'),
+                       'respondent_after_retrieval_ms': runtime.get('after_retrieval_ms'),
+                       'respondent_total_ms': runtime.get('total_ms'),
+                       'answer_rewrite_count': runtime.get('answer_rewrite_count'),
+                       'answer_rewrite_succeeded': runtime.get('answer_rewrite_succeeded'),
+                       'semantic_actual_api_calls': runtime.get('semantic_actual_api_calls'),
+                       'answer_quality_passed': selection.get('answer_quality_passed'),
+                       'quality_flags': selection.get('quality_flags', [])
+                   }})
+        return {'status': 'incomplete', 'error': 'Reached max_turns without native conclusion'}
+    finally:
+        # Batch sessions must never leak into the interactive workspace.
+        from playground.research import group_interviewer_bridge as bridge
+        with bridge._LOCK:
+            for key in list(bridge._SESSIONS):
+                if len(key) > 2 and key[2] == sid:
+                    del bridge._SESSIONS[key]
+        with STORE.lock:
+            STORE.scenarios.pop(sid, None)
+            STORE.research_bundles.pop(sid, None)
+            for mapping in (STORE.research_sessions, STORE.research_cache,
+                            STORE.research_session_locks):
+                for key in list(mapping):
+                    if key[0] == sid:
+                        mapping.pop(key, None)
+        with PREPARED_RESEARCH_CACHES_LOCK:
+            for key in list(PREPARED_RESEARCH_CACHES):
+                if key[0] == sid:
+                    PREPARED_RESEARCH_CACHES.pop(key, None)
+
+from playground.research.batch_experiments import BatchManager, BatchError
+# Keep the real model clients on the server's initialized thread/context.
+# Forking a running multithreaded HTTP server can inherit locked runtime state
+# and prevent any upstream API request from being issued.
+BATCH = BatchManager(ROOT / '.runtime_cache' / 'batch_experiments', _run_batch_interview, isolate_calls=False)
+
 # Single release identifier for HTTP health, headers, CLI and startup logs.
-APP_VERSION = "1.9.3"
+APP_VERSION = "1.9.4"
 
 
 # Preparation tasks run independently of a long-lived browser HTTP connection.
@@ -318,7 +598,8 @@ def _v18_import_prepared_cache(body):
             'source_fingerprint_sha256':provenance.get('source_fingerprint_sha256'),
             'source_dataset':provenance.get('dataset'),
             'source_candidate_id':provenance.get('candidate_id'),
-            'preparation_method':'native_llm_slot_agent_v1'}
+            'preparation_method':'native_llm_slot_agent_v1',
+            'guide_level':provenance.get('guide_level','level1')}
         if any(meta.get(k)!=v for k,v in required.items()):
             raise StudioError('Outline 缓存来源与当前场景不符','outline_cache_source_mismatch',409)
         outline=Outline.from_dict(data)
@@ -327,7 +608,7 @@ def _v18_import_prepared_cache(body):
              slot.source=='fallback' for slot in q.required_slots) for q in questions):
             raise StudioError('Outline 缓存 Slot 未完整准备，不能导入为成功','outline_cache_incomplete',422)
         key=(provenance.get('source_fingerprint_sha256'),provenance.get('dataset'),
-             provenance.get('candidate_id'),rev)
+             provenance.get('candidate_id'),rev,provenance.get('guide_level','level1'))
         with _LOCK:
             _OUTLINES[key]=copy.deepcopy(data)
             _DETAILS[key]=copy.deepcopy(meta)
@@ -575,6 +856,50 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
             return
         parsed = urlparse(self.path)
         p = parsed.path
+        if p == "/api/batch/model-defaults":
+            from playground.common.model_services import _env_value,PROVIDERS
+            values={}
+            for role in ("interviewer","respondent"):
+                values[role]={}
+                for provider in PROVIDERS:
+                    model,key,url,_origin=_env_value(provider,role)
+                    values[role][provider]={"provider":provider,"model":model,"base_url":url,
+                                            "key_configured":bool(key)}
+            return self.send_json(200,{"profiles":values})
+        if p == "/api/batch/candidates":
+            ds=parse_qs(parsed.query).get("dataset",[""])[0]
+            with STORE.lock:
+                rows=[{"id":r["candidate_id"],"label":r["candidate_id"],
+                       "eligible":bool(r.get("scenario_eligible"))}
+                      for r in ((STORE.catalog or {}).get("candidates") or [])
+                      if r.get("dataset")==ds]
+            return self.send_json(200,{"candidates":rows})
+        if p == "/api/batch/experiments":
+            return self.send_json(200, {"experiments": BATCH.list()})
+        if p in ("/api/batch/status", "/api/batch/export"):
+            job_id = parse_qs(parsed.query).get("experiment_id", [""])[0]
+            try:
+                if p == "/api/batch/status":
+                    return self.send_json(200, BATCH.status(job_id))
+                payload = BATCH.export(job_id)
+                self.send_response(200)
+                self.send_header("Content-Type", "application/zip")
+                self.send_header("Content-Disposition", 'attachment; filename="batch_' + job_id + '.zip"')
+                self.send_header("Cache-Control", "no-store")
+                self.send_header("X-Content-Type-Options", "nosniff")
+                self.send_header("Content-Length", str(len(payload)))
+                self.end_headers()
+                return self.wfile.write(payload)
+            except BatchError as exc:
+                return self.send_json(404, {"error": str(exc)})
+        if p == "/api/batch/datasets":
+            with STORE.lock:
+                items = [{"id": d["id"], "label": d["label"],
+                          "total": sum(c.get('dataset') == d['id'] for c in STORE.catalog['candidates']),
+                          "eligible": sum(c.get('dataset') == d['id'] and c.get('scenario_eligible')
+                                          for c in STORE.catalog['candidates'])}
+                         for d in STORE.catalog['datasets']] if STORE.catalog else []
+            return self.send_json(200, {"datasets": items})
         if p == "/api/interviewer/preparation/status":
             ids=parse_qs(parsed.query).get('job_id',[])
             job_id=ids[0] if len(ids)==1 else ''
@@ -604,7 +929,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
             data=status()
             return self.send_json(200,{
                 "interface":"native_interviewer_v1",
-                "providers":["maas","shubi"],
+                "providers":["maas","shubi","local"],
                 "respondent_providers":["local","maas","shubi"],
                 "interviewer":data["interviewer"],
                 "respondent":data["respondent"],
@@ -676,6 +1001,16 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                     "local_restricted_preview_only": True,
                     "external_model_or_public_export_allowed": False,
                 })
+        if p == "/api/graded-guides/status":
+            from playground.research.graded_guides import list_datasets, available_levels, variants
+            ds=parse_qs(parsed.query).get("dataset", [""])[0]
+            cid=parse_qs(parsed.query).get("candidate_id", [""])[0]
+            info={"datasets":list_datasets()}
+            if ds:
+                info["categories"]=sorted({str(r["category"]) for r in variants(ds) if r.get("guide_kind")=="category" and r.get("category")})
+            if ds and cid:
+                info["available_levels"]=available_levels(ds,cid)
+            return self.send_json(200,info)
         if p == "/api/bundled-dataset/status":
             items = [{'id': ds, 'label': label,
                       'available': _bundled_archive_available(name)}
@@ -821,7 +1156,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
             self.end_headers()
             return
         # Strict static allowlist: never serve arbitrary datasets or uploads.
-        allowed_static = {"/", "/index.html", "/assets/style.css"}
+        allowed_static = {"/", "/index.html", "/assets/style.css", "/assets/batch_experiments.js"}
         if p not in allowed_static:
             return self.send_json(403, {"error": "只提供 Playground 页面和指定的静态资源。"})
         # Do not allow browsers to reuse a stale index or a mixed-version script
@@ -847,6 +1182,123 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
         if not self.local_only():
             return
         path = urlparse(self.path).path
+        if path == "/api/batch/model-test":
+            if self.headers.get("X-Playground-Local") != "intake-v2":
+                return self.send_json(403,{"error":"本机授权标记缺失"})
+            try:
+                body=self.json_body(max_bytes=5500)
+                if body.get("local_consent") is not True:
+                    raise ValueError("缺少本机测试授权")
+                from playground.research.batch_model_profiles import validate_profiles
+                from playground.common.model_services import batch_config_context,get
+                from playground.interview_agent.llm.openai_compat import OpenAICompatClient
+                role=body.get("role")
+                if role not in ("interviewer","respondent"):
+                    raise ValueError("测试角色不正确")
+                requested=body.get("model_profiles") or {}
+                other="respondent" if role=="interviewer" else "interviewer"
+                test_profiles={role:requested.get(role),
+                               other:{"provider":"local","model":"qwen2.5:7b"}}
+                public,private=validate_profiles(test_profiles)
+                provider=public[role]["provider"]
+                with batch_config_context(private):
+                    cfg=get(provider,role)
+                    answer=OpenAICompatClient(cfg,retries=0).chat([
+                        {"role":"system","content":"Reply with one short Chinese sentence."},
+                        {"role":"user","content":"This is an artificial API connectivity check. Say: 测试连接成功。"}
+                    ],temperature=0.1)
+                return self.send_json(200,{"ok":True,"role":role,"provider":provider,
+                                           "model":cfg.model,"preview":str(answer)[:120]})
+            except Exception as exc:
+                # No key/URL/raw provider content is returned to browser logs.
+                return self.send_json(400,{"error":"批量配置测试失败："+type(exc).__name__})
+        if path in ("/api/batch/start", "/api/batch/create", "/api/batch/launch", "/api/batch/stop", "/api/batch/resume", "/api/batch/delete"):
+            if self.headers.get("X-Playground-Local") != "intake-v2":
+                return self.send_json(403, {"error": "Explicit local consent header required"})
+            try:
+                body = self.json_body(max_bytes=5000)
+                if body.get("local_consent") is not True:
+                    raise BatchError("Explicit local research consent required")
+                if path == "/api/batch/stop":
+                    return self.send_json(200, BATCH.stop(body.get("experiment_id")))
+                if path == "/api/batch/delete":
+                    removed=BATCH.prune(body.get("experiment_ids"))
+                    from playground.research.batch_model_profiles import clear
+                    clear(removed["deleted"])
+                    return self.send_json(200,removed)
+                with STORE.lock:
+                    self.require_catalog()
+                    catalog = STORE.catalog
+                    fingerprint = catalog['source_fingerprint']
+                    if path == "/api/batch/launch":
+                        job_id=body.get("experiment_id")
+                        old=BATCH._read(job_id)
+                        from playground.research.batch_model_profiles import rebind
+                        rebind(job_id, old["options"].get("model_profiles"),body.get("model_profiles"))
+                        return self.send_json(200, BATCH.launch_created(job_id, fingerprint))
+                    if path == "/api/batch/resume":
+                        job_id=body.get("experiment_id")
+                        if job_id in BATCH.running:
+                            raise BatchError("Stop the running batch before resuming")
+                        old=BATCH._read(job_id)
+                        from playground.research.batch_model_profiles import rebind
+                        rebind(job_id, old["options"].get("model_profiles"),body.get("model_profiles"))
+                        return self.send_json(200, BATCH.resume(job_id, fingerprint))
+                    dataset = body.get("dataset")
+                    if dataset not in {d['id'] for d in catalog['datasets']}:
+                        raise BatchError("Choose an imported dataset")
+                    candidates = [c for c in catalog['candidates'] if c['dataset'] == dataset]
+                    chosen_candidate=body.get("candidate_id")
+                    if chosen_candidate:
+                        candidates=[c for c in candidates if c["candidate_id"]==chosen_candidate]
+                        if len(candidates)!=1:
+                            raise BatchError("Selected scenario is not in the dataset")
+                if body.get('external_processing_consent') is not True:
+                    raise BatchError('Explicit consent to remote interviewer processing is required')
+                options = {k: body.get(k, default) for k, default in {
+                    'interviewer_provider': 'shubi', 'respondent_provider': 'shubi',
+                    'language': 'zh', 'preparation_mode': 'fast_hybrid',
+                    'max_turns': 30, 'interviewer_timeout_seconds': 105,
+                    'respondent_timeout_seconds': 300,
+                    'retrieval_timeout_seconds': 240}.items()}
+                quality_mode = body.get('quality_mode', True)
+                if type(quality_mode) is not bool:
+                    raise BatchError('quality_mode must be a boolean')
+                options['quality_mode'] = quality_mode
+                options['candidate_id'] = body.get('candidate_id') or None
+                options['guide_category'] = body.get('guide_category')
+                if options['guide_category'] is not None and (not isinstance(options['guide_category'], str) or len(options['guide_category'])>100):
+                    raise BatchError('Invalid guide category')
+                options['guide_level'] = body.get('guide_level','level1')
+                if options['guide_level'] not in ('level0','level1','level2'):
+                    raise BatchError('Invalid graded guide level')
+                if options['interviewer_provider'] not in ('shubi', 'maas', 'local') or options['respondent_provider'] not in ('shubi', 'maas', 'local'):
+                    raise BatchError('Unsupported model provider')
+                if options['language'] not in ('zh','en','bi') or options['preparation_mode'] not in ('fast_hybrid','no_fact_sort','python_binary'):
+                    raise BatchError('Unsupported language or preparation mode')
+                for key, minimum, maximum in (('max_turns',0,1000000), ('interviewer_timeout_seconds',30,600),
+                                              ('respondent_timeout_seconds',30,900), ('retrieval_timeout_seconds',30,900)):
+                    if type(options[key]) is not int or not minimum <= options[key] <= maximum:
+                        raise BatchError('Invalid ' + key)
+                traits = body.get('behavioral_traits')
+                if traits is not None:
+                    keys = {'knowledge','understanding','reflexivity','memory','verbosity','disclosure'}
+                    if (not isinstance(traits, dict) or set(traits) != keys or
+                            any(type(v) not in (float,int) or not 0 <= v <= 1 for v in traits.values())):
+                        raise BatchError('Invalid behavioral_traits: six numeric values between 0 and 1 required')
+                    options['behavioral_traits'] = traits
+                from playground.research.batch_model_profiles import validate_profiles,register
+                profiles_public,profiles_private=validate_profiles(body.get("model_profiles"))
+                if (profiles_public["interviewer"]["provider"]!=options["interviewer_provider"] or
+                    profiles_public["respondent"]["provider"]!=options["respondent_provider"]):
+                    raise BatchError("Model profiles must match selected batch providers")
+                options["model_profiles"]=profiles_public  # credentials never serialized
+                result=BATCH.start(dataset,fingerprint,candidates,options,
+                    before_launch=lambda job:register(job,profiles_public,profiles_private),
+                    launch=path == "/api/batch/start")
+                return self.send_json(202,result)
+            except (BatchError, IntakeError, ValueError) as exc:
+                return self.send_json(409, {"error": str(exc)})
         if path.startswith("/api/research/"):
             if not self.research_authorized():
                 return
@@ -1213,6 +1665,54 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                 return self.send_json(200, catalog_summary(cat, []))
             except (IntakeError, ValueError, OSError) as e:
                 return self.send_json(400, {"error": str(e)})
+        if path == "/api/v3/scenario/select-guide":
+            if self.headers.get("X-Playground-Local") != "intake-v2":
+                return self.send_json(403, {"error": "本机授权标记缺失"})
+            try:
+                body=self.json_body(max_bytes=1500)
+                if body.get("local_consent") is not True:
+                    raise IntakeError("缺少本机操作授权")
+                sid=body.get("scenario_id")
+                level=body.get("guide_level")
+                from playground.research.guide_level_projection import select_attached_level
+                with STORE.lock:
+                    original=STORE.scenarios.get(sid)
+                    if original is None:
+                        raise IntakeError("场景不存在，请先完成一次场景构建")
+                    if level not in (original.get("provenance",{}).get("available_guide_levels") or []):
+                        raise IntakeError("该场景没有匹配的大纲等级")
+                    # Never mutate an active session: callers must export/reset
+                    # before selecting another grade. Server also enforces it.
+                    for key, lock in STORE.research_session_locks.items():
+                        if key[0]==sid and lock.locked():
+                            raise IntakeError("当前访谈仍在运行，请先停止")
+                    if original["provenance"].get("guide_level") != level:
+                        updated=copy.deepcopy(original)
+                        select_attached_level(updated,level)
+                        current_bundle=STORE.research_bundles[sid]
+                        new_bundle=copy.deepcopy(current_bundle)
+                        new_bundle["interview_guide"]=copy.deepcopy(updated["public"]["interview_guide"])
+                        new_bundle["source_scenario"]["provenance"]=copy.deepcopy(updated["provenance"])
+                        new_bundle["audit"]["revision"]=int(new_bundle["audit"]["revision"])+1
+                        STORE.scenarios[sid]=updated
+                        STORE.research_bundles[sid]=new_bundle
+                        for key in list(STORE.research_sessions):
+                            if key[0]==sid:STORE.research_sessions.pop(key,None)
+                        for key in list(STORE.research_cache):
+                            if key[0]==sid:STORE.research_cache.pop(key,None)
+                    else:
+                        updated=original
+                        new_bundle=STORE.research_bundles[sid]
+                    browser_scene={k:v for k,v in updated.items() if k!="_attached_levels"}
+                    browser_scene["private"]={k:v for k,v in updated["private"].items()
+                        if k not in ("memory_bank","respondent_persona","evaluation_reference",
+                                     "source_interviewer_questions")}
+                    browser_scene["research_revision"]=new_bundle["audit"]["revision"]
+                    browser_scene["research_behavior_parameters"]=new_bundle["respondent"]["behavior_parameters"]
+                return self.send_json(200,{"ok":True,"scenario":browser_scene,
+                                           "available_levels":updated["provenance"]["available_guide_levels"]})
+            except (IntakeError,ValueError,KeyError,TypeError) as exc:
+                return self.send_json(400,{"error":str(exc)})
         if path == "/api/v3/scenario/build":
             if self.headers.get("X-Playground-Local") != "intake-v2":
                 return self.send_json(403, {"error": "只允许通过本机 Playground 明确授权创建受限场景。"})
@@ -1258,6 +1758,9 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                                 raise
                     if scenario is None:
                         raise IntakeError("未找到可构建的有效问答：" + (reasons[0] if reasons else "未知原因"))
+                # ONE source scenario holds the three independently validated guides.
+                # Choosing a level is an interview action, never a scene build input.
+                from playground.research.guide_level_projection import attach_all_levels
                 if body.get("enrich_guide") is True and scenario.get("construction_mode") != "guide_only":
                     try:
                         refined = refine_public_guide(
@@ -1273,6 +1776,8 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                 quality = validate_guide(scenario["public"]["interview_guide"], normalize=False)
                 if not quality["ok"]:
                     raise IntakeError("构建后的大纲结构校验失败：" + quality["errors"][0]["message"])
+                # All levels are matched and validated once at build time.
+                attach_all_levels(scenario, body.get("guide_category"))
                 with STORE.lock:
                     if (STORE.catalog is None or STORE.catalog["source_fingerprint"] != scenario["provenance"]["source_fingerprint_sha256"]):
                         raise IntakeError("构建过程中 V2 数据来源发生变化，请重新生成。")
@@ -1322,7 +1827,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
                         if key[0] == sid and not STORE.research_session_locks[key].locked():
                             del STORE.research_session_locks[key]
                 # The legacy interview frontend still receives only the public scenario.
-                browser_scene = dict(scenario)
+                browser_scene = {k:v for k,v in scenario.items() if k != "_attached_levels"}
                 browser_scene["profile_handoff"] = {
                     "matched_profile": bool(scenario["provenance"].get("profile_join")),
                     "interviewer_view": "filtered_pre_interview_briefing",
@@ -2116,7 +2621,7 @@ class PlaygroundHandler(SimpleHTTPRequestHandler):
         try:
             req=self.json_body(max_bytes=8*1024*1024)
             provider=req.get("provider")
-            if provider not in ("maas","shubi"):
+            if provider not in ("maas","shubi","local"):
                 return self.send_json(400,{ "error":"provider must be maas or shubi.",
                                            "error_code":"invalid_interviewer_provider"})
             scene_id=req.get("scenario_id")
@@ -2219,12 +2724,19 @@ def main():
     src = parser.add_mutually_exclusive_group()
     src.add_argument("--data-zip", type=Path, help="启动时加载 InterviewData V2 ZIP")
     src.add_argument("--data-dir", type=Path, help="直接加载 datasets 文件夹，自动读取其中的 processed JSON")
+    parser.add_argument("--no-bundled-data", action="store_true",
+                        help="不自动加载项目附带的七组示例研究数据")
     parser.add_argument("--port", type=int, default=DEFAULT_PORT)
     parser.add_argument("--open-browser", action="store_true", help="启动后在浏览器打开正确的 HTTP 页面")
     args = parser.parse_args()
-    if args.data_zip or args.data_dir:
+    bundled_data_dir = (ROOT / "resources" / "bundled_data" /
+                        "InterviewData_Cumulative_Refined_14" / "social_research")
+    selected_source = (args.data_zip or args.data_dir or
+                       (bundled_data_dir if bundled_data_dir.is_dir() and
+                        not args.no_bundled_data else None))
+    if selected_source is not None:
         try:
-            catalog = STORE.load(args.data_zip or args.data_dir)
+            catalog = STORE.load(selected_source)
         except IntakeError as exc:
             parser.error("读取 V2 失败：%s" % exc)
         print("InterviewData loaded: %d datasets, %d candidates, %d evidence-ready interviews" %

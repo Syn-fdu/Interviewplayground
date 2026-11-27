@@ -1,0 +1,162 @@
+{
+  "schema": "interviewplayground.bundled_outline_levels.v1",
+  "dataset_id": "securops_experts",
+  "research_focus": "公共空间社交机器人安全、信任与可接受性",
+  "source_status": "direct_records",
+  "review_status": "research_candidate_not_original",
+  "levels": {
+    "level0": [
+      {
+        "id": "L0_01",
+        "question_zh": "你如何认识公共空间社交机器人的风险及基本安全要求？",
+        "covers_level1": [
+          "B01",
+          "B02",
+          "B03"
+        ]
+      },
+      {
+        "id": "L0_02",
+        "question_zh": "安全、信任与用户体验如何在不同场景下协调？",
+        "covers_level1": [
+          "B04",
+          "B05",
+          "B06",
+          "B07"
+        ]
+      },
+      {
+        "id": "L0_03",
+        "question_zh": "如何评价、落实并改进社交机器人安全框架？",
+        "covers_level1": [
+          "B08",
+          "B09",
+          "B10"
+        ]
+      }
+    ],
+    "level1": [
+      {
+        "id": "B01",
+        "question_zh": "你的专业经历与公共空间社交机器人有什么关系？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B02",
+        "question_zh": "你如何认识公共场所部署社交机器人的潜在风险？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B03",
+        "question_zh": "你认为社交机器人应具备哪些安全保障？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B04",
+        "question_zh": "公众对机器人的信任主要受什么影响？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B05",
+        "question_zh": "不同场所及人群会带来哪些差异化要求？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B06",
+        "question_zh": "你如何平衡安全要求、机器人功能和用户体验？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B07",
+        "question_zh": "机器人决策的透明性与可解释性有多重要？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B08",
+        "question_zh": "你怎样评价针对社交机器人提出的安全框架？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B09",
+        "question_zh": "哪些部署问题需要技术人员以外的参与者共同解决？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B10",
+        "question_zh": "未来还有哪些安全问题容易被忽视？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      }
+    ],
+    "level2": [
+      {
+        "id": "D01",
+        "parent_id": "B02",
+        "question_zh": "请结合你了解的部署或测试情境，说明哪一种移动、感知或交互行为可能产生安全风险。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D02",
+        "parent_id": "B03",
+        "question_zh": "如果机器人发生传感器异常或断网，安全保障应如何响应？请结合实际系统或测试经验说明。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D03",
+        "parent_id": "B04",
+        "question_zh": "机器人使用摄像头等传感器时，哪些具体说明方式会影响公众信任？你见过什么例子？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D04",
+        "parent_id": "B05",
+        "question_zh": "如果儿童与机器人接触，哪些场景要求额外的防护？依据是什么？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D05",
+        "parent_id": "B06",
+        "question_zh": "你是否遇到过功能体验与安全要求不一致的案例？若有，如何权衡？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D06",
+        "parent_id": "B07",
+        "question_zh": "当机器人判断有误时，系统应如何向现场人员说明？可以参考一次具体情况。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D07",
+        "parent_id": "B08",
+        "question_zh": "请以你熟悉的安全框架为例，说明其实施时最难验证的环节。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "schema": "interviewplayground.bundled_outline_levels.v1",
+  "dataset_id": "parental_engagement_teachers",
+  "research_focus": "教师视角的家长参与、家校合作与停课影响",
+  "source_status": "direct_records",
+  "review_status": "research_candidate_not_original",
+  "levels": {
+    "level0": [
+      {
+        "id": "L0_01",
+        "question_zh": "你如何理解家长参与教育及其对学生的影响？",
+        "covers_level1": [
+          "B01",
+          "B02",
+          "B06"
+        ]
+      },
+      {
+        "id": "L0_02",
+        "question_zh": "你如何开展家校沟通并应对参与障碍？",
+        "covers_level1": [
+          "B03",
+          "B04",
+          "B05",
+          "B08"
+        ]
+      },
+      {
+        "id": "L0_03",
+        "question_zh": "停课与复课怎样改变家校合作，未来可以怎样改进？",
+        "covers_level1": [
+          "B07",
+          "B09",
+          "B10"
+        ]
+      }
+    ],
+    "level1": [
+      {
+        "id": "B01",
+        "question_zh": "你如何定义“家长参与孩子教育”？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B02",
+        "question_zh": "在你看来哪些家长参与方式最有帮助？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B03",
+        "question_zh": "家校互动在你的教学工作中占什么位置？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B04",
+        "question_zh": "你通常怎样与家长保持联系？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B05",
+        "question_zh": "哪些因素会影响家长参与教育活动？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B06",
+        "question_zh": "你观察到家长参与如何影响学生？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B07",
+        "question_zh": "学校停课或远程教学期间家校关系发生了什么变化？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B08",
+        "question_zh": "你如何支持不同家庭参与教育？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B09",
+        "question_zh": "停课结束后哪些沟通方式被保留或取消？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B10",
+        "question_zh": "如果可以改进一项家校合作机制，你会改什么？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      }
+    ],
+    "level2": [
+      {
+        "id": "D01",
+        "parent_id": "B02",
+        "question_zh": "请举一个家庭参与方式与学生课堂表现相关的具体例子，并说明你如何判断二者关系。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D02",
+        "parent_id": "B03",
+        "question_zh": "你通常怎样在备课、教学与联络家长之间分配时间？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D03",
+        "parent_id": "B04",
+        "question_zh": "请回忆一次联系家长的经历，你采取了什么渠道，沟通结果怎样？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D04",
+        "parent_id": "B05",
+        "question_zh": "哪些具体因素影响过家长参与？请举一次你看到的情况。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D05",
+        "parent_id": "B06",
+        "question_zh": "是否有家长积极参与但学生表现没有明显变化的情况？如有，你如何理解？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D06",
+        "parent_id": "B07",
+        "question_zh": "停课期间遇到沟通障碍时，你和学校通常怎样寻找替代方式？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D07",
+        "parent_id": "B09",
+        "question_zh": "停课后哪项家校沟通方式没有继续采用？原因是什么？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      }
+    ]
+  }
+}

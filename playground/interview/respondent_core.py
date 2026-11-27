@@ -18,6 +18,7 @@ import re
 import time
 import urllib.error
 import urllib.request
+from playground.common.interruptible_http import interruptible_urlopen
 from typing import Any
 
 VERSION = "0.8.1"
@@ -489,12 +490,15 @@ def prepare_evidence_index(bundle, timeout_seconds=300):
     if key in _PREPARED_INDEX:
         return _PREPARED_INDEX[key]
     rows = []
+    from playground.common.interruptible_http import check_cancelled
     for m in memories:
+        check_cancelled()
         if _time.monotonic()-start >= timeout_seconds:
             raise StudioError("记忆准备超过300秒，已停止；未进入访谈。", "preparation_timeout", 503)
         rows.append({"id":m["memory_id"],
                      "tokens":text_tokens(m["content"] + " " + " ".join(f["text"] for f in m["facts"])),
                      "facts":m["facts"], "importance":m.get("importance", 0)})
+    check_cancelled()
     if len(_PREPARED_INDEX)>12: _PREPARED_INDEX.clear()
     _PREPARED_INDEX[key]=rows
     return rows
@@ -883,7 +887,7 @@ class OllamaClient:
         )
         started = time.perf_counter()
         try:
-            with urllib.request.urlopen(request, timeout=120) as response:
+            with interruptible_urlopen(request, timeout=120) as response:
                 data = json.load(response)
         except urllib.error.HTTPError as e:
             _perf_record("respondent_v2", generation["model"], time.perf_counter()-started, error=e)

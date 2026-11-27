@@ -8,7 +8,7 @@ from standalone_evaluation.fast import fast_benchmark as fast
 class TestRuntimeContract(unittest.TestCase):
     def test_frontend_backend_version_and_skills(self):
         import server
-        self.assertEqual(server.verify_frontend_backend_version(),'1.9.3')
+        self.assertEqual(server.verify_frontend_backend_version(),'1.9.4')
         self.assertTrue(server.verify_interviewer_skills())
 
     def test_runtime_modules_import_without_versioned_files(self):
@@ -74,7 +74,7 @@ class TestRuntimeContract(unittest.TestCase):
                     with urllib.request.urlopen(
                          f'http://127.0.0.1:{port}/',timeout=1.5) as resp:
                         html=resp.read().decode('utf8')
-                        ok=resp.status==200 and 'content="1.9.3"' in html
+                        ok=resp.status==200 and 'content="1.9.4"' in html
                     break
                 except Exception:
                     if proc.poll() is not None:break

@@ -1,0 +1,330 @@
+{
+  "scope": "six_dataset_cumulative_partial_delivery",
+  "datasets": [
+    {
+      "dataset_id": "ai_coding_workflows",
+      "archive": "ai_coding_workflows_MemoryBank_All13_Reviewed.zip",
+      "interviews": 13,
+      "entries": 986,
+      "semantic_status_counts": {
+        "source_reviewed_example": 865,
+        "acknowledgment_only": 31,
+        "short_or_fragment_context_linked_unreviewed": 84,
+        "context_linked_unreviewed": 6
+      },
+      "entry_kind_counts": {
+        "original_interview_procedure": 5,
+        "acknowledgment_not_independent_fact": 58,
+        "unspecified": 828,
+        "preliminary_frequency_with_qualifications": 1,
+        "frequency_with_followup_qualification": 1,
+        "interaction_or_clarification_not_independent_fact": 71,
+        "superseded_preliminary_rating": 9,
+        "compound_question_confirmation": 1,
+        "clarification_question_not_personal_fact": 2,
+        "unclear_or_incomplete_source": 5,
+        "unresolved_category": 1,
+        "source_wording_or_reference_uncertain": 4
+      },
+      "reviewed_dialogue_ids": [
+        "ai_coding_workflows_P01",
+        "ai_coding_workflows_P02",
+        "ai_coding_workflows_P03",
+        "ai_coding_workflows_P04",
+        "ai_coding_workflows_P05",
+        "ai_coding_workflows_P06",
+        "ai_coding_workflows_P07",
+        "ai_coding_workflows_P08",
+        "ai_coding_workflows_P09",
+        "ai_coding_workflows_P10",
+        "ai_coding_workflows_P11",
+        "ai_coding_workflows_P12",
+        "ai_coding_workflows_P13"
+      ],
+      "semantic_review_complete": false,
+      "respondent_turn_review_complete": true,
+      "source_records_sha256": "6a9dabe26f6c2cc3ca88b1ba0bd56c6ad231f17946c4167d766d6830375a747c"
+    },
+    {
+      "dataset_id": "astronomy_open_data",
+      "archive": "astronomy_open_data_MemoryBank_All11_Reviewed.zip",
+      "interviews": 11,
+      "entries": 203,
+      "semantic_status_counts": {
+        "source_reviewed_example": 203
+      },
+      "entry_kind_counts": {
+        "unspecified": 203
+      },
+      "reviewed_dialogue_ids": [
+        "ASTRONOMY_OPEN_DATA_P4",
+        "ASTRONOMY_OPEN_DATA_P5",
+        "ASTRONOMY_OPEN_DATA_P6",
+        "ASTRONOMY_OPEN_DATA_P7",
+        "ASTRONOMY_OPEN_DATA_P8",
+        "ASTRONOMY_OPEN_DATA_P9",
+        "ASTRONOMY_OPEN_DATA_P10",
+        "ASTRONOMY_OPEN_DATA_P11",
+        "ASTRONOMY_OPEN_DATA_P12",
+        "ASTRONOMY_OPEN_DATA_P13",
+        "ASTRONOMY_OPEN_DATA_P14"
+      ],
+      "semantic_review_complete": false,
+      "respondent_turn_review_complete": true,
+      "source_records_sha256": "987d0c7fefe420a1250026f22ba6fb634c061fab081ee3bc29ea0bb0667ce64e"
+    },
+    {
+      "dataset_id": "parental_engagement_teachers",
+      "archive": "parental_engagement_teachers_MemoryBank_All9_Reviewed.zip",
+      "interviews": 9,
+      "entries": 232,
+      "semantic_status_counts": {
+        "source_reviewed_example": 232
+      },
+      "entry_kind_counts": {
+        "unspecified": 220,
+        "original_interview_procedure": 1,
+        "interaction_or_clarification_not_independent_fact": 6,
+        "acknowledgment_not_independent_fact": 3,
+        "clarification_question_not_personal_fact": 2
+      },
+      "reviewed_dialogue_ids": [
+        "parental_engagement_teachers_A",
+        "parental_engagement_teachers_B",
+        "parental_engagement_teachers_C",
+        "parental_engagement_teachers_D",
+        "parental_engagement_teachers_E",
+        "parental_engagement_teachers_F",
+        "parental_engagement_teachers_G",
+        "parental_engagement_teachers_H",
+        "parental_engagement_teachers_I"
+      ],
+      "semantic_review_complete": false,
+      "respondent_turn_review_complete": true,
+      "source_records_sha256": "8c9b3f82139a54265db52015831f3cee86a4d29996b456212c2587b3755cb9be"
+    },
+    {
+      "dataset_id": "international_student_barriers",
+      "archive": "international_student_barriers_MemoryBank_All10_Reviewed.zip",
+      "interviews": 10,
+      "entries": 239,
+      "semantic_status_counts": {
+        "source_reviewed_example": 239
+      },
+      "entry_kind_counts": {
+        "unspecified": 237,
+        "interaction_or_clarification_not_independent_fact": 1,
+        "unclear_or_incomplete_source": 1
+      },
+      "reviewed_dialogue_ids": [
+        "INTERNATIONAL_STUDENT_BARRIERS_P10",
+        "INTERNATIONAL_STUDENT_BARRIERS_P2",
+        "INTERNATIONAL_STUDENT_BARRIERS_P3",
+        "INTERNATIONAL_STUDENT_BARRIERS_P4",
+        "INTERNATIONAL_STUDENT_BARRIERS_P5",
+        "INTERNATIONAL_STUDENT_BARRIERS_P6",
+        "INTERNATIONAL_STUDENT_BARRIERS_P7",
+        "INTERNATIONAL_STUDENT_BARRIERS_P8",
+        "INTERNATIONAL_STUDENT_BARRIERS_P9",
+        "INTERNATIONAL_STUDENT_BARRIERS_P1"
+      ],
+      "semantic_review_complete": false,
+      "respondent_turn_review_complete": true,
+      "source_records_sha256": "47a16cde5f9dd609892629e03d2c28b0c85e04c3373cec293480dbf11707dc55"
+    },
+    {
+      "dataset_id": "securops_experts",
+      "archive": "securops_experts_MemoryBank_All13_Contextualized.zip",
+      "interviews": 13,
+      "entries": 337,
+      "semantic_status_counts": {
+        "source_reviewed_example": 337
+      },
+      "entry_kind_counts": {
+        "interaction_or_clarification_not_independent_fact": 87,
+        "unspecified": 250
+      },
+      "reviewed_dialogue_ids": [
+        "SECUROPS_EXPERTS_P01",
+        "SECUROPS_EXPERTS_P02",
+        "SECUROPS_EXPERTS_P03",
+        "SECUROPS_EXPERTS_P04",
+        "SECUROPS_EXPERTS_P05",
+        "SECUROPS_EXPERTS_P10",
+        "SECUROPS_EXPERTS_P11",
+        "SECUROPS_EXPERTS_P12",
+        "SECUROPS_EXPERTS_P13",
+        "SECUROPS_EXPERTS_P15",
+        "SECUROPS_EXPERTS_P16",
+        "SECUROPS_EXPERTS_P18",
+        "SECUROPS_EXPERTS_P19"
+      ],
+      "semantic_review_complete": false,
+      "respondent_turn_review_complete": false,
+      "source_records_sha256": "6bbb1342b3eb6360105997ba847288c712f816bd3101c35ebb72f44c69bd4040"
+    },
+    {
+      "dataset_id": "oss_dependency_security",
+      "archive": "oss_dependency_security_MemoryBank_Reconstructed.zip",
+      "interviews": 17,
+      "entries": 420,
+      "semantic_status_counts": {
+        "source_reviewed_example": 390,
+        "source_role_attribution_unresolved": 33
+      },
+      "entry_kind_counts": {
+        "acknowledgment_not_independent_fact": 5,
+        "source_grounded_respondent_account": 287,
+        "interaction_or_clarification_not_independent_fact": 80,
+        "respondent_acknowledgment_segmented_from_mixed_turn": 1,
+        "respondent_answer_segmented_from_mixed_turn": 12,
+        "incomplete_answer_not_independent_fact": 5,
+        "unclear_or_incomplete_source": 33
+      },
+      "reviewed_dialogue_ids": [
+        "oss_dependency_security_P12",
+        "oss_dependency_security_P05",
+        "oss_dependency_security_P03",
+        "oss_dependency_security_P07",
+        "oss_dependency_security_P04",
+        "oss_dependency_security_P08",
+        "oss_dependency_security_P14",
+        "oss_dependency_security_P18",
+        "oss_dependency_security_P17",
+        "oss_dependency_security_P06",
+        "oss_dependency_security_P21",
+        "oss_dependency_security_P19",
+        "oss_dependency_security_P10",
+        "oss_dependency_security_P20",
+        "oss_dependency_security_P11",
+        "oss_dependency_security_P16"
+      ],
+      "semantic_review_complete": false,
+      "respondent_turn_review_complete": false,
+      "source_records_sha256": "41af22d83ab05a84d440240399dbebf912a6f638418d3f1cb90c6d11b220d59b",
+      "P05_manual_source_turn_reviewed": true,
+      "P13_role_candidate_audited_source_pdf_pending": true,
+      "reviewed_interviews": 16,
+      "reviewed_entries": 390,
+      "unreviewed_interviews": 0,
+      "unreviewed_entries": 0,
+      "batch01_reviewed_interviews": 5,
+      "batch01_reviewed_entries": 117,
+      "independent_semantic_acceptance": false,
+      "reviewed_respondent_entries": 387,
+      "memorybank_entries": 423,
+      "quarantined_role_entries": 33,
+      "batch02_reviewed_interviews": 5,
+      "batch02_reviewed_entries": 132,
+      "batch02_embedded_role_candidates": 3,
+      "batch03_reviewed_interviews": 4,
+      "batch03_reviewed_entries": 93,
+      "batch03_nonfact_interactions": 24,
+      "batch03_embedded_role_candidates": 0,
+      "P05_role_attribution_pending": false,
+      "P05_turn26_segmented_acknowledgment": true,
+      "batch02_embedded_role_candidates_quarantined": 0,
+      "batch02_embedded_role_candidates_resolved": 3,
+      "static_schema_audit_passed": true,
+      "playground_actual_import_test": "not_run",
+      "second_pass_source_fidelity_review": "completed_consistency_screen",
+      "second_pass_runtime_entries_checked": 299,
+      "second_pass_conservative_wording_corrections": 3,
+      "second_pass_invalid_runtime_source_references": 0,
+      "second_pass_unresolved_numeric_mismatches": 0,
+      "P13_role_attribution_pending": 33
+    },
+    {
+      "dataset_id": "ai_developer_interviews",
+      "archive": "InterviewData_MemoryBank_Cumulative_14_AIDeveloper_Batch03_P07-P09_P19-P20.zip",
+      "interviews": 24,
+      "entries": 1133,
+      "reviewed_interviews": 20,
+      "reviewed_entries": 907,
+      "unreviewed_interviews": 4,
+      "unreviewed_entries": 226,
+      "semantic_status_counts": {
+        "source_reviewed_example": 856,
+        "acknowledgment_only": 50,
+        "source_role_attribution_unresolved": 1,
+        "context_linked_unreviewed": 226
+      },
+      "entry_kind_counts": {
+        "source_grounded_respondent_account": 832,
+        "acknowledgment_not_independent_fact": 50,
+        "interaction_or_clarification_not_independent_fact": 24,
+        "mixed_role_content_requires_source_review": 1,
+        "unreviewed_source_respondent_answer": 226
+      },
+      "reviewed_dialogue_ids": [
+        "AI_DEVELOPER_INTERVIEWS_01",
+        "AI_DEVELOPER_INTERVIEWS_10",
+        "AI_DEVELOPER_INTERVIEWS_11",
+        "AI_DEVELOPER_INTERVIEWS_12",
+        "AI_DEVELOPER_INTERVIEWS_13",
+        "AI_DEVELOPER_INTERVIEWS_14",
+        "AI_DEVELOPER_INTERVIEWS_15",
+        "AI_DEVELOPER_INTERVIEWS_16",
+        "AI_DEVELOPER_INTERVIEWS_17",
+        "AI_DEVELOPER_INTERVIEWS_18",
+        "AI_DEVELOPER_INTERVIEWS_02",
+        "AI_DEVELOPER_INTERVIEWS_03",
+        "AI_DEVELOPER_INTERVIEWS_04",
+        "AI_DEVELOPER_INTERVIEWS_05",
+        "AI_DEVELOPER_INTERVIEWS_06",
+        "AI_DEVELOPER_INTERVIEWS_07",
+        "AI_DEVELOPER_INTERVIEWS_08",
+        "AI_DEVELOPER_INTERVIEWS_09",
+        "AI_DEVELOPER_INTERVIEWS_19",
+        "AI_DEVELOPER_INTERVIEWS_20"
+      ],
+      "semantic_review_complete": false,
+      "respondent_turn_review_complete": false,
+      "source_records_sha256": "af1acf397e4df71da00d1063d5879c1cc14147b31740ea3d9094269c58c63ddb",
+      "mixed_role_items_quarantined": 1,
+      "batch02_reviewed_interviews": 5,
+      "batch02_reviewed_entries": 203,
+      "batch02_runtime_eligible_entries": 188,
+      "batch02_acknowledgment_only_entries": 13,
+      "batch02_nonfact_entries": 2,
+      "batch02_mixed_role_turn_candidates_quarantined": 4,
+      "independent_semantic_acceptance": false,
+      "playground_actual_import_test": "not_run",
+      "batch03_reviewed_interviews": 5,
+      "batch03_reviewed_entries": 235,
+      "batch03_runtime_eligible_entries": 195,
+      "batch03_acknowledgment_only_entries": 23,
+      "batch03_nonruntime_reviewed_entries": 17,
+      "batch03_mixed_role_turn_candidates_quarantined": 0
+    }
+  ],
+  "total_source_interviews": 97,
+  "total_source_entries": 3550,
+  "total_status_counts": {
+    "source_reviewed_example": 3122,
+    "acknowledgment_only": 81,
+    "short_or_fragment_context_linked_unreviewed": 84,
+    "context_linked_unreviewed": 232,
+    "source_role_attribution_unresolved": 34
+  },
+  "datasets_with_contextual_work": 7,
+  "planned_total_datasets": 28,
+  "full_independent_semantic_acceptance": false,
+  "next_dataset": "ai_developer_interviews_batch04_P21-P24",
+  "next_unreviewed_entries": 226,
+  "quarantined_role_label_entries": 34,
+  "source_archives_verified": true,
+  "next_oss_batch": [
+    "User to provide original P13 interview PDF; verify all 33 candidate role inversions against PDF speaker blocks",
+    "After PDF verification, decide whether to rebuild P13 role-attributed memories without modifying source archive",
+    "Independent semantic acceptance of OSS normalized summaries",
+    "Run actual Playground v1.7.3 import test when runtime is available"
+  ],
+  "next_ai_developer_batch": [
+    "Review AI_DEVELOPER_INTERVIEWS_21",
+    "Review AI_DEVELOPER_INTERVIEWS_22",
+    "Review AI_DEVELOPER_INTERVIEWS_23",
+    "Review AI_DEVELOPER_INTERVIEWS_24",
+    "Only four unreviewed interviews remain in this dataset; continue in one final batch."
+  ]
+}

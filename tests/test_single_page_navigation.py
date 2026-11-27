@@ -55,7 +55,7 @@ class OnePageTests(unittest.TestCase):
         code,_,index=self.request("/index.html")
         self.assertEqual((status,code),(200,200))
         self.assertEqual(body,index)
-        self.assertIn(b'content="1.9.3"',body)
+        self.assertIn(b'content="1.9.4"',body)
         self.assertIn(b'Fast-Grounded',body)
         self.assertIn(b'SpokenTruth',body)
     def test_allowed_config_asset_and_private_source_protected(self):

@@ -3,6 +3,9 @@ No private respondent memory is passed to the interviewer.
 """
 from __future__ import annotations
 import copy
+from dataclasses import asdict, fields, is_dataclass
+from typing import get_type_hints, get_origin, get_args, Union
+import types
 from dataclasses import replace
 import io
 import json
@@ -23,8 +26,94 @@ _ROLES = ("planner","reflection","questioning","followup","response","disruptive
 class GroupBridgeError(ValueError):
     pass
 
-def _find_outline(source_bytes, dataset, candidate, source_fp, revision):
-    key=(source_fp,dataset,candidate,revision)
+
+def _decode_dataclass(typ, value):
+    """Restore validated native dataclass trees from our own JSON checkpoint."""
+    origin = get_origin(typ)
+    args = get_args(typ)
+    if origin in (Union, types.UnionType):
+        if value is None and type(None) in args:
+            return None
+        return _decode_dataclass(next(t for t in args if t is not type(None)), value)
+    if origin is list:
+        if not isinstance(value, list):
+            raise GroupBridgeError("Invalid checkpoint list")
+        return [_decode_dataclass(args[0], x) for x in value]
+    if origin is dict:
+        if not isinstance(value, dict):
+            raise GroupBridgeError("Invalid checkpoint mapping")
+        return {k: _decode_dataclass(args[1], v) for k, v in value.items()}
+    if is_dataclass(typ):
+        if not isinstance(value, dict):
+            raise GroupBridgeError("Invalid checkpoint dataclass")
+        hints = get_type_hints(typ)
+        return typ(**{f.name:_decode_dataclass(hints[f.name], value[f.name]) for f in fields(typ)
+                      if f.name in value})
+    if typ in (str, int, float, bool) and not isinstance(value, typ):
+        raise GroupBridgeError("Checkpoint field has unexpected type")
+    return value
+
+
+def export_checkpoint(provider, session_id, scenario_id, fingerprint, revision):
+    """Capture bridge + native interviewer state immediately after one respondent answer."""
+    key = (provider, session_id, scenario_id, fingerprint, revision)
+    with _LOCK:
+        state = _SESSIONS.get(key)
+    if state is None:
+        raise GroupBridgeError("Cannot checkpoint a missing interviewer session")
+    with state["lock"]:
+        agent = state["agent"].state
+        return {"format": "native_interviewer_checkpoint_v1", "provider": provider,
+                "fingerprint": fingerprint, "revision": revision,
+                "language": state["language"], "history": copy.deepcopy(state["history"]),
+                "history_length": state["history_length"], "last_result": copy.deepcopy(state["last_result"]),
+                "native": {"outline": agent.outline.to_dict(),
+                           "questions": {k:asdict(v) for k,v in agent.qstate.items()},
+                           "turns": [asdict(x) for x in agent.turns],
+                           "evidence_bank": [asdict(x) for x in agent.evidence_bank],
+                           "disruption": asdict(agent.disruption),
+                           "active_qid": agent.active_qid, "finished": agent.finished}}
+
+
+def _restore_checkpoint(bridge, checkpoint, history, provider, fingerprint, revision, lang):
+    from playground.interview_agent.state import (QuestionState, Turn, Disruption)
+    from playground.interview_agent.slots import EvidenceItem
+    if (not isinstance(checkpoint, dict) or checkpoint.get("format") != "native_interviewer_checkpoint_v1"
+            or checkpoint.get("provider") != provider or checkpoint.get("fingerprint") != fingerprint
+            or checkpoint.get("revision") != revision or checkpoint.get("language") != lang):
+        raise GroupBridgeError("Native checkpoint metadata does not match current interview")
+    prior = checkpoint.get("history_length")
+    past = checkpoint.get("history")
+    if not isinstance(prior, int) or prior < 0 or not isinstance(past, list):
+        raise GroupBridgeError("Invalid checkpoint history")
+    if len(history) != prior + 1 or history[:-1] != past:
+        raise GroupBridgeError("Saved transcript does not match interviewer checkpoint")
+    native = checkpoint.get("native") or {}
+    previous_turns = native.get("turns", [])
+    if len(previous_turns) != len(history):
+        raise GroupBridgeError("Native turn count does not match saved transcript")
+    for row, saved in zip(previous_turns, history):
+        if row.get("utterance") != saved.get("question"):
+            raise GroupBridgeError("Question mismatch in saved native state")
+    agent = bridge["agent"].state
+    if set(native.get("questions", {})) != set(agent.qstate):
+        raise GroupBridgeError("Outline question set differs from saved checkpoint")
+    agent.qstate = {k:_decode_dataclass(QuestionState,v) for k,v in native["questions"].items()}
+    agent.turns = [_decode_dataclass(Turn,v) for v in previous_turns]
+    agent.evidence_bank = [_decode_dataclass(EvidenceItem,v) for v in native.get("evidence_bank", [])]
+    agent.disruption = _decode_dataclass(Disruption,native["disruption"])
+    agent.active_qid = native.get("active_qid")
+    agent.finished = native.get("finished", False)
+    if agent.finished:
+        raise GroupBridgeError("Cannot continue an already finished interviewer")
+    bridge["history"] = copy.deepcopy(past)
+    bridge["history_length"] = prior
+    bridge["last_result"] = copy.deepcopy(checkpoint.get("last_result"))
+    bridge["finished"] = False
+
+
+def _find_outline(source_bytes, dataset, candidate, source_fp, revision, level="level1"):
+    key=(source_fp,dataset,candidate,revision,level)
     with _LOCK:
         if key in _OUTLINES:
             return copy.deepcopy(_OUTLINES[key])
@@ -41,7 +130,7 @@ def remote_status():
     return status()["interviewer"]
 
 def _clients_for(provider):
-    if provider not in ("maas","shubi"):
+    if provider not in ("maas","shubi","local"):
         raise GroupBridgeError("Unknown interviewer provider.")
     cfg=remote_configuration(provider)
     llms={role:OpenAICompatClient(cfg,retries=3) for role in _ROLES}
@@ -85,7 +174,7 @@ def run_next(req, registered, source_bytes, research_revision, provider="local")
     if req.get("protocol")!="native_interviewer_v1":
         raise GroupBridgeError("Expected protocol native_interviewer_v1; old interviewer request schemas are removed.")
     allowed={"protocol","provider","scenario_id","session_id","history","language",
-             "source_fingerprint_sha256","research_revision","interviewer_timeout_seconds"}
+             "source_fingerprint_sha256","research_revision","interviewer_timeout_seconds","checkpoint"}
     unknown=set(req)-allowed
     if unknown:
         raise GroupBridgeError("Legacy or unsupported interviewer fields: "+", ".join(sorted(unknown)[:8]))
@@ -116,15 +205,22 @@ def run_next(req, registered, source_bytes, research_revision, provider="local")
     candidate=provenance.get("candidate_id")
     if not isinstance(dataset,str) or not isinstance(candidate,str):
         raise GroupBridgeError("Missing candidate source metadata.")
-    if provider not in ("maas","shubi"):
+    if provider not in ("maas","shubi","local"):
         raise GroupBridgeError("Unknown interviewer provider.")
     key=(provider,session,scenario,fingerprint,research_revision)
     with _LOCK:
         state=_SESSIONS.get(key)
         if state is None:
-            if history:
-                raise GroupBridgeError("Group interviewer session missing; restart the interview.")
-            outline=Outline.from_dict(_find_outline(source_bytes,dataset,candidate,fingerprint,research_revision))
+            # A resumed batch has a durable native checkpoint but a new in-memory
+            # session_id. Restore below instead of rejecting any nonempty history.
+            restoring = bool(history)
+            if restoring and req.get("checkpoint") is None:
+                raise GroupBridgeError(
+                    "Group interviewer session missing: transcript contains "
+                    f"{len(history)} completed turns but no native checkpoint "
+                    "was supplied (phase=session_restore). Resume from the "
+                    "saved batch result or restart this interview.")
+            outline=Outline.from_dict(_find_outline(source_bytes,dataset,candidate,fingerprint,research_revision,provenance.get("guide_level","level1")))
             lang=req.get("language","zh")
             if lang not in ("zh","en","bi"):
                 raise GroupBridgeError("Unsupported interview language.")
@@ -135,11 +231,23 @@ def run_next(req, registered, source_bytes, research_revision, provider="local")
                 "en":"Ask the participant in English, keeping the original interview objectives and follow-up policy.",
                 "bi":"可使用中文和英语自然访谈，按照对话情境选择语言，不需要逐句翻译。"
             }[lang]
-            outline.notes=(outline.notes or "")+"\nInterview language preference: "+language_note
+            if not history:
+                outline.notes=(outline.notes or "")+"\nInterview language preference: "+language_note
             llms=_clients_for(provider)
             interviewer=Interviewer(outline,llms,max_turns=1_000_000)
             state={"agent":interviewer,"llms":llms,"history_length":-1,"last_result":None,
                    "language":lang,"history":[],"lock":threading.RLock()}
+            if restoring:
+                try:
+                    _restore_checkpoint(state, req["checkpoint"], history, provider,
+                                        fingerprint, research_revision, lang)
+                except (GroupBridgeError, KeyError, TypeError, ValueError) as exc:
+                    raise GroupBridgeError(
+                        f"Native interviewer checkpoint restore failed "
+                        f"(phase=session_restore, turns={len(history)}, "
+                        f"checkpoint_format={req['checkpoint'].get('format') if isinstance(req['checkpoint'], dict) else 'invalid'}): {exc}") from exc
+            elif req.get("checkpoint") is not None:
+                raise GroupBridgeError("Cannot restore a checkpoint without transcript")
             _SESSIONS[key]=state
     # One lock per session. A slow remote API call must not block unrelated
     # interviews or other sessions from getting their own Group Agent.

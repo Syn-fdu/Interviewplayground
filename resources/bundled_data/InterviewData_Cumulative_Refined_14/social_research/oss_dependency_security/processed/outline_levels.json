@@ -1,0 +1,162 @@
+{
+  "schema": "interviewplayground.bundled_outline_levels.v1",
+  "dataset_id": "oss_dependency_security",
+  "research_focus": "开源项目依赖项的安全风险、责任和更新实践",
+  "source_status": "direct_records",
+  "review_status": "research_candidate_not_original",
+  "levels": {
+    "level0": [
+      {
+        "id": "L0_01",
+        "question_zh": "你的项目如何选择、维护和理解第三方依赖风险？",
+        "covers_level1": [
+          "B01",
+          "B02",
+          "B03"
+        ]
+      },
+      {
+        "id": "L0_02",
+        "question_zh": "依赖漏洞怎样被发现、分工处理并作出更新决策？",
+        "covers_level1": [
+          "B04",
+          "B05",
+          "B06",
+          "B07"
+        ]
+      },
+      {
+        "id": "L0_03",
+        "question_zh": "你如何看待依赖安全管理中的困难、工具和社区支持？",
+        "covers_level1": [
+          "B08",
+          "B09",
+          "B10"
+        ]
+      }
+    ],
+    "level1": [
+      {
+        "id": "B01",
+        "question_zh": "你在开源或依赖项目中的职责是什么？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B02",
+        "question_zh": "项目使用哪些技术生态和第三方依赖？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B03",
+        "question_zh": "你如何判断依赖项可能带来供应链风险？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B04",
+        "question_zh": "项目内安全责任通常怎样分配？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B05",
+        "question_zh": "你们平时通过什么渠道发现依赖漏洞？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B06",
+        "question_zh": "收到漏洞信息后会怎样进行核实与处置？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B07",
+        "question_zh": "你如何决定是否升级、替换或保留某个依赖？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B08",
+        "question_zh": "你认为依赖安全管理有哪些挑战？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B09",
+        "question_zh": "工具、自动化与项目治理能提供哪些帮助？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B10",
+        "question_zh": "开源社区在依赖安全方面还缺少什么支持？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      }
+    ],
+    "level2": [
+      {
+        "id": "D01",
+        "parent_id": "B02",
+        "question_zh": "请挑选一个传递依赖，说明团队怎样知道它存在并追踪版本。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D02",
+        "parent_id": "B04",
+        "question_zh": "最近一次漏洞涉及多个维护者时，谁负责做最终处理决定？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D03",
+        "parent_id": "B05",
+        "question_zh": "请回忆一次扫描工具提出安全警报的经历：你如何判断其是否可信？如无此经历，可谈常用核查流程。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D04",
+        "parent_id": "B06",
+        "question_zh": "上次收到漏洞披露通知后，如何评估可利用性、影响范围和修复优先级？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D05",
+        "parent_id": "B07",
+        "question_zh": "面对升级可能破坏兼容性的情况，你们做了哪些测试或缓解措施？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D06",
+        "parent_id": "B08",
+        "question_zh": "有没有安全更新因资源或兼容性问题推迟？如果有，请说明决策过程。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D07",
+        "parent_id": "B09",
+        "question_zh": "最近一次采用或拒绝自动依赖更新工具时，实际依据是什么？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      }
+    ]
+  }
+}

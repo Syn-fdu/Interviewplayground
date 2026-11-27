@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f6f7f4">
   <meta name="description" content="Interview Playground 研究工作台：数据验证、场景构建、模拟访谈与评估工作区。">
-  <title>InterviewPlayground — Research Interviews & Evaluation v1.9.3</title>
-  <meta name="playground-version" content="1.9.3">
+  <title>InterviewPlayground — Research Interviews & Evaluation v1.9.4</title>
+  <meta name="playground-version" content="1.9.4">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<link rel="stylesheet" href="assets/style.css?v=1.4.9" data-base-style="fieldnotes">
+<link rel="stylesheet" href="assets/style.css?v=1.9.4-isolated-settings" data-base-style="fieldnotes">
 <style id="research-studio-bundled-css">
 /* Respondent Studio / embedded into the existing FIELDNOTES shell.
    All selectors are scoped; no global layout reset and no second sidebar. */
@@ -831,7 +831,8 @@
         <a href="#data" class="nav-link" data-nav="data"><svg><use href="#i-database"/></svg><span>数据集管理</span><span class="nav-count">01</span></a>
         <a href="#scenario" class="nav-link" data-nav="scenario"><svg><use href="#i-layers"/></svg><span>Scenario 构建</span><span class="nav-count">02</span></a>
         <a href="#interview" class="nav-link" data-nav="interview"><svg><use href="#i-chat"/></svg><span>模拟访谈</span><span class="nav-count">03</span></a>
-        <a href="#benchmark" class="nav-link" data-nav="benchmark"><svg><use href="#i-chart"/></svg><span>Benchmark 评估</span><span class="nav-count">04</span></a>
+        <a href="#batch" class="nav-link" data-nav="batch"><svg><use href="#i-layers"/></svg><span>批量访谈实验</span><span class="nav-count">04</span></a>
+        <a href="#benchmark" class="nav-link" data-nav="benchmark"><svg><use href="#i-chart"/></svg><span>Benchmark 评估</span><span class="nav-count">05</span></a>
       </nav>
       <div class="sidebar-divider"></div>
       <p class="nav-caption">RESEARCH TOOLS / 研究工具</p>
@@ -842,7 +843,7 @@
       <p class="nav-caption">RESEARCH NOTES</p>
       <div class="sidebar-note"><div class="note-icon"><svg><use href="#i-shield"/></svg></div><strong>本机受限研究环境</strong><p>真实访谈只能用于授权预览。数据结构检查不等于隐私与许可审核。</p></div>
     </div>
-    <div class="sidebar-footer"><span class="connect-pulse"></span><span>LOCAL WORKSPACE</span><span class="sidebar-version" id="runtimeVersion">v1.9.3</span></div>
+    <div class="sidebar-footer"><span class="connect-pulse"></span><span>LOCAL WORKSPACE</span><span class="sidebar-version" id="runtimeVersion">v1.9.4</span></div>
   </aside>
   <div class="sidebar-backdrop" id="sidebarBackdrop" hidden></div>
   <div class="app-main">
@@ -854,7 +855,7 @@
 <div id="frontendDiagnostics" class="frontend-diagnostics" role="status"><strong>正在检查前端模块…</strong><span>如果提示持续存在，网页没有加载完成。请启动本机服务并使用正确的 HTTP 地址。</span></div>
       <!-- Overview -->
       <section class="app-view is-active" id="overview" data-view="overview" aria-labelledby="overviewTitle">
-        <div class="page-heading"><div><span class="eyebrow"><span class="eyebrow-line"></span> WORKSPACE</span><h1 id="overviewTitle">工作台概览<span class="accent-point">.</span></h1><p class="page-subtitle">导入数据、构建场景并运行模拟访谈。</p></div><span class="page-version">v<b>1.9.3</b></span></div>
+        <div class="page-heading"><div><span class="eyebrow"><span class="eyebrow-line"></span> WORKSPACE</span><h1 id="overviewTitle">工作台概览<span class="accent-point">.</span></h1><p class="page-subtitle">导入数据、构建场景并运行模拟访谈。</p></div><span class="page-version">v<b>1.9.4</b></span></div>
         <div class="overview-hero-grid">
           <div class="overview-hero"><div class="hero-orbit hero-orbit-one"></div><div class="hero-orbit hero-orbit-two"></div><div class="hero-cross">＋</div>
             <div class="hero-content"><div class="hero-label"><span class="hero-pin"></span> INTERVIEW RESEARCH PLATFORM</div><h2>从数据到访谈</h2><p>按顺序完成导入、构建与运行。</p><div class="hero-actions"><button type="button" class="btn btn-lime" data-nav="data">开始导入数据 <svg><use href="#i-arrow"/></svg></button><button type="button" class="hero-text-button" data-nav="scenario">查看场景构建 <svg><use href="#i-arrow"/></svg></button></div></div>
@@ -888,7 +889,7 @@
         </div>
         <div class="overview-stats data-metrics" id="intakeStats"><div class="overview-stat card"><div class="stat-head"><span>访谈 / 上下文候选</span><svg><use href="#i-users"/></svg></div><strong id="intakeCandidateCount">—</strong><span class="stat-foot">根据导入包自动统计</span></div><div class="overview-stat card"><div class="stat-head"><span>结构初筛通过</span><svg><use href="#i-check"/></svg></div><strong id="intakeStructuralCount">—</strong><span class="stat-foot">仅结构标准</span></div><div class="overview-stat card"><div class="stat-head"><span>仅元数据</span><svg><use href="#i-file"/></svg></div><strong id="intakeMetaCount">—</strong><span class="stat-foot">暂不能直接访谈</span></div><div class="overview-stat card"><div class="stat-head"><span>候选清单已选</span><svg><use href="#i-layers"/></svg></div><strong id="intakeSelectedCount">0</strong><span class="stat-foot">可用于手动指定</span></div></div>
 <div class="card datasets-panel"><div class="content-panel-heading"><div><span class="eyebrow">DATA SOURCES</span><h2>数据集总览</h2></div><span class="small-context">可构建 <b id="intakeEligibleCount">0</b> 份</span></div><div id="intakeDatasets" class="intake-datasets"><div class="loading-placeholder"><svg><use href="#i-database"/></svg><p>导入数据后展示规范性检查结果</p></div></div></div>
-        <details class="details-panel selection-panel card" id="selectionDetails"><summary><span class="summary-icon"><svg><use href="#i-settings"/></svg></span><span class="summary-copy"><strong>高级选取</strong></span><svg class="summary-chevron"><use href="#i-chevron"/></svg></summary><div class="details-content">
+        <details class="details-panel selection-panel card" id="selectionDetails" hidden aria-hidden="true"><summary><span class="summary-icon"><svg><use href="#i-settings"/></svg></span><span class="summary-copy"><strong>高级选取</strong></span><svg class="summary-chevron"><use href="#i-chevron"/></svg></summary><div class="details-content">
 <div class="intake-controls"><div class="intake-control-card"><h4>批量选取</h4><div class="intake-inline"><label for="autoCount">选取条数</label><input id="autoCount" type="number" min="1" max="200" value="10"></div><div id="autoSources" class="auto-sources">请先导入 ZIP</div><button id="autoPick" class="btn btn-secondary" disabled>加入候选清单 <svg><use href="#i-plus"/></svg></button></div><div class="intake-control-card"><h4>查找记录</h4><div class="intake-filter-grid"><label>数据集<select id="candidateDataset"><option value="all">所有数据集</option></select></label><label>结构状态<select id="candidateFilter"><option value="all">全部候选</option><option value="ok">初筛通过</option><option value="attention">待复核</option><option value="selected">已加入清单</option></select></label></div><label class="field-label" for="candidateSearch">搜索匿名候选 ID</label><input id="candidateSearch" type="search" maxlength="60" placeholder="CAND_..."></div></div>
           <div class="intake-tablebar"><span id="candidateCountLabel">等待载入候选</span><span id="selectionNote" class="sr-only">手动构建场景时请选择一条记录</span></div><div class="intake-table-scroll"><table class="intake-table" aria-label="V2 候选记录"><thead><tr><th><input id="toggleCurrentPage" type="checkbox" aria-label="勾选本页记录"></th><th>候选 ID</th><th>数据集</th><th>轮次</th><th>关联</th><th>结构状态</th><th>清单</th></tr></thead><tbody id="candidateRows"><tr><td colspan="7">请先导入 ZIP</td></tr></tbody></table></div><div class="intake-table-actions"><button id="manualAdd" class="btn btn-secondary" disabled>加入清单</button><button id="manualRemove" class="btn btn-quiet" disabled>移出清单</button><span class="intake-pagination"><button id="candidatePrev" class="btn btn-quiet" disabled>上一页</button><span id="candidatePage">—</span><button id="candidateNext" class="btn btn-quiet" disabled>下一页</button></span></div><div class="intake-exportbar"><div><b id="intakeSelectionTitle">已选 0 条候选</b></div><div><button id="clearSelection" class="btn btn-quiet" disabled>清空</button><button id="exportSelection" class="btn btn-secondary" disabled>导出清单 JSON</button></div></div>
         </div></details>
@@ -902,7 +903,8 @@
   <p class="brief-note">系统根据来源自动选择：① 仅大纲→真人采访；② 有真实记录→开放模拟受访者；③ 记录＋匹配画像＋大纲→在准备阶段为两端提供分级画像。</p>
    <label class="field-label" for="builderDataset">① 选择数据集</label>
   <select id="builderDataset" aria-label="场景来源数据集"><option value="">先导入 V2 数据</option></select>
-  <label class="field-label" for="builderInterview" style="margin-top:15px">② 选择访谈记录或来源大纲</label>
+  
+  <label class="field-label" for="builderGuideCategory">分类大纲（如适用）</label><select id="builderGuideCategory"><option value="">自动（仅唯一大纲适用）</option></select><label class="field-label" for="builderInterview" style="margin-top:15px">② 选择访谈记录或来源大纲</label>
   <div class="interview-pick-search"><input id="builderInterviewSearch" type="search" placeholder="按匿名访谈编号搜索" aria-label="搜索该数据集中的访谈"><button type="button" id="builderInterviewSearchButton" class="btn btn-secondary">查找</button></div>
   <select id="builderInterview" size="7" aria-label="从当前数据集中选择具体访谈"><option value="">请先选择数据集</option></select>
   <div class="picker-paging"><button type="button" id="builderInterviewPrev" class="btn btn-quiet" disabled>上一页</button><span id="builderInterviewPage">等待数据集</span><button type="button" id="builderInterviewNext" class="btn btn-quiet" disabled>下一页</button></div>
@@ -921,7 +923,14 @@
       <!-- Interview -->
       <section class="app-view" id="interview" data-view="interview" aria-labelledby="interviewHeading"><div class="page-heading interview-heading"><div><span class="eyebrow"><span class="eyebrow-line"></span> STAGE 03 / INTERVIEW LAB</span><h1 id="interviewHeading">模拟访谈实验室<span class="accent-point">.</span></h1><p class="page-subtitle">调整实验配置，逐轮观察 Agent 与模拟受访者的对话。</p>
 <button type="button" id="openRespondentStudio" class="btn btn-secondary rs-entry-link" data-nav="respondent" style="margin-top:11px"><svg><use href="#i-settings"/></svg> 研究配置 · 大纲 / Memory / 六参数 <svg><use href="#i-arrow"/></svg></button></div><span id="runStatus" class="status-pill running-status"><span class="status-dot"></span>等待开始</span></div>
-        <div class="lab-layout"><aside class="experiment-controls card" aria-label="模拟访谈参数"><div class="lab-panel-header"><span class="eyebrow">EXPERIMENT SETUP</span><h2>访谈设置 <svg><use href="#i-settings"/></svg></h2></div><div class="control-stack"><label class="field-label" for="scenarioSelect">使用场景</label><select id="scenarioSelect"></select><section class="role-parameters interviewer-parameters" aria-labelledby="interviewerSettingsTitle"><div class="role-parameters-head"><span class="role-parameters-index">01</span><div><h3 id="interviewerSettingsTitle">采访者参数</h3><p>采访者模型、策略与生成时限</p></div></div><div class="model-field" style="margin:10px 0"><label class="field-label" for="interviewerTimeoutSeconds">采访者单轮时限（秒）</label><input id="interviewerTimeoutSeconds" type="number" min="30" max="600" step="1" value="105" style="width:100%;box-sizing:border-box;padding:9px;border:1px solid #c8dcd0;border-radius:8px"><small style="font-size:11px">30–600 秒，可随时调整；不会清空已经完成的访谈轮次。组员 Agent 一轮可能有多次模型调用。</small></div><label class="field-label" for="policySelect">访谈员策略</label><select id="policySelect"><option value="group_agent">组员原生 Agent · 千问 MaaS API</option><option value="group_agent_server" selected>组员原生 Agent · 数标标 API</option></select><p id="interviewerModeHelp" style="font-size:12px;color:#61766e;margin:5px 0 10px">采访者使用组员原生 Agent；模型及 API Key 可在下方配置。</p>
+        <div class="lab-layout"><aside class="experiment-controls card" aria-label="模拟访谈参数"><div class="lab-panel-header"><span class="eyebrow">EXPERIMENT SETUP</span><h2>访谈设置 <svg><use href="#i-settings"/></svg></h2></div><div class="control-stack"><label class="field-label" for="scenarioSelect">使用场景</label><select id="scenarioSelect"></select>
+<div class="interview-guide-selector"><label class="field-label" for="interviewGuideLevel">本次访谈大纲等级</label>
+<select id="interviewGuideLevel" aria-describedby="interviewGuideHelp">
+<option value="level0">Level 0 · 核心概要</option>
+<option value="level1" selected>Level 1 · 基础大纲</option>
+<option value="level2">Level 2 · 细致大纲</option></select>
+<small id="interviewGuideHelp">场景构建时已匹配全部可用等级；在这里选择本次访谈的大纲。</small>
+<button class="btn btn-secondary" id="interviewApplyGuide" type="button">应用本次访谈大纲</button></div><details class="role-parameters interviewer-parameters config-fold" open><summary>01 · 采访者配置 <span>模式、模型与时限</span></summary><section aria-labelledby="interviewerSettingsTitle"><div class="role-parameters-head"><span class="role-parameters-index">01</span><div><h3 id="interviewerSettingsTitle">采访者参数</h3><p>采访者模型、策略与生成时限</p></div></div><div class="model-field" style="margin:10px 0"><label class="field-label" for="interviewerTimeoutSeconds">采访者单轮时限（秒）</label><input id="interviewerTimeoutSeconds" type="number" min="30" max="600" step="1" value="105" style="width:100%;box-sizing:border-box;padding:9px;border:1px solid #c8dcd0;border-radius:8px"></div><label class="field-label" for="policySelect">访谈员策略</label><select id="policySelect"><option value="group_agent">组员原生 Agent · 千问 MaaS API</option><option value="group_agent_server" selected>组员原生 Agent · 数标标 API</option><option value="group_agent_local">组员原生 Agent · 本地 Ollama</option></select><p id="interviewerModeHelp" style="font-size:12px;color:#61766e;margin:5px 0 10px">采访者使用组员原生 Agent；模型及 API Key 可在下方配置。</p>
 
 <p style="font-size:12px;margin:4px 0;color:#61766e">选择 API 时，采访大纲、相关记忆和问答上下文会发往对应服务方。</p>
 <section id="modelApiSettings" class="api-config-card">
@@ -941,7 +950,7 @@
 <button class="btn btn-secondary" type="button" id="modelInterviewerSave">应用采访者配置</button>
 <button class="btn btn-secondary" type="button" id="modelInterviewerTest">测试当前采访员 API（虚构问题）</button>
 <span id="modelInterviewerStatus" style="font-size:12px"></span></div>
-</section></section><section class="role-parameters respondent-parameters" aria-labelledby="respondentSettingsTitle"><div class="role-parameters-head"><span class="role-parameters-index">02</span><div><h3 id="respondentSettingsTitle">受访者参数</h3><p>受访者类型、记忆机制与回答时限</p></div></div><label class="field-label" for="respondentMode">受访者模式</label>
+</section></section></details><details class="role-parameters respondent-parameters config-fold"><summary>02 · 受访者配置 <span>模型、记忆与六参数</span></summary><section aria-labelledby="respondentSettingsTitle"><div class="role-parameters-head"><span class="role-parameters-index">02</span><div><h3 id="respondentSettingsTitle">受访者参数</h3><p>受访者类型、记忆机制与回答时限</p></div></div><label class="field-label" for="respondentMode">受访者模式</label>
   <select id="respondentMode"><option value="human">真人受访者 · 我来回答</option><option value="local_llm">本地 Ollama 受访者</option><option value="api_maas">千问 MaaS API 受访者</option><option value="api_shubi" selected>数标标 API 受访者</option><option value="rule">规则受访者（非 LLM；不参与记忆机制对照）</option></select>
   <p id="respondentModeHelp" class="respondent-help sr-only" aria-live="polite"></p>    <div class="model-field" style="margin:12px 0 8px">
       <label class="field-label" for="retrievalStrategy">受访者记忆机制（可与上方任一 AI 受访者自由组合）</label>
@@ -959,11 +968,7 @@
 <input id="retrievalTimeoutSeconds" type="number" min="30" max="900" step="1" value="240" class="api-timeout-input">
 <small>独立检索预算；单次语义筛选最多 120 秒。回答阶段使用独立预算。</small>
 </div>
-<section id="visiblePreparationModePanel" class="api-config-card" style="margin:12px 0;padding:14px;border:1px solid #aacfb7;border-radius:13px;background:#f7fcf8">
-  <h3 style="margin:0 0 7px;font-size:15px;color:#285c48">事实准备方式：与上方记忆机制自动一致</h3>
-  <p style="font-size:12px;color:#537466;margin:0;line-height:1.6">默认 Python v15 只标记 Memory / Reality，检索前不做类别筛选；每轮先在全部许可事实中寻找来源，命中后才根据原始标签做概率判定。旧版 LLM 双池和不分拣模式仍可选。</p>
-  <input type="hidden" id="preparationMode" value="python_binary">
-</section>
+<input type="hidden" id="preparationMode" value="python_binary">
 <section id="modelRespondentApiSettings" class="api-config-card"><div id="modelRespondentApiBox" class="api-config-secondary hidden">
   <div class="api-config-heading"><span class="api-config-icon">✦</span><div><strong>受访者模型配置</strong><small>可使用独立 API 服务</small></div></div>
 <label class="field-label" for="modelRespondentUrl">受访者 API Base URL</label>
@@ -976,8 +981,10 @@
 <input id="modelRespondentKey" type="password" autocomplete="new-password" class="api-config-input" placeholder="输入后只保存于本地后端内存">
 <div style="display:flex;gap:8px;align-items:center;margin-top:9px;flex-wrap:wrap">
 <button class="btn btn-secondary" type="button" id="modelRespondentSave">应用受访者配置</button>
+<button class="btn btn-secondary" type="button" id="modelRespondentTest">测试受访者 API</button>
 <span id="modelRespondentStatus" style="font-size:12px"></span></div>
-</div></section><section id="respondentBehaviorPanel" class="research-trait-panel v100-traits"><h3 style="margin:0 0 9px">六参数实验控制台 <small style="font-weight:normal;color:#698579">0.0—1.0</small></h3><p style="font-size:12px;margin:3px 0 12px">本轮实验六项参数固定；修改任意参数将重置当前访谈。建议每组保存独立运行记录。</p><div class="trait-controls"><label class="trait-control"><span>主题知识 <output for="trait-knowledge" id="traitValue-knowledge">1.0</output></span><input type="range" id="trait-knowledge" data-respondent-trait="knowledge" min="0" max="1" step="0.1" value="1"></label><label class="trait-control"><span>问题理解 <output for="trait-understanding" id="traitValue-understanding">1.0</output></span><input type="range" id="trait-understanding" data-respondent-trait="understanding" min="0" max="1" step="0.1" value="1"></label><label class="trait-control"><span>自我反思 <output for="trait-reflexivity" id="traitValue-reflexivity">1.0</output></span><input type="range" id="trait-reflexivity" data-respondent-trait="reflexivity" min="0" max="1" step="0.1" value="1"></label><label class="trait-control"><span>回忆表现 <output for="trait-memory" id="traitValue-memory">1.0</output></span><input type="range" id="trait-memory" data-respondent-trait="memory" min="0" max="1" step="0.1" value="1"></label><label class="trait-control"><span>回答详细度 <output for="trait-verbosity" id="traitValue-verbosity">1.0</output></span><input type="range" id="trait-verbosity" data-respondent-trait="verbosity" min="0" max="1" step="0.1" value="1"></label><label class="trait-control"><span>信息披露 <output for="trait-disclosure" id="traitValue-disclosure">1.0</output></span><input type="range" id="trait-disclosure" data-respondent-trait="disclosure" min="0" max="1" step="0.1" value="1"></label></div></section></section><div class="control-duo"><div><label class="field-label" for="turnLimit">最多轮数</label><input id="turnLimit" type="number" min="0" max="1000000" step="1" value="0" style="width:100%;box-sizing:border-box;padding:9px;border:1px solid #c8dcd0;border-radius:8px"><small style="font-size:11px">0 = 不限制轮次；原题回放在原题用尽时结束；组员模型根据状态决定结束（亦可手动中止）</small></div><div><label class="field-label" for="interviewLanguage">访谈语言</label><select id="interviewLanguage"><option value="zh" selected>中文</option><option value="en">English</option><option value="bi">中英双语（原文，不翻译）</option></select></div></div>
+</div></section><section id="respondentBehaviorPanel" class="research-trait-panel v100-traits"><h3 style="margin:0 0 9px">六参数实验控制台 <small style="font-weight:normal;color:#698579">0.0—1.0</small></h3><p style="font-size:12px;margin:3px 0 12px">本轮实验六项参数固定；修改任意参数将重置当前访谈。建议每组保存独立运行记录。</p><div class="trait-controls"><label class="trait-control"><span>主题知识 <output for="trait-knowledge" id="traitValue-knowledge">1.0</output></span><input type="range" id="trait-knowledge" data-respondent-trait="knowledge" min="0" max="1" step="0.1" value="1"></label><label class="trait-control"><span>问题理解 <output for="trait-understanding" id="traitValue-understanding">1.0</output></span><input type="range" id="trait-understanding" data-respondent-trait="understanding" min="0" max="1" step="0.1" value="1"></label><label class="trait-control"><span>自我反思 <output for="trait-reflexivity" id="traitValue-reflexivity">1.0</output></span><input type="range" id="trait-reflexivity" data-respondent-trait="reflexivity" min="0" max="1" step="0.1" value="1"></label><label class="trait-control"><span>回忆表现 <output for="trait-memory" id="traitValue-memory">1.0</output></span><input type="range" id="trait-memory" data-respondent-trait="memory" min="0" max="1" step="0.1" value="1"></label><label class="trait-control"><span>回答详细度 <output for="trait-verbosity" id="traitValue-verbosity">1.0</output></span><input type="range" id="trait-verbosity" data-respondent-trait="verbosity" min="0" max="1" step="0.1" value="1"></label><label class="trait-control"><span>信息披露 <output for="trait-disclosure" id="traitValue-disclosure">1.0</output></span><input type="range" id="trait-disclosure" data-respondent-trait="disclosure" min="0" max="1" step="0.1" value="1"></label></div></section></section></details>
+<div class="control-duo"><div><label class="field-label" for="turnLimit">最多轮数</label><input id="turnLimit" type="number" min="0" max="1000000" step="1" value="0" style="width:100%;box-sizing:border-box;padding:9px;border:1px solid #c8dcd0;border-radius:8px"><small style="font-size:11px">0 = 不限制轮次；原题回放在原题用尽时结束；组员模型根据状态决定结束（亦可手动中止）</small></div><div><label class="field-label" for="interviewLanguage">访谈语言</label><select id="interviewLanguage"><option value="zh" selected>中文</option><option value="en">English</option><option value="bi">中英双语（原文，不翻译）</option></select></div></div>
 
   <section class="v100-memory-box"><div id="memoryExportMinimal">
       <button type="button" id="memoryExportOnly" class="btn btn-secondary">导出缓存记忆 JSON</button>
@@ -1340,9 +1347,361 @@
 </style>
       <!-- Benchmark -->
       <!-- Benchmark Foundation v0.1: no fake automatic interview quality score -->
-      <section class="app-view" id="benchmark" data-view="benchmark" aria-labelledby="benchmarkHeading">
+      
+<section class="app-view" id="batch" data-view="batch" aria-labelledby="batchHeading">
+  <div class="page-heading">
+    <div>
+      <span class="eyebrow">BATCH INTERVIEWS</span>
+      <h1 id="batchHeading">批量访谈实验<span class="accent-point">.</span></h1>
+      <p>将批量实验拆分为：新实验配置、历史实验，以及共用的当前实验情况。</p>
+    </div>
+  </div>
+  <style>
+    #batch .batch-layout{display:grid;gap:22px}
+    #batch .batch-config-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.95fr);gap:22px;align-items:start}
+    #batch .batch-panel-head{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;flex-wrap:wrap;margin-bottom:18px}
+    #batch .batch-panel-head h2{margin:0 0 6px;font-size:1.35rem}
+    #batch .batch-panel-head p{margin:0;color:#537268}
+    #batch .batch-kicker{display:inline-block;font-size:.78rem;font-weight:800;letter-spacing:.08em;color:#2a7762;margin-bottom:6px}
+    #batch .batch-section-stack{display:grid;gap:16px}
+    #batch .batch-subcard{border:1px solid #d6e7dd;border-radius:16px;padding:18px;background:#fbfdfc}
+    #batch .batch-subcard h3{margin:0 0 14px;font-size:1.02rem}
+    #batch .batch-grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    #batch .batch-grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    #batch .batch-grid-1{display:grid;gap:14px}
+    #batch .batch-role-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    #batch .batch-history-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.95fr);gap:16px}
+    #batch .batch-list-actions,#batch .batch-control-actions,#batch .batch-run-actions,#batch .batch-export-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    #batch .batch-progress-wrap{display:grid;gap:12px}
+    #batch .batch-progress-wrap progress{width:100%;height:14px}
+    #batch .batch-progress-meta{display:flex;gap:18px;flex-wrap:wrap;justify-content:space-between;color:#45675c}
+    #batch .batch-stat-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}
+    #batch .batch-stat{border:1px solid #d6e7dd;border-radius:16px;padding:16px;background:white}
+    #batch .batch-stat span{display:block;color:#6c867d;font-size:.92rem;margin-bottom:8px}
+    #batch .batch-stat strong{display:block;font-size:1.5rem;line-height:1.22;color:#184b3d;word-break:break-word}
+    #batch .batch-stat em{display:block;color:#5d7b71;font-style:normal;font-size:.9rem;margin-top:6px}
+    #batch .batch-table-wrap{overflow:auto;border:1px solid #dceadf;border-radius:16px;background:white}
+    #batch .batch-table-wrap table{width:100%;border-collapse:collapse}
+    #batch .batch-table-wrap th,#batch .batch-table-wrap td{padding:12px 14px;border-bottom:1px solid #e8f0eb;text-align:left;vertical-align:top}
+    #batch .batch-table-wrap th{background:#f4faf6;font-weight:800;color:#214d40}
+    #batch .batch-table-wrap tr:last-child td{border-bottom:none}
+    #batch .batch-hint{margin:0;color:#58746a}
+    #batch select[multiple],#batch select[size]{min-height:220px}
+    #batch .batch-list-note{margin-top:8px;color:#5f7a71;font-size:.92rem}
+    #batch .batch-history-select{min-height:260px}
+    #batch .batch-history-select option{padding:8px 10px}
+    #batch .batch-card-muted{color:#618076;font-size:.95rem;margin:0 0 10px}
+    #batch .batch-inline-note{font-size:.92rem;color:#658177}
+    #batch .batch-role-fieldset{margin:0;padding:0;border:none;display:grid;gap:10px}
+    #batch .api-config-input{width:100%}
+    @media (max-width: 1180px){
+      #batch .batch-config-grid,#batch .batch-history-grid,#batch .batch-role-grid{grid-template-columns:1fr}
+      #batch .batch-stat-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+    }
+    @media (max-width: 760px){
+      #batch .batch-grid-2,#batch .batch-grid-3,#batch .batch-stat-grid{grid-template-columns:1fr}
+      #batch .batch-stat strong{font-size:1.28rem}
+    }
+  </style>
 
-<div class="page-heading"><div><span class="eyebrow">INTERVIEWREPORTCARD / v1.9.3</span><h1 id="benchmarkHeading">独立严格评分</h1><p>SpokenTruth Memory 机会评估 + Fast-Grounded 双类 Slot 覆盖率与五项访谈质量指标 · 独立双引擎评分</p></div><span class="status-pill">v1.9.3</span></div>
+  <style id="batch-compact-layout">
+    #batch .batch-tab-panel[hidden]{display:none!important}
+    #batch .batch-mode-switch{display:flex;gap:4px;padding:5px;border:1px solid #d9e7de;
+      border-radius:16px;background:#eef6f1;width:max-content;max-width:100%;margin:0 0 2px}
+    #batch .batch-mode-switch button{border:0;border-radius:12px;padding:12px 30px;background:transparent;
+      color:#507367;font:inherit;font-weight:750;cursor:pointer;min-width:146px}
+    #batch .batch-mode-switch button[aria-selected="true"]{color:#fff;background:#176b58;box-shadow:0 3px 10px #174e3620}
+    #batch .batch-tab-panel{min-height:160px}
+    #batch .batch-tab-panel .batch-subcard{padding:16px}
+    #batch .batch-tab-panel .batch-subcard h3{margin-bottom:10px}
+    #batch .batch-tab-panel .batch-panel-head{margin-bottom:12px}
+    #batch .batch-tab-panel .batch-panel-head p{font-size:13px}
+    #batch .batch-current-panel{margin-top:4px;padding:22px!important}
+    #batch .batch-current-panel .batch-panel-head{margin-bottom:10px}
+    #batch .batch-current-panel .batch-current-picker{display:grid;grid-template-columns:minmax(220px,360px) 1fr;
+      gap:12px;align-items:end;margin-bottom:14px}
+    #batch .batch-compact-meta{color:#66877b;font-size:12px;line-height:1.45;margin:0;padding-bottom:6px}
+    #batch .batch-current-panel .batch-stat-grid{grid-template-columns:repeat(6,minmax(0,1fr));gap:9px;margin-top:14px}
+    #batch .batch-current-panel .batch-stat{padding:12px;background:#f7faf8;border-radius:13px;min-width:0}
+    #batch .batch-current-panel .batch-stat span{font-size:12px;margin-bottom:5px}
+    #batch .batch-current-panel .batch-stat strong{font-size:clamp(14px,1.3vw,20px);line-height:1.25;
+      overflow-wrap:anywhere}
+    #batch .batch-current-panel .batch-stat em{font-size:11px;margin-top:5px}
+    #batch .batch-current-panel .batch-progress-meta{font-size:12px}
+    #batch .batch-current-panel .batch-progress-meta span{color:#749085}
+    #batch .batch-feedback{margin:14px 0 2px;font-size:13px}
+    #batch .batch-current-panel .batch-hint{font-size:12px;line-height:1.5}
+    #batch .batch-turn-details{margin-top:12px;font-size:13px}
+    #batch .batch-turn-details summary{cursor:pointer;font-weight:700;color:#176b58;padding:9px 0}
+    #batch .batch-turn-details[open] .batch-table-wrap{margin-top:8px}
+    #batch .batch-history-select{min-height:185px!important}
+    #batch .batch-list-note:empty,#batch .batch-hint:empty{display:none}
+    @media(max-width:1050px){
+      #batch .batch-current-panel .batch-stat-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+      #batch .batch-grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+    }
+    @media(max-width:650px){
+      #batch .batch-mode-switch{width:100%}
+      #batch .batch-mode-switch button{flex:1;min-width:0}
+      #batch .batch-current-panel .batch-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+      #batch .batch-current-panel .batch-current-picker{grid-template-columns:1fr}
+      #batch .batch-grid-3{grid-template-columns:1fr}
+    }
+  </style>
+  <div class="batch-layout">
+
+    <nav class="batch-mode-switch" role="tablist" aria-label="实验管理模式">
+      <button id="batchNewTab" type="button" role="tab" aria-controls="batchNewPanel" aria-selected="true">新实验</button>
+      <button id="batchHistoryTab" type="button" role="tab" aria-controls="batchHistoryPanel" aria-selected="false">历史实验</button>
+    </nav>
+    
+      
+
+<style id="batch-v2-spacing">
+#batch .batch-v2-panel{padding:clamp(22px,3vw,42px)!important;max-width:none}
+#batch .batch-v2-head{display:flex;align-items:baseline;gap:18px;margin-bottom:26px}
+#batch .batch-v2-head h2{margin:0;font-size:clamp(22px,2vw,28px);line-height:1.2}
+#batch .batch-v2-head span{color:#69867a;font-size:13px}
+#batch .batch-v2-group{border:1px solid #e0eae4;border-radius:17px;
+  background:#fff;padding:clamp(20px,2.2vw,30px);margin:0 0 22px}
+#batch .batch-v2-group header{margin:0 0 22px}
+#batch .batch-v2-group h3{font-size:17px;line-height:1.4;margin:0;color:#21483e}
+#batch .batch-v2-fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+  column-gap:28px;row-gap:24px}
+#batch .batch-v2-field{display:flex;flex-direction:column;gap:9px;min-width:0;font-size:13px;
+  color:#5d7b70;font-weight:650;line-height:1.35}
+#batch .batch-v2-field>span{display:block}
+#batch .batch-v2-field select,#batch .batch-v2-field input:not([type=checkbox]){
+  display:block;width:100%;min-width:0;box-sizing:border-box;height:48px;min-height:48px;
+  margin:0;padding:0 14px;font-size:14px;line-height:1.4;border:1px solid #d6e4da;
+  border-radius:10px;background:white;color:#254d41;box-shadow:none}
+#batch .batch-v2-field select{padding-right:32px}
+#batch .batch-v2-field input:focus-visible,#batch .batch-v2-field select:focus-visible{
+  outline:2px solid #177b63;outline-offset:2px}
+#batch .batch-v2-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:20px}
+#batch .batch-v2-actions .btn{min-height:41px}
+#batch .batch-v2-actions small{font-size:12px;color:#688276;flex-basis:100%}
+#batch .batch-v2-checkboxes{margin-top:20px}
+#batch .batch-v2-checkboxes label,#batch .batch-v2-consent{
+  display:flex;align-items:center;gap:10px;font-size:13px;color:#547065}
+#batch .batch-v2-checkboxes input,#batch .batch-v2-consent input{
+  width:17px;height:17px;flex:0 0 auto;margin:0}
+#batch .batch-v2-details{margin-top:18px;border-top:1px solid #e2eee6;padding-top:14px}
+#batch .batch-v2-details summary{cursor:pointer;color:#236551;font-size:13px;font-weight:750}
+#batch .batch-v2-traits{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px 28px;margin-top:20px}
+#batch .batch-v2-trait{display:grid;grid-template-columns:92px 1fr 40px;align-items:center;gap:12px;
+  color:#527466;font-size:13px}
+#batch .batch-v2-trait input{min-width:0;width:100%}
+#batch .batch-v2-footer{padding:12px 2px 0}
+#batch .batch-v2-footer .batch-v2-actions{margin-top:18px}
+#batch .batch-v2-history-wrap{border:1px solid #dfebe2;border-radius:13px;overflow:auto}
+#batch .batch-v2-history-table{width:100%;border-collapse:collapse;font-size:13px;min-width:550px}
+#batch .batch-v2-history-table th{text-align:left;background:#f5faf7;color:#527466;
+  padding:13px 12px;font-weight:650}
+#batch .batch-v2-history-table td{padding:14px 12px;border-top:1px solid #e9f0eb;color:#244c40}
+#batch .batch-v2-history-table th:first-child,#batch .batch-v2-history-table td:first-child,
+#batch .batch-v2-history-table th:nth-child(2),#batch .batch-v2-history-table td:nth-child(2){width:60px;text-align:center}
+#batch .batch-v2-history-table tr.batch-v2-selected{background:#eaf7f0}
+#batch .batch-v2-history-table tr:hover{background:#f4faf6}
+#batch .batch-v2-history-table input{width:17px;height:17px;accent-color:#156c57}
+#batch .batch-v2-history-table .batch-history-name{font-weight:700}
+#batch .batch-v2-history-table .batch-history-date{font-size:11px;color:#8a9e94;margin-top:4px}
+#batch .batch-v2-history-actions{margin:18px 0 4px}
+#batch .batch-v2-history-actions .btn{min-height:40px}
+#batch .batch-current-panel{margin-top:14px!important}
+@media(max-width:1000px){#batch .batch-v2-fields{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
+@media(max-width:600px){#batch .batch-v2-fields{grid-template-columns:1fr;gap:18px}
+#batch .batch-v2-head{display:block}#batch .batch-v2-head span{display:block;margin-top:6px}
+#batch .batch-v2-traits{grid-template-columns:1fr}}
+</style>
+<section class="card batch-tab-panel batch-v2-panel" id="batchNewPanel" role="tabpanel" aria-labelledby="batchNewTab">
+  <div class="batch-v2-head"><h2>新实验</h2></div>
+  <section class="batch-v2-group">
+    <header><h3>访谈参数</h3></header>
+    <div class="batch-v2-fields"><label class="batch-v2-field "><span>数据集</span><select id="batchDataset"></select></label><label class="batch-v2-field "><span>访谈范围</span><select id="batchScenario">
+<option value="">全部可执行访谈（整个数据集）</option>
+</select></label><label class="batch-v2-field "><span>大纲级别</span><select id="batchGuideLevel">
+<option value="level0">Level 0 · 浓缩大纲</option>
+<option selected="" value="level1">Level 1 · 基本大纲</option>
+<option value="level2">Level 2 · 细致大纲</option>
+</select></label><label class="batch-v2-field "><span>大纲类别</span><select id="batchGuideCategory">
+<option value="">自动（仅唯一大纲适用）</option>
+</select></label><label class="batch-v2-field "><span>语言</span><select id="batchLanguage">
+<option selected="" value="zh">中文</option>
+<option value="en">English</option>
+<option value="bi">中英双语</option>
+</select></label><label class="batch-v2-field "><span>最多轮数</span><input id="batchMaxTurns" max="1000000" min="0" step="1" type="number" value="30">
+</input></label></div>
+  </section>
+  
+  <section class="batch-v2-group">
+    <header><h3>采访者参数</h3></header>
+    <div class="batch-v2-fields">
+    <label class="batch-v2-field "><span>模型来源</span><select id="batchInterviewer"><option value="shubi" selected>远程 API</option><option value="local">本地 Ollama</option></select></label>
+    <label class="batch-v2-field "><span>模型 ID</span><input autocomplete="off" class="api-config-input" id="batchInterviewerModel" placeholder="模型 ID">
+</input></label>
+    <label class="batch-v2-field "><span>API 地址</span><input autocomplete="off" class="api-config-input" id="batchInterviewerUrl" placeholder="https://.../v1" type="url">
+</input></label>
+    <label class="batch-v2-field "><span>API Key</span><input autocomplete="new-password" class="api-config-input" id="batchInterviewerKey" placeholder="不会写入实验文件" type="password">
+</input></label>
+    <label class="batch-v2-field "><span>调用超时（秒）</span><input id="batchInterviewerTimeout" max="600" min="30" step="1" type="number" value="300">
+</input></label>
+    </div>
+    <div class="batch-v2-actions">
+      <button class="btn btn-secondary" id="batchInterviewerApply" type="button">保存采访者配置</button><button class="btn btn-secondary" id="batchInterviewerTest" type="button">测试采访者连接</button>
+      <small id="batchInterviewerConfigStatus" role="status"></small>
+    </div>
+  </section>
+  
+  <section class="batch-v2-group">
+<header><h3>受访者参数</h3></header>
+<div class="batch-v2-fields">
+<label class="batch-v2-field"><span>模型来源</span><select id="batchRespondent"><option value="shubi" selected>远程 API</option><option value="local">本地 Ollama</option></select></label>
+<label class="batch-v2-field"><span>模型 ID</span><input autocomplete="off" class="api-config-input" id="batchRespondentModel" placeholder="模型 ID"/>
+</label>
+<label class="batch-v2-field"><span>API 地址</span><input autocomplete="off" class="api-config-input" id="batchRespondentUrl" placeholder="https://.../v1" type="url"/>
+</label>
+<label class="batch-v2-field"><span>API Key</span><input autocomplete="new-password" class="api-config-input" id="batchRespondentKey" placeholder="不会写入实验文件" type="password"/>
+</label>
+<label class="batch-v2-field"><span>调用超时（秒）</span><input id="batchRespondentTimeout" max="900" min="30" step="1" type="number" value="300"/>
+</label>
+<label class="batch-v2-field"><span>记忆准备</span><select id="batchPreparation">
+<option value="fast_hybrid">Fast hybrid</option>
+<option selected="" value="python_binary">Python binary</option>
+<option value="no_fact_sort">不分拣</option>
+</select></label><label class="batch-v2-field"><span>检索超时（秒）</span><input id="batchRetrievalTimeout" max="900" min="30" step="1" type="number" value="240"/>
+</label></div>
+<div class="batch-v2-actions">
+<button class="btn btn-secondary" id="batchRespondentApply" type="button">保存受访者配置</button><button class="btn btn-secondary" id="batchRespondentTest" type="button">测试受访者连接</button>
+<small id="batchRespondentConfigStatus" role="status"></small>
+</div>
+<div class="batch-v5-respondent-behavior">
+
+<div class="batch-v2-checkboxes">
+<label><input checked="" id="batchQualityMode" type="checkbox"/> 启用回答质量校验</label>
+</div>
+<details class="batch-v2-details"><summary>调整六项行为参数</summary>
+<div class="batch-v2-traits"><label class="batch-v2-trait"><span>主题知识</span><input data-batch-trait="knowledge" max="1" min="0" step="0.1" type="range" value="1"/><span id="batchTraitValue-knowledge">1.0</span></label><label class="batch-v2-trait"><span>问题理解</span><input data-batch-trait="understanding" max="1" min="0" step="0.1" type="range" value="1"/><span id="batchTraitValue-understanding">1.0</span></label><label class="batch-v2-trait"><span>自我反思</span><input data-batch-trait="reflexivity" max="1" min="0" step="0.1" type="range" value="1"/><span id="batchTraitValue-reflexivity">1.0</span></label><label class="batch-v2-trait"><span>记忆表现</span><input data-batch-trait="memory" max="1" min="0" step="0.1" type="range" value="1"/><span id="batchTraitValue-memory">1.0</span></label><label class="batch-v2-trait"><span>回答长度</span><input data-batch-trait="verbosity" max="1" min="0" step="0.1" type="range" value="1"/><span id="batchTraitValue-verbosity">1.0</span></label><label class="batch-v2-trait"><span>信息披露</span><input data-batch-trait="disclosure" max="1" min="0" step="0.1" type="range" value="1"/><span id="batchTraitValue-disclosure">1.0</span></label></div>
+</details>
+</div>
+</section>
+  
+  <section class="batch-v2-footer">
+    <label class="batch-v2-consent" aria-label="允许所选远程模型处理研究数据"><input id="batchConsent" type="checkbox" checked aria-label="允许所选远程模型处理研究数据"></label>
+    <button class="btn btn-primary" id="batchCreate" type="button">创建新实验</button>
+  </section>
+</section>
+
+<section class="card batch-tab-panel batch-v2-panel" id="batchHistoryPanel" role="tabpanel"
+  aria-labelledby="batchHistoryTab" hidden>
+  <div class="batch-v2-head"><h2>历史实验</h2></div>
+  <div class="batch-v2-history-wrap">
+    <table class="batch-v2-history-table">
+      <thead><tr><th>选择</th><th>实验</th><th>状态</th><th>进度</th></tr></thead>
+      <tbody id="batchHistoryRows"></tbody>
+    </table>
+  </div>
+  <div class="batch-v2-actions batch-v2-history-actions">
+    <button class="btn btn-primary" type="button" id="batchHistoryResume" disabled>载入所选实验</button>
+    <button class="btn btn-secondary" type="button" id="batchHistoryExport" disabled>导出</button>
+    <button class="btn btn-secondary" type="button" id="batchRestoreConfig" disabled>复制参数到新实验</button>
+    <button class="btn btn-secondary" type="button" id="batchSelectFinished">全选可删除</button>
+    <button class="btn btn-secondary" type="button" id="batchClearSelection">清空选择</button>
+    <button class="btn btn-secondary" type="button" id="batchDelete" disabled>删除勾选</button>
+  </div>
+  <details class="batch-v2-details">
+    <summary>恢复时的 API Key（原配置不变）</summary>
+    <div class="batch-v2-fields">
+      <label class="batch-v2-field"><span>采访者 API Key</span>
+        <input type="password" autocomplete="new-password" id="batchHistoryInterviewerKey" placeholder="留空则使用已配置的服务端密钥"/>
+      </label>
+      <label class="batch-v2-field"><span>受访者 API Key</span>
+        <input type="password" autocomplete="new-password" id="batchHistoryRespondentKey" placeholder="留空则使用已配置的服务端密钥"/>
+      </label>
+    </div>
+  </details>
+
+</section>
+<section class="card batch-current-panel" aria-labelledby="batch-current-title">
+      <div class="batch-panel-head">
+        <div><span class="batch-kicker">LIVE STATUS</span><h2 id="batch-current-title">当前实验状态</h2></div>
+        <div class="batch-list-actions">
+          <button id="batchReload" type="button" class="btn btn-secondary">刷新</button>
+          <button id="batchExport" type="button" class="btn btn-secondary" disabled>导出</button>
+        </div>
+      </div>
+      <div class="batch-v4-controls">
+        <button id="batchStart" class="btn btn-primary" type="button" disabled>开始实验</button>
+        <button id="batchStop" class="btn btn-secondary" type="button" disabled>中断实验</button>
+        <button id="batchResume" class="btn btn-secondary" type="button" disabled>继续实验</button>
+      </div>
+      <div class="batch-current-picker">
+        <label class="field-label">查看实验
+          <select id="batchHistory"></select>
+        </label>
+        <p id="batchHistoryConfigStatus" class="batch-compact-meta">请选择实验</p>
+      </div>
+      <div class="batch-progress-wrap">
+        <progress id="batchProgress" value="0" max="100"></progress>
+        <div class="batch-progress-meta"><strong id="batchProgressText">0/0 · 0%</strong><span id="batchCounts">—</span></div>
+      </div>
+      <div class="batch-stat-grid" aria-label="当前执行与上一轮数据">
+        <div class="batch-stat"><span>状态</span><strong id="batchPhase">—</strong><em id="batchPhaseDetail">—</em></div>
+        <div class="batch-stat"><span>当前受访者</span><strong id="batchCurrentCandidate">—</strong><em>当前任务</em></div>
+        <div class="batch-stat"><span>等待时间</span><strong id="batchPhaseElapsed">—</strong><em>当前步骤</em></div>
+        <div class="batch-stat"><span>上一轮总耗时</span><strong id="batchLastTurn">—</strong><em id="batchLastTurnAt">—</em></div>
+        <div class="batch-stat"><span>采访者</span><strong id="batchLastInterviewer">—</strong><em>上一轮</em></div>
+        <div class="batch-stat"><span>受访者</span><strong id="batchLastRespondent">—</strong><em>上一轮</em></div>
+      </div>
+      <p id="batchStatus" role="status" class="batch-feedback">等待实验</p>
+      <p id="batchHint" class="batch-hint" hidden></p>
+      <details class="batch-turn-details">
+        <summary>查看受访者明细</summary>
+        <div class="batch-table-wrap">
+          <table>
+            <thead><tr><th>受访者</th><th>状态</th><th>轮次</th><th>整轮</th><th>采访者</th><th>受访者</th><th>原因</th></tr></thead>
+            <tbody id="batchRows"></tbody>
+          </table>
+        </div>
+      </details>
+    </section>
+  </div>
+<style id="batch-v4-tighter">
+#batch .batch-v2-panel{padding:22px!important}
+#batch .batch-v2-head{margin-bottom:16px}
+#batch .batch-v2-head h2{font-size:21px}
+#batch .batch-v2-group{padding:19px 22px;margin-bottom:14px}
+#batch .batch-v2-group header{margin-bottom:15px}
+#batch .batch-v2-group h3{font-size:15px}
+#batch .batch-v2-fields{row-gap:15px;column-gap:20px}
+#batch .batch-v2-field{font-size:12px;gap:6px}
+#batch .batch-v2-field select,#batch .batch-v2-field input:not([type=checkbox]){height:42px;min-height:42px;font-size:13px}
+#batch .batch-v2-actions{gap:9px;margin-top:14px}
+#batch .batch-v2-details{margin-top:12px}
+#batch .batch-v2-footer{display:flex;align-items:center;gap:12px;padding:8px 4px}
+#batch .batch-v2-consent{display:flex;align-items:center;margin-right:1px}
+#batch .batch-v4-controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 15px}
+#batch .batch-v4-controls .btn{min-height:38px}
+#batch .batch-current-panel{padding:17px!important}
+#batch .batch-current-panel .batch-stat-grid{margin-top:10px}
+#batch .batch-current-panel .batch-stat{padding:10px}
+#batch .batch-current-panel .batch-stat strong{font-size:clamp(13px,1.18vw,18px)}
+#batch .batch-current-panel .batch-feedback{font-size:12px}
+#batch .batch-v2-history-table{font-size:12px}
+#batch .batch-v2-history-table th,#batch .batch-v2-history-table td{padding:10px}
+</style>
+<style id="batch-v5-selection">
+#batch .batch-v5-respondent-behavior{padding-top:14px;margin-top:18px;border-top:1px solid #e5eee8}
+#batch .batch-v5-respondent-behavior .batch-v2-details{margin-top:10px}
+#batch .batch-v2-history-table th:first-child,#batch .batch-v2-history-table td:first-child{width:56px;text-align:center}
+#batch .batch-v2-history-table th:nth-child(2),#batch .batch-v2-history-table td:nth-child(2){width:auto;text-align:left}
+#batch .batch-v2-history-table input[name="batchHistoryPick"]{cursor:pointer}
+#batch .batch-v2-history-table tr.batch-v2-selected{background:#eaf7f0}
+</style>
+</section>
+<section class="app-view" id="benchmark" data-view="benchmark" aria-labelledby="benchmarkHeading">
+
+<div class="page-heading"><div><span class="eyebrow">INTERVIEWREPORTCARD / v1.9.4</span><h1 id="benchmarkHeading">独立严格评分</h1><p>SpokenTruth Memory 机会评估 + Fast-Grounded 双类 Slot 覆盖率与五项访谈质量指标 · 独立双引擎评分</p></div><span class="status-pill">v1.9.4</span></div>
 <style id="benchmark-source-tabs-style">
 #benchmark #bm-source-tabs{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0 12px}
 #benchmark #bm-source-tabs button{flex:1;min-width:160px;font-weight:750;padding:14px 18px;
@@ -1854,8 +2213,8 @@ window.DEMO_BASELINE_EN=[];
    This is presentation-only: data and simulation stay in existing local services. */
 (() => {
   'use strict';
-  const known = ['overview','data','scenario','interview','benchmark','respondent'];
-  const names = {overview:'工作台概览',data:'数据集管理',scenario:'Scenario 构建',interview:'模拟访谈',benchmark:'Benchmark 评估',respondent:'受访者 Studio'};
+  const known = ['overview','data','scenario','interview','batch','benchmark','respondent'];
+  const names = {overview:'工作台概览',data:'数据集管理',scenario:'Scenario 构建',interview:'模拟访谈',batch:'批量访谈实验',benchmark:'Benchmark 评估',respondent:'受访者 Studio'};
   const $ = id => document.getElementById(id);
   const menu = $('appSidebar'), backdrop = $('sidebarBackdrop'), toggle = $('menuToggle');
   let view = 'overview';
@@ -2173,7 +2532,7 @@ function prepFromRetrieval(strategy){return strategy==="unified_retrieval"?"no_f
     }catch(err){$("modelInterviewerStatus").textContent="配置状态读取失败："+err.message;}
   }
   function interviewerProvider(){
-    return $("policySelect").value==="group_agent"?"maas":"shubi";
+    return $("policySelect").value==="group_agent"?"maas":$("policySelect").value==="group_agent_local"?"local":"shubi";
   }
   function updateModelPreset(role,model){
     const select=$(role==="interviewer"?"modelInterviewerPreset":"modelRespondentPreset");
@@ -2210,7 +2569,7 @@ function prepFromRetrieval(strategy){return strategy==="unified_retrieval"?"no_f
     if(session?.turns?.length || session?.pending_ai_plan || session?.pending_question)
       throw Error("已有访谈进行中；请完成并导出后再改变模型配置。");
     const provider=role==="interviewer"?interviewerProvider():currentRespondentProvider();
-    if(provider==="local")throw Error("本地 Ollama 请使用原有模型选择框。");
+    if(provider==="local" && role==="respondent")throw Error("本地受访者模型请使用 Ollama 选择框。");
     const inputModel=$(role==="interviewer"?"modelInterviewerId":"modelRespondentId");
     const inputKey=$(role==="interviewer"?"modelInterviewerKey":"modelRespondentKey");
     const urlInput=$(role==="interviewer"?"modelInterviewerUrl":"modelRespondentUrl");
@@ -2647,7 +3006,8 @@ function prepFromRetrieval(strategy){return strategy==="unified_retrieval"?"no_f
   async function questionFromNativeInterviewer(sess) {
     if (location.protocol==="file:")throw Error("采访者需要通过 python server.py 打开 Playground。");
     const provider=sess.policy==="group_agent"?"maas":
-      sess.policy==="group_agent_server"?"shubi":null;
+      sess.policy==="group_agent_server"?"shubi":
+      sess.policy==="group_agent_local"?"local":null;
     if(!provider)throw Error("无效的采访者策略。仅支持组员原生 Agent。");
     if(!Core.isRestrictedLocal(sess.scenario))throw Error("组员 Agent 需要 AgentAligned 数据包创建的 V2 场景。");
     const data=await requestLocalJson("/api/interviewer/next",{
@@ -2687,7 +3047,7 @@ function prepFromRetrieval(strategy){return strategy==="unified_retrieval"?"no_f
   const preparedInterviewerSessions=new Set();
   async function ensureInterviewerPrepared(sess){
     if(!Core.isRestrictedLocal(sess.scenario)) return;
-    const provider=sess.policy==="group_agent"?"maas":"shubi";
+    const provider=sess.policy==="group_agent"?"maas":sess.policy==="group_agent_local"?"local":"shubi";
     const activeModel=MODEL_CONFIG?.interviewer?.[provider];
     const key=[sess.scenario.scenario_id,sess.research_revision,provider,
                activeModel?.model||"",activeModel?.base_url||""].join("|");
@@ -2870,7 +3230,7 @@ function prepFromRetrieval(strategy){return strategy==="unified_retrieval"?"no_f
     assertSameRun(generation,originalSession);
     if((proposal.action==="conclude" || proposal.finished===true ||
         proposal.group_agent_state?.finished===true) &&
-        (session.policy==="group_agent" || session.policy==="group_agent_server" ||
+        (session.policy==="group_agent" || session.policy==="group_agent_server" || session.policy==="group_agent_local" ||
          session.turns.length>0)){
       session.completed=true;
       session.paused=false;
@@ -3351,7 +3711,7 @@ function prepFromRetrieval(strategy){return strategy==="unified_retrieval"?"no_f
     preparedInterviewerSessions.clear();
     preparedLocalSessions.clear();
     scenarios = scenarios.filter(s => s.scenario_id !== scene.scenario_id);scenarios.push(scene);
-    refreshSelect(scene.scenario_id);$("turnLimit").value="0";
+    refreshSelect(scene.scenario_id);syncInterviewGuideLevel();
     session=null;$("comparison").classList.add("hidden");$("scenePreview").open=true;render();
     document.querySelector("#interview").scrollIntoView({behavior:"smooth",block:"start"});
     notify("Scenario 已接入，采访者由组员原生 Agent 使用 AgentAligned Outline 驱动。");
@@ -3561,13 +3921,51 @@ function prepFromRetrieval(strategy){return strategy==="unified_retrieval"?"no_f
       $("traitValue-"+key).textContent=Number(val).toFixed(1);
     }
   }
+  // Three levels belong to ONE built scene. Switching selects an already
+  // attached public guide; source records, profiles and memory are not rebuilt.
+  function syncInterviewGuideLevel() {
+    const scene=activeScenario();
+    const levels=scene?.provenance?.available_guide_levels||[];
+    const selected=scene?.provenance?.guide_level||"level1";
+    const chooser=$("interviewGuideLevel");
+    for(const option of chooser.options)option.disabled=!levels.includes(option.value);
+    chooser.value=levels.includes(selected)?selected:(levels[0]||"level1");
+    chooser.disabled=!levels.length;
+    $("interviewApplyGuide").disabled=!levels.length;
+    $("interviewGuideHelp").textContent=levels.length
+      ? "此场景已一次性匹配："+levels.map(x=>x.toUpperCase()).join("、")+"。请选择本次访谈使用的等级；不会重建场景。"
+      : "该场景尚未找到匹配的分级大纲，保留原始大纲，不会借用其他访谈的资料。";
+  }
+  $("interviewApplyGuide").addEventListener("click",async()=>{
+    const scene=activeScenario();
+    const level=$("interviewGuideLevel").value;
+    if(!scene?.provenance?.available_guide_levels?.includes(level)) {
+      notify("当前场景未绑定这个等级的大纲，请检查数据集与分类");return;
+    }
+    if(busy || (session && (session.turns?.length || session.pending_question || session.pending_ai_plan))) {
+      notify("已有访谈正在进行，请先完成、导出并重置，再切换等级");return;
+    }
+    const btn=$("interviewApplyGuide");
+    btn.disabled=true;
+    try {
+      const response=await fetch("/api/v3/scenario/select-guide",{
+        method:"POST",headers:{"Content-Type":"application/json","X-Playground-Local":"intake-v2"},
+        body:JSON.stringify({scenario_id:scene.scenario_id,guide_level:level,local_consent:true})
+      });
+      const payload=await response.json();
+      if(!response.ok)throw Error(payload.error||"HTTP "+response.status);
+      window.dispatchEvent(new CustomEvent("playground:v2scenario",{detail:{scenario:payload.scenario,gradeOnly:true}}));
+      notify("已切换至 "+level.toUpperCase()+"；场景的来源和记忆保持不变。");
+    } catch(err){notify("切换等级失败："+err.message);}
+    finally{syncInterviewGuideLevel();}
+  });
   $("scenarioSelect").addEventListener("change",()=>{
     if(activeScenario()?.construction_mode==="guide_only") $("respondentMode").value="human";
     invalidate();
-    applySavedTraits(activeScenario());syncResearchLink();render();
+    applySavedTraits(activeScenario());syncResearchLink();syncInterviewGuideLevel();render();
   });
   window.addEventListener("playground:v2scenario",e=>{
-    if(e.detail?.scenario){applySavedTraits(e.detail.scenario);syncResearchLink();}
+    if(e.detail?.scenario){if(!e.detail?.gradeOnly)applySavedTraits(e.detail.scenario);syncResearchLink();}
   });
   window.addEventListener("playground:v2reset",()=>syncResearchLink());
   function onResearchConfigUpdated(message){
@@ -3672,6 +4070,20 @@ function prepFromRetrieval(strategy){return strategy==="unified_retrieval"?"no_f
       notify(statusNode.textContent);
     }
   });
+  $("modelRespondentTest").addEventListener("click",async()=>{
+    const provider=currentRespondentProvider(),statusNode=$("modelRespondentStatus");
+    statusNode.textContent="正在使用虚构内容测试 "+provider+" 受访者 API…";
+    try{
+      const response=await fetch("/api/interviewer/test",{
+        method:"POST",headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({synthetic_only:true,provider,role:"respondent"})
+      });
+      const result=await response.json();
+      if(!response.ok)throw Error(result.error||"HTTP "+response.status);
+      statusNode.textContent="受访者连接测试通过 · "+result.model+
+        " · "+result.latency_seconds+" 秒";
+    }catch(err){statusNode.textContent="受访者测试失败："+err.message;}
+  });
   $("refreshModelStatus").addEventListener("click",()=>loadModelStatus());
   $("policySelect").addEventListener("change",()=>{
     session=null;preparedInterviewerSessions.clear();syncModelFields();render();
@@ -3681,7 +4093,7 @@ function prepFromRetrieval(strategy){return strategy==="unified_retrieval"?"no_f
       .addEventListener("click",()=>saveModelSettings(role).catch(e=>notify(e.message)));
   }
   loadModelStatus();
-  refreshSelect();syncResearchLink();render();loadLocalModels();
+  refreshSelect();syncResearchLink();syncInterviewGuideLevel();render();loadLocalModels();
 })();
 
 </script>
@@ -3942,6 +4354,12 @@ function prepFromRetrieval(strategy){return strategy==="unified_retrieval"?"no_f
     box.textContent = message;
     box.className = "builder-status" + (state ? " " + state : "");
   }
+  $("builderDataset").addEventListener("change",async()=>{
+    const sel=$("builderGuideCategory");sel.replaceChildren(new Option("自动（仅唯一大纲适用）",""));
+    try {const r=await getJSON("/api/graded-guides/status?dataset="+encodeURIComponent($("builderDataset").value));
+      for(const cat of (r.categories||[]))sel.add(new Option(cat,cat));
+    } catch(e) { console.warn("Guide category metadata unavailable",e); }
+  });
   $("localPreviewConsent").addEventListener("change", renderBusyButtons);
   async function buildScenario(mode) {
     return withBusy(async () => {
@@ -3954,6 +4372,7 @@ function prepFromRetrieval(strategy){return strategy==="unified_retrieval"?"no_f
       payload.candidate_id=$("builderInterview").value;
       if(!payload.dataset || !payload.candidate_id) throw Error("请先选择数据集和其中的一场访谈。");
       if(!pickerRows.some(r=>r.candidate_id===payload.candidate_id))throw Error("所选访谈已不在当前页，请重新选取。");
+      payload.guide_category = $("builderGuideCategory").value || null;
       payload.enrich_guide = $("enrichGuide").checked;
       if(payload.enrich_guide)payload.model=$("respondentModel").value.trim()||"qwen2.5:7b";
       builderMessage("正在关联 MemoryBank、人物资料与访谈大纲…" + (payload.enrich_guide ? "本机整理大纲中。" : ""));
@@ -6244,5 +6663,6 @@ activate(builtin).catch(err);window.dispatchEvent(new CustomEvent('playground:be
   if(location.hash===''||location.hash==='#overview'){location.hash='#data';nav('data');}
 })();
 </script>
+<script src="/assets/batch_experiments.js?v=1.9.4-isolated-settings" defer></script>
 </body>
 </html>

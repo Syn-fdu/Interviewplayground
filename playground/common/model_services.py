@@ -1,16 +1,22 @@
 """Loopback-only two-provider model configuration; keys stay in Python process memory."""
 import os,re,threading,ipaddress
+from contextvars import ContextVar
 from urllib.parse import urlsplit
 from playground.interview_agent.config import ModelConfig
+# Scoped configuration prevents a batch worker from reading an interactive
+# session's model/URL/API key. ContextVars isolate simultaneous threads.
+_ACTIVE_MODEL_PROFILE = ContextVar("playground_model_profile", default=None)
 PROVIDERS={
  "maas":("https://maas.qianwenaiapi.com/compatible-mode/v1",
          "qwen3.8-2.4t-a95b","QWEN_MAAS_API_KEY","QWEN_MAAS_MODEL"),
  "shubi":("https://api.shubiaobiao.cn/v1",
           "qwen3.5-flash","INTERVIEW_SERVER_API_KEY","INTERVIEW_SERVER_MODEL"),
+ "local":("http://127.0.0.1:11434/v1",
+          "qwen2.5:7b","PLAYGROUND_LOCAL_API_KEY","PLAYGROUND_LOCAL_MODEL"),
 }
 _LOCK=threading.RLock()
 _OVERRIDES={}
-_WEB_KEYS={}  # keyed by (provider, normalized base_url), never reused across URL changes
+_WEB_KEYS={}  # keyed by (role, provider, normalized base_url); no cross-role key reuse
 _MODELS=re.compile(r"^[A-Za-z0-9][A-Za-z0-9._:/+-]{0,127}$")
 def normalize_base_url(base_url):
     """Validate a user-selected OpenAI-compatible base URL before storing it.
@@ -53,6 +59,9 @@ def normalize_base_url(base_url):
 
 def _env_value(provider,role="interviewer"):
     default_url,default,key_var,model_var=PROVIDERS[provider]
+    if provider=="local":
+        return (os.getenv("PLAYGROUND_LOCAL_MODEL","qwen2.5:7b"),
+                "ollama", default_url, "local")
     url_var="QWEN_MAAS_BASE_URL" if provider=="maas" else "INTERVIEW_SERVER_BASE_URL"
     role_url_var=("QWEN_MAAS_RESPONDENT_BASE_URL" if provider=="maas"
                   else "INTERVIEW_SERVER_RESPONDENT_BASE_URL")
@@ -92,12 +101,24 @@ def _env_value(provider,role="interviewer"):
 def get(provider,role="interviewer",require_key=True):
     if provider not in PROVIDERS or role not in ("interviewer","respondent"):
         raise ValueError("Provider must be maas or shubi; role interviewer or respondent.")
+    scoped=_ACTIVE_MODEL_PROFILE.get()
+    if scoped is not None:
+        entry=scoped.get((role,provider))
+        if entry is None:
+            # An unselected provider remains in an independent environment-only
+            # baseline. Never fall through into interactive browser overrides.
+            model,key,url,_source=_env_value(provider,role)
+            entry=ModelConfig(provider="openai_compat",base_url=url,model=model,
+                              api_key=key,temperature=0.4,timeout=180)
+        if require_key and not entry.api_key:
+            raise ValueError("Batch API Key missing for "+role+"/"+provider)
+        return entry
     env_model,env_key,env_url,env_source=_env_value(provider,role)
     with _LOCK:
         override=_OVERRIDES.get((role,provider),{})
         model=override.get("model") or env_model
         url=override.get("base_url") or env_url
-        web_key=_WEB_KEYS.get((provider,url))
+        web_key=_WEB_KEYS.get((role,provider,url))
         # A shell key belongs to its configured endpoint; never silently send
         # it to a different URL typed into the browser.
         key=web_key or (env_key if url==env_url else "")
@@ -114,7 +135,7 @@ def status():
         for provider in PROVIDERS:
             cfg=get(provider,role,False)
             _,_,_,env_source=_env_value(provider,role)
-            with _LOCK: web_key=bool(_WEB_KEYS.get((provider,cfg.base_url)))
+            with _LOCK: web_key=bool(_WEB_KEYS.get((role,provider,cfg.base_url)))
             with _LOCK:
                 web_model=bool(_OVERRIDES.get((role,provider)))
             data[role][provider]={
@@ -133,6 +154,8 @@ def set_selection(role,provider,model,api_key=None,base_url=None):
         raise ValueError("Invalid provider or role.")
     if not isinstance(model,str) or not _MODELS.fullmatch(model):
         raise ValueError("Invalid model ID.")
+    if provider=="local":
+        api_key="ollama"
     if api_key is not None and (not isinstance(api_key,str) or
             not 5<=len(api_key)<=1024 or any(c in api_key for c in "\r\n")):
         raise ValueError("Invalid API Key.")
@@ -142,10 +165,23 @@ def set_selection(role,provider,model,api_key=None,base_url=None):
         previous=dict(_OVERRIDES.get((role,provider),{}))
         previous["model"]=model
         previous["base_url"]=chosen_url
-        if api_key:_WEB_KEYS[(provider,chosen_url)]=api_key
+        if api_key:_WEB_KEYS[(role,provider,chosen_url)]=api_key
         _OVERRIDES[(role,provider)]=previous
     return status()[role][provider]
 def reset_for_tests():
     with _LOCK:
         _OVERRIDES.clear()
         _WEB_KEYS.clear()
+
+
+def batch_config_context(profiles):
+    """Use validated per-experiment ModelConfig objects for the current thread."""
+    from contextlib import contextmanager
+    @contextmanager
+    def context():
+        token=_ACTIVE_MODEL_PROFILE.set(profiles)
+        try:
+            yield
+        finally:
+            _ACTIVE_MODEL_PROFILE.reset(token)
+    return context()

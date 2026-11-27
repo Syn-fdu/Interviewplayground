@@ -1,0 +1,162 @@
+{
+  "schema": "interviewplayground.bundled_outline_levels.v1",
+  "dataset_id": "international_student_barriers",
+  "research_focus": "在华国际学生学术适应与学习障碍",
+  "source_status": "direct_records",
+  "review_status": "research_candidate_not_original",
+  "levels": {
+    "level0": [
+      {
+        "id": "L0_01",
+        "question_zh": "你在中国大学的学习背景和总体适应情况如何？",
+        "covers_level1": [
+          "B01",
+          "B02",
+          "B03"
+        ]
+      },
+      {
+        "id": "L0_02",
+        "question_zh": "语言、课程与学术任务怎样影响你的学习？",
+        "covers_level1": [
+          "B04",
+          "B05",
+          "B06"
+        ]
+      },
+      {
+        "id": "L0_03",
+        "question_zh": "你如何寻求支持、应对障碍，以及适应过程发生了什么变化？",
+        "covers_level1": [
+          "B07",
+          "B08",
+          "B09",
+          "B10"
+        ]
+      }
+    ],
+    "level1": [
+      {
+        "id": "B01",
+        "question_zh": "你来自哪里，目前就读什么课程和学位？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B02",
+        "question_zh": "你如何评价进入中国大学后的整体学习体验？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B03",
+        "question_zh": "你刚开始学习时有哪些适应体验？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B04",
+        "question_zh": "教学语言怎样影响你理解课程内容？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B05",
+        "question_zh": "课堂活动与授课方式对你的学习有何影响？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B06",
+        "question_zh": "你如何完成阅读、写作、作业与考试等学术任务？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B07",
+        "question_zh": "你与教师、同学或行政人员交流时情况如何？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B08",
+        "question_zh": "面对学习挑战，你通常如何处理？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B09",
+        "question_zh": "学校提供的帮助有哪些有效或不足的地方？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      },
+      {
+        "id": "B10",
+        "question_zh": "学习障碍随学习时间发生过什么变化？",
+        "specificity": "broad",
+        "theme": "research_objective",
+        "level": "level1"
+      }
+    ],
+    "level2": [
+      {
+        "id": "D01",
+        "parent_id": "B04",
+        "question_zh": "请回忆最近一堂需要理解专业内容的课：你怎样理解教师讲解和课程材料？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D02",
+        "parent_id": "B05",
+        "question_zh": "最近一次课堂讨论中，你怎样决定是否发言？哪些因素影响了你的选择？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D03",
+        "parent_id": "B06",
+        "question_zh": "请描述最近一次完成阅读、作业或考试任务的过程，哪一步最需要帮助？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D04",
+        "parent_id": "B07",
+        "question_zh": "需要联系导师或教务人员时，你通常用什么语言和渠道，结果如何？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D05",
+        "parent_id": "B08",
+        "question_zh": "请讲一次你尝试解决学习问题的过程：向谁求助、什么方法有效？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D06",
+        "parent_id": "B09",
+        "question_zh": "有哪些学校资源你知道但很少使用？如果有，是什么影响了使用？",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      },
+      {
+        "id": "D07",
+        "parent_id": "B10",
+        "question_zh": "请对比第一学期与现在某项具体学术任务的难度变化。",
+        "specificity": "situated_concrete",
+        "level": "level2"
+      }
+    ]
+  }
+}

@@ -29,11 +29,14 @@ diagnostics/
 *_raw_model_response*.json
 *_raw_model_response*.txt
 
-# Interview source records can contain personal information.
-# Kept in the FULL local ZIP for exact behavior parity, but intentionally
-# not staged by `git add .` for a public repository. Review source rights,
-# then explicitly decide whether to commit an authorized/sanitized dataset.
-resources/bundled_data/
+# Raw source interviews, participant profiles and locally generated memory
+# are intentionally omitted from this Git-ready distribution.
+# Review the redistribution rights for graded outlines before publishing.
+# Public, researcher-reviewed graded outline definitions can be committed.
+# The source package intentionally contains no interview records/profiles/memorybank.
+resources/bundled_data/InterviewData_Cumulative_Refined_14/social_research/*/processed/*
+!resources/bundled_data/InterviewData_Cumulative_Refined_14/social_research/*/processed/outline_levels.json
+resources/bundled_data/graded_guides/**/.DS_Store
 bundled_data/InterviewData_Cumulative_Refined_14/
 
 # Private research archives
@@ -41,3 +44,6 @@ bundled_data/InterviewData_Cumulative_Refined_14/
 *.key
 *.p12
 *.pfx
+
+# Local batch experiments contain private model outputs and respondent transcripts.
+.runtime_cache/batch_experiments/
